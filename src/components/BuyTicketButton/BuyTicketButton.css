@@ -1,5 +1,5 @@
 :local(.BuyTicketButton) {
-  position: absolute;
+  position: fixed;
   bottom: 2rem;
   right: 2rem;
   border-radius: 100%;
