@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import logo from "./assets/images/jazzlaug.png";
+import BuyTicketButton from "./components/BuyTicketButton";
 import "./App.css";
 import { HTMLEntities } from "./utils/stringUtils.js";
 
@@ -14,6 +15,7 @@ class App extends Component {
           <p style={{ fontWeight: 900, fontSize: "2rem" }}>
             27. {HTMLEntities.ndash} 29. juni 2019
           </p>
+          <BuyTicketButton />
         </header>
       </div>
     );
