@@ -18,7 +18,8 @@
 
   transform-style: preserve-3d;
   transition: transform var(--quick) ease-in-out;
+  transform: rotateZ(-5deg);
 }
 :local(.BuyTicketButton):hover {
-  transform: scale(1.05) rotateZ(-5deg);
+  transform: scale(1.05) rotateZ(2deg);
 }
