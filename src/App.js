@@ -11,8 +11,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>mandaljazz</h1>
-          <h2>27. {HTMLEntities.ndash} 29. juni 2019</h2>
-          <p>Hei. Hå. Velkommen!</p>
+          <p style={{ fontWeight: 900, fontSize: "2rem" }}>
+            27. {HTMLEntities.ndash} 29. juni 2019
+          </p>
         </header>
       </div>
     );

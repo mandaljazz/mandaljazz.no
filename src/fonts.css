@@ -24,6 +24,13 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
     url(./assets/fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
