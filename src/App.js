@@ -10,8 +10,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>MANDALJAZZ</h1>
+          <h1>mandaljazz</h1>
           <h2>27. {HTMLEntities.ndash} 29. juni 2019</h2>
+          <p>Hei. Hå. Velkommen!</p>
         </header>
       </div>
     );
