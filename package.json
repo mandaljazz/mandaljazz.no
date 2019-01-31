@@ -2,10 +2,11 @@
   "name": "mandaljazz.no",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mandaljazz.github.io/mandaljazz.no",
   "author": "Hans Henrik Grønsleth <hh.gronsleth@gmail.com>",
   "dependencies": {
     "dayjs": "^1.7.7",
-    "gh-pages": "^2.0.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
