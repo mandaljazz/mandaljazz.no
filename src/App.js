@@ -4,6 +4,7 @@ import logo from "./assets/images/jazzlaug.png";
 import BuyTicketButton from "./components/BuyTicketButton";
 import "./App.css";
 import { HTMLEntities } from "./utils/stringUtils.js";
+import promoVideo from "./assets/videos/promo.mp4";
 
 class App extends Component {
   render() {
@@ -17,6 +18,16 @@ class App extends Component {
           </p>
           <BuyTicketButton />
         </header>
+        <video
+          autoPlay
+          playsInline
+          muted
+          style={{ width: "100%", height: "50%" }}
+          loop
+        >
+          <source src={promoVideo} type="video/mp4" />
+          Sorry, your browser doesn't support embedded videos.
+        </video>
       </div>
     );
   }
