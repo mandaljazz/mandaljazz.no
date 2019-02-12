@@ -1,0 +1,30 @@
+:local(.ProgramHistoryTimeline) {
+  display: flex;
+  justify-content: center;
+}
+:local(.ProgramHistoryTimeline p) {
+  font-family: "Montserrat", sans-serif;
+}
+:local(.ProgramHistoryTimeline label) {
+  border-radius: 100%;
+  transform: none;
+}
+:local(.Event) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+:local(.Event > *) {
+  align-self: center;
+  /* justify-self: center; */
+}
+
+:local(.EventList) {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+:local(.Poster) {
+  max-width: 100%;
+  box-shadow: 1px 1px 3px 0px var(--light-transparent-black);
+}

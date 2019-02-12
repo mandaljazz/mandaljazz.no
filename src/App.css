@@ -2,6 +2,7 @@
   /* Colors */
   --white: #fffffe;
   --black: #232323;
+  --light-transparent-black: rgba(0, 0, 0, 0.2);
   --super-light-transparent-black: rgba(0, 0, 0, 0.05);
   --gray: #505050;
   --yellow: #fffd53;
@@ -11,10 +12,6 @@
   /* Durations */
   --quick: 0.2s;
   --slow: 0.4s;
-}
-
-.App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,13 +32,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

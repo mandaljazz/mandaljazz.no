@@ -1,3 +1,4 @@
 export const HTMLEntities = {
-  ndash: "\u2013" // TODO
+  ndash: "\u2013",
+  ampersand: "\u0026"
 };

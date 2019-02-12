@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import logo from "./assets/images/jazzlaug.png";
 import BuyTicketButton from "./components/BuyTicketButton";
+import ProgramHistoryTimeline from "./components/ProgramHistoryTimeline";
 import "./App.css";
 import { HTMLEntities } from "./utils/stringUtils.js";
 import promoVideo from "./assets/videos/promo.mp4";
@@ -18,6 +19,7 @@ class App extends Component {
           </p>
           <BuyTicketButton />
         </header>
+        <ProgramHistoryTimeline />
         <video
           autoPlay
           playsInline
