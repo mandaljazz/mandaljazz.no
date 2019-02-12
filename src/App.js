@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 import { NavMenu } from "./components";
 import { ProgramHistoryPage, NotFoundPage, SplashPage } from "./pages";
@@ -9,7 +9,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/mandaljazz.no">
         <Route
           render={({ location }) => (
             <>
