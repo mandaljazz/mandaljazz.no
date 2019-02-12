@@ -1,7 +1,6 @@
 import React from "react";
 
-import ProgramHistoryTimeline from "../components/ProgramHistoryTimeline";
-import BuyTicketButton from "../components/BuyTicketButton";
+import { BuyTicketButton, ProgramHistoryTimeline } from "../components";
 
 const ProgramHistoryPage = () => (
   <div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../assets/images/jazzlaug.png";
-import BuyTicketButton from "../components/BuyTicketButton";
+import { BuyTicketButton } from "../components";
 import { HTMLEntities } from "../utils/stringUtils.js";
 import promoVideo from "../assets/videos/promo.mp4";
 

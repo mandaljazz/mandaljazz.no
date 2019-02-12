@@ -1,0 +1,11 @@
+:local(.NavMenuList) {
+  list-style-type: none;
+  padding: 1rem;
+}
+:local(.NavMenuList img) {
+  max-height: 2rem;
+}
+:local(.NavMenuList li) {
+  display: inline-block;
+  padding: 0 1rem;
+}
