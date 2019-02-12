@@ -1,36 +1,48 @@
-import React, { Component } from "react";
+import React from "react";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
-import logo from "./assets/images/jazzlaug.png";
-import BuyTicketButton from "./components/BuyTicketButton";
-import ProgramHistoryTimeline from "./components/ProgramHistoryTimeline";
+import ProgramHistoryPage from "./pages/ProgramHistoryPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import SplashPage from "./pages/SplashPage";
+
 import "./App.css";
-import { HTMLEntities } from "./utils/stringUtils.js";
-import promoVideo from "./assets/videos/promo.mp4";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>mandaljazz</h1>
-          <p style={{ fontWeight: 900, fontSize: "2rem" }}>
-            27. {HTMLEntities.ndash} 29. juni 2019
-          </p>
-          <BuyTicketButton />
-        </header>
-        <ProgramHistoryTimeline />
-        <video
-          autoPlay
-          playsInline
-          muted
-          style={{ width: "100%", height: "50%" }}
-          loop
-        >
-          <source src={promoVideo} type="video/mp4" />
-          Sorry, your browser doesn't support embedded videos.
-        </video>
-      </div>
+      <BrowserRouter>
+        <Route
+          render={({ location }) => (
+            <>
+              <Link to="/">Hjem</Link>
+              <Link to="/historikk">Historikk</Link>
+              <TransitionGroup>
+                {/* no different than other usage of
+                CSSTransition, just make sure to pass
+                `location` to `Switch` so it can match
+                the old location as it animates out
+            */}
+                <CSSTransition
+                  key={location.key}
+                  classNames="fade"
+                  timeout={300}
+                >
+                  <Switch location={location}>
+                    <Route exact path="/" component={SplashPage} />
+                    <Route
+                      exact
+                      path="/historikk"
+                      component={ProgramHistoryPage}
+                    />
+                    <Route component={NotFoundPage} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+            </>
+          )}
+        />
+      </BrowserRouter>
     );
   }
 }
