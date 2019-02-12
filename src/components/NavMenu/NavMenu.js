@@ -6,16 +6,14 @@ import styles from "./NavMenu.css";
 
 const NavMenu = ({ children, ...props }) => {
   return (
-    <ul className={styles.NavMenuList}>
-      <li>
+    <div className={styles.NavMenuWrapper}>
+      <div className={styles.NavMenu}>
         <RouterLink to="/">
           <img src={logo} alt="logo" />
         </RouterLink>
-      </li>
-      <li>
         <RouterLink to="/historikk">Historikk</RouterLink>
-      </li>
-    </ul>
+      </div>
+    </div>
   );
 };
 
