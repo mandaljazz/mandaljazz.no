@@ -1,5 +1,6 @@
 import React from "react";
 import { Timeline, Event } from "react-timeline-scribble";
+import SpotifyPlayer from "react-spotify-player";
 
 import poster18 from "../../assets/images/poster-2018.png";
 import poster17 from "../../assets/images/poster-2017.jpg";
@@ -34,6 +35,12 @@ const ProgramHistoryTimeline = () => (
             <li>Dark Roast</li>
             <li>Mandal Storband</li>
             <li>Bomfunk Mimosa</li>
+            <li style={{ paddingTop: "1rem" }}>
+              <SpotifyPlayer
+                uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT"
+                size="compact"
+              />
+            </li>
           </ul>
         </div>
       </Event>
