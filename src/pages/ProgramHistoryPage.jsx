@@ -1,11 +1,10 @@
 import React from "react";
 
-import { BuyTicketButton, ProgramHistoryTimeline } from "../components";
+import { ProgramHistoryTimeline } from "../components";
 
 const ProgramHistoryPage = () => (
   <div>
     <ProgramHistoryTimeline />
-    <BuyTicketButton />
   </div>
 );
 

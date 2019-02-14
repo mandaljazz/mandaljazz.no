@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { NavMenu } from "./components";
+import { BuyTicketButton, Footer, NavMenu } from "./components";
 import { ProgramHistoryPage, NotFoundPage, SplashPage } from "./pages";
 
 import "./App.css";
@@ -13,6 +13,7 @@ class App extends React.Component {
         <Route
           render={({ location }) => (
             <>
+              <BuyTicketButton />
               <NavMenu />
               <div style={{ height: "4.5rem" }} />
               <Switch location={location}>
@@ -20,6 +21,7 @@ class App extends React.Component {
                 <Route exact path="/historikk" component={ProgramHistoryPage} />
                 <Route component={NotFoundPage} />
               </Switch>
+              <Footer />
             </>
           )}
         />
