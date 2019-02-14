@@ -11,7 +11,8 @@ const BuyTicketButton = ({ ...props }) => {
       href="https://ticketco.no"
       {...props}
     >
-      <div>Kjøp Early Bird-pass</div>
+      Kjøp
+      <br /> Early Bird-pass
     </Link>
   );
 };
