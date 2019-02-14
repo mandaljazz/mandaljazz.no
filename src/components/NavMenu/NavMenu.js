@@ -1,10 +1,10 @@
 import React from "react";
 
-import { RouterLink } from "../../components/Links";
+import { RouterLink } from "../../components";
 import logo from "../../assets/images/jazzlaug.png";
 import styles from "./NavMenu.css";
 
-const NavMenu = ({ children, ...props }) => {
+const NavMenu = () => {
   return (
     <div className={styles.NavMenuWrapper}>
       <div className={styles.NavMenu}>
