@@ -13,7 +13,6 @@
 }
 :local(.Event > *) {
   align-self: center;
-  /* justify-self: center; */
 }
 
 :local(.EventList) {

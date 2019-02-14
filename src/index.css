@@ -26,6 +26,8 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 h1,
@@ -35,4 +37,14 @@ h4,
 h5,
 h6 {
   font-family: "Libre Baskerville", sans-serif;
+}
+
+/* react-transition-groups */
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity var(--quick) ease-in-out;
 }

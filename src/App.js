@@ -4,8 +4,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { BuyTicketButton, Footer, NavMenu } from "./components";
 import { ProgramHistoryPage, NotFoundPage, SplashPage } from "./pages";
 
-import "./App.css";
-
 class App extends React.Component {
   render() {
     return (
@@ -15,7 +13,7 @@ class App extends React.Component {
             <>
               <BuyTicketButton />
               <NavMenu />
-              <div style={{ height: "4.5rem" }} />
+              <div style={{ height: "5vh" }} />
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/historikk" component={ProgramHistoryPage} />
