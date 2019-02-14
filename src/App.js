@@ -13,7 +13,7 @@ class App extends React.Component {
             <>
               <BuyTicketButton />
               <NavMenu />
-              <div style={{ height: "5vh" }} />
+              <div style={{ height: "4.5rem" }} />
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/historikk" component={ProgramHistoryPage} />
