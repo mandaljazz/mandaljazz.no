@@ -5,6 +5,10 @@
   "homepage": "https://mandaljazz.github.io/mandaljazz.no",
   "author": "Hans Henrik Grønsleth <hh.gronsleth@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "dayjs": "1.7.7",
     "gh-pages": "2.0.1",
     "react": "16.7.0",
