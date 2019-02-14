@@ -1,0 +1,18 @@
+:local(.Footer) {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+:local(.Footer > *) {
+  align-self: stretch;
+  justify-self: center;
+}
+:local(.Footer ul) {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.5rem;
+}
+:local(.Footer ul li) {
+  display: inline;
+  padding: 1rem;
+}
