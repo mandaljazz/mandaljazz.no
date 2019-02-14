@@ -2,14 +2,16 @@ import React from "react";
 
 import styles from "./Link.css";
 
-const Link = ({ children, ...props }) => {
+const Link = ({ children, skipTargetBlank, ...props }) => {
+  const targetProps = skipTargetBlank
+    ? {}
+    : {
+        rel: "noopener noreferrer",
+        target: "_blank"
+      };
+
   return (
-    <a
-      className={styles.Link}
-      {...props}
-      rel="noopener noreferrer"
-      target="_blank"
-    >
+    <a className={styles.Link} {...props} {...targetProps}>
       {children}
     </a>
   );

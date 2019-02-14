@@ -18,6 +18,7 @@ const Footer = () => {
           <Link
             href="https://www.facebook.com/mandaljazz"
             title="Mandaljazz på Facebook"
+            skipTargetBlank
           >
             <FontAwesomeIcon icon={faFacebookSquare} color="royalblue" />
           </Link>
@@ -26,6 +27,7 @@ const Footer = () => {
           <Link
             href="https://www.instagram.com/mandaljazz/"
             title="Mandaljazz på Instagram"
+            skipTargetBlank
           >
             <FontAwesomeIcon icon={faInstagram} color="orange" />
           </Link>
@@ -34,6 +36,7 @@ const Footer = () => {
           <Link
             href="https://twitter.com/mandaljazz"
             title="Mandaljazz på Twitter"
+            skipTargetBlank
           >
             <FontAwesomeIcon icon={faTwitter} color="deepskyblue" />
           </Link>
@@ -42,6 +45,7 @@ const Footer = () => {
           <Link
             href="https://www.youtube.com/channel/UCk0E0CaIIwc15zF8QypCd4A"
             title="Mandaljazz på Youtube"
+            skipTargetBlank
           >
             <FontAwesomeIcon icon={faYoutube} color="red" />
           </Link>
