@@ -11,6 +11,7 @@ const NavMenu = () => {
         <RouterLink to="/">
           <img src={logo} alt="logo" />
         </RouterLink>
+        <RouterLink to="/praktisk">Praktisk</RouterLink>
         <RouterLink to="/historikk">Historikk</RouterLink>
       </div>
     </div>

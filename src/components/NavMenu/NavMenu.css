@@ -7,8 +7,8 @@
 }
 :local(.NavMenu) {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
 :local(.NavMenu > *) {
   align-self: center;
