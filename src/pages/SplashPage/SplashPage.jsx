@@ -23,7 +23,8 @@ const SplashPage = () => (
       loop
     >
       <source src={promoVideo} type="video/mp4" />
-      Sorry, your browser doesn't support embedded videos.
+      Beklager, her skulle det egentlig vært en video, men nettleseren din
+      støtter ikke innebygde videoer :(
     </video>
 
     <div style={{ padding: "1rem" }}>

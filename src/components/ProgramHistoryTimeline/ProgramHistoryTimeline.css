@@ -22,5 +22,5 @@
 
 :local(.Poster) {
   max-width: 100%;
-  box-shadow: 1px 1px 3px 0px var(--light-transparent-black);
+  box-shadow: 1px 1px 3px 0px var(--black-transparent-light);
 }

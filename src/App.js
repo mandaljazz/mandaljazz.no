@@ -1,14 +1,16 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import { BuyTicketButton, Footer, NavMenu } from "./components";
 import {
-  AccomodationPage,
+  AboutPage,
   PracticalInfoPage,
   ProgramHistoryPage,
   NotFoundPage,
-  SplashPage
+  SplashPage,
+  VolunteerPage
 } from "./pages";
 
 class App extends React.Component {
@@ -21,13 +23,31 @@ class App extends React.Component {
               <BuyTicketButton />
               <NavMenu />
               <div style={{ height: "4.5rem" }} />
-              <Switch location={location}>
-                <Route exact path="/" component={SplashPage} />
-                <Route exact path="/overnatting" component={AccomodationPage} />
-                <Route exact path="/praktisk" component={PracticalInfoPage} />
-                <Route exact path="/historikk" component={ProgramHistoryPage} />
-                <Route component={NotFoundPage} />
-              </Switch>
+              <TransitionGroup>
+                <CSSTransition
+                  key={location.key}
+                  classNames="fade"
+                  timeout={100}
+                >
+                  <Switch location={location}>
+                    <Route exact path="/" component={SplashPage} />
+                    <Route
+                      exact
+                      path="/praktisk"
+                      component={PracticalInfoPage}
+                    />
+                    <Route exact path="/frivillig" component={VolunteerPage} />
+                    <Route
+                      exact
+                      path="/historikk"
+                      component={ProgramHistoryPage}
+                    />
+                    <Route exact path="/om" component={AboutPage} />
+                    <Route component={NotFoundPage} />
+                  </Switch>
+                </CSSTransition>
+              </TransitionGroup>
+
               <Footer />
             </ParallaxProvider>
           )}

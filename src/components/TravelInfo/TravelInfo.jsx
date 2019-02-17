@@ -16,7 +16,7 @@ const TravelInfo = () => (
         display: "block",
         height: "480px",
         width: "100%",
-        minWidth: "400px",
+        minWidth: "200px",
         maxWidth: "500px"
       }}
       src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"

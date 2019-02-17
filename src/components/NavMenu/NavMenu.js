@@ -13,6 +13,8 @@ const NavMenu = () => {
         </RouterLink>
         <RouterLink to="/praktisk">Praktisk</RouterLink>
         <RouterLink to="/historikk">Historikk</RouterLink>
+        <RouterLink to="/om">Om festivalen</RouterLink>
+        <RouterLink to="/frivillig">Frivillig</RouterLink>
       </div>
     </div>
   );

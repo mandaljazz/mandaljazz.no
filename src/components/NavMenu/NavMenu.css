@@ -3,16 +3,12 @@
   padding: 1rem 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--transparent-white);
+  background-color: var(--white-transparent);
 }
 :local(.NavMenu) {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-}
-:local(.NavMenu > *) {
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 :local(.NavMenu img) {
   max-height: 2rem;
