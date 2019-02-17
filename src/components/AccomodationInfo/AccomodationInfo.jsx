@@ -13,13 +13,13 @@ const AccomodationInfo = () => (
 
     <ul>
       <li>
-        <Link href="https://www.kjobmandsgaarden.no/">
-          Kjøbmandsgården Hotell
+        <Link href="https://www.booking.com/hotel/no/solborg-hotell">
+          Solborg Sommerpensjonat
         </Link>
       </li>
       <li>
-        <Link href="https://www.booking.com/hotel/no/solborg-hotell">
-          Solborg Sommerpensjonat
+        <Link href="https://www.kjobmandsgaarden.no/">
+          Kjøbmandsgården Hotell
         </Link>
       </li>
       <li>
@@ -35,13 +35,13 @@ const AccomodationInfo = () => (
         <Link href="http://haldpensjonat.no/">Hald Pensjonat</Link>
       </li>
       <li>
-        <Link href="http://www.ryvingensvenner.no/minorg/ryvenner/web.nsf/index?opennavigator">
-          Ryvingen Fyr
+        <Link href="https://www.nordsjovegen.no/overnatting">
+          Hatholmen Fyr
         </Link>
       </li>
       <li>
-        <Link href="https://www.nordsjovegen.no/overnatting">
-          Hatholmen Fyr
+        <Link href="http://www.ryvingensvenner.no/minorg/ryvenner/web.nsf/index?opennavigator">
+          Ryvingen Fyr
         </Link>
       </li>
       <li>
