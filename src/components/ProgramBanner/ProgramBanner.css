@@ -1,0 +1,11 @@
+:local(.ProgramBannerWrapper) {
+  position: fixed;
+  padding: 1rem 0;
+  width: 100%;
+  z-index: 10;
+  background-color: var(--white-transparent);
+}
+:local(.ProgramBanner) {
+  display: flex;
+  justify-content: space-around;
+}
