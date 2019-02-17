@@ -1,4 +1,3 @@
-export { default as AccomodationPage } from "./AccomodationPage";
 export { default as AboutPage } from "./AboutPage";
 export { default as NotFoundPage } from "./NotFoundPage";
 export { default as ProgramHistoryPage } from "./ProgramHistoryPage";
