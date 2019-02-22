@@ -3,15 +3,20 @@
 :root {
   /* Colors */
   --white: #fffffe;
-  --white-transparent: rgba(255, 255, 255, 0.9);
+  --white-transparent-heavy: rgba(255, 255, 255, 0.9);
+  --white-transparent-medium: rgba(255, 255, 255, 0.5);
   --white-transparent-light: rgba(255, 255, 255, 0.2);
   --white-transparent-superlight: rgba(255, 255, 255, 0.05);
   --black: #232323;
+  --darkblack: #171717;
+  --black-transparent-medium: rgba(0, 0, 0, 0.5);
   --black-transparent-light: rgba(0, 0, 0, 0.2);
   --black-transparent-superlight: rgba(0, 0, 0, 0.05);
   --gray: #505050;
   --yellow: #fffd53;
   --green: mediumseagreen;
+  --lightgreen: #68dc9c;
+  --darkgreen: #205a3a;
   --lightblue: #34a3f1;
   --teal: #9ee9f5;
 
@@ -20,6 +25,7 @@
   --space-big: 3rem;
 
   /* Durations */
+  --superquick: 0.1s;
   --quick: 0.2s;
   --slow: 0.4s;
 }

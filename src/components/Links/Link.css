@@ -7,5 +7,5 @@
   /* transition: transform var(--quick) ease-in-out; */
 }
 :local(.Link):hover {
-  transform: scale(1.05) rotateZ(-5deg);
+  transform: scale(1.04) rotateZ(2deg);
 }

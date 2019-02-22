@@ -11,10 +11,10 @@ const NavMenu = () => {
         <RouterLink to="/">
           <img src={logo} alt="logo" />
         </RouterLink>
+        <RouterLink to="/historikk">Tidligere artister</RouterLink>
         <RouterLink to="/praktisk">Praktisk</RouterLink>
-        <RouterLink to="/historikk">Historikk</RouterLink>
-        <RouterLink to="/om">Om festivalen</RouterLink>
-        <RouterLink to="/frivillig">Frivillig</RouterLink>
+        {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
+        {/* <RouterLink to="/frivillig">Frivillig</RouterLink> */}
       </div>
     </div>
   );

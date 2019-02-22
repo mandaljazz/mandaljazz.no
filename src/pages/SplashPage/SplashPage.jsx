@@ -1,8 +1,9 @@
 import React from "react";
-import SpotifyPlayer from "react-spotify-player";
+// import SpotifyPlayer from "react-spotify-player";
 
 import logo from "../../assets/images/jazzlaug.png";
 import promoVideo from "../../assets/videos/promo.mp4";
+import { Artists } from "../../components";
 import { HTMLEntities } from "../../utils/stringUtils.js";
 import styles from "./SplashPage.css";
 
@@ -15,7 +16,9 @@ const SplashPage = () => (
         27. {HTMLEntities.ndash} 29. juni 2019
       </p>
     </header>
-    <video
+
+    <Artists />
+    {/* <video
       autoPlay
       playsInline
       muted
@@ -25,11 +28,11 @@ const SplashPage = () => (
       <source src={promoVideo} type="video/mp4" />
       Beklager, her skulle det egentlig vært en video, men nettleseren din
       støtter ikke innebygde videoer :(
-    </video>
+    </video> */}
 
-    <div style={{ padding: "1rem" }}>
+    {/* <div style={{ padding: "1rem" }}>
       <SpotifyPlayer uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT" />
-    </div>
+    </div> */}
   </div>
 );
 

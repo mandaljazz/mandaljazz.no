@@ -6,7 +6,7 @@
 }
 
 :local(.Header) {
-  min-height: 95vh;
+  min-height: 70vh;
 
   display: flex;
   flex-direction: column;

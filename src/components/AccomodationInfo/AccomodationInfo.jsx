@@ -40,6 +40,9 @@ const AccomodationInfo = () => (
         </Link>
       </li>
       <li>
+        <Link href="https://mandalhotel.no/">Mandal Hotell</Link>
+      </li>
+      <li>
         <Link href="http://www.ryvingensvenner.no/minorg/ryvenner/web.nsf/index?opennavigator">
           Ryvingen Fyr
         </Link>

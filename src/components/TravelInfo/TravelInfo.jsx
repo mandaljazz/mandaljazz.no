@@ -6,9 +6,7 @@ import styles from "./TravelInfo.css";
 const TravelInfo = () => (
   <div className={styles.TravelInfo}>
     <h1>Reise</h1>
-    <p>
-      Hvordan kommer du deg til festivalen, lurer du? Finn din reise med Entur!
-    </p>
+    <p>Finn reisen til Mandaljazz med Entur!</p>
     <iframe
       title="Entur Widget"
       frameBorder="0"
@@ -22,6 +20,11 @@ const TravelInfo = () => (
       src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
       // TODO: Add default departure day
     />
+
+    <p>
+      Ellers kan du for eksempel reise med{" "}
+      <Link href="https://lavprisekspressen.no/">Lavprisekspressen</Link>.
+    </p>
 
     <p>
       Spørsmål om transport?{" "}

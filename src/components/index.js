@@ -1,3 +1,4 @@
+export { default as Artists } from "./Artists";
 export { default as BuyTicketButton } from "./BuyTicketButton";
 export { default as Footer } from "./Footer";
 export { HashLink, Link, RouterLink } from "./Links";

@@ -20,7 +20,7 @@ class App extends React.Component {
             <>
               <NavMenu />
               <div style={{ height: "4.5rem" }} />
-              <ProgramBanner />
+              {/* <ProgramBanner /> */}
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/praktisk" component={PracticalInfoPage} />
