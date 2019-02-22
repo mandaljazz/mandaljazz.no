@@ -38,6 +38,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--white);
   color: var(--black);
+  line-height: 1.5;
 }
 
 h1,
@@ -54,5 +55,5 @@ img {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
 }

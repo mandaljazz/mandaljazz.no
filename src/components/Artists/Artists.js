@@ -7,6 +7,16 @@ import horseOrchestraImg from "../../assets/images/horse-orchestra.jpg";
 import theMaxxImg from "../../assets/images/the-maxx.jpg";
 import styles from "./Artists.css";
 
+// - blend mode på grid-bilder: lighten, bruk hover til å se ordentlig. Flere grønnskjateringer.
+// - større grid-items på desktop?
+// - Bytte ut sirkel med diamantform?
+// - Ensfargede SoMe
+// - Fjerne logo på SplashPage, bli til NavMenu-item når man scroller
+// - 48px klikkbar flate for mobil for linker og sånt
+// - font-weight på NavMenu
+// - swich fra col til row når man er på mobil, og expand vertikalt
+// - gradient på bildet
+
 class Artists extends React.Component {
   state = {
     activeArtistId: null

@@ -2,27 +2,27 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 :local(.Artist) {
   min-height: 300px;
   height: 300px;
-  min-width: 300px;
+  min-width: 400px;
 
-  margin: 2rem;
+  /* margin: 2rem; */
 
-  background-color: var(
-    --darkblack
-  ); /* Fallback color while image is loading */
+  background-color: var(--green); /* Fallback color while image is loading */
   background-size: cover;
   background-position: center;
+  background-blend-mode: lighten;
 
   cursor: pointer;
   color: var(--white);
 
   flex-grow: 0;
   flex-basis: 0;
-  transition: filter var(--quick) ease-in-out;
+  flex-shrink: 1;
+  transition: all var(--superquick) ease-in-out;
 
   /* overflow: hidden; */
 }
@@ -44,12 +44,13 @@
   /* transform: scale(1.05); */
 }
 :local(.Artist).active {
-  transform: scale(1.04) rotateZ(2deg);
+  background-blend-mode: none;
+  /* transform: scale(1.04) rotateZ(2deg); */
   flex-grow: 1;
+  flex-shrink: 0;
   /* min-width: 90%; */
   /* height: 90vh; */
   height: fit-content;
-  background-blend-mode: overlay;
 }
 :local(.ArtistInfo) {
   padding: 1rem;
