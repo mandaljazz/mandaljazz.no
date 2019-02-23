@@ -25,9 +25,14 @@
   text-shadow: var(--black) 2px 2px 10px;
   margin-left: -1rem;
   border-top: none;
+
+  transition: margin-left var(--quick) ease-in-out;
 }
 :local(.Artist):not(.active):hover {
   filter: contrast(1.25);
+}
+:local(.Artist):not(.active):hover h1 {
+  margin-left: -1.25rem;
 }
 :local(.Artist).active h1 {
   font-size: 2.25rem;
