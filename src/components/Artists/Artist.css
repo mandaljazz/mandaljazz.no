@@ -1,0 +1,75 @@
+:local(.Artist) {
+  margin: 1rem 2rem;
+  position: relative;
+
+  /* Fallback color while image is loading */
+  background-color: var(--black-transparent);
+  background-size: cover;
+  background-position: center;
+
+  cursor: pointer;
+  color: var(--white);
+
+  min-height: 300px;
+  /* min-width: 300px; */
+  flex-basis: 400px;
+  transition: filter var(--quick) ease-in-out;
+}
+:local(.Artist) h1,
+:local(.Artist) h4 {
+  font-family: "Montserrat", sans-serif;
+}
+:local(.Artist) h1 {
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: -1rem;
+  padding: 1rem 1.5rem;
+  text-shadow: var(--black) 2px 2px 10px;
+  border-left: 0.5rem solid var(--lightgreen);
+}
+:local(.Artist):not(.active):hover {
+  /* transform: translateY(-0.5rem); */
+  /* background-blend-mode: normal; */
+  filter: contrast(1.25);
+  /* transform: scale(1.01); */
+}
+:local(.Artist).active h1 {
+  font-size: 3rem;
+  border-left: none;
+}
+:local(.Artist).active {
+  transform: rotateZ(0.5deg);
+  z-index: 2;
+  min-width: 95%;
+}
+:local(.Artist) img {
+  min-width: 100%;
+}
+:local(.ArtistInfo) p:first-child {
+  border-left: 0.5rem solid var(--lightgreen);
+  padding-left: 1rem;
+}
+:local(.ArtistInfo) {
+  margin-top: -30%;
+  padding: 1rem;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    13%,
+    var(--very-darkblack)
+  );
+  position: relative;
+  /* z-index: 2; */
+  height: fit-content;
+}
+@media screen and (min-width: 720px) {
+  :local(.Artist).active {
+    min-width: 80%;
+  }
+  :local(.Artist).active h1 {
+    font-size: 6rem;
+  }
+  :local(.ArtistInfo) {
+    padding: 0.5rem 4rem;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { BuyTicketButton, Footer, NavMenu, ProgramBanner } from "./components";
+import { BuyTicketButton, Footer, NavMenu } from "./components";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -20,7 +20,6 @@ class App extends React.Component {
             <>
               <NavMenu />
               <div style={{ height: "4.5rem" }} />
-              {/* <ProgramBanner /> */}
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/praktisk" component={PracticalInfoPage} />

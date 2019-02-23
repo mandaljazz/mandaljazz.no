@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Horse Orchestra",
+    "imageName": "horse-orchestra.jpg",
+    "id": "horse-orchestra",
+    "paragraphs": [
+      "Horse Orchestra spilte på Mandaljazz i 2016, og i sommer kommer de tilbake for å gjenta suksessen! Horse Orchestra er et egenartet band der 20-tallets tradjazz mikses med 60-tallets frijazz, så vel som en essens av hiphop, moderne klassisk musikk og noise. Slik danner de sitt helt egne post-moderne lydunivers unikt for den nordiske jazzscene.",
+      "Horse Orchestra er kjent for å være et band som burde oppleves live, med sin humoristiske stemning samtidig med en seriøs musisk utførelse på svært høyt nivå. Bandet består av noen av Nordens mest spennende, unge jazzmusikere."
+    ],
+    "spotifyUri": "spotify:album:3YsEsD2RjDiJJLdv0Fq1Qd",
+    "bands": {
+      "Horse Orcheastra": [
+        "Erik Kimestad Pedersen (trompet)",
+        "Ingimar Andersen (saksofon)",
+        "Petter Hängsel (trombone)",
+        "Kristian Tangvik (tuba)",
+        "Jeppe Zeeberg (piano)",
+        "Nicolai Kaas Claesson (bass)",
+        "Rune Lohse (trommer)"
+      ]
+    }
+  },
+  {
+    "name": "Mette Rasmussen kvintett",
+    "imageName": "mette-rasmussen.jpg",
+    "id": "mette-rasmussen",
+    "paragraphs": [
+      "Den Trondheims-baserte danske saksofonisten Mette Rasmussen er et av de aller største talentene i nordisk jazz for tiden. Denne dama har intensitet, trøkk og energi i alt hun gjør enten det er når hun spiller på egenhånd eller med Trondheim Jazzorkester som også skal spille på Mandaljazz i sommer. Og trøkk må man ha når man stiller seg opp på scenen foran en heftig rytmeseksjon bestående av fire av Europas fremste frijazzere.",
+      "Forvent deg nyskapende og spennende frijazz!"
+    ],
+    "spotifyUri": "spotify:artist:7BGvWW6nmCVJlaepdIZ7l2",
+    "bands": {
+      "Mette Rasmussen kvintett": [
+        "Mette Rasmussen (saksofon)",
+        "Torbjörn Zetterberg (bass)",
+        "Ingebrigt Håker Flaten (bass)",
+        "Raymond Strid (trommer)",
+        "Paul Lytton (trommer)"
+      ]
+    }
+  },
+  {
+    "name": "The MaXx + Trondheim Jazz Orchestra",
+    "imageName": "the-maxx.jpg",
+    "id": "the-maxx",
+    "paragraphs": [
+      "De svenske jazzmusikerne Petter Kraft, Tomas Järmyr og Oscar Grönberg fikk tildelt SpareBank 1 SMN JazZtipendiat i 2017 for prosjektet «Trondheim Jazzorkester og The MaXx». Trioen er vanskelig å plassere stilmessig, men de beskriver musikken sin selv som «catchy riff-basert jazz-rock, med en konstant skiftende rytmisk karakter».",
+      "Hele trioen tok sin utdanning på jazzlinja på NTNU i Trondheim, og har vært en del av jazzmiljøet der de siste ti årene. I sommer kommer de sammen med resten av Trondheim Jazzorkester til Mandaljazz, og dette er en konsert man virkelig kan glede seg til!"
+    ],
+    "bands": {
+      "The MaXx": [
+        "Oscar Grönberg (keyboards)",
+        "Petter Kraft (gitar og saksofon)",
+        "Tomas Järmyr (trommer)"
+      ],
+      "Trondheim Jazz Orchestra": [
+        "Mia Marlen Berg (vokal)",
+        "Thomas Johansson (trompet)",
+        "Petter Hängsel (trombone)",
+        "Mette Rasmussen (saksofon)",
+        "Kjetil Møster (saksofon)",
+        "Anton Toorell (gitar)",
+        "Anja Lauvdal (keyboard)",
+        "Mattis Kleppen (bass)",
+        "Tor Breivik (lyd)",
+        "Jan Erik Holto (lys)"
+      ]
+    }
+  }
+]

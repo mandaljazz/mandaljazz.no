@@ -9,6 +9,8 @@
   --white-transparent-superlight: rgba(255, 255, 255, 0.05);
   --black: #232323;
   --darkblack: #171717;
+  --very-darkblack: #010101;
+  --black-transparent: rgba(0, 0, 0, 0.9);
   --black-transparent-medium: rgba(0, 0, 0, 0.5);
   --black-transparent-light: rgba(0, 0, 0, 0.2);
   --black-transparent-superlight: rgba(0, 0, 0, 0.05);
@@ -21,6 +23,7 @@
   --teal: #9ee9f5;
 
   /* Spacing */
+  --space-small: 0.5rem;
   --space-regular: 1rem;
   --space-big: 3rem;
 
@@ -34,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--white);

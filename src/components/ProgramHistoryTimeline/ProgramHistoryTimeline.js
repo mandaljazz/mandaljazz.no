@@ -10,8 +10,9 @@ import poster14 from "../../assets/images/poster-2014.jpg";
 import styles from "./ProgramHistoryTimeline.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
-const ProgramHistoryTimeline = () => (
+const ProgramHistoryTimeline = ({ children }) => (
   <div className={styles.ProgramHistoryTimeline}>
+    {children}
     <Timeline>
       <Event interval={"2018"}>
         <div className={styles.Event}>

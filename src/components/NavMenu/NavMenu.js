@@ -8,11 +8,11 @@ const NavMenu = () => {
   return (
     <div className={styles.NavMenuWrapper}>
       <div className={styles.NavMenu}>
-        <RouterLink to="/historikk">Historikk</RouterLink>
+        <RouterLink to="/praktisk">Praktisk</RouterLink>
         <RouterLink to="/">
           <img src={logo} alt="logo" />
         </RouterLink>
-        <RouterLink to="/praktisk">Praktisk</RouterLink>
+        <RouterLink to="/historikk">Historikk</RouterLink>
         {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
         {/* <RouterLink to="/frivillig">Frivillig</RouterLink> */}
       </div>

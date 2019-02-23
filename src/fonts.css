@@ -38,6 +38,13 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
+    url(./assets/fonts/Montserrat/Montserrat-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
     url(./assets/fonts/Montserrat/Montserrat-Italic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic;

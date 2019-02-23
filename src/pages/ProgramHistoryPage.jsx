@@ -1,7 +1,11 @@
 import React from "react";
 
-import { ProgramHistoryTimeline } from "../components";
+import { ProgramHistoryTimeline, ScrollToTopOnMount } from "../components";
 
-const ProgramHistoryPage = () => <ProgramHistoryTimeline />;
+const ProgramHistoryPage = () => (
+  <ProgramHistoryTimeline>
+    <ScrollToTopOnMount />
+  </ProgramHistoryTimeline>
+);
 
 export default ProgramHistoryPage;

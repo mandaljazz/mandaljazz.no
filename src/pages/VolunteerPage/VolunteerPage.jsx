@@ -1,5 +1,6 @@
 import React from "react";
 
+import { ScrollToTopOnMount } from "../../components";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
 import volunteers2014Img from "../../assets/images/frivillige-2014.jpg";
@@ -8,6 +9,7 @@ import styles from "./VolunteerPage.css";
 
 const VolunteerPage = () => (
   <div className={styles.VolunteerPage}>
+    <ScrollToTopOnMount />
     <h1>Være frivillig på Mandaljazz?</h1>
     <p>Vi trenger frivillige. Det er supergøy!</p>
     <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />

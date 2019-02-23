@@ -1,10 +1,12 @@
 import React from "react";
 
+import { ScrollToTopOnMount } from "../../components";
 import collage from "../../assets/images/collage.jpg";
 import styles from "./AboutPage.css";
 
 const AboutPage = () => (
   <div className={styles.AboutPage}>
+    <ScrollToTopOnMount />
     <img src={collage} alt="Collage" />
     <p>
       Jazzen viser oss at alt går an. Det er musikk for en mindre trangsynt
