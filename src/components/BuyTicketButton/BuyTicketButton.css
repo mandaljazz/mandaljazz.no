@@ -23,6 +23,11 @@
   transform-style: preserve-3d;
   transition: transform var(--quick) ease-in-out;
   transform: rotateZ(-5deg);
+
+  transform: rotateZ(5deg) scale(0);
+  animation: fadeIn 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
 :local(.BuyTicketButton):hover {
   transform: scale(1.05) rotateZ(2deg);
@@ -32,5 +37,14 @@
     height: 11rem;
     width: 11rem;
     font-size: 1.5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: rotateZ(5deg) scale(0);
+  }
+  100% {
+    transform: rotateZ(-5deg) scale(1);
   }
 }
