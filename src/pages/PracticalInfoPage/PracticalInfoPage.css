@@ -1,5 +1,5 @@
 :local(.PracticalInfoPage) {
   display: grid;
   justify-content: center;
-  padding: 1rem;
+  padding: 0 1rem;
 }

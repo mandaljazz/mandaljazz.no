@@ -53,6 +53,10 @@ h5,
 h6 {
   font-family: "Libre Baskerville", sans-serif;
 }
+h1 {
+  padding: 1rem 1.5rem;
+  border-left: 0.5rem solid var(--lightgreen);
+}
 
 img {
   max-width: 100%;
@@ -60,4 +64,11 @@ img {
 
 ul {
   list-style-type: square;
+}
+ul.link-list li {
+  line-height: 2;
+}
+
+.SpotifyPlayer {
+  max-width: 100%;
 }

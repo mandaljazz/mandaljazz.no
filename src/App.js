@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Headroom from "react-headroom";
 
 import { BuyTicketButton, Footer, NavMenu } from "./components";
 import {
@@ -18,7 +19,9 @@ class App extends React.Component {
         <Route
           render={({ location }) => (
             <>
-              <NavMenu />
+              <Headroom style={{ zIndex: 10 }}>
+                <NavMenu />
+              </Headroom>
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/praktisk" component={PracticalInfoPage} />

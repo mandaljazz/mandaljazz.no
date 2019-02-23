@@ -1,14 +1,23 @@
 :local(.ProgramHistoryTimeline) {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2rem;
 }
 :local(.ProgramHistoryTimeline p) {
   font-family: "Montserrat", sans-serif;
 }
+:local(.Event:not(:last-child)) {
+  margin-bottom: 3rem;
+}
+:local(.ProgramHistoryTimeline h1) {
+  font-size: 3rem;
+}
 
 :local(.Event) {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
 }
 :local(.Event > *) {

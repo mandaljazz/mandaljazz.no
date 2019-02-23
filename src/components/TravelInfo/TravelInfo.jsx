@@ -7,19 +7,30 @@ const TravelInfo = () => (
   <div className={styles.TravelInfo}>
     <h1>Reise</h1>
     <p>Finn reisen til Mandaljazz med Entur!</p>
-    <iframe
-      title="Entur Widget"
-      frameBorder="0"
-      style={{
-        display: "block",
-        height: "480px",
-        width: "100%",
-        minWidth: "200px",
-        maxWidth: "500px"
-      }}
-      src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
-      // TODO: Add default departure day
-    />
+    {window.innerWidth > 350 ? (
+      <iframe
+        title="Entur Widget"
+        frameBorder="0"
+        style={{
+          display: "block",
+          height: "480px",
+          width: "100%",
+          maxWidth: "500px"
+        }}
+        src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+        // TODO: Add default departure day
+      />
+    ) : (
+      <iframe
+        title="Entur-widget mini"
+        frameBorder="0"
+        style={{
+          height: "45px",
+          width: "100%"
+        }}
+        src="https://widget.en-tur.no/mini?target=_blank&amp;label=Finn%20reiser%20til%20Mandal&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+      />
+    )}
 
     <p>
       Ellers kan du for eksempel reise med{" "}
