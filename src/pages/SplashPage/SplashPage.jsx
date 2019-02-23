@@ -19,7 +19,7 @@ const SplashPage = () => (
       <p className={styles.SubHeader}>27. {HTMLEntities.ndash} 29. juni 2019</p>
       <Bounce>
         <p>
-          <em>Psst!</em> Akkurat nå har vi noen få Earl Bird-festivalpass til
+          <em>Psst!</em> Akkurat nå har vi noen få Early Bird-festivalpass til
           rabattert pris.
         </p>
         <FontAwesomeIcon icon={faSmileWink} color="mediumseagreen" size="2x" />
