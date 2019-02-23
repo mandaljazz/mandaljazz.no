@@ -6,17 +6,20 @@ import styles from "./NavMenu.css";
 
 const NavMenu = () => {
   return (
-    <div className={styles.NavMenuWrapper}>
-      <div className={styles.NavMenu}>
-        <RouterLink to="/praktisk">Praktisk</RouterLink>
-        <RouterLink to="/">
-          <img src={logo} alt="logo" />
-        </RouterLink>
-        <RouterLink to="/historikk">Historikk</RouterLink>
-        {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
-        {/* <RouterLink to="/frivillig">Frivillig</RouterLink> */}
+    <>
+      <div className={styles.NavMenuWrapper}>
+        <div className={styles.NavMenu}>
+          <RouterLink to="/praktisk">Praktisk</RouterLink>
+          <RouterLink to="/">
+            <img src={logo} alt="logo" />
+          </RouterLink>
+          <RouterLink to="/historikk">Historikk</RouterLink>
+          {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
+          {/* <RouterLink to="/frivillig">Frivillig</RouterLink> */}
+        </div>
       </div>
-    </div>
+      <div className={styles.NavMenuPadder} />
+    </>
   );
 };
 

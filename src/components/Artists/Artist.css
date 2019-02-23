@@ -38,9 +38,9 @@
   border-left: none;
 }
 :local(.Artist).active {
-  transform: rotateZ(0.5deg);
+  transform: rotateZ(1deg);
   z-index: 2;
-  min-width: 95%;
+  min-width: 90%;
 }
 :local(.Artist) img {
   min-width: 100%;

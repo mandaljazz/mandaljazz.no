@@ -19,7 +19,6 @@ class App extends React.Component {
           render={({ location }) => (
             <>
               <NavMenu />
-              <div style={{ height: "4.5rem" }} />
               <Switch location={location}>
                 <Route exact path="/" component={SplashPage} />
                 <Route exact path="/praktisk" component={PracticalInfoPage} />
