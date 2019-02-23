@@ -70,6 +70,6 @@
     font-size: 6rem;
   }
   :local(.ArtistInfo) {
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 10vw;
   }
 }
