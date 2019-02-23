@@ -6,7 +6,7 @@
 
   transform: rotateZ(10deg) scale(0);
   animation: scaleAndRotateIn 1s;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 

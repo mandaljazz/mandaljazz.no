@@ -1,7 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSmileWink } from "@fortawesome/free-solid-svg-icons";
+import Bounce from "react-reveal/Bounce";
 // import SpotifyPlayer from "react-spotify-player";
 
-import logo from "../../assets/images/jazzlaug.png";
+// import logo from "../../assets/images/jazzlaug.png";
 // import promoVideo from "../../assets/videos/promo.mp4";
 import { Artists, ScrollToTopOnMount } from "../../components";
 import { HTMLEntities } from "../../utils/stringUtils.js";
@@ -11,11 +14,16 @@ const SplashPage = () => (
   <div className={styles.SplashPage}>
     <ScrollToTopOnMount />
     <header className={styles.Header}>
-      <img src={logo} className={styles.Logo} alt="logo" />
+      {/* <img src={logo} className={styles.Logo} alt="logo" /> */}
       <h1>mandaljazz</h1>
-      <p style={{ fontWeight: 900, fontSize: "2rem" }}>
-        27. {HTMLEntities.ndash} 29. juni 2019
-      </p>
+      <p className={styles.SubHeader}>27. {HTMLEntities.ndash} 29. juni 2019</p>
+      <Bounce>
+        <p>
+          <em>Psst!</em> Akkurat nå har vi noen få Earl Bird-festivalpass til
+          rabattert pris.
+        </p>
+        <FontAwesomeIcon icon={faSmileWink} color="mediumseagreen" size="2x" />
+      </Bounce>
     </header>
 
     <Artists />
