@@ -1,9 +1,16 @@
-:local(.BuyTicketButton) {
+:local(.BuyTicketButtonWrapper) {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   z-index: 10;
 
+  transform: rotateZ(10deg) scale(0);
+  animation: scaleAndRotateIn 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+:local(.BuyTicketButton) {
   border-radius: 100%;
   height: 6.5rem;
   width: 6.5rem;
@@ -23,11 +30,6 @@
   transform-style: preserve-3d;
   transition: transform var(--quick) ease-in-out;
   transform: rotateZ(-5deg);
-
-  transform: rotateZ(5deg) scale(0);
-  animation: fadeIn 1s;
-  animation-delay: 5s;
-  animation-fill-mode: forwards;
 }
 :local(.BuyTicketButton):hover {
   transform: scale(1.05) rotateZ(2deg);
@@ -40,11 +42,11 @@
   }
 }
 
-@keyframes fadeIn {
+@keyframes scaleAndRotateIn {
   0% {
-    transform: rotateZ(5deg) scale(0);
+    transform: rotateZ(10deg) scale(0);
   }
   100% {
-    transform: rotateZ(-5deg) scale(1);
+    transform: rotateZ(0) scale(1);
   }
 }
