@@ -48,7 +48,7 @@
   min-width: 100%;
 }
 :local(.ArtistInfo) p:first-child {
-  border-left: 0.5rem solid var(--lightgreen);
+  border-left: 0.5rem solid var(--quadary);
   padding-left: 1rem;
 }
 :local(.ArtistInfo) {

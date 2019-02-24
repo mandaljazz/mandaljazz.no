@@ -1,6 +1,7 @@
 :local(.Link) {
-  color: var(--lightblue);
+  color: var(--black);
   display: inline-block;
+  border-bottom: 2px solid var(--quadary);
   text-decoration: none;
   cursor: pointer;
   transform-style: preserve-3d;

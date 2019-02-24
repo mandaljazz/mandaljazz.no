@@ -2,6 +2,12 @@
 
 :root {
   /* Colors */
+  --primary: mediumseagreen;
+  /* --primary: mediumseagreen; */
+  --secondary: #5ac88b;
+  --tertiary: #36a065;
+  --quadary: #6dce98;
+
   --white: #fffffe;
   --white-transparent-heavy: rgba(255, 255, 255, 0.9);
   --white-transparent-medium: rgba(255, 255, 255, 0.5);
@@ -15,16 +21,12 @@
   --black-transparent-light: rgba(0, 0, 0, 0.2);
   --black-transparent-superlight: rgba(0, 0, 0, 0.05);
   --gray: #505050;
-  --yellow: #fffd53;
-  --green: mediumseagreen;
-  --lightgreen: #68dc9c;
-  --darkgreen: #205a3a;
   --lightblue: #34a3f1;
-  --teal: #9ee9f5;
 
   /* Spacing */
   --space-small: 0.5rem;
   --space-regular: 1rem;
+  --space-medium: 2rem;
   --space-big: 3rem;
 
   /* Durations */
@@ -55,7 +57,7 @@ h6 {
 }
 h1 {
   padding: 1rem 1.5rem;
-  border-left: 0.5rem solid var(--lightgreen);
+  border-left: 0.5rem solid var(--quadary);
 }
 
 img {
