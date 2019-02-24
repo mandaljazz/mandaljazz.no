@@ -15,7 +15,7 @@ import {
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/mandaljazz.no">
         <Route
           render={({ location }) => (
             <>
