@@ -2,7 +2,7 @@
   "name": "mandaljazz.no",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mandaljazz.github.io/mandaljazz.no",
+  "homepage": "https://www.mandaljazz.no",
   "author": "Hans Henrik Grønsleth <hh.gronsleth@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
