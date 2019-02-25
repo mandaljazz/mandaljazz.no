@@ -20,7 +20,8 @@ const SplashPage = () => (
       <Bounce>
         <p>
           <em>Psst!</em> Akkurat nå har vi noen få Early Bird-festivalpass til
-          rabattert pris.
+          rabattert pris. De er egentlig ikke lansert sånn ordentlig ennå, men
+          siden du allerede er her på siden kan vi jo røpe det for akkurat deg.
         </p>
         <FontAwesomeIcon icon={faSmileWink} color="mediumseagreen" size="2x" />
       </Bounce>

@@ -15,6 +15,11 @@
   padding: 0 10vw;
   text-align: center;
 }
+@media screen and (min-width: 720px) {
+  :local(.Header p) {
+    max-width: calc(1rem + 50vmin);
+  }
+}
 :local(.Header) {
   min-height: 70vh;
 
