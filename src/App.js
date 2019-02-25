@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Headroom from "react-headroom";
 
 import { BuyTicketButton, Footer, NavMenu } from "./components";
+import withTracker from "./utils/withGoogleAnalyticsTracker";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -23,12 +24,24 @@ class App extends React.Component {
                 <NavMenu />
               </Headroom>
               <Switch location={location}>
-                <Route exact path="/" component={SplashPage} />
-                <Route exact path="/praktisk" component={PracticalInfoPage} />
-                <Route exact path="/frivillig" component={VolunteerPage} />
-                <Route exact path="/historikk" component={ProgramHistoryPage} />
-                <Route exact path="/om" component={AboutPage} />
-                <Route component={NotFoundPage} />
+                <Route exact path="/" component={withTracker(SplashPage)} />
+                <Route
+                  exact
+                  path="/praktisk"
+                  component={withTracker(PracticalInfoPage)}
+                />
+                <Route
+                  exact
+                  path="/frivillig"
+                  component={withTracker(VolunteerPage)}
+                />
+                <Route
+                  exact
+                  path="/historikk"
+                  component={withTracker(ProgramHistoryPage)}
+                />
+                <Route exact path="/om" component={withTracker(AboutPage)} />
+                <Route component={withTracker(NotFoundPage)} />
               </Switch>
               <BuyTicketButton />
               <Footer />
