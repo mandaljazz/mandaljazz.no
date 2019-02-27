@@ -12,7 +12,7 @@ import { HTMLEntities } from "../../utils/stringUtils";
 const ProgramHistoryTimeline = ({ children }) => (
   <div className={styles.ProgramHistoryTimeline}>
     {children}
-    <h1>2018</h1>
+    <h1 className="with-background">2018</h1>
     <div className={styles.Event}>
       <img src={poster18} className={styles.Poster} alt="Poster 2018" />
       <ul className={styles.EventList}>
@@ -42,7 +42,7 @@ const ProgramHistoryTimeline = ({ children }) => (
         </li>
       </ul>
     </div>
-    <h1>2017</h1>
+    <h1 className="with-background">2017</h1>
     <div className={styles.Event}>
       <img src={poster17} className={styles.Poster} alt="Poster 2017" />
       <ul className={styles.EventList}>
@@ -67,7 +67,7 @@ const ProgramHistoryTimeline = ({ children }) => (
         <li>Lekerommet: Kyllingen som ikke kunne synge</li>
       </ul>
     </div>
-    <h1>2016</h1>
+    <h1 className="with-background">2016</h1>
     <div className={styles.Event}>
       <img src={poster16} className={styles.Poster} alt="Poster 2016" />
       <ul className={styles.EventList}>
@@ -84,7 +84,7 @@ const ProgramHistoryTimeline = ({ children }) => (
         <li>Benjamin Dybesland Band</li>
       </ul>
     </div>
-    <h1>2015</h1>
+    <h1 className="with-background">2015</h1>
     <div className={styles.Event}>
       <img src={poster15} className={styles.Poster} alt="Poster 2015" />
       <ul className={styles.EventList}>
@@ -103,7 +103,7 @@ const ProgramHistoryTimeline = ({ children }) => (
         <li>Body Rhythm Factory - Familiekonsert</li>
       </ul>
     </div>
-    <h1>2014</h1>
+    <h1 className="with-background">2014</h1>
     <div className={styles.Event}>
       <img src={poster14} className={styles.Poster} alt="Poster 2014" />
       <ul className={styles.EventList}>

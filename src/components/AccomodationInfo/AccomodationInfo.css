@@ -1,2 +1,7 @@
 :local(.AccomodationInfo) {
+  display: flex;
+  flex-direction: column;
+}
+:local(.AccomodationInfo h1) {
+  align-self: center;
 }

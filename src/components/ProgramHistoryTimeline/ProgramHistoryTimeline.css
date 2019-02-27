@@ -11,9 +11,6 @@
 :local(.Event:not(:last-child)) {
   margin-bottom: 3rem;
 }
-:local(.ProgramHistoryTimeline h1) {
-  font-size: 3rem;
-}
 
 :local(.Event) {
   display: grid;

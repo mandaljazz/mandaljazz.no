@@ -1,2 +1,7 @@
 :local(.TravelInfo) {
+  display: flex;
+  flex-direction: column;
+}
+:local(.TravelInfo h1) {
+  align-self: center;
 }

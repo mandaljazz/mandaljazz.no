@@ -54,10 +54,17 @@ h4,
 h5,
 h6 {
   font-family: "Libre Baskerville", sans-serif;
+  font-weight: 700;
 }
 h1 {
   padding: 1rem 1.5rem;
   border-left: 0.5rem solid var(--quadary);
+}
+.with-background {
+  padding: 1rem 3rem;
+  width: fit-content;
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 img {
