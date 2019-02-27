@@ -65,6 +65,7 @@ h1 {
   width: fit-content;
   background-color: var(--primary);
   color: var(--white);
+  transform: rotateZ(2deg);
 }
 
 img {
