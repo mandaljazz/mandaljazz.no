@@ -61,12 +61,3 @@
   font-weight: 300;
 }
 /* TODO: Add more styles of the font if neccessary, otherwise delete them from assets/fonts/ folder */
-
-@font-face {
-  font-family: "Major Mono Display";
-  src: local("Major Mono Display"),
-    url(./assets/fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf)
-      format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
