@@ -1,19 +1,21 @@
 :local(.ProgramWrapper) {
   width: 100%;
+  background-color: var(--white-transparent-heavy);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
 }
 :local(.Program) {
-  margin: 2rem;
+  margin: 0 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 }
-:local(.Program h2) {
+:local(.Program h4) {
   width: auto;
-}
-@media screen and (min-width: 1280px) {
-  :local(.ProgramWrapper) {
-    width: 80%;
-  }
+  margin: 0;
+  padding: 0.5rem 1.5rem;
 }
 @media screen and (min-width: 920px) {
   :local(.Program) {
@@ -23,10 +25,20 @@
 :local(.ProgramList) {
   list-style-type: none;
   padding: 0;
+  margin: 0.5rem;
 }
 :local(.ProgramList li) {
   padding: 0.2rem 0;
 }
 :local(.ConcertInfo) {
   color: var(--lightgray);
+}
+:local(.OpenProgramButton) {
+  cursor: pointer;
+  transition: transform var(--superquick) ease-in-out;
+  font-weight: 600;
+  border-bottom: 2px solid var(--quadary);
+}
+:local(.OpenProgramButton):hover {
+  transform: translateY(-0.06rem);
 }
