@@ -1,0 +1,32 @@
+:local(.ProgramWrapper) {
+  width: 100%;
+}
+:local(.Program) {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+:local(.Program h2) {
+  width: auto;
+}
+@media screen and (min-width: 1280px) {
+  :local(.ProgramWrapper) {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 920px) {
+  :local(.Program) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+:local(.ProgramList) {
+  list-style-type: none;
+  padding: 0;
+}
+:local(.ProgramList li) {
+  padding: 0.2rem 0;
+}
+:local(.ConcertInfo) {
+  color: var(--lightgray);
+}
