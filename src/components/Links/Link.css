@@ -5,8 +5,8 @@
   text-decoration: none;
   cursor: pointer;
   transform-style: preserve-3d;
-  /* transition: transform var(--superquick) ease-in-out; */
+  transition: all var(--superquick) ease-in-out;
 }
 :local(.Link):hover {
-  transform: scale(1.04) rotateZ(2deg);
+  transform: translateY(-0.05rem);
 }
