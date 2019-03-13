@@ -45,7 +45,10 @@ class Artists extends React.Component {
     return (
       <div className={styles.Artists}>
         {artistData.map(artist => {
-          const { id } = artist;
+          const { id, hideFromArtistList } = artist;
+          if (hideFromArtistList) {
+            return null;
+          }
           return (
             <Artist
               artist={artist}

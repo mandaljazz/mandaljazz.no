@@ -3,6 +3,8 @@
     "name": "Horse Orchestra",
     "imageName": "horse-orchestra.jpg",
     "id": "horse-orchestra",
+    "concertStartAt": "2019-06-28T21:00:00",
+    "venue": "Teltet",
     "paragraphs": [
       "Horse Orchestra spilte på Mandaljazz så nylig som i 2016. I sommer kommer de tilbake til Mandal for å gjenta suksessen!",
       "Horse Orchestra er et egenartet band der 20-tallets tradjazz mikses med 60-tallets frijazz, så vel som en essens av hiphop, moderne klassisk musikk og noise. Slik danner de sitt helt egne post-moderne lydunivers unikt for den nordiske jazzscene.",
@@ -23,8 +25,11 @@
   },
   {
     "name": "Mette Rasmussen kvintett",
+    "shortName": "Mette Rasmussen",
     "imageName": "mette-rasmussen.jpg",
     "id": "mette-rasmussen",
+    "concertStartAt": "2019-06-28T19:00:00",
+    "venue": "Teltet",
     "paragraphs": [
       "Den trondheimsbaserte danske saksofonisten Mette Rasmussen er et av de aller største talentene i nordisk jazz for tiden.",
       "Med intensitet, trøkk og energi i alt hun gjør, enten det er når hun spiller på egenhånd eller med Trondheim Jazzorkester som også skal spille på Mandaljazz i sommer. Og trøkk må man ha når man stiller seg opp på scenen foran en heftig rytmeseksjon bestående av fire av Europas fremste frijazzere.",
@@ -43,8 +48,11 @@
   },
   {
     "name": "The MaXx + Trondheim Jazz Orchestra",
+    "shortName": "The MaXx + TJO",
     "imageName": "the-maxx.jpg",
     "id": "the-maxx",
+    "concertStartAt": "2019-06-29T20:00:00",
+    "venue": "Teltet",
     "paragraphs": [
       "De svenske jazzmusikerne Petter Kraft, Tomas Järmyr og Oscar Grönberg fikk tildelt SpareBank 1 SMN JazZtipendiat i 2017 for prosjektet «Trondheim Jazzorkester og The MaXx».",
       "Trioen er vanskelig å plassere stilmessig, men de beskriver selv musikken sin som «catchy riff-basert jazz-rock, med en konstant skiftende rytmisk karakter».",
@@ -67,6 +75,22 @@
         "Mattis Kleppen (bass)",
         "Tor Breivik (lyd)",
         "Jan Erik Holto (lys)"
+      ]
+    }
+  },
+  {
+    "hideFromArtistList": true,
+    "name": "Jam",
+    "imageName": "the-maxx.jpg",
+    "id": "jam-torsdag",
+    "concertStartAt": "2019-06-27T23:59:00",
+    "venue": "TBA",
+    "paragraphs": ["Det blir jam på torsdag.", "Det blir nice."],
+    "bands": {
+      "Verter": [
+        "Vert 1 (instrument)",
+        "Vert 2 (instrument)",
+        "Vert 3 (instrument)"
       ]
     }
   }
