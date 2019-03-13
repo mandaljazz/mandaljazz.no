@@ -28,6 +28,9 @@
   align-items: center;
   justify-content: center;
 }
+:local(.Header h1) {
+  animation: pulsating 7s infinite alternate;
+}
 :local(.SubHeader) {
   font-size: calc(1rem + 2.5vmin);
   font-weight: 900;
@@ -36,4 +39,13 @@
 
 :local(.Logo) {
   height: 30vmin;
+}
+
+@keyframes pulsating {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
