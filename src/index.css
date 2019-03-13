@@ -66,6 +66,7 @@ h3 {
   padding: 1rem 3rem;
   width: fit-content;
   background-color: var(--primary);
+  border-left: 0.5rem solid var(--quadary);
   color: var(--white);
 }
 
