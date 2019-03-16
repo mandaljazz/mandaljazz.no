@@ -21,7 +21,7 @@ const BuyTicketButton = ({ ...props }) => {
       >
         Kjøp
         <br />
-        billetter
+        billett
       </Link>
     </div>
   );
