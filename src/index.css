@@ -59,12 +59,10 @@ h6 {
 h1,
 h2,
 h3 {
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border-left: 0.5rem solid var(--quadary);
 }
 .with-background {
-  padding: 1rem 3rem;
-  width: fit-content;
   background-color: var(--primary);
   border-left: 0.5rem solid var(--quadary);
   color: var(--white);

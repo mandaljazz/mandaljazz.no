@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 2rem;
 }
 :local(.ProgramHistoryTimeline p) {
   font-family: "Montserrat", sans-serif;
@@ -17,10 +17,10 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 2rem;
 }
-:local(.Event > *) {
-  align-self: center;
-}
 
+:local(.Event h1) {
+  margin-top: 0;
+}
 :local(.EventList) {
   list-style-type: none;
   font-family: "Montserrat", sans-serif;
