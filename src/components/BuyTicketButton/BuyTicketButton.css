@@ -36,9 +36,9 @@
 }
 @media screen and (min-width: 720px) {
   :local(.BuyTicketButton) {
-    height: 11rem;
-    width: 11rem;
-    font-size: 1.75rem;
+    height: 10rem;
+    width: 10rem;
+    font-size: 1.5rem;
   }
 }
 
