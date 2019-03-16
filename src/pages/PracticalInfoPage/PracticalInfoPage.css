@@ -7,7 +7,7 @@
 
 :local(.NavMenu) {
   display: flex;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 :local(.NavMenu) > * {
   margin-right: 1rem;
