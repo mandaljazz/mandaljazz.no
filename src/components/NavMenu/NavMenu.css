@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   font-weight: 600;
-  box-shadow: 1px 1px 3px 0px var(--black-transparent-light);
+  box-shadow: 1px 1px 1px 0px var(--black-transparent-light);
 }
 :local(.NavMenu img) {
   max-height: 2.2rem;
