@@ -21,7 +21,7 @@
   }
 }
 :local(.Header) {
-  min-height: 70vh;
+  min-height: 60vh;
 
   display: flex;
   flex-direction: column;
