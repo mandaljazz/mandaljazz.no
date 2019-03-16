@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Headroom from "react-headroom";
 
-import { BuyTicketButton, Footer, NavMenu } from "./components";
+import { BuyTicketButton, Footer, NavMenu, Program } from "./components";
 import withTracker from "./utils/withGoogleAnalyticsTracker";
 import {
   AboutPage,
@@ -22,6 +22,7 @@ class App extends React.Component {
             <>
               <Headroom style={{ zIndex: 10 }}>
                 <NavMenu />
+                <Program />
               </Headroom>
               <Switch location={location}>
                 <Route exact path="/" component={withTracker(SplashPage)} />
