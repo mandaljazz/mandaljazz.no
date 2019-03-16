@@ -40,6 +40,5 @@
   border-bottom: 2px solid var(--quadary);
 }
 :local(.OpenProgramButton):hover {
-  color: var(--primary);
   border-bottom: 2px solid var(--black);
 }

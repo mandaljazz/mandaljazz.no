@@ -29,7 +29,7 @@
   justify-content: center;
 }
 :local(.Header h1) {
-  animation: pulsating 7s infinite alternate;
+  animation: pulsating 5s infinite alternate;
 }
 :local(.SubHeader) {
   font-size: calc(1rem + 2.5vmin);

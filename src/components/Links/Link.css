@@ -8,6 +8,5 @@
   transition: all var(--superquick) ease-in-out;
 }
 :local(.Link):hover {
-  color: var(--primary);
   border-bottom: 2px solid var(--black);
 }
