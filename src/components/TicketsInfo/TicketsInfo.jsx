@@ -28,6 +28,13 @@ const TicketsInfo = () => (
       Innehavere av ledsagerbevis for funksjonshemmede gis gratis billett til
       sin ledsager.
     </p>
+
+    <h4>Aldersgrenser</h4>
+    <p>
+      Alle konserter i <strong>Teltet</strong> har 18 års aldersgrense.
+      <br />
+      Barn under 18 år har adgang i følge med voksen.
+    </p>
   </div>
 );
 
