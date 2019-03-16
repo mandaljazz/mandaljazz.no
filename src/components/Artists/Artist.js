@@ -53,7 +53,11 @@ class Artist extends React.Component {
           />
         )}
         {!isActive && <h1>{name}</h1>}
-        {isActive && <img src={getImageUrl(imageName)} alt={name} id={id} />}
+        {isActive && (
+          <div className={styles.ImageWrapper}>
+            <img src={getImageUrl(imageName)} alt={name} id={id} />
+          </div>
+        )}
         {isActive && (
           <div className={styles.ArtistInfo}>
             <h1>{name}</h1>
@@ -75,17 +79,18 @@ class Artist extends React.Component {
                   ))}
                 </div>
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
-                {spotifyUri && (
-                  <div style={{ marginBottom: "1rem" }}>
-                    <SpotifyPlayer uri={spotifyUri} />
-                  </div>
-                )}
+                {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
               </div>
               {youtubeUrl && (
                 <iframe
-                  style={{ width: "100%", height: "600px", maxHeight: "60vh" }}
+                  style={{
+                    width: "100%",
+                    height: "600px",
+                    maxHeight: "60vh",
+                    margin: "1rem 0"
+                  }}
                   src={youtubeUrl}
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   title={`${name}-youtube-iframe`}

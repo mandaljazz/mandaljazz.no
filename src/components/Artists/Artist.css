@@ -3,7 +3,7 @@
   position: relative;
 
   /* Fallback color while image is loading */
-  background-color: var(--black-transparent);
+  background-color: var(--darkblack);
   background-size: cover;
   background-position: center;
 
@@ -25,7 +25,7 @@
 :local(.Artist) h1 {
   margin: 0;
   margin-top: 1rem;
-  text-shadow: var(--black) 2px 2px 10px;
+  text-shadow: var(--darkblack) 2px 2px 10px;
   margin-left: -1rem;
   border-top: none;
 
@@ -49,6 +49,20 @@
 }
 :local(.Artist) img {
   min-width: 100%;
+  margin: auto;
+}
+:local(.ImageWrapper)::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    var(--darkblack) 80%
+  );
+  margin-top: -25vh;
+  height: 25vh;
+  width: 100%;
+  content: "";
 }
 :local(.ArtistInfo) p:first-child {
   border-left: 0.5rem solid var(--quadary);
@@ -57,12 +71,6 @@
 :local(.ArtistInfo) {
   margin-top: -30%;
   padding: 1rem;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    13%,
-    var(--very-darkblack)
-  );
   position: relative;
   height: fit-content;
 }
