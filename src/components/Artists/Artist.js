@@ -73,6 +73,12 @@ class Artist extends React.Component {
                 <p key={index}>{paragraph}</p>
               ))}
               <div className={styles.ArtistInfoGrid}>
+                <div className={styles.ConcertInfo}>
+                  <FontAwesomeIcon icon={faClock} />
+                  {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  {venue}
+                </div>
                 <div>
                   {Object.keys(bands).map(band => (
                     <div key={band}>
@@ -84,12 +90,6 @@ class Artist extends React.Component {
                       </ul>
                     </div>
                   ))}
-                </div>
-                <div className={styles.ConcertInfo}>
-                  <FontAwesomeIcon icon={faClock} />
-                  {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
-                  {venue}
                 </div>
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
