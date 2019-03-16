@@ -1,5 +1,6 @@
 :local(.Footer) {
   padding: 2rem;
+  margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
