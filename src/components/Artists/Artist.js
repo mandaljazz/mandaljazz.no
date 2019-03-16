@@ -1,7 +1,11 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 import classNames from "classnames";
+import dayjs from "dayjs";
+import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
 import { PulsInfoBox } from "../";
@@ -26,7 +30,9 @@ class Artist extends React.Component {
       spotifyUri,
       youtubeUrl,
       bands,
-      isPulsArtist
+      isPulsArtist,
+      concertStartAt,
+      venue
     } = artist;
     const style = isActive
       ? {}
@@ -77,6 +83,12 @@ class Artist extends React.Component {
                       </ul>
                     </div>
                   ))}
+                </div>
+                <div className={styles.ConcertInfo}>
+                  <FontAwesomeIcon icon={faClock} />
+                  {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
+                  <FontAwesomeIcon icon={faMapMarkerAlt} />
+                  {venue}
                 </div>
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}

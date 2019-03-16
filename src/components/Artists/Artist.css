@@ -81,12 +81,34 @@
   align-items: flex-start;
   justify-content: center;
 }
+:local(.ConcertInfo) {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid var(--white); */
+}
+:local(.ConcertInfo > div) {
+  padding: 1rem;
+}
+:local(.ConcertInfo svg) {
+  padding: 0.5rem;
+  font-size: 4.5rem;
+  color: var(--quadary);
+}
+:local(.ConcertInfo svg):not(:first-child) {
+  margin-top: 1.5rem;
+}
 @media screen and (min-width: 720px) {
   :local(.Artist).active {
     min-width: 80%;
   }
   :local(.Artist).active h1 {
     font-size: 6rem;
+  }
+  :local(.ConcertInfo) {
+    font-size: 2.25rem;
   }
   :local(.ArtistInfo) {
     padding: 0.5rem 10vw;
