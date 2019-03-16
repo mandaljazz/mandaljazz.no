@@ -1,7 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSmileWink } from "@fortawesome/free-solid-svg-icons";
-import Bounce from "react-reveal/Bounce";
 // import SpotifyPlayer from "react-spotify-player";
 
 // import logo from "../../assets/images/jazzlaug.png";
@@ -17,14 +14,6 @@ const SplashPage = () => (
       {/* <img src={logo} className={styles.Logo} alt="logo" /> */}
       <h1>mandaljazz</h1>
       <p className={styles.SubHeader}>27. {HTMLEntities.ndash} 29. juni 2019</p>
-      <Bounce>
-        <p>
-          Hei der! Frem til <strong>15. mars</strong> kan du kjøpe rabatterte
-          festivalpass til Mandaljazz 2019! «Early Bird», som kidsa sier. Vær
-          tidlig ute!
-        </p>
-        <FontAwesomeIcon icon={faSmileWink} color="mediumseagreen" size="2x" />
-      </Bounce>
     </header>
 
     <Artists />
