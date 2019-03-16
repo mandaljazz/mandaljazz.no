@@ -10,5 +10,5 @@
   padding-top: 2rem;
 }
 :local(.NavMenu) > * {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }

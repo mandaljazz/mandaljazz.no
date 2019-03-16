@@ -19,7 +19,7 @@ const PracticalInfoPage = () => (
           hash: "#reise"
         }}
       >
-        <strong>Reise</strong>
+        Reise
       </HashLink>
       <HashLink
         smooth
@@ -28,7 +28,7 @@ const PracticalInfoPage = () => (
           hash: "#overnatting"
         }}
       >
-        <strong>Overnatting</strong>
+        Overnatting
       </HashLink>
       <HashLink
         smooth
@@ -37,7 +37,7 @@ const PracticalInfoPage = () => (
           hash: "#billetter"
         }}
       >
-        <strong>Billetter</strong>
+        Billetter
       </HashLink>
     </div>
     <ScrollToTopOnMount />
