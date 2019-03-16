@@ -24,6 +24,7 @@ class Artist extends React.Component {
       imageName,
       paragraphs,
       spotifyUri,
+      youtubeUrl,
       bands,
       isPulsArtist
     } = artist;
@@ -80,6 +81,16 @@ class Artist extends React.Component {
                   </div>
                 )}
               </div>
+              {youtubeUrl && (
+                <iframe
+                  style={{ width: "100%", height: "600px", maxHeight: "60vh" }}
+                  src={youtubeUrl}
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title={`${name}-youtube-iframe`}
+                />
+              )}
             </div>
           </div>
         )}
