@@ -10,7 +10,7 @@ import {
 import kulturraadetImg from "../../assets/images/sponsors/kulturraadet.png";
 import mandalKommuneImg from "../../assets/images/sponsors/mandal-kommune.png";
 import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfond.jpg";
-import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.bmp";
+import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.png";
 import vestAgderFylkeskommuneImg from "../../assets/images/sponsors/vest-agder-fylkeskommune.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
