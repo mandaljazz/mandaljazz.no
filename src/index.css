@@ -79,6 +79,10 @@ ul.link-list li {
   line-height: 2;
 }
 
+iframe {
+  border: 0;
+}
+
 .SpotifyPlayer {
   width: 100%;
   max-width: 100%;

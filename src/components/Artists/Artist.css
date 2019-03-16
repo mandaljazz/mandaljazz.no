@@ -78,7 +78,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
   grid-gap: 1rem;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
 }
 :local(.ConcertInfo) {

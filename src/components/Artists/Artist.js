@@ -29,6 +29,7 @@ class Artist extends React.Component {
       paragraphs,
       spotifyUri,
       youtubeUrl,
+      soundcloudUserId,
       bands,
       isPulsArtist,
       concertStartAt,
@@ -92,6 +93,20 @@ class Artist extends React.Component {
                 </div>
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
+                {soundcloudUserId && (
+                  <iframe
+                    title={`${name}-soundcloud-iframe`}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      minHeight: "200px",
+                      maxHeight: "60vh"
+                    }}
+                    frameBorder="0"
+                    scrolling="no"
+                    src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/${soundcloudUserId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false`}
+                  />
+                )}
               </div>
               {youtubeUrl && (
                 <iframe

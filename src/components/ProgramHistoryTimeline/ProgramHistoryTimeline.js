@@ -36,10 +36,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Mandal Storband</li>
           <li>Bomfunk Mimosa</li>
         </ul>
-        <SpotifyPlayer
-          uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT"
-          size="compact"
-        />
+        <SpotifyPlayer uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT" />
       </div>
     </div>
     <div className={styles.Event}>
