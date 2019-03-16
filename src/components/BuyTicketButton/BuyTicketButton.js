@@ -21,9 +21,7 @@ const BuyTicketButton = ({ ...props }) => {
       >
         Kjøp
         <br />
-        Early Bird-
-        <br />
-        pass
+        billetter
       </Link>
     </div>
   );
