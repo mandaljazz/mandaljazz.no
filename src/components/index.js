@@ -7,4 +7,5 @@ export { default as ProgramHistoryTimeline } from "./ProgramHistoryTimeline";
 export { default as Program } from "./Program";
 export { default as AccomodationInfo } from "./AccomodationInfo";
 export { default as TravelInfo } from "./TravelInfo";
+export { default as TicketsInfo } from "./TicketsInfo";
 export { default as ScrollToTopOnMount } from "./ScrollToTopOnMount";

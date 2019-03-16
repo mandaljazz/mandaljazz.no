@@ -2,6 +2,7 @@ import React from "react";
 
 import {
   TravelInfo,
+  TicketsInfo,
   AccomodationInfo,
   ScrollToTopOnMount
 } from "../../components";
@@ -12,6 +13,7 @@ const PracticalInfoPage = () => (
     <ScrollToTopOnMount />
     <TravelInfo />
     <AccomodationInfo />
+    <TicketsInfo />
   </div>
 );
 

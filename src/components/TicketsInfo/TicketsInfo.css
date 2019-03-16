@@ -1,0 +1,10 @@
+:local(.TicketsInfo) {
+  display: flex;
+  flex-direction: column;
+}
+:local(.TicketsInfo h1) {
+  align-self: center;
+}
+:local(.TicketsInfo h4) {
+  margin-bottom: 0;
+}
