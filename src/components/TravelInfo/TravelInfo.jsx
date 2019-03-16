@@ -15,7 +15,8 @@ const TravelInfo = () => (
           display: "block",
           height: "480px",
           width: "100%",
-          maxWidth: "500px"
+          maxWidth: "500px",
+          alignSelf: "center"
         }}
         src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
         // TODO: Add default departure day
@@ -42,7 +43,7 @@ const TravelInfo = () => (
       <Link href="mailto:post@mandaljazz.no" title="post@mandaljazz.no">
         Kontakt oss
       </Link>{" "}
-      gjerne :)
+      gjerne!
     </p>
   </div>
 );
