@@ -50,8 +50,12 @@ const ProgramHistoryTimeline = ({ children }) => (
           Dele Sosimi {HTMLEntities.ampersand} Nye Lindesnes Afrobeatensemble
         </li>
         <li>Knut Riisnæs Kvartett</li>
-        <li>Trondheim Jazzorkester {HTMLEntities.ampersand} Skrap</li>
-        <li>Ola Kvernberg - Steamdome</li>
+        <li>
+          Skrap + Trondheim Jazzorkester: <em>Antropocen</em>
+        </li>
+        <li>
+          Ola Kvernberg: <em>Steamdome</em>
+        </li>
         <li>Stian Westerhus</li>
         <li>Pixel</li>
         <li>Rohey</li>
@@ -59,12 +63,14 @@ const ProgramHistoryTimeline = ({ children }) => (
         <li>Torben Snekkestad (undervannskonsert)</li>
         <li>Kim Myhr</li>
         <li>Emile the Duke</li>
-        <li>Natalie Sandtorv / Hans Hulbækmo</li>
+        <li>Natalie Sandtorv + Hans Hulbækmo</li>
         <li>Hästi + Frode Gjerstad</li>
-        <li>Signe Emmeluth / Karl Bjorå</li>
+        <li>Signe Emmeluth + Karl Bjorå</li>
         <li>Juno</li>
-        <li>TUP (Talentutviklingsprogrammet)</li>
-        <li>Lekerommet: Kyllingen som ikke kunne synge</li>
+        <li>Talentutviklingsprogrammet v/UiA</li>
+        <li>
+          Lekerommet: <em>Kyllingen som ikke kunne synge</em>
+        </li>
       </ul>
     </div>
     <h1 className="with-background">2016</h1>
@@ -75,12 +81,13 @@ const ProgramHistoryTimeline = ({ children }) => (
         <li>Scheen Jazzorkester</li>
         <li>Susanna</li>
         <li>Band of Gold</li>
-        <li>Moskus m/Nils Økland</li>
+        <li>Moskus + Nils Økland</li>
         <li>Megalodon Collective</li>
         <li>Horse Orchestra</li>
-        <li>The Magnetic Eagle / Den Magnetiske Ørn Hästi Trio</li>
+        <li>Den Magnetiske Ørn</li>
+        <li>Hästi Trio</li>
         <li>Sørnorsk ungdomsstorband (SNUS)</li>
-        <li>Barnekonsert: Klangbein</li>
+        <li>Klangbein</li>
         <li>Benjamin Dybesland Band</li>
       </ul>
     </div>
@@ -90,31 +97,35 @@ const ProgramHistoryTimeline = ({ children }) => (
       <ul className={styles.EventList}>
         <li>JøKleBa</li>
         <li>Trondheim Jazzorkester</li>
-        <li>Elephant9 m/Reine Fiske</li>
+        <li>Elephant9 + Reine Fiske</li>
         <li>Broen</li>
-        <li>Bjørn Charles Dreyer - Åpningskonsert i Uranienborg fjellanlegg</li>
+        <li>Bjørn Charles Dreyer @ Uranienborg fjellanlegg</li>
         <li>Albatrosh</li>
-        <li>Kristoffer Lo - Inne i Ryvingen Fyr</li>
-        <li>Hanna Pauslberg Concept</li>
+        <li>Kristoffer Lo @ Ryvingen Fyr</li>
+        <li>Hanna Paulsberg Concept</li>
         <li>Håkon Kornstad</li>
         <li>Dröm</li>
         <li>Mandal Storband</li>
-        <li>SKRAP - Barnekonsert</li>
-        <li>Body Rhythm Factory - Familiekonsert</li>
+        <li>SKRAP</li>
+        <li>Body Rhythm Factory</li>
       </ul>
     </div>
     <h1 className="with-background">2014</h1>
     <div className={styles.Event}>
       <img src={poster14} className={styles.Poster} alt="Poster 2014" />
       <ul className={styles.EventList}>
-        <li>Marius Neset "Birds"</li>
+        <li>
+          Marius Neset: <em>Birds</em>
+        </li>
         <li>Ola Kvernberg Trio</li>
         <li>Mathias Eick Quintet</li>
         <li>Polkabjørn og Kleine Heine</li>
         <li>Dr. Kay and his Interstellar Tone Scientists</li>
         <li>Erik Kimestad Kvartett</li>
         <li>Yngve and his Boogie Legs</li>
-        <li>Jazzfigur</li>
+        <li>
+          Jazzfigur: <em>I tråd med musikken</em>
+        </li>
         <li>Mandal Storband</li>
         <li>Trygve Rypestøl</li>
         <li>Sarah Evelyn</li>
