@@ -7,12 +7,40 @@ import {
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
+import kulturraadetImg from "../../assets/images/sponsors/kulturraadet.png";
+import mandalKommuneImg from "../../assets/images/sponsors/mandal-kommune.png";
+import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfond.jpg";
+import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.bmp";
+import vestAgderFylkeskommuneImg from "../../assets/images/sponsors/vest-agder-fylkeskommune.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className={styles.Footer}>
+      <div className={styles.Sponsors}>
+        <Link href="https://www.vaf.no/" title="Vest-Agder Fylkeskommune">
+          <img src={vestAgderFylkeskommuneImg} alt="Vest-Agder Fylkeskommune" />
+        </Link>
+        <Link
+          href="https://www.nordiskkulturfond.org/en"
+          title="Nordisk kulturfond"
+        >
+          <img src={nordiskKulturfondImg} alt="Nordisk kulturfond" />
+        </Link>
+        <Link href="https://www.kulturradet.no/" title="Kulturrådet">
+          <img src={kulturraadetImg} alt="Kulturrådet" />
+        </Link>
+        <Link
+          href="https://sornorsk.jazzinorge.no/"
+          title="Sør-Norsk Jazzsenter"
+        >
+          <img src={sorNorskJazzsenterImg} alt="Sør-Norsk Jazzsenter" />
+        </Link>
+        <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
+          <img src={mandalKommuneImg} alt="Mandal kommune" />
+        </Link>
+      </div>
       <ul>
         <li>
           <Link

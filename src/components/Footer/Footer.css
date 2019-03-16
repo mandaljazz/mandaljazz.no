@@ -1,5 +1,6 @@
 :local(.Footer) {
   padding: 2rem;
+  margin-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr;
   font-size: 0.9rem;
@@ -17,11 +18,30 @@
   display: inline;
   padding: 1rem;
 }
-:local(.Footer ul li a) {
+:local(.Footer ul li a),
+:local(.Sponsors a) {
   border-bottom: none;
-  transition: all var(--superquick) ease-in-out;
+  transition: all var(--quick) ease-in-out;
+}
+:local(.Footer ul li a):hover,
+:local(.Sponsors a):hover {
+  border-bottom: none;
 }
 :local(.Footer ul li a):hover {
-  border-bottom: none;
-  transform: rotate(-2deg);
+  transform: scale(1.1);
+}
+:local(.Sponsors a):hover {
+  transform: scale(1.025);
+}
+:local(.Sponsors) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+:local(.Sponsors img) {
+  max-width: 200px;
+  max-height: 100px;
+  padding: 1rem;
+  filter: grayscale(1);
 }
