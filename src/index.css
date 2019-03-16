@@ -81,4 +81,5 @@ ul.link-list li {
 
 .SpotifyPlayer {
   width: 100%;
+  max-width: 100%;
 }
