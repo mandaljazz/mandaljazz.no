@@ -8,4 +8,5 @@ export { default as Program } from "./Program";
 export { default as AccomodationInfo } from "./AccomodationInfo";
 export { default as TravelInfo } from "./TravelInfo";
 export { default as TicketsInfo } from "./TicketsInfo";
+export { default as PulsInfoBox } from "./PulsInfoBox";
 export { default as ScrollToTopOnMount } from "./ScrollToTopOnMount";

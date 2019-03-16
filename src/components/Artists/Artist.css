@@ -15,6 +15,9 @@
   flex-basis: 400px;
   transition: filter var(--quick) ease-in-out;
 }
+:local(.Artist) a {
+  color: var(--white);
+}
 :local(.Artist) h1,
 :local(.Artist) h4 {
   font-family: "Montserrat", sans-serif;
@@ -40,7 +43,7 @@
   overflow-wrap: break-word;
 }
 :local(.Artist).active {
-  transform: rotateZ(1deg);
+  /* transform: rotateZ(1deg); */
   z-index: 2;
   min-width: 90%;
 }
@@ -62,6 +65,13 @@
   );
   position: relative;
   height: fit-content;
+}
+:local(.ArtistInfoGrid) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  align-items: flex-start;
+  justify-content: center;
 }
 @media screen and (min-width: 720px) {
   :local(.Artist).active {

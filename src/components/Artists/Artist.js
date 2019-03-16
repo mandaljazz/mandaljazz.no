@@ -4,6 +4,7 @@ import classNames from "classnames";
 import { HashLink } from "react-router-hash-link";
 
 import styles from "./Artist.css";
+import { PulsInfoBox } from "../";
 
 const getImageUrl = imageName => require(`../../assets/images/${imageName}`);
 
@@ -18,7 +19,14 @@ class Artist extends React.Component {
       toggleIsActive,
       ...props
     } = this.props;
-    const { name, imageName, paragraphs, spotifyUri, bands } = artist;
+    const {
+      name,
+      imageName,
+      paragraphs,
+      spotifyUri,
+      bands,
+      isPulsArtist
+    } = artist;
     const style = isActive
       ? {}
       : { backgroundImage: `url(${getImageUrl(imageName)})` };
@@ -52,23 +60,20 @@ class Artist extends React.Component {
               {paragraphs.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
-              <div
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  justifyContent: "space-around"
-                }}
-              >
-                {Object.keys(bands).map(band => (
-                  <div key={band}>
-                    <h4>{band}</h4>
-                    <ul>
-                      {bands[band].map(musician => (
-                        <li key={musician}>{musician}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+              <div className={styles.ArtistInfoGrid}>
+                <div>
+                  {Object.keys(bands).map(band => (
+                    <div key={band}>
+                      <h4>{band}</h4>
+                      <ul>
+                        {bands[band].map(musician => (
+                          <li key={musician}>{musician}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+                {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && (
                   <div style={{ marginBottom: "1rem" }}>
                     <SpotifyPlayer uri={spotifyUri} />
