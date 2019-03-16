@@ -35,10 +35,11 @@
 }
 :local(.OpenProgramButton) {
   cursor: pointer;
-  transition: transform var(--superquick) ease-in-out;
+  transition: all var(--superquick) ease-in-out;
   font-weight: 600;
   border-bottom: 2px solid var(--quadary);
 }
 :local(.OpenProgramButton):hover {
-  transform: translateY(-0.06rem);
+  color: var(--primary);
+  border-bottom: 2px solid var(--black);
 }

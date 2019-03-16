@@ -17,3 +17,11 @@
   display: inline;
   padding: 1rem;
 }
+:local(.Footer ul li a) {
+  border-bottom: none;
+  transition: all var(--superquick) ease-in-out;
+}
+:local(.Footer ul li a):hover {
+  border-bottom: none;
+  transform: rotate(-2deg);
+}
