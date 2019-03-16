@@ -4,7 +4,7 @@ import { Link } from "../../components";
 import styles from "./TravelInfo.css";
 
 const TravelInfo = () => (
-  <div className={styles.TravelInfo}>
+  <div id="reise" className={styles.TravelInfo}>
     <h1 className="with-background">Reise</h1>
     <p>Finn reisen til Mandaljazz med Entur!</p>
     {window.innerWidth > 350 ? (
