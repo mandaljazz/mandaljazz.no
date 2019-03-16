@@ -1,8 +1,8 @@
 :local(.Footer) {
   padding: 2rem;
-  margin-bottom: 4rem;
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 1rem;
   font-size: 0.9rem;
 }
 :local(.Footer > *) {
@@ -38,6 +38,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 1rem 0;
 }
 :local(.Sponsors img) {
   max-width: 150px;
