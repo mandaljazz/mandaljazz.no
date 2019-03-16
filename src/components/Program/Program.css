@@ -1,6 +1,6 @@
 :local(.ProgramWrapper) {
   width: 100%;
-  background-color: var(--white-transparent-heavy);
+  background-color: var(--white);
   display: flex;
   align-items: center;
   flex-direction: column;

@@ -1,5 +1,5 @@
 :local(.NavMenu) {
-  background-color: var(--white-transparent-heavy);
+  background-color: var(--white);
   padding: 1rem 0;
   display: flex;
   justify-content: space-around;
