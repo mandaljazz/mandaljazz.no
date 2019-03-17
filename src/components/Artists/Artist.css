@@ -93,12 +93,9 @@
   padding: 1rem;
 }
 :local(.ConcertInfo svg) {
-  padding: 0.5rem;
+  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
   font-size: 4.5rem;
   color: var(--quadary);
-}
-:local(.ConcertInfo svg):not(:first-child) {
-  margin-top: 1.5rem;
 }
 @media screen and (min-width: 720px) {
   :local(.Artist).active {
