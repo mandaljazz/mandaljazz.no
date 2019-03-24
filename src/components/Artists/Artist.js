@@ -79,18 +79,20 @@ class Artist extends React.Component {
                   <FontAwesomeIcon icon={faMapMarkerAlt} />
                   {venue}
                 </div>
-                <div>
-                  {Object.keys(bands).map(band => (
-                    <div key={band}>
-                      <h4>{band}</h4>
-                      <ul>
-                        {bands[band].map(musician => (
-                          <li key={musician}>{musician}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
+                {bands && (
+                  <div>
+                    {Object.keys(bands).map(band => (
+                      <div key={band}>
+                        <h4>{band}</h4>
+                        <ul>
+                          {bands[band].map(musician => (
+                            <li key={musician}>{musician}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                )}
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
                 {soundcloudUserId && (

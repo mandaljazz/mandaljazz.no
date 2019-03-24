@@ -2,10 +2,10 @@
   margin: 1rem 2rem;
   position: relative;
 
-  /* Fallback color while image is loading */
-  background-color: var(--darkblack);
   background-size: cover;
   background-position: center;
+  background-color: var(--darkblack);
+  /* background-blend-mode: multiply; */
 
   cursor: pointer;
   color: var(--white);
@@ -33,6 +33,7 @@
 }
 :local(.Artist):not(.active):hover {
   filter: contrast(1.25);
+  /* background-color: transparent; */
 }
 :local(.Artist):not(.active):hover h1 {
   margin-left: -1.25rem;
@@ -46,6 +47,7 @@
   /* transform: rotateZ(1deg); */
   z-index: 2;
   min-width: 90%;
+  /* background-color: var(--darkblack); */
 }
 :local(.Artist) img {
   min-width: 100%;
@@ -94,7 +96,7 @@
 }
 :local(.ConcertInfo svg) {
   padding: 1.5rem 0.5rem 0.5rem 0.5rem;
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: var(--quadary);
 }
 @media screen and (min-width: 720px) {
