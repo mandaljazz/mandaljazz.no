@@ -35,7 +35,6 @@
     "id": "jimi-tenor",
     "concertStartAt": "2019-06-29T22:00:00",
     "venue": "Teltet",
-    "isPulsArtist": true,
     "youtubeUrl": "https://www.youtube.com/embed/XKMt4YtTEb4",
     "spotifyUri": "spotify:album:05uV42HasJBwJQklm876y0",
     "paragraphs": [
