@@ -8,12 +8,9 @@
     "youtubeUrl": "https://www.youtube.com/embed/FY3QaOA5FPU",
     "spotifyUri": "spotify:artist:0KmBIwN1qmQbXpR4wtJX88",
     "paragraphs": [
-      "Historien om Fieh er en fortelling med tre alternative begynnelser. Den første alternative begynnelsen er julen 2011, da Sofie Tollefsbøl fikk et midi-keyboard. Hun satt seg ned og prøvde en synthlyd som liknet på den i «Undun» av The Roots, og etter flere eksperimenter og produksjonstimer senere la hun låta ut på Soundcloud og NRK Urørt under pseudonymet «Fieh» - som senere ble utnevnt som Ukas Urørt.",
-      "En annen start er Dølajazz høsten 2014, hvor bandet Sleeping Deep fikk med seg Tollefsbøl på noen låter. Det er et såpass umiddelbart kick for trommeslager Ola Øverby og bassist Andreas Rukan, at de husker det som at bandet Fieh ble til i akkurat dét øyeblikket.",
-      "Den tredje begynnelsen er på Gjøvik Videregående Skole. Der gikk Tollefsbøl, Rukan og Øverby på musikklinja sammen med Solveig Wang og Thea Arnesdotter Lien. De kjente hverandre godt. De to vokalistene blir etterhvert med i Fieh, og bandet utvikler seg til å være en gammel vennegjeng oppe på scenen, bestående av folk som har utforsket musikken de har til felles og som har egget hverandre videre inn i å velge spillinga som yrkesvei.",
-      "På Norges Musikkhøgskole, hvor de fleste ender opp, får de med seg gitarist Jørgen Kasbo, som får med seg sin kollektivkamerat og trompetist Lyder Øvreås Røed. Disse to har også på sin kant har funnet ut at det er nettopp denne musikken de aller helst vil drive med, og smeltes inn i Fieh-gjengen. Etter hvert kommer Edvard Synnes til som keyboardist, og bandet er komplett.",
-      "Man er nødt til å bruke hele kortstokken når man beskriver Fieh: en særegen vokalist og låtskriver, et ærgjerrig ensemble bestående av noen av de beste unge utøverne av denne musikken i Norge. Live er de virkelig tredimensjonale: et sterkt nærvær fremst på scenen, omgitt av et mylder av musikalitet, hvor publikum  får lov til å vandre fritt rundt i med øyne og ører. Samtidig føles det hele egentlig bare som en stor fest. De har satt et tydelig merke allerede, på festivaler som Piknik i Parken, nevnte Dølajazz, to forrykende sett under fjorårets by:Larm og Nattjazz, hvor Musikknyheter ga dem 10/10 for oppvarmingssettet for Bernhoft. I år økes tempoet ytterligere på festivaler som Øya, Slottsfjell, Vinjerock, Træna, Moldejazz og Mandaljazz.",
-      "'Glu' kom høsten 2017 på Vibbefanger og vakte umiddelbar oppsikt. Låta endte opp på et utall lister og kulminerte i et lite, surrealistisk høydepunkt på 'Elton John Rocket Hour', der en av pophistoriens aller største plutselig satt og begeistret delte sin beundring. Låta '25' ble sluppet på nyåret 2018 og utforsker andre stemninger. Det krever ikke all verdens med fantasi å se for seg at man på de neste låtene vil møte ulike sider av Fiehs verden. Det største sjokket er hvor bra det låter - det er en genuin, jublende overraskelse der, koblet med trygg visshet om at det er langt fra tilfeldig, og at de kan trylle fram disse stemningene når som helst og hvor som helst.",
+      "Fieh er et navn som dukker opp på flere av sommerens festivaler, blant annet på Slottsfjell, Øya og Moldejazz. Heldigvis for oss dukker bandet også opp på årets utgave av Mandaljazz!",
+      "Bandet er stiftet av Sofie Tollefsbøl, som først brukte pseudonymet «Fieh» da hun la ut en låt, «My My My», på SoundCloud i 2014. Låta endte opp med å bli Ukas Urørt i NRK.",
+      "Fieh består nå av totalt åtte bandmedlemmer hvor flere av musikerne har kjent hverandre i lang tid. Dette er sagt å kunne merkes når de opptrer live sammen på scenen da de blir beskrevet som et venneband som tar musikk på alvor. Fieh beveger seg innom flere stiler som blant annet soul, hip-hop, funk og R&B, med en særegen vokalist og låtskriver i front. Når hun i tillegg har med seg et ensemble bestående av noen av de beste unge utøverne av denne musikken i Norge tror vi du vil få en virkelig flott opplevelse, og et par rykninger i dansefoten.",
       "Foto: Jonathan Vivaas Kise"
     ],
     "bands": {
@@ -140,6 +137,21 @@
         "Jan Erik Holto (lys)"
       ]
     }
+  },
+  {
+    "name": "Frøy Aagre",
+    "shortName": "Frøy Aagre",
+    "imageName": "froy-aagre.jpg",
+    "id": "froy-aagre",
+    "concertStartAt": "2019-06-29T14:00:00",
+    "venue": "Kulturfabrikken",
+    "spotifyUri": "spotify:artist:2Vj9PRvLmmbfFlSxEd44Sm",
+    "paragraphs": [
+      "Kling Klang med Frøy Aagre! Velkommen til en sanselig musikkopplevelse for de minste barna (0-3 år).",
+      "Bli med Frøy Aagre og hennes saksofon på skattejakt etter spennende klanger! Hun tar barna med på en musikalsk oppdagelsesferd og utforsker klangen på de ulike instrumentene som hun finner, for så å sette det hele sammen til et lite «kling klang»-musikkverk.",
+      "Etter forestillingen inviteres barna opp på scenen for å utforske og spille på instrumentene. Dette er den interaktive delen av forestillingen der barna får være aktive skapende deltakere.",
+      "Foto: Haslien Fotografene"
+    ]
   },
   {
     "hideFromArtistList": true,
