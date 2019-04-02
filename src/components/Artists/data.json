@@ -53,6 +53,41 @@
     }
   },
   {
+    "name": "The MaXx + Trondheim Jazzorkester",
+    "shortName": "The MaXx + TJO",
+    "imageName": "the-maxx.jpg",
+    "id": "the-maxx",
+    "concertStartAt": "2019-06-29T20:00:00",
+    "venue": "Teltet",
+    "isPulsArtist": true,
+    "youtubeUrl": "https://www.youtube.com/embed/UoL5bNEszY0",
+    "soundcloudUserId": "81445242",
+    "paragraphs": [
+      "De svenske jazzmusikerne Petter Kraft, Tomas Järmyr og Oscar Grönberg fikk tildelt SpareBank 1 SMN JazZtipendiat i 2017 for prosjektet «Trondheim Jazzorkester og The MaXx».",
+      "Trioen er vanskelig å plassere stilmessig, men de beskriver selv musikken sin som «catchy riff-basert jazz-rock, med en konstant skiftende rytmisk karakter».",
+      "Hele trioen tok sin utdanning på jazzlinja ved NTNU i Trondheim, og har vært en del av jazzmiljøet der de siste ti årene. I sommer kommer de sammen med resten av Trondheim Jazzorkester til Mandaljazz, og dette er en konsert man virkelig kan glede seg til!"
+    ],
+    "bands": {
+      "The MaXx": [
+        "Oscar Grönberg (keyboards)",
+        "Petter Kraft (gitar og saksofon)",
+        "Tomas Järmyr (trommer)"
+      ],
+      "Trondheim Jazzorkester": [
+        "Mia Marlen Berg (vokal)",
+        "Thomas Johansson (trompet)",
+        "Petter Hängsel (trombone)",
+        "Mette Rasmussen (saksofon)",
+        "Kjetil Møster (saksofon)",
+        "Anton Toorell (gitar)",
+        "Anja Lauvdal (keyboard)",
+        "Mattis Kleppen (bass)",
+        "Tor Breivik (lyd)",
+        "Jan Erik Holto (lys)"
+      ]
+    }
+  },
+  {
     "name": "Horse Orchestra",
     "imageName": "horse-orchestra.jpg",
     "id": "horse-orchestra",
@@ -100,41 +135,6 @@
         "Ingebrigt Håker Flaten (bass)",
         "Raymond Strid (trommer)",
         "Paul Lytton (trommer)"
-      ]
-    }
-  },
-  {
-    "name": "The MaXx + Trondheim Jazzorkester",
-    "shortName": "The MaXx + TJO",
-    "imageName": "the-maxx.jpg",
-    "id": "the-maxx",
-    "concertStartAt": "2019-06-29T20:00:00",
-    "venue": "Teltet",
-    "isPulsArtist": true,
-    "youtubeUrl": "https://www.youtube.com/embed/UoL5bNEszY0",
-    "soundcloudUserId": "81445242",
-    "paragraphs": [
-      "De svenske jazzmusikerne Petter Kraft, Tomas Järmyr og Oscar Grönberg fikk tildelt SpareBank 1 SMN JazZtipendiat i 2017 for prosjektet «Trondheim Jazzorkester og The MaXx».",
-      "Trioen er vanskelig å plassere stilmessig, men de beskriver selv musikken sin som «catchy riff-basert jazz-rock, med en konstant skiftende rytmisk karakter».",
-      "Hele trioen tok sin utdanning på jazzlinja ved NTNU i Trondheim, og har vært en del av jazzmiljøet der de siste ti årene. I sommer kommer de sammen med resten av Trondheim Jazzorkester til Mandaljazz, og dette er en konsert man virkelig kan glede seg til!"
-    ],
-    "bands": {
-      "The MaXx": [
-        "Oscar Grönberg (keyboards)",
-        "Petter Kraft (gitar og saksofon)",
-        "Tomas Järmyr (trommer)"
-      ],
-      "Trondheim Jazzorkester": [
-        "Mia Marlen Berg (vokal)",
-        "Thomas Johansson (trompet)",
-        "Petter Hängsel (trombone)",
-        "Mette Rasmussen (saksofon)",
-        "Kjetil Møster (saksofon)",
-        "Anton Toorell (gitar)",
-        "Anja Lauvdal (keyboard)",
-        "Mattis Kleppen (bass)",
-        "Tor Breivik (lyd)",
-        "Jan Erik Holto (lys)"
       ]
     }
   },
