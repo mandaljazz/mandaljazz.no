@@ -4,13 +4,18 @@ import groupBy from "lodash/groupBy";
 import sortBy from "lodash/sortBy";
 import dayjs from "dayjs";
 import { SlideDown } from "react-slidedown";
+import { isMobile } from "react-device-detect";
 import "react-slidedown/lib/slidedown.css";
 
-import { HashLink } from "../";
+import { HashLink, RouterLink } from "../";
 import styles from "./Program.css";
 import artists from "../Artists/data.json";
 
 class Program extends React.Component {
+  static defaultProps = {
+    isAlwaysOpen: false
+  };
+
   state = {
     isOpen: false
   };
@@ -19,14 +24,26 @@ class Program extends React.Component {
 
   renderToggleIsOpenButton = () => (
     <div onClick={this.toggleIsOpen} className={styles.OpenProgramButton}>
-      {this.state.isOpen ? "Lukk" : "Se"} program
+      {this.state.isOpen ? "Lukk program" : "Program"}
     </div>
   );
 
+  renderLinkToProgramPage = () => (
+    <RouterLink to="/program" style={{ fontWeight: 600 }}>
+      Program
+    </RouterLink>
+  );
+
   render() {
+    const { isAlwaysOpen } = this.props;
+
     return (
       <div className={styles.ProgramWrapper}>
-        <SlideDown className={styles.Program} closed={!this.state.isOpen}>
+        <SlideDown
+          className={styles.Program}
+          closed={!isAlwaysOpen && !this.state.isOpen}
+          transitionOnAppear={false}
+        >
           {Object.entries(
             groupBy(sortBy(artists, "concertStartAt"), artist =>
               capitalize(dayjs(artist.concertStartAt).format("dddd"))
@@ -64,7 +81,10 @@ class Program extends React.Component {
             </div>
           ))}
         </SlideDown>
-        {this.renderToggleIsOpenButton()}
+        {!isAlwaysOpen &&
+          (isMobile
+            ? this.renderLinkToProgramPage()
+            : this.renderToggleIsOpenButton())}
       </div>
     );
   }
