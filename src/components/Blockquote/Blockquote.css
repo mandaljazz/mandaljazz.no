@@ -1,0 +1,47 @@
+:local(.Blockquote) {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 50px auto;
+  font-style: italic;
+  color: var(--gray);
+  padding: 1rem 1rem 1rem 3rem;
+  border-left: 8px solid var(--primary);
+  line-height: 1.6;
+  position: relative;
+  background: var(--lightgray);
+}
+
+:local(.Blockquote::before) {
+  font-family: "Libre Baskerville", sans-serif;
+  content: "\201C";
+  color: var(--primary);
+  font-size: 4.5rem;
+  position: absolute;
+  left: 0.25rem;
+  top: -0.5rem;
+}
+:local(.Blockquote::after) {
+  content: "";
+}
+
+:local(.Person) {
+  display: block;
+  color: var(--gray);
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+@media screen and (min-width: 720px) {
+  :local(.Blockquote) {
+    font-size: 1.5rem;
+    padding: 2rem 2rem 2rem 6rem;
+  }
+
+  :local(.Blockquote::before) {
+    font-size: 10rem;
+    left: 0.25rem;
+    top: -1.5rem;
+  }
+}
