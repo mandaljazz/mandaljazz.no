@@ -1,7 +1,7 @@
 :local(.Blockquote) {
   font-size: 1.2rem;
-  width: 60%;
-  margin: 50px auto;
+  width: 60vw;
+  margin: 3rem auto;
   font-style: italic;
   color: var(--gray);
   padding: 1rem 1rem 1rem 3rem;
@@ -37,6 +37,7 @@
   :local(.Blockquote) {
     font-size: 1.5rem;
     padding: 2rem 2rem 2rem 6rem;
+    width: 60%;
   }
 
   :local(.Blockquote::before) {
