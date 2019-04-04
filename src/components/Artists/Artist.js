@@ -100,7 +100,7 @@ class Artist extends React.Component {
                     title={`${name}-soundcloud-iframe`}
                     style={{
                       width: "100%",
-                      height: "100%",
+                      height: "320px",
                       minHeight: "200px",
                       maxHeight: "60vh"
                     }}
