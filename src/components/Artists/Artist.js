@@ -106,7 +106,7 @@ class Artist extends React.Component {
                     }}
                     frameBorder="0"
                     scrolling="no"
-                    src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/${soundcloudUserId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false`}
+                    src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/${soundcloudUserId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=true&amp;show_teaser=false`}
                   />
                 )}
               </div>
