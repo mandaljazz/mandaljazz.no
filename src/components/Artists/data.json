@@ -88,6 +88,63 @@
     }
   },
   {
+    "name": "Jeppe Zeeberg",
+    "imageName": "jeppe-zeeberg.jpg",
+    "id": "jeppe-zeeberg",
+    "concertStartAt": "2019-06-28T17:00:00",
+    "venue": "Elvesalen",
+    "isPulsArtist": true,
+    "youtubeUrl": "https://www.youtube.com/embed/5Ybzsqs9Atk",
+    "spotifyUri": "spotify:artist:2RHFcF0Icit2ToFHbTNMV6",
+    "paragraphs": [
+      "Jeppe Zeeberg er en svært anerkjent dansk jazzmusiker og pianist. Stilen hans er en personlig og kompromissløs blanding av genrer med utgangspunkt i jazz og fri improvisasjon. Hans første album i eget navn, «It’s The Most Basic Thing You Can Do On A Boat» (2014) fikk veldig gode anmeldelser fra den internasjonale musikkbransjen. Statens Kunstfonds Legatudvalg for Musik i Danmark premierte til og med albumet som et av de syv verkene som hadde utmerket seg kunstnerisk i 2014.",
+      "I 2017 kom Zeebergs tredje album ut, «The Four Seasons». Albumet fikk i likhet med hans tidligere album positive anmeldelser. Det amerikanske magasinet All About Jazz skrev blant annet: «With no disrespect intended to the thousands of musicians who produce hundreds of albums every year, it is genuinely refreshing to hear a record like The Four Seasons which is just so different and instantly engaging. If Zeeberg isn’t a genius then he certainly ranks pretty close to one.»",
+      "Zeeberg er utdannet fra Rytmisk Musikkonservatorium i København. Han er medlem av plateselskapet og musikerkollektivet Barefoot Records og er aktiv i gruppene Dødens Garderobe, Horse Orchestra og Kresten Osgood Quintet, i tillegg til å satse på sin egen solokarriere. Som solopianist har han opptrådt i blant annet København, Tokyo og New York, og har fått opptil flere utmerkelser og musikkpriser, blant annet Danish Music Awards Jazz i 2015. Til dags dato har han gitt ut fem egne album.",
+      "Får man muligheten til å oppleve et ekte musikalsk geni live på scenen under årets Mandaljazz sier man vel ikke «Nei takk»?",
+      "Foto: Omar Ingerslev"
+    ]
+  },
+  {
+    "name": "Kresten Osgood Quintet",
+    "shortName": "Kresten Osgood",
+    "imageName": "kresten-osgood.jpg",
+    "id": "kresten-osgood",
+    "concertStartAt": "2019-06-29T18:00:00",
+    "isPulsArtist": true,
+    "venue": "Teltet",
+    "spotifyUri": "spotify:album:4CfhpyQmetCkJ8sGrPGnaU",
+    "paragraphs": [
+      "Det har blitt sagt at han er det beste som har skjedd i dansk jazz siden 80-tallet. De siste 20 årene har Kresten Osgood vært en sentral del av det danske musikklivet. Osgood er en ekstraordinær trommeslager, men også en dyktig multi-instrumentalist som har en vellykket karriere som rapper, komponist, vokalist, saxofonist, trompetist og han er også en meget spennende arrangør.",
+      "Selv med en stor respekt for jazzens tradisjoner er ikke Kresten Osgood redd for å leke seg med stiler, rytmikk, harmonier og improvisasjon. På årets Mandaljazz presenterer han en sterk kvintett bestående av noen av de beste og mest spennende musikerne fra Københavns jazzscene.",
+      "Kvintetten har eksistert siden 2013 og slapp i 2018 en LP ved navn «Kresten Osgood Quintet Plays Jazz». Det er heller ikke til å stikke under stol at han har med seg Mandals egne trompetist Erik Kimestad Pedersen.",
+      "Foto: Hreinn Gudlaugsson"
+    ],
+    "bands": {
+      "Kresten Osgood Quintet": [
+        "Kresten Osgood (trommer)",
+        "Erik Kimestad Pedersen (trompet)",
+        "Mads Egetoft (saksofon)",
+        "Jeppe Zeeberg (piano)",
+        "Mathias Petri (bass)"
+      ]
+    }
+  },
+  {
+    "name": "Snöleoparden",
+    "imageName": "snoleoparden.jpg",
+    "id": "snoleoparden",
+    "concertStartAt": "2019-06-29T16:00:00",
+    "isPulsArtist": true,
+    "venue": "TBA",
+    "youtubeUrl": "https://www.youtube.com/embed/5Ybzsqs9Atk",
+    "spotifyUri": "spotify:artist:2RHFcF0Icit2ToFHbTNMV6",
+    "paragraphs": [
+      "Snöleoparden er en dansk musiker, kjent for sin eksperimenterende stil. Som 18-åring studerte han et år i India under lære av den indiske sitar-spilleren Ravi Shankar og har etter den tid samarbeidet og spilt med mange forskjellige musikere verden over. Det er tydelig at han har med seg et preg av den indiske musikken, samt innslag fra stiler fra flere andre kulturer, inn i sine egne komposisjoner.",
+      "Snöleopardens debutalbum kom i 2008. Låta «Dreng» fra albumet, med vokal av en seks år gammel pakistansk gutt, er et perfekt eksempel på hans internasjonale stilblanding og eksperimentering.",
+      "For tiden turnerer Snöleoparden med solo-konserter, men inviterer ofte lokale musikere, venner, kunstnere, kjæledyr, og hva enn, til å delta i hans kollektive konsertopplevelser. Dette er et spennende og nyskapende innslag til Mandaljazz 2019!"
+    ]
+  },
+  {
     "name": "Horse Orchestra",
     "imageName": "horse-orchestra.jpg",
     "id": "horse-orchestra",
