@@ -133,7 +133,7 @@
     "name": "Snöleoparden",
     "imageName": "snoleoparden.jpg",
     "id": "snoleoparden",
-    "concertStartAt": "2019-06-29T16:00:00",
+    "hideFromProgram": true,
     "isPulsArtist": true,
     "venue": "TBA",
     "spotifyUri": "spotify:artist:58pFk47EXNVpMQcPi0Xsf6",

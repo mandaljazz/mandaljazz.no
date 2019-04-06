@@ -81,7 +81,9 @@ class Artist extends React.Component {
               <div>
                 <div className={styles.ConcertInfo}>
                   <FontAwesomeIcon icon={faClock} />
-                  {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
+                  {concertStartAt
+                    ? capitalize(dayjs(concertStartAt).format("dddd HH:mm"))
+                    : "TBA"}
                   <FontAwesomeIcon icon={faMapMarkerAlt} />
                   {venue}
                 </div>

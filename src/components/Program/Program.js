@@ -22,6 +22,13 @@ class Program extends React.Component {
 
   toggleIsOpen = () => this.setState({ isOpen: !this.state.isOpen });
 
+  artistsGroupedByDay = () =>
+    Object.entries(
+      groupBy(sortBy(artists, "concertStartAt"), artist =>
+        capitalize(dayjs(artist.concertStartAt).format("dddd"))
+      )
+    );
+
   renderToggleIsOpenButton = () => (
     <div onClick={this.toggleIsOpen} className={styles.OpenProgramButton}>
       {this.state.isOpen ? "Lukk program" : "Program"}
@@ -34,6 +41,24 @@ class Program extends React.Component {
     </RouterLink>
   );
 
+  renderArtistText = artist => {
+    if (artist.hideFromArtistList) {
+      return <strong>{artist.shortName || artist.name}</strong>;
+    }
+    return (
+      <HashLink
+        smooth
+        to={{
+          pathname: "/",
+          hash: `#${artist.id}`,
+          state: { activeId: artist.id }
+        }}
+      >
+        <strong>{artist.shortName || artist.name}</strong>
+      </HashLink>
+    );
+  };
+
   render() {
     const { isAlwaysOpen } = this.props;
 
@@ -44,39 +69,24 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {Object.entries(
-            groupBy(sortBy(artists, "concertStartAt"), artist =>
-              capitalize(dayjs(artist.concertStartAt).format("dddd"))
-            )
-          ).map(([day, artists]) => (
+          {this.artistsGroupedByDay().map(([day, artists]) => (
             <div key={day}>
               <h4 className="with-background">{day}</h4>
               <ul className={styles.ProgramList}>
-                {sortBy(artists, "concertStartAt").map(artist => (
-                  <li key={artist.id}>
-                    <span className={styles.ConcertInfo}>
-                      {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                      {artist.venue}
-                    </span>
-                    {" / "}
-                    <span className={styles.ArtistName}>
-                      {artist.hideFromArtistList ? (
-                        <strong>{artist.shortName || artist.name}</strong>
-                      ) : (
-                        <HashLink
-                          smooth
-                          to={{
-                            pathname: "/",
-                            hash: `#${artist.id}`,
-                            state: { activeId: artist.id }
-                          }}
-                        >
-                          <strong>{artist.shortName || artist.name}</strong>
-                        </HashLink>
-                      )}
-                    </span>
-                  </li>
-                ))}
+                {sortBy(artists, "concertStartAt").map(artist =>
+                  artist.hideFromProgram ? null : (
+                    <li key={artist.id}>
+                      <span className={styles.ConcertInfo}>
+                        {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
+                        {artist.venue}
+                      </span>
+                      {" / "}
+                      <span className={styles.ArtistName}>
+                        {this.renderArtistText(artist)}
+                      </span>
+                    </li>
+                  )
+                )}
               </ul>
             </div>
           ))}
