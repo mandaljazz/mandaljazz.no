@@ -105,6 +105,7 @@
   grid-template-columns: 1fr 4fr;
   align-items: center;
   grid-gap: 1rem;
+  text-shadow: var(--darkblack) 2px 2px 10px;
 
   font-size: 1.5rem;
 }
