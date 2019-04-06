@@ -83,6 +83,7 @@
   content: "";
 }
 :local(.ArtistInfo) p:first-child {
+  margin-top: 0;
   border-left: 0.5rem solid var(--quadary);
   padding-left: 1rem;
 }
@@ -100,19 +101,16 @@
   justify-content: center;
 }
 :local(.ConcertInfo) {
-  font-size: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   align-items: center;
-  justify-content: center;
-}
-:local(.ConcertInfo > div) {
-  padding: 1rem;
+  grid-gap: 1rem;
+
+  font-size: 1.5rem;
 }
 :local(.ConcertInfo svg) {
-  padding: 1.5rem 0.5rem 0.5rem 0.5rem;
-  font-size: 4rem;
+  justify-self: center;
+  font-size: 3rem;
   color: var(--quadary);
 }
 @media screen and (min-width: 720px) {
@@ -130,7 +128,7 @@
     font-size: 6rem;
   }
   :local(.ConcertInfo) {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   :local(.ArtistInfo) {
     padding: 0.5rem 10vw;

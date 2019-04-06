@@ -1,13 +1,14 @@
 :local(.PulsInfoBox) {
-  padding: 0 1rem 1rem 1rem;
   font-size: 1rem;
 }
 :local(.PulsInfoBox) p:first-child {
   border-left: none;
   padding-left: 0;
+  margin-top: 1rem;
 }
 :local(.PulsInfoBox) img {
   min-width: 0;
   width: 100px;
   float: right;
+  margin-bottom: 2rem;
 }

@@ -68,11 +68,17 @@ class Artist extends React.Component {
         {isActive && (
           <div className={styles.ArtistInfo}>
             <h1>{name}</h1>
-            <div onClick={e => e.stopPropagation()} style={{ cursor: "text" }}>
-              {paragraphs.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-              <div className={styles.ArtistInfoGrid}>
+            <div
+              className={styles.ArtistInfoGrid}
+              onClick={e => e.stopPropagation()}
+              style={{ cursor: "text" }}
+            >
+              <div>
+                {paragraphs.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
+                ))}
+              </div>
+              <div>
                 <div className={styles.ConcertInfo}>
                   <FontAwesomeIcon icon={faClock} />
                   {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
@@ -93,7 +99,6 @@ class Artist extends React.Component {
                     ))}
                   </div>
                 )}
-                {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
                 {soundcloudUserId && (
                   <iframe
@@ -109,23 +114,24 @@ class Artist extends React.Component {
                     src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/${soundcloudUserId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=true&amp;show_teaser=false`}
                   />
                 )}
+                {isPulsArtist && <PulsInfoBox artistName={name} />}
               </div>
-              {youtubeUrl && (
-                <iframe
-                  style={{
-                    width: "100%",
-                    height: "600px",
-                    maxHeight: "60vh",
-                    margin: "1rem 0"
-                  }}
-                  src={youtubeUrl}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  title={`${name}-youtube-iframe`}
-                />
-              )}
             </div>
+            {youtubeUrl && (
+              <iframe
+                style={{
+                  width: "100%",
+                  height: "600px",
+                  maxHeight: "60vh",
+                  margin: "1rem 0"
+                }}
+                src={youtubeUrl}
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title={`${name}-youtube-iframe`}
+              />
+            )}
           </div>
         )}
       </div>
