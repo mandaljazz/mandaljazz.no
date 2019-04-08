@@ -16,6 +16,8 @@ class Program extends React.Component {
     isAlwaysOpen: false
   };
 
+  artistsToBeShown = artists.filter(artist => !artist.hideFromProgram);
+
   state = {
     isOpen: false
   };
@@ -24,7 +26,7 @@ class Program extends React.Component {
 
   artistsGroupedByDay = () =>
     Object.entries(
-      groupBy(sortBy(artists, "concertStartAt"), artist =>
+      groupBy(sortBy(this.artistsToBeShown, "concertStartAt"), artist =>
         capitalize(dayjs(artist.concertStartAt).format("dddd"))
       )
     );
@@ -73,20 +75,18 @@ class Program extends React.Component {
             <div key={day}>
               <h4 className="with-background">{day}</h4>
               <ul className={styles.ProgramList}>
-                {sortBy(artists, "concertStartAt").map(artist =>
-                  artist.hideFromProgram ? null : (
-                    <li key={artist.id}>
-                      <span className={styles.ConcertInfo}>
-                        {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                        {artist.venue}
-                      </span>
-                      {" / "}
-                      <span className={styles.ArtistName}>
-                        {this.renderArtistText(artist)}
-                      </span>
-                    </li>
-                  )
-                )}
+                {sortBy(artists, "concertStartAt").map(artist => (
+                  <li key={artist.id}>
+                    <span className={styles.ConcertInfo}>
+                      {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
+                      {artist.venue}
+                    </span>
+                    {" / "}
+                    <span className={styles.ArtistName}>
+                      {this.renderArtistText(artist)}
+                    </span>
+                  </li>
+                ))}
               </ul>
             </div>
           ))}
