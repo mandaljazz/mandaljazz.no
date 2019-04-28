@@ -12,6 +12,7 @@ import mandalKommuneImg from "../../assets/images/sponsors/mandal-kommune.png";
 import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfond.jpg";
 import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.png";
 import vestAgderFylkeskommuneImg from "../../assets/images/sponsors/vest-agder-fylkeskommune.png";
+import keychangeImg from "../../assets/images/sponsors/keychange.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -39,6 +40,9 @@ const Footer = () => {
         </Link>
         <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
           <img src={mandalKommuneImg} alt="Mandal kommune" />
+        </Link>
+        <Link href="https://keychange.eu/" title="Keychange">
+          <img src={keychangeImg} alt="Keychange" />
         </Link>
       </div>
       <ul>
