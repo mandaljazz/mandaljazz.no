@@ -33,6 +33,7 @@ class Artist extends React.Component {
       bands,
       isPulsArtist,
       concertStartAt,
+      vimeoId,
       venue
     } = artist;
     const style = isActive
@@ -119,6 +120,21 @@ class Artist extends React.Component {
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
               </div>
             </div>
+            {vimeoId && (
+              <iframe
+                style={{
+                  width: "100%",
+                  height: "600px",
+                  maxHeight: "60vh",
+                  margin: "1rem 0"
+                }}
+                src={`https://player.vimeo.com/video/${vimeoId}`}
+                frameborder="0"
+                allowfullscreen
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                title={`${name}-vimeo-iframe`}
+              />
+            )}
             {youtubeUrl && (
               <iframe
                 style={{

@@ -1,5 +1,20 @@
 [
   {
+    "name": "Bendik Giske",
+    "imageName": "bendik-giske.jpg",
+    "id": "bendik-giske",
+    "concertStartAt": "2019-06-27T19:00:00",
+    "venue": "TBA",
+    "vimeoId": "283405094",
+    "spotifyUri": "spotify:artist:0IbWsSdsJyNM0I2cVMsl0K",
+    "paragraphs": [
+      "Bendik Giske er en norsk performanceartist og saksofonist som tidligere i 2019 kom med debutplaten «Surrender», etter at EP-en «Adjust» kom i fjor høst.",
+      "Giske bruker den elektroniske musikkens byggeklosser men spiller alt live, uten layering og looping. Giske er kjent for en utforskende stil der han forener frijazz med elektronisk klubb-musikk. Han benytter sirkulær pusteteknikk og bruker mikrofoner på måter som gir interessante og ulike merker i det musikalske uttrykket.",
+      "I mars 2019 spilte Bendk Giske under ByLarm i Oslo. I en anmeldelse fra konserten Giske spilte på utestedet Blå, publisert i den norske musikk-nettavisen Ballade, står stemningen beskrevet slik: «Bergtatt Blå.»",
+      "Foto: Andrey Semenski"
+    ]
+  },
+  {
     "name": "Fieh",
     "imageName": "fieh.jpg",
     "id": "fieh",
