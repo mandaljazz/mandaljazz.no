@@ -104,6 +104,21 @@
     }
   },
   {
+    "name": "Majāz",
+    "imageName": "majaz.jpg",
+    "id": "majaz",
+    "concertStartAt": "2019-06-27T21:00:00",
+    "venue": "Teltet",
+    "youtubeUrl": "https://www.youtube.com/embed/aO582dzkh4A",
+    "spotifyUri": "spotify:album:2HYEyMwHmqxE6ZbZWSe04e",
+    "paragraphs": [
+      "Vi lever i en merkelig brytningstid. Verden blir mindre og mindre – på grunn av internett, på grunn av grisebillige flyreiser, på grunn av geopolitiske krigføring – og mange synes det er veldig skummelt.",
+      "Vi i Mandaljazz tror imidlertid at alle folk har masse å lære av hverandre, og at alle er lagd av samme kjøtt og blod. Syriske flyktninger har i flere år vært uvurderlig del av bidragsyterne på festivalen, og derfor synes vi det er skikkelig stas at et så bra band som Majāz har lyst til å spille hos oss.",
+      "Majāz ble grunnlagt av de syriske musikerne Saleh Mahfoud, Rola Bakheet og Shble Saleem etter de kom til Norge som flyktninger. På sitt nydelige minialbum «Skjønnhet Utenfra II», sluppet på Jazzland Records rett før jul, har de samarbeidet med ingen ringere enn saksofonist Håkon Kornstad og gitarmaestro Knut Reiersrud.",
+      "Majāz forener tradisjonsmusikk fra Gaza og Syria med minimalistisk samtidsjazz i arven til Penguin Café Orchestra. Ikke minst er det en smittende spiritualitet ved sangene deres – for eksempel henter drømmende «Sufi Ritual» navnet sitt fra den mystiske grenen av Islam. Majāz lager musikk som taler til en enhetlig ånd, det som kan knytte alle mennesker sammen."
+    ]
+  },
+  {
     "name": "Jeppe Zeeberg",
     "imageName": "jeppe-zeeberg.jpg",
     "id": "jeppe-zeeberg",
@@ -118,46 +133,6 @@
       "Zeeberg er utdannet fra Rytmisk Musikkonservatorium i København. Han er medlem av plateselskapet og musikerkollektivet Barefoot Records og er aktiv i gruppene Dødens Garderobe, Horse Orchestra og Kresten Osgood Quintet, i tillegg til å satse på sin egen solokarriere. Som solopianist har han opptrådt i blant annet København, Tokyo og New York, og har fått opptil flere utmerkelser og musikkpriser, blant annet Danish Music Awards Jazz i 2015. Til dags dato har han gitt ut fem egne album.",
       "Får man muligheten til å oppleve et ekte musikalsk geni live på scenen under årets Mandaljazz sier man vel ikke «Nei takk»?",
       "Foto: Omar Ingerslev"
-    ]
-  },
-  {
-    "name": "Kresten Osgood Quintet",
-    "shortName": "Kresten Osgood",
-    "imageName": "kresten-osgood.jpg",
-    "id": "kresten-osgood",
-    "concertStartAt": "2019-06-29T18:00:00",
-    "isPulsArtist": true,
-    "venue": "Teltet",
-    "spotifyUri": "spotify:album:4CfhpyQmetCkJ8sGrPGnaU",
-    "paragraphs": [
-      "Det har blitt sagt at han er det beste som har skjedd i dansk jazz siden 80-tallet. De siste 20 årene har Kresten Osgood vært en sentral del av det danske musikklivet. Osgood er en ekstraordinær trommeslager, men også en dyktig multi-instrumentalist som har en vellykket karriere som rapper, komponist, vokalist, saxofonist, trompetist og han er også en meget spennende arrangør.",
-      "Selv med en stor respekt for jazzens tradisjoner er ikke Kresten Osgood redd for å leke seg med stiler, rytmikk, harmonier og improvisasjon. På årets Mandaljazz presenterer han en sterk kvintett bestående av noen av de beste og mest spennende musikerne fra Københavns jazzscene.",
-      "Kvintetten har eksistert siden 2013 og slapp i 2018 en LP ved navn «Kresten Osgood Quintet Plays Jazz». Det er heller ikke til å stikke under stol at han har med seg Mandals egne trompetist Erik Kimestad Pedersen.",
-      "Foto: Hreinn Gudlaugsson"
-    ],
-    "bands": {
-      "Kresten Osgood Quintet": [
-        "Kresten Osgood (trommer)",
-        "Erik Kimestad Pedersen (trompet)",
-        "Mads Egetoft (saksofon)",
-        "Jeppe Zeeberg (piano)",
-        "Mathias Petri (bass)"
-      ]
-    }
-  },
-  {
-    "name": "Snöleoparden",
-    "imageName": "snoleoparden.jpg",
-    "id": "snoleoparden",
-    "hideFromProgram": true,
-    "isPulsArtist": true,
-    "venue": "TBA",
-    "spotifyUri": "spotify:artist:58pFk47EXNVpMQcPi0Xsf6",
-    "paragraphs": [
-      "Snöleoparden er en dansk musiker, kjent for sin eksperimenterende stil. Som 18-åring studerte han et år i India under lære av den indiske sitar-spilleren Ravi Shankar og har etter den tid samarbeidet og spilt med mange forskjellige musikere verden over.",
-      "Det er tydelig at han har med seg et preg av den indiske musikken, samt innslag fra stiler fra flere andre kulturer, inn i sine egne komposisjoner.",
-      "Snöleopardens debutalbum kom i 2008. Låta «Dreng» fra albumet, med vokal av en seks år gammel pakistansk gutt, er et perfekt eksempel på hans internasjonale stilblanding og eksperimentering.",
-      "For tiden turnerer Snöleoparden med solo-konserter, men inviterer ofte lokale musikere, venner, kunstnere, kjæledyr, og hva enn, til å delta i hans kollektive konsertopplevelser. Dette er et spennende og nyskapende innslag til Mandaljazz 2019!"
     ]
   },
   {
@@ -210,6 +185,46 @@
         "Paul Lytton (trommer)"
       ]
     }
+  },
+  {
+    "name": "Kresten Osgood Quintet",
+    "shortName": "Kresten Osgood",
+    "imageName": "kresten-osgood.jpg",
+    "id": "kresten-osgood",
+    "concertStartAt": "2019-06-29T18:00:00",
+    "isPulsArtist": true,
+    "venue": "Teltet",
+    "spotifyUri": "spotify:album:4CfhpyQmetCkJ8sGrPGnaU",
+    "paragraphs": [
+      "Det har blitt sagt at han er det beste som har skjedd i dansk jazz siden 80-tallet. De siste 20 årene har Kresten Osgood vært en sentral del av det danske musikklivet. Osgood er en ekstraordinær trommeslager, men også en dyktig multi-instrumentalist som har en vellykket karriere som rapper, komponist, vokalist, saxofonist, trompetist og han er også en meget spennende arrangør.",
+      "Selv med en stor respekt for jazzens tradisjoner er ikke Kresten Osgood redd for å leke seg med stiler, rytmikk, harmonier og improvisasjon. På årets Mandaljazz presenterer han en sterk kvintett bestående av noen av de beste og mest spennende musikerne fra Københavns jazzscene.",
+      "Kvintetten har eksistert siden 2013 og slapp i 2018 en LP ved navn «Kresten Osgood Quintet Plays Jazz». Det er heller ikke til å stikke under stol at han har med seg Mandals egne trompetist Erik Kimestad Pedersen.",
+      "Foto: Hreinn Gudlaugsson"
+    ],
+    "bands": {
+      "Kresten Osgood Quintet": [
+        "Kresten Osgood (trommer)",
+        "Erik Kimestad Pedersen (trompet)",
+        "Mads Egetoft (saksofon)",
+        "Jeppe Zeeberg (piano)",
+        "Mathias Petri (bass)"
+      ]
+    }
+  },
+  {
+    "name": "Snöleoparden",
+    "imageName": "snoleoparden.jpg",
+    "id": "snoleoparden",
+    "hideFromProgram": true,
+    "isPulsArtist": true,
+    "venue": "TBA",
+    "spotifyUri": "spotify:artist:58pFk47EXNVpMQcPi0Xsf6",
+    "paragraphs": [
+      "Snöleoparden er en dansk musiker, kjent for sin eksperimenterende stil. Som 18-åring studerte han et år i India under lære av den indiske sitar-spilleren Ravi Shankar og har etter den tid samarbeidet og spilt med mange forskjellige musikere verden over.",
+      "Det er tydelig at han har med seg et preg av den indiske musikken, samt innslag fra stiler fra flere andre kulturer, inn i sine egne komposisjoner.",
+      "Snöleopardens debutalbum kom i 2008. Låta «Dreng» fra albumet, med vokal av en seks år gammel pakistansk gutt, er et perfekt eksempel på hans internasjonale stilblanding og eksperimentering.",
+      "For tiden turnerer Snöleoparden med solo-konserter, men inviterer ofte lokale musikere, venner, kunstnere, kjæledyr, og hva enn, til å delta i hans kollektive konsertopplevelser. Dette er et spennende og nyskapende innslag til Mandaljazz 2019!"
+    ]
   },
   {
     "name": "Frøy Aagre",
