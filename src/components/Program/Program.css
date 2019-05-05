@@ -33,15 +33,3 @@
 :local(.ConcertInfo) {
   color: var(--gray);
 }
-:local(.OpenProgramButton) {
-  cursor: pointer;
-  transition: all var(--superquick) ease-in-out;
-  font-weight: 600;
-  border-bottom: 4px solid var(--tertiary);
-  background-color: var(--primary);
-  color: var(--white);
-  padding: 0.25rem 1rem;
-}
-:local(.OpenProgramButton):hover {
-  background-color: var(--secondary);
-}

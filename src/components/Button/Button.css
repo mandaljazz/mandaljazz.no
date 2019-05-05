@@ -1,0 +1,12 @@
+:local(.Button) {
+  cursor: pointer;
+  transition: all var(--superquick) ease-in-out;
+  font-weight: 600;
+  border-bottom: 4px solid var(--tertiary);
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 0.25rem 1rem;
+}
+:local(.Button):hover {
+  background-color: var(--secondary);
+}

@@ -1,4 +1,5 @@
 export { default as Artists } from "./Artists";
+export { default as Button } from "./Button";
 export { default as BuyTicketButton } from "./BuyTicketButton";
 export { default as Blockquote } from "./Blockquote";
 export { default as Footer } from "./Footer";

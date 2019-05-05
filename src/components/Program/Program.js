@@ -7,7 +7,7 @@ import { SlideDown } from "react-slidedown";
 import { isMobile } from "react-device-detect";
 import "react-slidedown/lib/slidedown.css";
 
-import { HashLink, RouterLink } from "../";
+import { Button, HashLink, RouterLink } from "../";
 import styles from "./Program.css";
 import artists from "../Artists/data.json";
 
@@ -32,9 +32,9 @@ class Program extends React.Component {
     );
 
   renderToggleIsOpenButton = () => (
-    <div onClick={this.toggleIsOpen} className={styles.OpenProgramButton}>
+    <Button onClick={this.toggleIsOpen}>
       {this.state.isOpen ? "Lukk program" : "Program"}
-    </div>
+    </Button>
   );
 
   renderLinkToProgramPage = () => (
