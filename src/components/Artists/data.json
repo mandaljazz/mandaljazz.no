@@ -228,7 +228,6 @@
   },
   {
     "name": "Frøy Aagre",
-    "shortName": "Frøy Aagre",
     "imageName": "froy-aagre.jpg",
     "id": "froy-aagre",
     "concertStartAt": "2019-06-29T14:00:00",
@@ -240,6 +239,26 @@
       "Etter forestillingen inviteres barna opp på scenen for å utforske og spille på instrumentene. Dette er den interaktive delen av forestillingen der barna får være aktive skapende deltakere.",
       "Foto: Haslien Fotografene"
     ]
+  },
+  {
+    "name": "Geitekillingen som kunne telle til ti",
+    "shortName": "Geitekillingen",
+    "imageName": "geitekillingen.jpg",
+    "id": "geitekillingen",
+    "concertStartAt": "2019-06-29T12:00:00",
+    "venue": "Kulturfabrikken",
+    "paragraphs": [
+      "Geitekillingen vil gjerne vise barna hvor flink den er til å telle og hvor flinke Nils og Espen er til å spelle!",
+      "Alf Prøysens historie «Geitekillingen som kunne telle til ti» fortelles gjennom sang og musikk, og ulike dyr kommer til uttrykk gjennom forskjellige lyder og sjangre. Nils Jansen og Espen Rud har i flere år reist mye for Rikskonsertene med denne produksjonen og spilt i minst et par hundre barnehager.",
+      "Nils spiller diverse fløyter, saksofoner og klarinetter, mens Espen forteller historien ved å spille på trommesett og andre perkusjonsinstrumenter.",
+      "Anbefalt for de som er tre år og oppover."
+    ],
+    "bands": {
+      "Geitekillingen som kunne telle til ti": [
+        "Nils Jansen (diverse fløyter, saksofoner og klarinetter)",
+        "Espen Rud (trommer og perkusjon)"
+      ]
+    }
   },
   {
     "hideFromArtistList": true,
