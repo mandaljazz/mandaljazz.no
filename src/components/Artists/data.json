@@ -166,7 +166,7 @@
     "shortName": "Mette Rasmussen",
     "imageName": "mette-rasmussen.jpg",
     "id": "mette-rasmussen",
-    "concertStartAt": "2019-06-28T18:00:00",
+    "concertStartAt": "2019-06-28T18:30:00",
     "venue": "Teltet",
     "isPulsArtist": true,
     "paragraphs": [
@@ -261,12 +261,62 @@
     }
   },
   {
+    "name": "Cool Tour",
+    "imageName": "cool-tour.jpg",
+    "id": "cool-tour",
+    "concertStartAt": "2019-06-28T16:00:00",
+    "venue": "Hestetroa",
+    "paragraphs": [
+      "Det har i årevis gått rykter om at det en gang fantes et band fra Mandal som lager ordentlig god jazzfunk, men lenge så det ut som musikken deres hadde gått tapt på historiens roteloft.",
+      "Som en fugl føniks har endelig Cool Tour – ledet av vår egen lydtekniker og milde skytshelgen Jan Rune Pedersen – omsider stått opp fra de døde.",
+      "Godt nytt til deg som nekter å bruke penger på festivalen: Cool Tours konsert i Hestetroa er hundre prosent gratis!"
+    ],
+    "bands": {
+      "Cool Tour": [
+        "Einar Wallen Mjåland (bass)",
+        "Christian Seneger (trommer)",
+        "Torbjørn Alfsen (gitarist)",
+        "Kjetil Høyer Jonassen (keyboard)",
+        "Jan Rune Pedersen (trombone)"
+      ]
+    }
+  },
+  {
+    "name": "Sørnorsk Ungdomsstorband",
+    "shortName": "SNUS",
+    "imageName": "snus.jpg",
+    "id": "snus",
+    "concertStartAt": "2019-06-29T14:00:00",
+    "venue": "Hestetroa",
+    "paragraphs": [
+      "Sørnorsk Ungdomsstorband er et regionalt ensemble som administreres og drives av Sørnorsk jazzsenter.",
+      "Årets utgave av bandet består av 13 ungdommer i alderen 16 til 20 år. De unge musikerne får anledning til å utvikle sine ferdigheter som utøvere og ensemblemusikere i storbandformatet. Storband er en ensembleform som kan brukes til veldig mye forskjellig musikk og derfor spenner bandets repertoar over flere stilarter; alt fra ”easy swing jazz” til moderne funk.",
+      "Musikalsk leder Tore Bråthen legger vekt på at musikerne i bandet skal få prøvd seg på et bredt spekter av storbandmusikk. «Det er et poeng at musikere og publikum, unge som eldre, får kjennskap til hva et storband kan brukes til. Samtidig er det viktig å presentere jazz i mange varianter«, fremhever han. Bandets repertoar og konserter gjenspeiler dette.",
+      "På denne konserten blir det altså spilt jazz for enhver smak. Dette er en av våre utekonserter som spilles i Hestetroa, med gratis entré. Vi satser på strålende sommervær, og gleder oss til konsert i Norges mest sjarmerende gågate!"
+    ]
+  },
+  {
     "hideFromArtistList": true,
     "name": "Jam",
     "id": "jam-torsdag",
     "concertStartAt": "2019-06-27T23:00:00",
     "venue": "TBA",
     "paragraphs": ["Det blir jam på torsdag.", "Det blir nice."],
+    "bands": {
+      "Verter": [
+        "Vert 1 (instrument)",
+        "Vert 2 (instrument)",
+        "Vert 3 (instrument)"
+      ]
+    }
+  },
+  {
+    "hideFromArtistList": true,
+    "name": "Jam",
+    "id": "jam-fredag",
+    "concertStartAt": "2019-06-28T23:59:00",
+    "venue": "TBA",
+    "paragraphs": ["Det blir jam på fredag.", "Det blir nice."],
     "bands": {
       "Verter": [
         "Vert 1 (instrument)",
