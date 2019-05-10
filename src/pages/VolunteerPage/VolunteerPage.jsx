@@ -1,18 +1,28 @@
 import React from "react";
 
-import { Blockquote, ScrollToTopOnMount } from "../../components";
+import { Blockquote, Button, ScrollToTopOnMount } from "../../components";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
 import volunteers2014Img from "../../assets/images/frivillige-2014.jpg";
-import promoVideo from "../../assets/videos/promo.mp4";
+// import promoVideo from "../../assets/videos/promo.mp4";
 import styles from "./VolunteerPage.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
 const VolunteerPage = () => (
   <div className={styles.VolunteerPage}>
     <ScrollToTopOnMount />
-    <h1 className="with-background">Være frivillig på Mandaljazz?</h1>
     <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />
+    {/* HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView() */}
+    <div
+      onClick={e => {
+        document
+          .getElementById("frivilligskjema")
+          .scrollIntoView({ behavior: "smooth" });
+      }}
+      style={{ marginTop: "2rem", border: "none" }}
+    >
+      <Button large>Bli frivillig på Mandaljazz 2019!</Button>
+    </div>
     <Blockquote person="Håvard (bar og servering)">
       Hadde det ikke vært for at man måtte okkupere den beste plassen i teltet,
       høre på det siste skriket innen jazz, omgås sprudlende fornøyde
@@ -34,7 +44,19 @@ const VolunteerPage = () => (
       med noe positivt for byen og nærmiljøet. Vi har mange forskjellige og
       gøyale oppgaver og ingen vakt er lik!
     </Blockquote>
-    <Blockquote person="Mari Marie (transport)">
+    <div id="frivilligskjema" />
+    <iframe
+      title="Frivilligskjema"
+      src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
+      width="100%"
+      height="1934"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Henter skjema...
+    </iframe>
+    <Blockquote person="Mari Marie (transport)" style={{ marginTop: 0 }}>
       For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
       Det å få tid i en bil med interessante, rare, sære, kule, kunstneriske,
       motiverende og hyggelige musikere er jo ikke noe man får hver dag. Og på
@@ -43,6 +65,7 @@ const VolunteerPage = () => (
       konsertene. Og veldig mye mer chill fysisk hvis du ikke er så fan av å
       bære tungt eller stå lenge.
     </Blockquote>
+    <p>Vi gleder oss til å møte deg :)</p>
     {/* <video
       autoPlay
       playsInline
