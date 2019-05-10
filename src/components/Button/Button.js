@@ -3,12 +3,10 @@ import React from "react";
 import styles from "./Button.css";
 
 const Button = ({ children, asLink, linkProps, large, ...props }) => {
+  const style = large ? { padding: "1rem 3rem", fontSize: "2rem" } : {};
+
   const button = (
-    <div
-      className={styles.Button}
-      style={{ padding: large ? "1rem 2rem" : "" }}
-      {...props}
-    >
+    <div className={styles.Button} style={style} {...props}>
       {children}
     </div>
   );

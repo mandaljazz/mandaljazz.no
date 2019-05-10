@@ -6,6 +6,7 @@
   background-color: var(--primary);
   color: var(--white);
   padding: 0.25rem 1rem;
+  text-align: center;
 }
 :local(.Button):hover {
   background-color: var(--secondary);
