@@ -10,3 +10,7 @@
 :local(.Link):hover {
   border-bottom: 2px solid var(--black);
 }
+:local(.ActiveNavLink),
+:local(.ActiveNavLink):hover {
+  border-bottom: 2px solid var(--black);
+}

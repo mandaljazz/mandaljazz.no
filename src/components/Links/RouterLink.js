@@ -1,13 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import styles from "./Link.css";
 
 const RouterLink = ({ children, ...props }) => {
   return (
-    <Link {...props} className={styles.Link}>
+    <NavLink
+      {...props}
+      className={styles.Link}
+      activeClassName={styles.ActiveNavLink}
+      exact
+    >
       {children}
-    </Link>
+    </NavLink>
   );
 };
 
