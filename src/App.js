@@ -2,7 +2,13 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Headroom from "react-headroom";
 
-import { BuyTicketButton, Footer, NavMenu, Program } from "./components";
+import {
+  BuyTicketButton,
+  Footer,
+  NavMenu,
+  PeekingSquirrel,
+  Program
+} from "./components";
 import withTracker from "./utils/withGoogleAnalyticsTracker";
 import {
   AboutPage,
@@ -50,6 +56,7 @@ class App extends React.Component {
                 />
                 <Route component={withTracker(NotFoundPage)} />
               </Switch>
+              <PeekingSquirrel />
               <BuyTicketButton />
               <Footer />
             </>

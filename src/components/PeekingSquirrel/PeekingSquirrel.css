@@ -1,0 +1,55 @@
+:local(.PeekingSquirrelWrapper) {
+  position: fixed;
+  top: 3rem;
+  left: -6.5rem;
+  z-index: 20;
+
+  animation: peekInFromLeft;
+  animation-delay: 20s;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+:local(.PeekingSquirrel) {
+  background-image: url("../../assets/images/ekorn.png");
+  background-size: cover;
+
+  height: 5rem;
+  width: 5rem;
+
+  transform-style: preserve-3d;
+  transition: transform var(--quick) ease;
+  transform: rotateZ(90deg);
+}
+@media screen and (min-width: 720px) {
+  :local(.PeekingSquirrel) {
+    height: 7rem;
+    width: 7rem;
+  }
+}
+
+@keyframes peekInFromLeft {
+  20% {
+    left: -6.5rem;
+    transform: none;
+  }
+  25% {
+    left: -0.5rem;
+    transform: none;
+  }
+  26% {
+    transform: rotateZ(-5deg);
+  }
+  37% {
+    transform: rotateZ(-5deg);
+  }
+  40% {
+    left: -0.5rem;
+    transform: none;
+  }
+  42% {
+    left: -6.5rem;
+    transform: none;
+  }
+}
