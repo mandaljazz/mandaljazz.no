@@ -1,5 +1,5 @@
 import React from "react";
-// import SpotifyPlayer from "react-spotify-player";
+import SpotifyPlayer from "react-spotify-player";
 
 // import logo from "../../assets/images/jazzlaug.png";
 // import promoVideo from "../../assets/videos/promo.mp4";
@@ -29,9 +29,9 @@ const SplashPage = () => (
       støtter ikke innebygde videoer :(
     </video> */}
 
-    {/* <div style={{ padding: "1rem" }}>
-      <SpotifyPlayer uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT" />
-    </div> */}
+    <div style={{ width: "640px", maxWidth: "100%" }}>
+      <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
+    </div>
   </div>
 );
 

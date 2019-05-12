@@ -1,21 +1,5 @@
 [
   {
-    "name": "Bendik Giske",
-    "imageName": "bendik-giske.jpg",
-    "id": "bendik-giske",
-    "concertStartAt": "2019-06-27T19:00:00",
-    "venue": "Teltet",
-    "vimeoId": "283405094",
-    "spotifyUri": "spotify:artist:0IbWsSdsJyNM0I2cVMsl0K",
-    "paragraphs": [
-      "Saksofonist Bendik Giske er opptatt av kropp: hvordan kjøtt kjennes og svette lukter, og hvor langt man kan presse seg selv før krampa tar en og lungene kollapser.",
-      "Sånn sett plasserer han seg i en skeiv musikktradisjon, der framføring og dansing er måter å vinne tilbake friheten som homofobe folk har tatt fra en. Giske har tidligere spilt sammen med Nils Bech (kanskje mest kjent fra SKAM), men i vinter solodebuterte han med hudløse og smellvakre «Surrender».",
-      "Med bruk av såkalt sirkulær pusteteknikk og enorme mengder naturlig romklang, kan musikken minne om kanadieren Colin Stetson. Men der Stetson er opptatt av nordamerikansk folklore, ser Giske til nattklubbene der han bor i Berlin for inspirasjon. Godt hjulpet av lydkunstner Bridgett Ferrill, vil han ta med publikum på en trollbindende reise der både messing og muskler skyves til sine absolutte yttergrenser.",
-      "Sånt oppstår det stor skjønnhet av.",
-      "Foto: Andrey Semenski"
-    ]
-  },
-  {
     "name": "Fieh",
     "imageName": "fieh.jpg",
     "id": "fieh",
@@ -39,32 +23,6 @@
         "Edvard Synnes (keyboards)",
         "Andreas Rukan (bass)",
         "Ola Øverby (trommer)"
-      ]
-    }
-  },
-  {
-    "name": "Jimi Tenor",
-    "imageName": "jimi-tenor.jpg",
-    "id": "jimi-tenor",
-    "concertStartAt": "2019-06-29T22:00:00",
-    "venue": "Teltet",
-    "youtubeUrl": "https://www.youtube.com/embed/XKMt4YtTEb4",
-    "spotifyUri": "spotify:album:05uV42HasJBwJQklm876y0",
-    "paragraphs": [
-      "Jimi Tenor er Finlands best skjulte hemmelighet. Siden slutten av 80-tallet har den sjenerte eksentrikeren vært en nøkkelfigur i den finske musikkundergrunnen, hvor han har kunstferdig beveget seg mellom vidt forskjellige verdener som new wave, techno, snurrig pop, eksperimentell elektronisk musikk og afrobeat.",
-      "Kanskje er det nettopp fordi han fikser så mye rart at han har blitt en slags syvende far i saunaen – skikkelsen som er lett å glemme, men som til syvende og sist styrer hele sjappa.",
-      "Vi er nok størst fan av tingene han gjør i afrobeat-tradisjonen – det vil si den fyrrige funken som Fela Kuti grunnla i Nigeria på 1970-tallet. Faktisk gjør han den lyden så godt at selveste Tony Allen, Kutis trofaste og briljante trommeslager, har gjort et konsertalbum sammen med ham!",
-      "Jimi Tenors mange utgivelser med afrobeat-orkesteret Kabu Kabu er en god pekepinn på hva man kan forvente å få høre på Mandaljazz; fjorårets like groovy som gøyale «Order of Nothingness» er en enda bedre. Om du likte konserten vår med Dele Sosimi i 2017 er ikke dette noe å gå glipp av.",
-      "Sees på dansegølvet!",
-      "Foto: Erin McKinney"
-    ],
-    "bands": {
-      "Jimi Tenor Band": [
-        "Jimi Tenor (vokal, saksofon, fløyte og diverse andre instrumenter)",
-        "Ekow Alabi Savage (trommer)",
-        "Richard Koch (trompet)",
-        "Uli Kempendorff (baritonsaksofon)",
-        "Niko Meinhold (keyboards)"
       ]
     }
   },
@@ -104,19 +62,71 @@
     }
   },
   {
-    "name": "Majāz",
-    "imageName": "majaz.jpg",
-    "id": "majaz",
-    "concertStartAt": "2019-06-27T21:00:00",
+    "name": "Jimi Tenor",
+    "imageName": "jimi-tenor.jpg",
+    "id": "jimi-tenor",
+    "concertStartAt": "2019-06-29T22:00:00",
     "venue": "Teltet",
-    "youtubeUrl": "https://www.youtube.com/embed/aO582dzkh4A",
-    "spotifyUri": "spotify:album:2HYEyMwHmqxE6ZbZWSe04e",
+    "youtubeUrl": "https://www.youtube.com/embed/XKMt4YtTEb4",
+    "spotifyUri": "spotify:album:05uV42HasJBwJQklm876y0",
     "paragraphs": [
-      "Vi lever i en merkelig brytningstid. Verden blir mindre og mindre – på grunn av internett, på grunn av grisebillige flyreiser, på grunn av geopolitiske krigføring – og mange synes det er veldig skummelt.",
-      "Vi i Mandaljazz tror imidlertid at alle folk har masse å lære av hverandre, og at alle er lagd av samme kjøtt og blod. Syriske flyktninger har i flere år vært uvurderlig del av bidragsyterne på festivalen, og derfor synes vi det er skikkelig stas at et så bra band som Majāz har lyst til å spille hos oss.",
-      "Majāz ble grunnlagt av de syriske musikerne Saleh Mahfoud, Rola Bakheet og Shble Saleem etter de kom til Norge som flyktninger. På sitt nydelige minialbum «Skjønnhet Utenfra II», sluppet på Jazzland Records rett før jul, har de samarbeidet med ingen ringere enn saksofonist Håkon Kornstad og gitarmaestro Knut Reiersrud.",
-      "Majāz forener tradisjonsmusikk fra Gaza og Syria med minimalistisk samtidsjazz i arven til Penguin Café Orchestra. Ikke minst er det en smittende spiritualitet ved sangene deres – for eksempel henter drømmende «Sufi Ritual» navnet sitt fra den mystiske grenen av Islam. Majāz lager musikk som taler til en enhetlig ånd, det som kan knytte alle mennesker sammen."
+      "Jimi Tenor er Finlands best skjulte hemmelighet. Siden slutten av 80-tallet har den sjenerte eksentrikeren vært en nøkkelfigur i den finske musikkundergrunnen, hvor han har kunstferdig beveget seg mellom vidt forskjellige verdener som new wave, techno, snurrig pop, eksperimentell elektronisk musikk og afrobeat.",
+      "Kanskje er det nettopp fordi han fikser så mye rart at han har blitt en slags syvende far i saunaen – skikkelsen som er lett å glemme, men som til syvende og sist styrer hele sjappa.",
+      "Vi er nok størst fan av tingene han gjør i afrobeat-tradisjonen – det vil si den fyrrige funken som Fela Kuti grunnla i Nigeria på 1970-tallet. Faktisk gjør han den lyden så godt at selveste Tony Allen, Kutis trofaste og briljante trommeslager, har gjort et konsertalbum sammen med ham!",
+      "Jimi Tenors mange utgivelser med afrobeat-orkesteret Kabu Kabu er en god pekepinn på hva man kan forvente å få høre på Mandaljazz; fjorårets like groovy som gøyale «Order of Nothingness» er en enda bedre. Om du likte konserten vår med Dele Sosimi i 2017 er ikke dette noe å gå glipp av.",
+      "Sees på dansegølvet!",
+      "Foto: Erin McKinney"
+    ],
+    "bands": {
+      "Jimi Tenor Band": [
+        "Jimi Tenor (vokal, saksofon, fløyte og diverse andre instrumenter)",
+        "Ekow Alabi Savage (trommer)",
+        "Richard Koch (trompet)",
+        "Uli Kempendorff (baritonsaksofon)",
+        "Niko Meinhold (keyboards)"
+      ]
+    }
+  },
+  {
+    "name": "Bendik Giske",
+    "imageName": "bendik-giske.jpg",
+    "id": "bendik-giske",
+    "concertStartAt": "2019-06-27T19:00:00",
+    "venue": "Teltet",
+    "vimeoId": "283405094",
+    "spotifyUri": "spotify:artist:0IbWsSdsJyNM0I2cVMsl0K",
+    "paragraphs": [
+      "Saksofonist Bendik Giske er opptatt av kropp: hvordan kjøtt kjennes og svette lukter, og hvor langt man kan presse seg selv før krampa tar en og lungene kollapser.",
+      "Sånn sett plasserer han seg i en skeiv musikktradisjon, der framføring og dansing er måter å vinne tilbake friheten som homofobe folk har tatt fra en. Giske har tidligere spilt sammen med Nils Bech (kanskje mest kjent fra SKAM), men i vinter solodebuterte han med hudløse og smellvakre «Surrender».",
+      "Med bruk av såkalt sirkulær pusteteknikk og enorme mengder naturlig romklang, kan musikken minne om kanadieren Colin Stetson. Men der Stetson er opptatt av nordamerikansk folklore, ser Giske til nattklubbene der han bor i Berlin for inspirasjon. Godt hjulpet av lydkunstner Bridgett Ferrill, vil han ta med publikum på en trollbindende reise der både messing og muskler skyves til sine absolutte yttergrenser.",
+      "Sånt oppstår det stor skjønnhet av.",
+      "Foto: Andrey Semenski"
     ]
+  },
+  {
+    "name": "Mette Rasmussen kvintett",
+    "shortName": "Mette Rasmussen",
+    "imageName": "mette-rasmussen.jpg",
+    "id": "mette-rasmussen",
+    "concertStartAt": "2019-06-28T18:30:00",
+    "venue": "Teltet",
+    "isPulsArtist": true,
+    "paragraphs": [
+      "Den trondheimsbaserte danske saksofonisten Mette Rasmussen er et av de aller største talentene i nordisk jazz for tiden.",
+      "Med intensitet, trøkk og energi i alt hun gjør, enten det er når hun spiller på egenhånd eller med Trondheim Jazzorkester som også skal spille på Mandaljazz i sommer. Og trøkk må man ha når man stiller seg opp på scenen foran en heftig rytmeseksjon bestående av fire av Europas fremste frijazzere.",
+      "Forvent deg nyskapende og spennende frijazz!"
+    ],
+    "spotifyUri": "spotify:artist:7BGvWW6nmCVJlaepdIZ7l2",
+    "youtubeUrl": "https://www.youtube.com/embed/esZ_eKTy-Cw",
+    "bands": {
+      "Mette Rasmussen kvintett": [
+        "Mette Rasmussen (saksofon)",
+        "Torbjörn Zetterberg (bass)",
+        "Ingebrigt Håker Flaten (bass)",
+        "Raymond Strid (trommer)",
+        "Paul Lytton (trommer)"
+      ]
+    }
   },
   {
     "name": "Jeppe Zeeberg",
@@ -162,29 +172,19 @@
     }
   },
   {
-    "name": "Mette Rasmussen kvintett",
-    "shortName": "Mette Rasmussen",
-    "imageName": "mette-rasmussen.jpg",
-    "id": "mette-rasmussen",
-    "concertStartAt": "2019-06-28T18:30:00",
+    "name": "Majāz",
+    "imageName": "majaz.jpg",
+    "id": "majaz",
+    "concertStartAt": "2019-06-27T21:00:00",
     "venue": "Teltet",
-    "isPulsArtist": true,
+    "youtubeUrl": "https://www.youtube.com/embed/aO582dzkh4A",
+    "spotifyUri": "spotify:album:2HYEyMwHmqxE6ZbZWSe04e",
     "paragraphs": [
-      "Den trondheimsbaserte danske saksofonisten Mette Rasmussen er et av de aller største talentene i nordisk jazz for tiden.",
-      "Med intensitet, trøkk og energi i alt hun gjør, enten det er når hun spiller på egenhånd eller med Trondheim Jazzorkester som også skal spille på Mandaljazz i sommer. Og trøkk må man ha når man stiller seg opp på scenen foran en heftig rytmeseksjon bestående av fire av Europas fremste frijazzere.",
-      "Forvent deg nyskapende og spennende frijazz!"
-    ],
-    "spotifyUri": "spotify:artist:7BGvWW6nmCVJlaepdIZ7l2",
-    "youtubeUrl": "https://www.youtube.com/embed/esZ_eKTy-Cw",
-    "bands": {
-      "Mette Rasmussen kvintett": [
-        "Mette Rasmussen (saksofon)",
-        "Torbjörn Zetterberg (bass)",
-        "Ingebrigt Håker Flaten (bass)",
-        "Raymond Strid (trommer)",
-        "Paul Lytton (trommer)"
-      ]
-    }
+      "Vi lever i en merkelig brytningstid. Verden blir mindre og mindre – på grunn av internett, på grunn av grisebillige flyreiser, på grunn av geopolitiske krigføring – og mange synes det er veldig skummelt.",
+      "Vi i Mandaljazz tror imidlertid at alle folk har masse å lære av hverandre, og at alle er lagd av samme kjøtt og blod. Syriske flyktninger har i flere år vært uvurderlig del av bidragsyterne på festivalen, og derfor synes vi det er skikkelig stas at et så bra band som Majāz har lyst til å spille hos oss.",
+      "Majāz ble grunnlagt av de syriske musikerne Saleh Mahfoud, Rola Bakheet og Shble Saleem etter de kom til Norge som flyktninger. På sitt nydelige minialbum «Skjønnhet Utenfra II», sluppet på Jazzland Records rett før jul, har de samarbeidet med ingen ringere enn saksofonist Håkon Kornstad og gitarmaestro Knut Reiersrud.",
+      "Majāz forener tradisjonsmusikk fra Gaza og Syria med minimalistisk samtidsjazz i arven til Penguin Café Orchestra. Ikke minst er det en smittende spiritualitet ved sangene deres – for eksempel henter drømmende «Sufi Ritual» navnet sitt fra den mystiske grenen av Islam. Majāz lager musikk som taler til en enhetlig ånd, det som kan knytte alle mennesker sammen."
+    ]
   },
   {
     "name": "Kresten Osgood Quintet",
