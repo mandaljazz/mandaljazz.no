@@ -41,14 +41,14 @@
   26% {
     transform: rotateZ(-5deg);
   }
-  37% {
+  30% {
     transform: rotateZ(-5deg);
   }
-  40% {
+  33% {
     left: -0.5rem;
     transform: none;
   }
-  42% {
+  35% {
     left: -5rem;
     transform: none;
   }
