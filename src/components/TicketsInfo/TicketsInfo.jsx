@@ -21,7 +21,9 @@ const TicketsInfo = () => (
     </p>
 
     <h3>Festivalpass og dagspass</h3>
-    <p>Gir inngang til alle konserter.</p>
+    <p>
+      Gir inngang til alle konserter den aktuelle dagen, forutsett kapasitet.
+    </p>
 
     <h3>Studenter og ungdom under 26 år</h3>
     <p>
