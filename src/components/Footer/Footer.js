@@ -28,7 +28,7 @@ const Footer = () => {
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
         </Link>
       </div>
-      <h2>Sponsorer</h2>
+      <h2>Offentlig støtte</h2>
       <div className={styles.Sponsors}>
         <Link href="https://www.vaf.no/" title="Vest-Agder Fylkeskommune">
           <img src={vestAgderFylkeskommuneImg} alt="Vest-Agder Fylkeskommune" />
