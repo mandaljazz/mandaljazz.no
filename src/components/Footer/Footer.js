@@ -6,6 +6,7 @@ import {
   faInstagram,
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
+import classNames from "classnames";
 
 import kulturraadetImg from "../../assets/images/sponsors/kulturraadet.png";
 import mandalKommuneImg from "../../assets/images/sponsors/mandal-kommune.png";
@@ -13,12 +14,21 @@ import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfon
 import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.png";
 import vestAgderFylkeskommuneImg from "../../assets/images/sponsors/vest-agder-fylkeskommune.png";
 import keychangeImg from "../../assets/images/sponsors/keychange.png";
+import sparebankenSorImg from "../../assets/images/sponsors/sparebanken-sor.png";
+import frifondImg from "../../assets/images/sponsors/frifond.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className={styles.Footer}>
+      <h2>Hovedsponsor</h2>
+      <div className={classNames(styles.Sponsors, "large")}>
+        <Link href="https://www.sor.no/" title="Sparebanken Sør">
+          <img src={sparebankenSorImg} alt="Sparebanken Sør" />
+        </Link>
+      </div>
+      <h2>Sponsorer</h2>
       <div className={styles.Sponsors}>
         <Link href="https://www.vaf.no/" title="Vest-Agder Fylkeskommune">
           <img src={vestAgderFylkeskommuneImg} alt="Vest-Agder Fylkeskommune" />
@@ -40,6 +50,9 @@ const Footer = () => {
         </Link>
         <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
           <img src={mandalKommuneImg} alt="Mandal kommune" />
+        </Link>
+        <Link href="https://www.frifond.no/" title="Frifond">
+          <img src={frifondImg} alt="Frifond" />
         </Link>
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />

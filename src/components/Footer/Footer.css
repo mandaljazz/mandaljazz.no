@@ -47,3 +47,11 @@
   padding: 1rem;
   filter: grayscale(1);
 }
+:local(.Sponsors).large img {
+  max-width: 550px;
+  max-height: 13rem;
+}
+:local(.Sponsors).small img {
+  max-width: 100px;
+  max-height: 3rem;
+}
