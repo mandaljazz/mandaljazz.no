@@ -57,6 +57,7 @@ const Footer = () => {
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />
         </Link>
+        <h3>Ordførerpotten</h3>
       </div>
       <ul>
         <li>
