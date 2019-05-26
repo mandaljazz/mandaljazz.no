@@ -56,7 +56,7 @@ const VolunteerPage = () => (
     >
       Henter skjema...
     </iframe>
-    <Blockquote person="Mari Marie (transport)" style={{ marginTop: 0 }}>
+    <Blockquote person="Mari Marie (transport)">
       For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
       Det å få tid i en bil med interessante, rare, sære, kule, kunstneriske,
       motiverende og hyggelige musikere er jo ikke noe man får hver dag. Og på
