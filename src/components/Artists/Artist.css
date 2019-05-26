@@ -43,6 +43,9 @@
   margin-left: -1rem;
   border-top: none;
 
+  letter-spacing: 0.1rem;
+  text-transform: none;
+
   transition: margin-left var(--quick) ease-in-out;
 }
 :local(.Artist):not(.active):hover {

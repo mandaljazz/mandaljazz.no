@@ -1,7 +1,7 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 
-import poster19 from "../../assets/images/poster-2019.png";
+// import poster19 from "../../assets/images/poster-2019.png";
 import poster18 from "../../assets/images/poster-2018.png";
 import poster17 from "../../assets/images/poster-2017.jpg";
 import poster16 from "../../assets/images/poster-2016.jpg";
@@ -16,7 +16,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     {/* <div className={styles.Event}>
       <img src={poster19} className={styles.Poster} alt="Poster 2019" />
       <div>
-        <h1 className="with-background">2019</h1>
+        <h1>2019</h1>
         <ul className={styles.EventList}>
           <li>Fieh</li>
           <li>The MaXx + Trondheim Jazzorkester</li>
@@ -40,7 +40,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     <div className={styles.Event}>
       <img src={poster18} className={styles.Poster} alt="Poster 2018" />
       <div>
-        <h1 className="with-background">2018</h1>
+        <h1>2018</h1>
         <ul className={styles.EventList}>
           <li>Goran Kajfes Subtropic Arkestra</li>
           <li>Nils Økland Band</li>
@@ -67,7 +67,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     <div className={styles.Event}>
       <img src={poster17} className={styles.Poster} alt="Poster 2017" />
       <div>
-        <h1 className="with-background">2017</h1>
+        <h1>2017</h1>
         <ul className={styles.EventList}>
           <li>
             Dele Sosimi {HTMLEntities.ampersand} Nye Lindesnes Afrobeatensemble
@@ -100,7 +100,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     <div className={styles.Event}>
       <img src={poster16} className={styles.Poster} alt="Poster 2016" />
       <div>
-        <h1 className="with-background">2016</h1>
+        <h1>2016</h1>
         <ul className={styles.EventList}>
           <li>Sun Ra Arkestra</li>
           <li>Scheen Jazzorkester</li>
@@ -120,7 +120,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     <div className={styles.Event}>
       <img src={poster15} className={styles.Poster} alt="Poster 2015" />
       <div>
-        <h1 className="with-background">2015</h1>
+        <h1>2015</h1>
         <ul className={styles.EventList}>
           <li>JøKleBa</li>
           <li>Trondheim Jazzorkester</li>
@@ -141,7 +141,7 @@ const ProgramHistoryTimeline = ({ children }) => (
     <div className={styles.Event}>
       <img src={poster14} className={styles.Poster} alt="Poster 2014" />
       <div>
-        <h1 className="with-background">2014</h1>
+        <h1>2014</h1>
         <ul className={styles.EventList}>
           <li>
             Marius Neset: <em>Birds</em>

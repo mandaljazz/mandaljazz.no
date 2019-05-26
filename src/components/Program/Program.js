@@ -73,7 +73,7 @@ class Program extends React.Component {
         >
           {this.artistsGroupedByDay().map(([day, artists]) => (
             <div key={day}>
-              <h4 className="with-background">{day}</h4>
+              <h2>{day}</h2>
               <ul className={styles.ProgramList}>
                 {sortBy(artists, "concertStartAt").map(artist => (
                   <li key={artist.id}>

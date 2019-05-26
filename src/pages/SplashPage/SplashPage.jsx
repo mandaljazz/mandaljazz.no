@@ -1,7 +1,7 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 
-// import logo from "../../assets/images/jazzlaug.png";
+import logo from "../../assets/images/logo.png";
 // import promoVideo from "../../assets/videos/promo.mp4";
 import { Artists, ScrollToTopOnMount } from "../../components";
 import { HTMLEntities } from "../../utils/stringUtils.js";
@@ -11,9 +11,9 @@ const SplashPage = () => (
   <div className={styles.SplashPage}>
     <ScrollToTopOnMount />
     <header className={styles.Header}>
-      {/* <img src={logo} className={styles.Logo} alt="logo" /> */}
-      <h1>mandaljazz</h1>
-      <p className={styles.SubHeader}>27. {HTMLEntities.ndash} 29. juni 2019</p>
+      <img src={logo} className={styles.Logo} alt="logo" />
+      {/* <h1>mandaljazz</h1> */}
+      <p className={styles.SubHeader}>27.{HTMLEntities.ndash}29. juni</p>
     </header>
 
     <Artists />

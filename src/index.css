@@ -2,18 +2,22 @@
 
 :root {
   /* Colors */
-  --primary: mediumseagreen;
-  /* --primary: mediumseagreen; */
-  --secondary: #5ac88b;
-  --tertiary: #36a065;
-  --quadary: #86dbac;
+  --green: #6c9c30;
+  --pink: #f8b2b8;
+  --brown: #58311f;
+  --yellow: #d4ca6f;
+
+  --primary: #d4ca6f;
+  --secondary: #e2d98b;
+  --tertiary: #d3c337;
+  --quadary: #f1eaa9;
 
   --white: #fffffe;
   --white-transparent-heavy: rgba(255, 255, 255, 0.9);
   --white-transparent-medium: rgba(255, 255, 255, 0.5);
   --white-transparent-light: rgba(255, 255, 255, 0.2);
   --white-transparent-superlight: rgba(255, 255, 255, 0.05);
-  --black: #232323;
+  --black: #58311f;
   --darkblack: #171717;
   --very-darkblack: #010101;
   --black-transparent: rgba(0, 0, 0, 0.9);
@@ -54,19 +58,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Libre Baskerville", sans-serif;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  border-left: none;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
 }
 h1,
-h2,
-h3 {
+h2 {
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+.with-border-left {
   padding: 1rem 1.5rem;
   border-left: 0.5rem solid var(--quadary);
-}
-.with-background {
-  background-color: var(--secondary);
-  border-left: 0.5rem solid var(--quadary);
-  color: var(--white);
 }
 
 img {

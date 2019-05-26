@@ -5,7 +5,7 @@ import styles from "./AccomodationInfo.css";
 
 const AccomodationInfo = () => (
   <div id="overnatting" className={styles.AccomodationInfo}>
-    <h1 className="with-background">Overnatting</h1>
+    <h1>Overnatting</h1>
     <p>
       Det finnes flere overnattingsmuligheter i Mandal. Sjekk ut disse for mer
       info.

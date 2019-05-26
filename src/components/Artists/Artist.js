@@ -60,7 +60,7 @@ class Artist extends React.Component {
             }}
           />
         )}
-        {!isActive && <h1>{name}</h1>}
+        {!isActive && <h1 className="with-border-left">{name}</h1>}
         {isActive && (
           <div className={styles.ImageWrapper}>
             <img src={getImageUrl(imageName)} alt={name} id={id} />
@@ -68,7 +68,7 @@ class Artist extends React.Component {
         )}
         {isActive && (
           <div className={styles.ArtistInfo}>
-            <h1>{name}</h1>
+            <h1 className="with-border-left">{name}</h1>
             <div
               className={styles.ArtistInfoGrid}
               onClick={e => e.stopPropagation()}

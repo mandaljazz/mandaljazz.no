@@ -33,12 +33,14 @@
 }
 :local(.SubHeader) {
   font-size: calc(1rem + 2.5vmin);
-  font-weight: 900;
-  margin-top: 0;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
 }
 
 :local(.Logo) {
-  height: 30vmin;
+  height: 40vmin;
 }
 
 @keyframes pulsating {

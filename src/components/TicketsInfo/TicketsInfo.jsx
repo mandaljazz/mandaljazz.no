@@ -5,7 +5,7 @@ import styles from "./TicketsInfo.css";
 
 const TicketsInfo = () => (
   <div id="billetter" className={styles.TicketsInfo}>
-    <h1 className="with-background">Billetter</h1>
+    <h1>Billetter</h1>
     <p>
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>

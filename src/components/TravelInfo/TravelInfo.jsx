@@ -5,7 +5,7 @@ import styles from "./TravelInfo.css";
 
 const TravelInfo = () => (
   <div id="reise" className={styles.TravelInfo}>
-    <h1 className="with-background">Reise</h1>
+    <h1>Reise</h1>
     <p>Finn reisen til Mandaljazz med Entur!</p>
     {window.innerWidth > 350 ? (
       <iframe

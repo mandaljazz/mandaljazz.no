@@ -12,12 +12,12 @@
   grid-template-columns: 1fr;
   grid-gap: 1rem;
 }
-:local(.Program h4) {
+:local(.Program h2) {
   width: auto;
   margin: 0;
-  padding: 0.5rem 1.5rem;
+  padding: 0 0.5rem;
 }
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 720px) {
   :local(.Program) {
     grid-template-columns: repeat(3, 1fr);
   }
