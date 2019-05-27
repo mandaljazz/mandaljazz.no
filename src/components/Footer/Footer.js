@@ -54,13 +54,25 @@ const Footer = () => {
           <img src={neumannImg} alt="Neumann Bygg" />
         </Link>
         <Link href="https://www.larsenoptikk.no/" title="Larsen Optikk">
-          <img src={larsenOptikkImg} alt="Larsen Optikk" />
+          <img
+            src={larsenOptikkImg}
+            alt="Larsen Optikk"
+            style={{ maxWidth: "9rem" }}
+          />
         </Link>
         <Link href="https://mandal.volkswagen.no/" title="Gumpens Auto">
-          <img src={gumpensAutoImg} alt="Gumpens Auto" />
+          <img
+            src={gumpensAutoImg}
+            alt="Gumpens Auto"
+            style={{ maxHeight: "6rem" }}
+          />
         </Link>
         <Link href="https://www.sjograf.no/" title="Sjøsanden Grafiske">
-          <img src={sjosandenGrafiskeImg} alt="Sjøsanden Grafiske" />
+          <img
+            src={sjosandenGrafiskeImg}
+            alt="Sjøsanden Grafiske"
+            style={{ maxWidth: "9rem" }}
+          />
         </Link>
         <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
       </div>
@@ -91,13 +103,21 @@ const Footer = () => {
           <img src={egelandRorImg} alt="Egeland Rør" />
         </Link>
         <Link href="http://www.mandalbil.no/" title="Mandal Bil">
-          <img src={mandalBilImg} alt="Mandal Bil" />
+          <img
+            src={mandalBilImg}
+            alt="Mandal Bil"
+            style={{ maxWidth: "8rem" }}
+          />
         </Link>
         <Link href="https://www.kjobmandsgaarden.no/" title="Kjøbmandsgaarden">
           <img src={kjobmandsgaardenImg} alt="Kjøbmandsgaarden" />
         </Link>
         <Link href="https://mandalhotel.no/" title="Mandal Hotel">
-          <img src={mandalHotelImg} alt="Mandal Hotel" />
+          <img
+            src={mandalHotelImg}
+            alt="Mandal Hotel"
+            style={{ maxWidth: "8rem" }}
+          />
         </Link>
         <Link href="https://srstiftelsen.no/" title="SR Bank Stiftelsen">
           <img src={srBankStiftelsenImg} alt="SR Bank Stiftelsen" />
@@ -132,7 +152,7 @@ const Footer = () => {
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />
         </Link>
-        <p>Ordførerpotten</p>
+        <span style={{ fontSize: "1.25rem" }}>Ordførerpotten</span>
       </div>
       <ul>
         <li>
@@ -140,7 +160,7 @@ const Footer = () => {
             href="https://www.facebook.com/mandaljazz"
             title="Mandaljazz på Facebook"
           >
-            <FontAwesomeIcon icon={faFacebookSquare} color="#297a4d" />
+            <FontAwesomeIcon icon={faFacebookSquare} color="#407525" />
           </Link>
         </li>
         <li>
@@ -148,7 +168,7 @@ const Footer = () => {
             href="https://www.instagram.com/mandaljazz/"
             title="Mandaljazz på Instagram"
           >
-            <FontAwesomeIcon icon={faInstagram} color="#36a065" />
+            <FontAwesomeIcon icon={faInstagram} color="#5d983f" />
           </Link>
         </li>
         <li>
@@ -156,7 +176,7 @@ const Footer = () => {
             href="https://twitter.com/mandaljazz"
             title="Mandaljazz på Twitter"
           >
-            <FontAwesomeIcon icon={faTwitter} color="#47c17e" />
+            <FontAwesomeIcon icon={faTwitter} color="#7dac65" />
           </Link>
         </li>
         <li>
@@ -164,7 +184,7 @@ const Footer = () => {
             href="https://www.youtube.com/channel/UCk0E0CaIIwc15zF8QypCd4A"
             title="Mandaljazz på Youtube"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#6dce98" />
+            <FontAwesomeIcon icon={faYoutube} color="#9dc18b" />
           </Link>
         </li>
       </ul>
