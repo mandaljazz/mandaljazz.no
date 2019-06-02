@@ -2,10 +2,8 @@ import React from "react";
 
 import {
   TravelInfo,
-  TicketsInfo,
   AccomodationInfo,
-  ScrollToTopOnMount,
-  HashLink
+  ScrollToTopOnMount
 } from "../../components";
 import styles from "./PracticalInfoPage.css";
 
