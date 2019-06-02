@@ -8,19 +8,20 @@ const TravelInfo = () => (
     <h1>Reise</h1>
     <p>Finn reisen til Mandaljazz med Entur!</p>
     {window.innerWidth > 350 ? (
-      <iframe
-        title="Entur Widget"
-        frameBorder="0"
-        style={{
-          display: "block",
-          height: "480px",
-          width: "100%",
-          maxWidth: "500px",
-          alignSelf: "center"
-        }}
-        src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
-        // TODO: Add default departure day
-      />
+      <div className={styles.EnturIframeWrapper}>
+        <iframe
+          title="Entur Widget"
+          frameBorder="0"
+          style={{
+            display: "block",
+            height: "480px",
+            width: "100%",
+            alignSelf: "center"
+          }}
+          src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+          // TODO: Add default departure day
+        />
+      </div>
     ) : (
       <iframe
         title="Entur-widget mini"

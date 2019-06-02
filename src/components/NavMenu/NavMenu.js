@@ -1,22 +1,22 @@
 import React from "react";
+import { isMobile } from "react-device-detect";
 
 import { RouterLink } from "../../components";
-// import logo from "../../assets/images/jazzlaug.png";
 import styles from "./NavMenu.css";
 
 const NavMenu = () => {
   return (
-    <div className={styles.NavMenu}>
-      <RouterLink to="/">
-        Artister
-        {/* <img src={logo} alt="logo" /> */}
-      </RouterLink>
-      <RouterLink to="/praktisk">Praktisk</RouterLink>
-      <RouterLink to="/historikk">Historikk</RouterLink>
-      <RouterLink to="/frivillig">Frivillig</RouterLink>
-      {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
-      {/* <RouterLink to="/program">Program</RouterLink> */}
-    </div>
+    <>
+      <div className={styles.NavMenu}>
+        <RouterLink to="/">Artister</RouterLink>
+        <RouterLink to="/praktisk">Praktisk</RouterLink>
+        <RouterLink to="/historikk">Historikk</RouterLink>
+        <RouterLink to="/billetter">Billetter</RouterLink>
+        {isMobile && <RouterLink to="/program">Program</RouterLink>}
+        <RouterLink to="/frivillig">Frivillig</RouterLink>
+        {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
+      </div>
+    </>
   );
 };
 

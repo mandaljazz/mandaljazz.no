@@ -1,16 +1,15 @@
 import React from "react";
 import ReactGA from "react-ga";
-
-import { Link } from "../";
+import { NavLink } from "react-router-dom";
 
 import styles from "./BuyTicketButton.css";
 
 const BuyTicketButton = ({ ...props }) => {
   return (
     <div className={styles.BuyTicketButtonWrapper}>
-      <Link
+      <NavLink
         className={styles.BuyTicketButton}
-        href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2019"
+        to="/billetter"
         onClick={() =>
           ReactGA.event({
             category: "User",
@@ -21,8 +20,8 @@ const BuyTicketButton = ({ ...props }) => {
       >
         Kjøp
         <br />
-        billett
-      </Link>
+        billetter
+      </NavLink>
     </div>
   );
 };

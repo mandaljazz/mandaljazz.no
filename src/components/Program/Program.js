@@ -63,6 +63,9 @@ class Program extends React.Component {
 
   render() {
     const { isAlwaysOpen } = this.props;
+    if (!isAlwaysOpen && isMobile) {
+      return null;
+    }
 
     return (
       <div className={styles.ProgramWrapper}>
@@ -91,10 +94,7 @@ class Program extends React.Component {
             </div>
           ))}
         </SlideDown>
-        {!isAlwaysOpen &&
-          (isMobile
-            ? this.renderLinkToProgramPage()
-            : this.renderToggleIsOpenButton())}
+        {!isAlwaysOpen && this.renderToggleIsOpenButton()}
       </div>
     );
   }

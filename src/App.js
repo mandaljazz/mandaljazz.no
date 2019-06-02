@@ -17,7 +17,8 @@ import {
   NotFoundPage,
   SplashPage,
   ProgramPage,
-  VolunteerPage
+  VolunteerPage,
+  TicketsPage
 } from "./pages";
 
 class App extends React.Component {
@@ -53,6 +54,11 @@ class App extends React.Component {
                   exact
                   path="/program"
                   component={withTracker(ProgramPage)}
+                />
+                <Route
+                  exact
+                  path="/billetter"
+                  component={withTracker(TicketsPage)}
                 />
                 <Route component={withTracker(NotFoundPage)} />
               </Switch>

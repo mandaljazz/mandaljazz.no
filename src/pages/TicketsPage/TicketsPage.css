@@ -1,0 +1,17 @@
+:local(.TicketsPage) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 720px) {
+  :local(.TicketsPage) {
+    width: 60%;
+  }
+}
+
+#ticketco-iframe {
+  margin-top: 2rem;
+}

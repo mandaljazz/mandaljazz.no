@@ -1,4 +1,15 @@
 :local(.TravelInfo) {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+:local(.EnturIframeWrapper) {
+  background-color: #171b56;
+  padding: 2rem;
+}
+@media screen and (max-width: 720px) {
+  :local(.EnturIframeWrapper) {
+    max-width: 500px;
+    padding: 0;
+  }
 }

@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 1rem;
+  box-shadow: 1px 1px 1px 0px var(--black-transparent-light);
 }
 :local(.Program) {
   margin: 0 1rem;
