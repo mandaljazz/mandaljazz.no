@@ -364,6 +364,20 @@
     }
   },
   {
+    "name": "Foredrag og diktlesing: Skog & klima",
+    "shortName": "Skog & klima",
+    "imageName": "skog-og-klima.png",
+    "id": "skog-og-klima",
+    "concertStartAt": "2019-06-29T15:30:00",
+    "venue": "Kulturfabrikken",
+    "paragraphs": [
+      "Avskoging utgjør en betydelig del av Norges klimagassutslipp, og tilsvarer omtrent det dobbelte av utslippene fra innenlands flytrafikk. Skog er temaet for årets mandaljazz, og vi er glade for at forsker Johannes Breidenbach kommer til festivalen for å holde et populærvitenskapelig foredrag om skog og klima. I etterkant av foredraget vil Erlend Wichne lese utdrag fra sin diktsamling Trær / fall / flakse / stå / topp / hopp.",
+      "Johannes Breidenbach er seniorforsker i Landsskogtakseringen ved NIBIO (Norsk institutt for bioøkonomi). Han er blant annet ansvarlig for Norges rapportering av levende biomasse og arealbruk til FNs Klimakonvensjon og Kyotoprotokollen. Forskningen hans fokuserer på å forbedre informasjonen vi har om skog og andre naturressurser gjennom bruk av feltobservasjoner og fjernmålte data - slik som flybåren laserskanning. Bedre informasjon gir oss mulighet for en bedre forvaltning av våre verdifulle naturressurser.",
+      "Erlend Wichne er en forfatter fra Mandal som vi også kunne møte på fjorårets festival. I fjor var temaet for festivalen hav, og utgangspunktet for åpningskonserten var Erlend Wichnes første diktsamling Hav, Sløyd. I år vil han lese dikt fra sin andre diktsamling Trær / fall / flakse / stå / topp / hopp, som feirer all lufta i verden og trærne som lager den. Den du kan holde inni deg en ganske god stund, før du blir nødt til å gi slipp. Puste ut.",
+      "Arrangementet er gratis."
+    ]
+  },
+  {
     "name": "Cool Tour",
     "imageName": "cool-tour.jpg",
     "id": "cool-tour",
@@ -398,21 +412,6 @@
       "Årets utgave av bandet består av 13 ungdommer i alderen 16 til 20 år. De unge musikerne får anledning til å utvikle sine ferdigheter som utøvere og ensemblemusikere i storbandformatet. Storband er en ensembleform som kan brukes til veldig mye forskjellig musikk og derfor spenner bandets repertoar over flere stilarter; alt fra ”easy swing jazz” til moderne funk.",
       "Musikalsk leder Tore Bråthen legger vekt på at musikerne i bandet skal få prøvd seg på et bredt spekter av storbandmusikk. «Det er et poeng at musikere og publikum, unge som eldre, får kjennskap til hva et storband kan brukes til. Samtidig er det viktig å presentere jazz i mange varianter«, fremhever han. Bandets repertoar og konserter gjenspeiler dette.",
       "På denne konserten blir det altså spilt jazz for enhver smak. Dette er en av våre utekonserter som spilles i Hestetroa, med gratis entré. Vi satser på strålende sommervær, og gleder oss til konsert i Norges mest sjarmerende gågate!"
-    ]
-  },
-
-  {
-    "name": "Foredrag og diktlesing: Skog & klima",
-    "shortName": "Skog & klima",
-    "imageName": "skog-og-klima.png",
-    "id": "skog-og-klima",
-    "concertStartAt": "2019-06-29T15:30:00",
-    "venue": "Kulturfabrikken",
-    "paragraphs": [
-      "Avskoging utgjør en betydelig del av Norges klimagassutslipp, og tilsvarer omtrent det dobbelte av utslippene fra innenlands flytrafikk. Skog er temaet for årets mandaljazz, og vi er glade for at forsker Johannes Breidenbach kommer til festivalen for å holde et populærvitenskapelig foredrag om skog og klima. I etterkant av foredraget vil Erlend Wichne lese utdrag fra sin diktsamling Trær / fall / flakse / stå / topp / hopp.",
-      "Johannes Breidenbach er seniorforsker i Landsskogtakseringen ved NIBIO (Norsk institutt for bioøkonomi). Han er blant annet ansvarlig for Norges rapportering av levende biomasse og arealbruk til FNs Klimakonvensjon og Kyotoprotokollen. Forskningen hans fokuserer på å forbedre informasjonen vi har om skog og andre naturressurser gjennom bruk av feltobservasjoner og fjernmålte data - slik som flybåren laserskanning. Bedre informasjon gir oss mulighet for en bedre forvaltning av våre verdifulle naturressurser.",
-      "Erlend Wichne er en forfatter fra Mandal som vi også kunne møte på fjorårets festival. I fjor var temaet for festivalen hav, og utgangspunktet for åpningskonserten var Erlend Wichnes første diktsamling Hav, Sløyd. I år vil han lese dikt fra sin andre diktsamling Trær / fall / flakse / stå / topp / hopp, som feirer all lufta i verden og trærne som lager den. Den du kan holde inni deg en ganske god stund, før du blir nødt til å gi slipp. Puste ut.",
-      "Arrangementet er gratis."
     ]
   },
   {
