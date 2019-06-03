@@ -400,6 +400,21 @@
       "På denne konserten blir det altså spilt jazz for enhver smak. Dette er en av våre utekonserter som spilles i Hestetroa, med gratis entré. Vi satser på strålende sommervær, og gleder oss til konsert i Norges mest sjarmerende gågate!"
     ]
   },
+
+  {
+    "name": "Foredrag og diktlesing: Skog & klima",
+    "shortName": "Skog & klima",
+    "imageName": "skog-og-klima.png",
+    "id": "skog-og-klima",
+    "concertStartAt": "2019-06-28T15:30:00",
+    "venue": "Kulturfabrikken",
+    "paragraphs": [
+      "Avskoging utgjør en betydelig del av Norges klimagassutslipp, og tilsvarer omtrent det dobbelte av utslippene fra innenlands flytrafikk. Skog er temaet for årets mandaljazz, og vi er glade for at forsker Johannes Breidenbach kommer til festivalen for å holde et populærvitenskapelig foredrag om skog og klima. I etterkant av foredraget vil Erlend Wichne lese utdrag fra sin diktsamling Trær / fall / flakse / stå / topp / hopp.",
+      "Johannes Breidenbach er seniorforsker i Landsskogtakseringen ved NIBIO (Norsk institutt for bioøkonomi). Han er blant annet ansvarlig for Norges rapportering av levende biomasse og arealbruk til FNs Klimakonvensjon og Kyotoprotokollen. Forskningen hans fokuserer på å forbedre informasjonen vi har om skog og andre naturressurser gjennom bruk av feltobservasjoner og fjernmålte data - slik som flybåren laserskanning. Bedre informasjon gir oss mulighet for en bedre forvaltning av våre verdifulle naturressurser.",
+      "Erlend Wichne er en forfatter fra Mandal som vi også kunne møte på fjorårets festival. I fjor var temaet for festivalen hav, og utgangspunktet for åpningskonserten var Erlend Wichnes første diktsamling Hav, Sløyd. I år vil han lese dikt fra sin andre diktsamling Trær / fall / flakse / stå / topp / hopp, som feirer all lufta i verden og trærne som lager den. Den du kan holde inni deg en ganske god stund, før du blir nødt til å gi slipp. Puste ut.",
+      "Arrangementet er gratis."
+    ]
+  },
   {
     "hideFromArtistList": true,
     "name": "Jam",
@@ -429,5 +444,30 @@
         "Vert 3 (instrument)"
       ]
     }
+  },
+  {
+    "hideFromArtistList": true,
+    "name": "Jazzmarked",
+    "id": "jazzmarked",
+    "concertStartAt": "2019-06-29T12:00:00",
+    "venue": "Kulturfabrikken",
+    "paragraphs": [
+      "For første gang arrangerer vi vårt eget lille marked på festivalområdet vårt. Markedet vil være åpent fra 12.00–17.00 lørdag 29. juni på Kulturfabrikken, og det er gratis inngang for alle som vil ta turen for å sjekke ut stemningen på festivalområdet! Markedet arrangeres samtidig som de to barnekonsertene, og derfor er barn også selvfølgelig velkomne på markedet. I den anledning har vi flere fine aktiviteter for barn, som blant annet ballspill, kubb, tegnestasjon og natursti. Det vil bli salg av mat på område som vi håper vil falle i smak hos både store og små.",
+      "I tillegg har vi fått tak i noen lokale aktører som skal stå i salgsboder i bakgården. Støa Leketøyfabrikk kommer med tre-lekene sine til salgs, og tar også med seg en spennende aktivitet for barna der de kan være med å male sitt eget leketøy! Helseboden er klar for Jazzmarked med miljøvennlige og bærekraftige produkter som er aktuelle både for voksne og barn. Det blir selvfølgelig en egen salgsbod der du får kjøpt deg årets hippeste festival-merch. Keramiker Tonje Svenson Paus tar med seg sin kunst til salgs, og kanskje dukker det opp noen flere aktører etter hvert. Hvem vet? Alt kan skje på Jazzmarked!"
+    ]
+  },
+  {
+    "hideFromArtistList": true,
+    "name": "Småtassjazz",
+    "id": "småtassjazz",
+    "concertStartAt": "2019-06-29T12:00:00",
+    "venue": "Kulturfabrikken",
+    "paragraphs": [
+      "«Geitekillingen som kunne telle til ti» // Kling Klang med Frøy Aagre // Jazzmarked",
+      "Småtassjazz er vår minifestival for de aller minste. Selv om det kan virke litt rart og skummelt og bråkete, er det jo egentlig meninga at jazz skal være gøy. Kanskje skjønner barn det bedre enn mange av oss voksne? Vi tror i hvert fall på at man godt kan tidlig krøkes, den som god krok skal bli.",
+      "Lørdag formiddag presenterer vi dermed to artister som lager jazz for barn, og som vi tror åpner nysgjerrigheten til smårollingene for alt som er litt annerledes. Det er helt gratis å komme inn på barnekonsertene.",
+      "I tillegg til barnekonsertene «Geitekillingen som kunne telle til ti» og «Kling Klang med Frøy Aagre» vil det også skje flere aktiviteter for barn under festivalens Jazzmarked som foregår samme dag som barnekonsertene, i bakgården på Kulturfabrikken. Her blir det salg av mat for sultne festivaldeltakere i alle aldre. Vi får også besøk av flere aktører som står i markedsboder og selger varene sine. Blant annet kommer Støa Leketøysfabrikk med de fine treleketøyene sine, og har med seg utstyr slik at barna kan male og få hjelp til å sette sammen et eget treleketøy. Vi setter opp en tegnestasjon i bakgården, man kan delta på natur-sti og det settes frem kubb og diverse ballspill på gressplenen foran Kulturfabrikken.",
+      "Vi planlegger en gøyal dag for alle barn fra 0 – 100 år!"
+    ]
   }
 ]
