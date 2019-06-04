@@ -133,6 +133,9 @@ const Footer = () => {
         <Link href="https://www.vaf.no/" title="Vest-Agder Fylkeskommune">
           <img src={vestAgderFylkeskommuneImg} alt="Vest-Agder Fylkeskommune" />
         </Link>
+        <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
+          <img src={mandalKommuneImg} alt="Mandal kommune" />
+        </Link>
         <Link
           href="https://www.nordiskkulturfond.org/en"
           title="Nordisk kulturfond"
@@ -147,9 +150,6 @@ const Footer = () => {
           title="Sør-Norsk Jazzsenter"
         >
           <img src={sorNorskJazzsenterImg} alt="Sør-Norsk Jazzsenter" />
-        </Link>
-        <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
-          <img src={mandalKommuneImg} alt="Mandal kommune" />
         </Link>
         <Link href="https://www.frifond.no/" title="Frifond">
           <img src={frifondImg} alt="Frifond" />
