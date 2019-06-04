@@ -1,12 +1,17 @@
 :local(.Footer) {
   padding: 2rem;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   font-size: 0.9rem;
+}
+@media screen and (min-width: 720px) {
+  :local(.Footer) {
+    max-width: 70%;
+  }
 }
 :local(.Footer > *) {
   align-self: stretch;

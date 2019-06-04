@@ -18,7 +18,8 @@ import {
   SplashPage,
   ProgramPage,
   VolunteerPage,
-  TicketsPage
+  TicketsPage,
+  JazzlaugsVennerPage
 } from "./pages";
 
 class App extends React.Component {
@@ -60,11 +61,16 @@ class App extends React.Component {
                   path="/billetter"
                   component={withTracker(TicketsPage)}
                 />
+                <Route
+                  exact
+                  path="/jazzlaugs-venner"
+                  component={withTracker(JazzlaugsVennerPage)}
+                />
                 <Route component={withTracker(NotFoundPage)} />
               </Switch>
               <PeekingSquirrel />
               <BuyTicketButton />
-              <Footer />
+              {!location.pathname.includes("jazzlaugs-venner") && <Footer />}
             </>
           )}
         />

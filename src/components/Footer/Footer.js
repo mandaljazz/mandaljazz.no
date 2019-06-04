@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 import {
   faFacebookSquare,
   faYoutube,
@@ -33,6 +34,7 @@ import mandalBilImg from "../../assets/images/sponsors/mandal-bil.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import srBankStiftelsenImg from "../../assets/images/sponsors/sr-bank-stiftelsen.jpg";
+import kjellbyFiskImg from "../../assets/images/sponsors/kjellby-fisk.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -74,7 +76,9 @@ const Footer = () => {
             style={{ maxWidth: "9rem" }}
           />
         </Link>
-        <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
+        <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
+          <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
+        </NavLink>
       </div>
       <hr />
       <div className={classNames(styles.Sponsors, "small")}>
@@ -122,6 +126,7 @@ const Footer = () => {
         <Link href="https://srstiftelsen.no/" title="SR Bank Stiftelsen">
           <img src={srBankStiftelsenImg} alt="SR Bank Stiftelsen" />
         </Link>
+        <img src={kjellbyFiskImg} alt="Kjellby Fisk" />
       </div>
       <h2>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
