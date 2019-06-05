@@ -10,7 +10,7 @@ const TicketsPage = () => (
       <iframe
         id="ticketco-iframe"
         title="ticketco-iframe"
-        frameborder="0"
+        frameBorder={0}
         scrolling="none"
         width="100%"
         height="800px"
