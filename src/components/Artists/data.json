@@ -241,7 +241,7 @@
     "imageName": "erik-kimestad-pedersen.jpg",
     "id": "erik-kimestad-pedersen",
     "concertStartAt": "2019-06-28T13:00:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "isPulsArtist": true,
     "paragraphs": [
       "Fresh Sounds er en konsertserie som kuraterer møter mellom improviserende musikere. Fresh Sounds holder base i Kristiansand, men har også arrangert konserter i København, Trondheim og Berlin i tillegg til å tidligere ha samarbeidet med Mandaljazz.",
@@ -254,7 +254,7 @@
     "imageName": "mofjell-kjær-flaten-egetoft.png",
     "id": "mofjell-kjær-flaten-egetoft",
     "concertStartAt": "2019-06-28T14:00:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "isPulsArtist": true,
     "paragraphs": [
       "Fresh Sounds er en konsertserie som kuraterer møter mellom improviserende musikere. Fresh Sounds holder base i Kristiansand, men har også arrangert konserter i København, Trondheim og Berlin i tillegg til å tidligere ha samarbeidet med Mandaljazz.",
@@ -278,7 +278,7 @@
     "imageName": "kjær-narvesen.png",
     "id": "kjær-narvesen",
     "concertStartAt": "2019-06-29T13:00:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "isPulsArtist": true,
     "paragraphs": [
       "Fresh Sounds er en konsertserie som kuraterer møter mellom improviserende musikere. Fresh Sounds holder base i Kristiansand, men har også arrangert konserter i København, Trondheim og Berlin i tillegg til å tidligere ha samarbeidet med Mandaljazz.",
@@ -297,7 +297,7 @@
     "imageName": "rasmussen-rud.png",
     "id": "rasmussen-rud",
     "concertStartAt": "2019-06-29T15:00:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "isPulsArtist": true,
     "paragraphs": [
       "Fresh Sounds er en konsertserie som kuraterer møter mellom improviserende musikere. Fresh Sounds holder base i Kristiansand, men har også arrangert konserter i København, Trondheim og Berlin i tillegg til å tidligere ha samarbeidet med Mandaljazz.",
@@ -352,7 +352,7 @@
     "imageName": "bomfunk-mimosa.jpg",
     "id": "bomfunk-mimosa",
     "concertStartAt": "2019-06-29T23:59:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "paragraphs": [
       "Jazzete og groovy disco-klubb.",
       "Selv når det blåser kaldt og regner overalt, er Bomfunk Mimosa der for deg. Musiker Martin Hartgen og kritiker Kim Klev (som også er mandalitt og Mandaljazz-bidragsyter!) er to gode venner som spiller sanger de digger, enkelt og greit. Om det låter tropisk og utopisk, er det et pluss.",
@@ -419,7 +419,7 @@
     "name": "Jam",
     "id": "jam-torsdag",
     "concertStartAt": "2019-06-27T23:00:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "paragraphs": ["Det blir jam på torsdag.", "Det blir nice."],
     "bands": {
       "Verter": [
@@ -434,7 +434,7 @@
     "name": "Jam",
     "id": "jam-fredag",
     "concertStartAt": "2019-06-28T23:59:00",
-    "venue": "TBA",
+    "venue": "Barnina Simone",
     "paragraphs": ["Det blir jam på fredag.", "Det blir nice."],
     "bands": {
       "Verter": [
