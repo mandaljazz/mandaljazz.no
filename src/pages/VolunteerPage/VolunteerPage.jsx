@@ -49,7 +49,7 @@ const VolunteerPage = () => (
       title="Frivilligskjema"
       src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
       width="100%"
-      height="2586"
+      height="2567"
       frameBorder="0"
       marginHeight="0"
       marginWidth="0"
