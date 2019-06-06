@@ -27,6 +27,7 @@ class Artist extends React.Component {
       name,
       imageName,
       paragraphs,
+      rightAlignedParagraphs,
       spotifyUri,
       youtubeUrl,
       soundcloudUserId,
@@ -78,6 +79,15 @@ class Artist extends React.Component {
                 {paragraphs.map((paragraph, index) => (
                   <p key={index}>{paragraph}</p>
                 ))}
+                {rightAlignedParagraphs &&
+                  rightAlignedParagraphs.map((paragraph, index) => (
+                    <p
+                      key={`right-aligned-${index}`}
+                      style={{ direction: "rtl" }}
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
               </div>
               <div>
                 <div className={styles.ConcertInfo}>
