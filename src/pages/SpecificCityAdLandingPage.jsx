@@ -115,7 +115,12 @@ const SpecificCityAdLandingPage = ({
     >
       <Button>Finn milijøvennlige reiser fra {city} til Mandal</Button>
     </Link>
-    <h2>Vi sees til en fantastisk festival!</h2>
+    <h2 style={{ marginTop: "5rem" }}>Vi sees til en fantastisk festival!</h2>
+    <img
+      src={bassImg}
+      alt="bass"
+      style={{ maxHeight: "400px", marginTop: "5rem" }}
+    />
   </div>
 );
 
