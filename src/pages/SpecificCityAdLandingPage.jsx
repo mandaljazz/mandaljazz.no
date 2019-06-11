@@ -2,6 +2,9 @@ import React from "react";
 import ReactGA from "react-ga";
 
 import logo from "../assets/images/logo.png";
+import saxImg from "../assets/images/sax.png";
+import pianistImg from "../assets/images/pianist.png";
+import bassImg from "../assets/images/bass.png";
 import { Button, CircledButton, ScrollToTopOnMount, Link } from "../components";
 import splashPageStyles from "./SplashPage/SplashPage.css";
 import styles from "./SpecificCityAdLandingPage.css";
@@ -14,29 +17,46 @@ const SpecificCityAdLandingPage = ({
 }) => (
   <div className={styles.SpecificCityAdLandingPage}>
     <ScrollToTopOnMount />
-    <header className={splashPageStyles.Header}>
+    <header
+      className={splashPageStyles.Header}
+      style={{ minHeight: "auto", paddingTop: "1rem" }}
+    >
       <img src={logo} className={splashPageStyles.Logo} alt="logo" />
       <p className={splashPageStyles.SubHeader}>
-        27.{HTMLEntities.ndash}29. juni
+        27.{HTMLEntities.ndash}29.{HTMLEntities.nonBreakingSpace}juni
       </p>
     </header>
-    <h1>Ta en snarjazztur til Mandal i sommer!</h1>
-    <p>Tjuvstarte sommerferien med jazz og streetfood i ekte Sørlandsidyll?</p>
-    <p>
-      Det er ikke så langt fra {city} til Mandal som du kanskje skulle tro{" "}
-      {HTMLEntities.ndash}{" "}
-      {distanceFromMandalDescription || "bare en liten togtur og vipps så"}{" "}
-      befinner du deg i Sørlandsperlen og jazzbyen Mandal. Sistnevnte
-      beskrivelse er kanskje noe bare vi bruker, men hvis du ser på årets og
-      foregående års program tror vi du vil si deg enig!
+    <h1 style={{ marginTop: 0 }}>Ta en snarjazztur til Mandal i sommer</h1>
+    <p style={{ fontSize: "1.5rem" }}>
+      Tjuvstarte sommerferien med jazz og streetfood i ekte Sørlandsidyll?
     </p>
-    <p>
-      Sol, musikk, streetfood, eget jazzøl, kunst, telt, festivalbar, fantastisk
-      stemning og et program av høy kvalitet! Vi anbefaler deg å ta en nærmere
-      titt!
-    </p>
+    <div className={styles.Section}>
+      <div>
+        <img src={saxImg} alt="sax" />
+      </div>
+      <div>
+        <p>
+          Det er ikke så langt fra {city} til Mandal som du kanskje skulle tro{" "}
+          {HTMLEntities.ndash}{" "}
+          {distanceFromMandalDescription || "bare en liten togtur og vipps så"}{" "}
+          befinner du deg i Sørlandsperlen og jazzbyen Mandal. Sistnevnte
+          beskrivelse er kanskje noe bare vi bruker, men hvis du ser på årets og
+          foregående års program tror vi du vil si deg enig!
+        </p>
+        <p>
+          Sol, musikk, streetfood, eget jazzøl, kunst, telt, festivalbar,
+          fantastisk stemning og et program av høy kvalitet! Vi anbefaler deg å
+          ta en nærmere titt!
+        </p>
+      </div>
+    </div>
     <div
-      style={{ width: "100%", display: "flex", justifyContent: "space-around" }}
+      style={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "space-around",
+        margin: "2rem 0"
+      }}
     >
       <CircledButton
         to="/billetter"
@@ -65,16 +85,28 @@ const SpecificCityAdLandingPage = ({
         program
       </CircledButton>
     </div>
-    <p>
-      Festivalen arrangeres i en bakgård omkranset av en møbelfabrikk fra
-      1800-tallet, mikrobryggeri, keramikkverksted og for anledningen et stort
-      jazztelt.
-    </p>
-    <p>
-      Årets program fronter Nordisk jazz på sitt beste, med banebrytende
-      artister som Kresten Osgood, Bendik Giske, Mette Rasmussen, soulkometen
-      Fieh og den legendariske kulthelten, finske Jimi Tenor.
-    </p>
+    <div className={styles.Section}>
+      <div>
+        <p>
+          Festivalen arrangeres i en bakgård omkranset av en møbelfabrikk fra
+          1800-tallet, mikrobryggeri, keramikkverksted og for anledningen et
+          stort jazztelt.
+        </p>
+        <p>
+          Årets program fronter Nordisk jazz på sitt beste, med banebrytende
+          artister som Kresten Osgood, Bendik Giske, Mette Rasmussen,
+          soulkometen Fieh og den legendariske kulthelten, finske Jimi Tenor.
+        </p>
+        <p>
+          Mandaljazz tilbyr overnatting på nyåpnede Mandal Hotel som ligger
+          nøyaktig 78 meter fra festivalområdet, hvor man får 15 % rabatt på
+          overnatting ved kjøp av festivalpass til Mandaljazz.
+        </p>
+      </div>
+      <div>
+        <img src={pianistImg} alt="pianist" />
+      </div>
+    </div>
     <Link
       href={
         enturUrl ||
@@ -83,11 +115,6 @@ const SpecificCityAdLandingPage = ({
     >
       <Button>Finn milijøvennlige reiser fra {city} til Mandal</Button>
     </Link>
-    <p>
-      Mandaljazz tilbyr overnatting på nyåpnede Mandal Hotel som ligger nøyaktig
-      78 meter fra festivalområdet, hvor man får 15 % rabatt på overnatting ved
-      kjøp av festivalpass til Mandaljazz.
-    </p>
     <h2>Vi sees til en fantastisk festival!</h2>
   </div>
 );

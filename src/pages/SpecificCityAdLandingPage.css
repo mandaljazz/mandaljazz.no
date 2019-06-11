@@ -5,12 +5,13 @@
   justify-content: center;
   margin: 0 auto 5rem auto;
   padding: 1rem;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 :local(.SpecificCityAdLandingPage h1),
 :local(.SpecificCityAdLandingPage h2) {
   text-align: center;
+  font-size: calc(1rem + 2.5vmin);
 }
 
 :local(.SpecificCityAdLandingPage a) {
@@ -20,8 +21,22 @@
   border-bottom: none;
 }
 
+:local(.Section) {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: 2rem 0;
+  justify-items: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 720px) {
   :local(.SpecificCityAdLandingPage) {
     max-width: 50%;
+  }
+}
+@media screen and (min-width: 920px) {
+  :local(.Section) {
+    grid-template-columns: 1fr 1fr;
   }
 }
