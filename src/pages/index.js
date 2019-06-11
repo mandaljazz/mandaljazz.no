@@ -7,3 +7,6 @@ export { default as PracticalInfoPage } from "./PracticalInfoPage";
 export { default as VolunteerPage } from "./VolunteerPage";
 export { default as TicketsPage } from "./TicketsPage";
 export { default as JazzlaugsVennerPage } from "./JazzlaugsVennerPage";
+export {
+  default as SpecificCityAdLandingPage
+} from "./SpecificCityAdLandingPage";
