@@ -9,11 +9,11 @@ const NavMenu = () => {
     <>
       <div className={styles.NavMenu}>
         <RouterLink to="/">Artister</RouterLink>
-        <RouterLink to="/praktisk">Praktisk</RouterLink>
-        <RouterLink to="/historikk">Historikk</RouterLink>
         <RouterLink to="/billetter">Billetter</RouterLink>
         {isMobile && <RouterLink to="/program">Program</RouterLink>}
+        <RouterLink to="/praktisk">Praktisk</RouterLink>
         <RouterLink to="/frivillig">Frivillig</RouterLink>
+        <RouterLink to="/historikk">Historikk</RouterLink>
         {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
       </div>
     </>
