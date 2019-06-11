@@ -3,4 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 720px) {
+  :local(.VolunteerPage) {
+    width: 60%;
+  }
 }

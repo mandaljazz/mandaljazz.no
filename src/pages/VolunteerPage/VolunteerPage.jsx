@@ -41,15 +41,17 @@ const VolunteerPage = () => (
     <Blockquote person="Helga (billett og merch)">
       Som frivillig i billettcrewet blir du med i en gjeng med mye moro og godt
       samhold. Du blir kjent med masse kjekke folk og du kjenner at du bidrar
-      med noe positivt for byen og nærmiljøet. Vi har mange forskjellige og
-      gøyale oppgaver og ingen vakt er lik!
+      med noe positivt for byen og nærmiljøet.
+      <br />
+      <br />
+      Vi har mange forskjellige og gøyale oppgaver og ingen vakt er lik!
     </Blockquote>
     <div id="frivilligskjema" />
     <iframe
       title="Frivilligskjema"
       src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
       width="100%"
-      height="2567"
+      height="2792"
       frameBorder="0"
       marginHeight="0"
       marginWidth="0"
@@ -58,9 +60,13 @@ const VolunteerPage = () => (
     </iframe>
     <Blockquote person="Mari Marie (transport)">
       For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
+      <br />
+      <br />
       Det å få tid i en bil med interessante, rare, sære, kule, kunstneriske,
       motiverende og hyggelige musikere er jo ikke noe man får hver dag. Og på
       veien for å hente artister kan du få litt pustetid og blæste noe musikk!
+      <br />
+      <br />
       Kjøretidene er ofte veldig greie som gjør at du er ledig under mange av
       konsertene. Og veldig mye mer chill fysisk hvis du ikke er så fan av å
       bære tungt eller stå lenge.
