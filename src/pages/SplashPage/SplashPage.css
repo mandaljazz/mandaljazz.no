@@ -15,11 +15,6 @@
   padding: 0 10vw;
   text-align: center;
 }
-@media screen and (min-width: 720px) {
-  :local(.Header p) {
-    max-width: calc(1rem + 50vmin);
-  }
-}
 :local(.Header) {
   min-height: 60vh;
 
@@ -31,6 +26,7 @@
 :local(.Header h1) {
   animation: pulsating 5s infinite alternate;
 }
+
 :local(.SubHeader) {
   font-size: calc(1rem + 2.5vmin);
   font-weight: 400;
@@ -41,6 +37,12 @@
 
 :local(.Logo) {
   height: 40vmin;
+}
+
+@media screen and (min-width: 720px) {
+  :local(.Header p) {
+    max-width: calc(1rem + 50vmin);
+  }
 }
 
 @keyframes pulsating {

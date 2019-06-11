@@ -13,7 +13,9 @@ const SplashPage = () => (
     <header className={styles.Header}>
       <img src={logo} className={styles.Logo} alt="logo" />
       {/* <h1>mandaljazz</h1> */}
-      <p className={styles.SubHeader}>27.{HTMLEntities.ndash}29. juni</p>
+      <p className={styles.SubHeader}>
+        27.{HTMLEntities.ndash}29.{HTMLEntities.nonBreakingSpace}juni
+      </p>
     </header>
 
     <Artists />
