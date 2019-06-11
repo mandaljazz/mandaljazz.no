@@ -32,7 +32,7 @@ class Program extends React.Component {
     );
 
   renderToggleIsOpenButton = () => (
-    <Button onClick={this.toggleIsOpen}>
+    <Button onClick={this.toggleIsOpen} small>
       {this.state.isOpen ? "Lukk program" : "Program"}
     </Button>
   );
