@@ -8,10 +8,8 @@
   max-width: 80%;
 }
 
-:local(.SpecificCityAdLandingPage h1),
 :local(.SpecificCityAdLandingPage h2) {
   text-align: center;
-  font-size: calc(1rem + 2.5vmin);
 }
 
 :local(.SpecificCityAdLandingPage a) {

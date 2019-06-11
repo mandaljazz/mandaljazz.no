@@ -26,7 +26,7 @@ const SpecificCityAdLandingPage = ({
         27.{HTMLEntities.ndash}29.{HTMLEntities.nonBreakingSpace}juni
       </p>
     </header>
-    <h1 style={{ marginTop: 0 }}>Ta en snarjazztur til Mandal i sommer</h1>
+    <h2 style={{ marginTop: 0 }}>Ta en snarjazztur til Mandal i sommer!</h2>
     <p style={{ fontSize: "1.5rem" }}>
       Tjuvstarte sommerferien med jazz og streetfood i ekte Sørlandsidyll?
     </p>
