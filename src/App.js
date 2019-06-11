@@ -19,7 +19,8 @@ import {
   ProgramPage,
   VolunteerPage,
   TicketsPage,
-  JazzlaugsVennerPage
+  JazzlaugsVennerPage,
+  SpecificCityAdLandingPage
 } from "./pages";
 
 class App extends React.Component {
@@ -29,10 +30,17 @@ class App extends React.Component {
         <Route
           render={({ location }) => (
             <>
-              <Headroom style={{ zIndex: 10 }}>
-                <NavMenu />
-                <Program />
-              </Headroom>
+              {!["/stavanger", "/kristiansand"].includes(location.pathname) && (
+                <Headroom
+                  style={{
+                    zIndex: 10,
+                    boxShadow: "1px 1px 1px 0px var(--black-transparent-light)"
+                  }}
+                >
+                  <NavMenu />
+                  <Program />
+                </Headroom>
+              )}
               <Switch location={location}>
                 <Route exact path="/" component={withTracker(SplashPage)} />
                 <Route
@@ -66,11 +74,37 @@ class App extends React.Component {
                   path="/jazzlaugs-venner"
                   component={withTracker(JazzlaugsVennerPage)}
                 />
+                <Route
+                  exact
+                  path="/stavanger"
+                  component={withTracker(() => (
+                    <SpecificCityAdLandingPage
+                      city="Stavanger"
+                      distandeFromMandalDescription="etter en 2,5 timers biltur"
+                      enturUrl="https://en-tur.no/travel-result?stopId=NSR%3AGroupOfStopPlaces%3A85&amp;stopName=Mandal&amp;stopLabel=Mandal&amp;stopLat=58.029357&amp;stopLon=7.460864&amp;date=1561629600000&amp;transportModes=bus%2Ctram%2Crail%2Cmetro%2Cwater%2Cflytog%2Cflybuss&amp;fromWidget=true&amp;walkSpeed=1.3&amp;minimumTransferTime=120&amp;startLat=58.969391&amp;startLon=5.735101&amp;startId=NSR%3AGroupOfStopPlaces%3A8&amp;startLabel=Stavanger&amp;startName=Stavanger"
+                    />
+                  ))}
+                />
+                <Route
+                  exact
+                  path="/kristiansand"
+                  component={withTracker(() => (
+                    <SpecificCityAdLandingPage
+                      city="Kristiansand"
+                      distanceFromMandalDescription="bare en time med 200-bussen og vipps så"
+                      enturUrl="https://en-tur.no/travel-result?stopId=NSR%3AGroupOfStopPlaces%3A85&amp;stopName=Mandal&amp;stopLabel=Mandal&amp;stopLat=58.029357&amp;stopLon=7.460864&amp;date=1561629600000&amp;transportModes=bus%2Ctram%2Crail%2Cmetro%2Cwater%2Cflytog%2Cflybuss&amp;fromWidget=true&amp;walkSpeed=1.3&amp;minimumTransferTime=120&amp;startLat=58.145304&amp;startLon=7.988857&amp;startId=NSR%3AGroupOfStopPlaces%3A9&amp;startLabel=Kristiansand&amp;startName=Kristiansand"
+                    />
+                  ))}
+                />
                 <Route component={withTracker(NotFoundPage)} />
               </Switch>
               <PeekingSquirrel />
-              <BuyTicketButton />
-              {!location.pathname.includes("jazzlaugs-venner") && <Footer />}
+              {!["/billetter", "/stavanger", "/kristiansand"].includes(
+                location.pathname
+              ) && <BuyTicketButton />}
+              {!["/jazzlaugs-venner", "/stavanger", "/kristiansand"].includes(
+                location.pathname
+              ) && <Footer />}
             </>
           )}
         />
