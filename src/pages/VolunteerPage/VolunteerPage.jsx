@@ -1,5 +1,6 @@
 import React from "react";
 
+import promoVideo from "../../assets/videos/promo.mp4";
 import { Blockquote, Button, ScrollToTopOnMount } from "../../components";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
@@ -11,7 +12,12 @@ import { HTMLEntities } from "../../utils/stringUtils";
 const VolunteerPage = () => (
   <div className={styles.VolunteerPage}>
     <ScrollToTopOnMount />
-    <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />
+    <video autoPlay playsInline muted style={{ width: "100%" }} loop>
+      <source src={promoVideo} type="video/mp4" />
+      Beklager, her skulle det egentlig vært en video, men nettleseren din
+      støtter ikke innebygde videoer :(
+    </video>
+
     {/* HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView() */}
     <div
       onClick={e => {
@@ -32,12 +38,12 @@ const VolunteerPage = () => (
       det faktisk vært helt greit å jobbe i baren; det er nemlig ganske chill å
       tappe øl!
     </Blockquote>
-    <img src={volunteers2016Img} alt="Frivilliggjengen 2016" />
+    <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />
     <Blockquote person="Marte (sjau og festivalområde)">
       Sjauen er en blanding av løfting og bæring og svette og snekring og en
       heil haug med dårlige vitser. På en bra måte! Derfor er sjau bare dritgøy.
     </Blockquote>
-    <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
+    <img src={volunteers2016Img} alt="Frivilliggjengen 2016" />
     <Blockquote person="Helga (billett og merch)">
       Som frivillig i billettcrewet blir du med i en gjeng med mye moro og godt
       samhold. Du blir kjent med masse kjekke folk og du kjenner at du bidrar
@@ -46,6 +52,11 @@ const VolunteerPage = () => (
       <br />
       Vi har mange forskjellige og gøyale oppgaver og ingen vakt er lik!
     </Blockquote>
+    <img
+      src={volunteers2014Img}
+      alt="Frivilliggjengen 2014"
+      style={{ marginBottom: "3rem" }}
+    />
     <div id="frivilligskjema" />
     <iframe
       title="Frivilligskjema"

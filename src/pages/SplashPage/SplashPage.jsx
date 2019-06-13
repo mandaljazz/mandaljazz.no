@@ -23,13 +23,7 @@ const SplashPage = () => (
       <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
     </div>
 
-    <video
-      autoPlay
-      playsInline
-      muted
-      style={{ width: "100%", height: "50%" }}
-      loop
-    >
+    <video autoPlay playsInline muted style={{ width: "100%" }} loop>
       <source src={promoVideo} type="video/mp4" />
       Beklager, her skulle det egentlig vært en video, men nettleseren din
       støtter ikke innebygde videoer :(
