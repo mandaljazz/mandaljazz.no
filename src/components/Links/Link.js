@@ -1,8 +1,9 @@
 import React from "react";
+import classNames from "classnames";
 
 import styles from "./Link.css";
 
-const Link = ({ children, skipTargetBlank, ...props }) => {
+const Link = ({ children, skipTargetBlank, className, ...props }) => {
   const targetProps = skipTargetBlank
     ? {}
     : {
@@ -11,7 +12,11 @@ const Link = ({ children, skipTargetBlank, ...props }) => {
       };
 
   return (
-    <a className={styles.Link} {...props} {...targetProps}>
+    <a
+      className={classNames(styles.Link, className)}
+      {...props}
+      {...targetProps}
+    >
       {children}
     </a>
   );

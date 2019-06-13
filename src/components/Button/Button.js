@@ -12,9 +12,13 @@ const getStyling = ({ large, small }) => {
   return {};
 };
 
-const Button = ({ children, asLink, linkProps, ...props }) => {
+const Button = ({ children, asLink, linkProps, large, small, ...props }) => {
   const button = (
-    <div className={styles.Button} style={getStyling(props)} {...props}>
+    <div
+      className={styles.Button}
+      style={getStyling({ large, small })}
+      {...props}
+    >
       {children}
     </div>
   );
