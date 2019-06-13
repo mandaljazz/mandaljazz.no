@@ -6,6 +6,9 @@ import logo from "../assets/images/logo.png";
 import saxImg from "../assets/images/sax.png";
 import pianistImg from "../assets/images/pianist.png";
 import bassImg from "../assets/images/bass.png";
+import promoKidsImg from "../assets/images/promo-kids.jpg";
+import promoBassImg from "../assets/images/promo-bass.jpg";
+import promoArtsyImg from "../assets/images/promo-artsy.jpg";
 import { Button, CircledButton, ScrollToTopOnMount, Link } from "../components";
 import splashPageStyles from "./SplashPage/SplashPage.css";
 import styles from "./SpecificCityAdLandingPage.css";
@@ -95,6 +98,11 @@ const SpecificCityAdLandingPage = ({
         </CircledButton>
       </div>
     </div>
+    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>
+      <img src={promoBassImg} alt="promo-2" />
+      <img src={promoKidsImg} alt="promo-1" />
+      <img src={promoArtsyImg} alt="promo-3" />
+    </div>
     <div className={styles.Section}>
       <div>
         <p>
@@ -138,6 +146,9 @@ const SpecificCityAdLandingPage = ({
       alt="bass"
       style={{ maxHeight: "400px", margin: "5rem 0" }}
     />
+    <Link href="https://mandaljazz.no" style={{ marginBottom: "5rem" }}>
+      mandaljazz.no
+    </Link>
   </div>
 );
 
