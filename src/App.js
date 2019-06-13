@@ -30,7 +30,9 @@ class App extends React.Component {
         <Route
           render={({ location }) => (
             <>
-              {!["/stavanger", "/kristiansand"].includes(location.pathname) && (
+              {!["stavanger", "kristiansand"].includes(
+                location.pathname.replace(/\//g, "")
+              ) && (
                 <Headroom
                   style={{
                     zIndex: 10,
@@ -91,7 +93,8 @@ class App extends React.Component {
                   component={withTracker(() => (
                     <SpecificCityAdLandingPage
                       city="Kristiansand"
-                      distanceFromMandalDescription="bare en time med 200-bussen og vipps så"
+                      tagLine="Tjuvstart sommerferien med jazz og streetfood."
+                      distanceFromMandalDescription="bare i underkant av en time med 200-bussen og vipps så befinner du deg i nabobyen"
                       enturUrl="https://en-tur.no/travel-result?stopId=NSR%3AGroupOfStopPlaces%3A85&amp;stopName=Mandal&amp;stopLabel=Mandal&amp;stopLat=58.029357&amp;stopLon=7.460864&amp;date=1561629600000&amp;transportModes=bus%2Ctram%2Crail%2Cmetro%2Cwater%2Cflytog%2Cflybuss&amp;fromWidget=true&amp;walkSpeed=1.3&amp;minimumTransferTime=120&amp;startLat=58.145304&amp;startLon=7.988857&amp;startId=NSR%3AGroupOfStopPlaces%3A9&amp;startLabel=Kristiansand&amp;startName=Kristiansand"
                     />
                   ))}
@@ -99,11 +102,11 @@ class App extends React.Component {
                 <Route component={withTracker(NotFoundPage)} />
               </Switch>
               <PeekingSquirrel />
-              {!["/billetter", "/stavanger", "/kristiansand"].includes(
-                location.pathname
+              {!["billetter", "stavanger", "kristiansand"].includes(
+                location.pathname.replace(/\//g, "")
               ) && <BuyTicketButton />}
-              {!["/jazzlaugs-venner", "/stavanger", "/kristiansand"].includes(
-                location.pathname
+              {!["jazzlaugs-venner", "stavanger", "kristiansand"].includes(
+                location.pathname.replace(/\//g, "")
               ) && <Footer />}
             </>
           )}
