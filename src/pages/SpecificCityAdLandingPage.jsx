@@ -110,8 +110,8 @@ const SpecificCityAdLandingPage = ({
         <p>
           Mandaljazz tilbyr overnatting på nyåpnede Mandal Hotel som ligger
           nøyaktig 78 meter fra festivalområdet, hvor man får rabatt på
-          hotellrom overnatting ved kjøp av festivalpass til Mandaljazz. Ta
-          kontakt med <Link href="https://mandalhotel.no">Mandal Hotel</Link>.
+          hotellrom ved kjøp av festivalpass til Mandaljazz. Ta kontakt med{" "}
+          <Link href="https://mandalhotel.no">Mandal Hotel</Link> for mer info.
         </p>
       </div>
       <div>
