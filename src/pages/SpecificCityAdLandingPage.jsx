@@ -61,13 +61,7 @@ const SpecificCityAdLandingPage = ({
           </p>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "3rem"
-        }}
-      >
+      <div className={styles.ButtonGroup}>
         <CircledButton
           to="/billetter"
           onClick={() =>
@@ -76,7 +70,6 @@ const SpecificCityAdLandingPage = ({
               action: `${city}: Clicked Buy Tickets button`
             })
           }
-          style={{ margin: "0 7.5%" }}
         >
           Kjøp
           <br />
@@ -90,7 +83,6 @@ const SpecificCityAdLandingPage = ({
               action: `${city}: Clicked See Program button`
             })
           }
-          style={{ margin: "0 7.5%" }}
         >
           Årets
           <br />
