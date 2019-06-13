@@ -18,6 +18,11 @@ const SplashPage = () => (
     </header>
 
     <Artists />
+
+    <div style={{ width: "640px", maxWidth: "100%" }}>
+      <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
+    </div>
+
     <video
       autoPlay
       playsInline
@@ -29,10 +34,6 @@ const SplashPage = () => (
       Beklager, her skulle det egentlig vært en video, men nettleseren din
       støtter ikke innebygde videoer :(
     </video>
-
-    <div style={{ width: "640px", maxWidth: "100%" }}>
-      <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
-    </div>
   </div>
 );
 
