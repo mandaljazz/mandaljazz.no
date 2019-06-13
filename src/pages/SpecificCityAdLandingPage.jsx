@@ -146,7 +146,11 @@ const SpecificCityAdLandingPage = ({
       alt="bass"
       style={{ maxHeight: "400px", margin: "5rem 0" }}
     />
-    <Link href="https://mandaljazz.no" style={{ marginBottom: "5rem" }}>
+    <Link
+      href="https://mandaljazz.no"
+      style={{ marginBottom: "5rem" }}
+      skipTargetBlank
+    >
       mandaljazz.no
     </Link>
   </div>
