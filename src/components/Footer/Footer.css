@@ -56,10 +56,16 @@
   filter: grayscale(1);
 }
 :local(.Sponsors).large img {
-  max-width: 34rem;
-  max-height: 13rem;
+  max-width: 30rem;
+  max-height: 10rem;
 }
 :local(.Sponsors).small img {
   max-width: 9rem;
   max-height: 4rem;
+}
+@media screen and (min-width: 720px) {
+  :local(.Sponsors).large img {
+    max-width: 34rem;
+    max-height: 14rem;
+  }
 }
