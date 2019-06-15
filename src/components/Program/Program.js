@@ -44,19 +44,26 @@ class Program extends React.Component {
   );
 
   renderArtistText = artist => {
-    if (artist.hideFromArtistList) {
-      return <strong>{artist.shortName || artist.name}</strong>;
+    const { hideFromArtistList, link, name, shortName, id } = artist;
+    const artistNameInBold = <strong>{shortName || name}</strong>;
+
+    if (hideFromArtistList) {
+      if (link) {
+        return <RouterLink to={link}>{artistNameInBold}</RouterLink>;
+      }
+      return artistNameInBold;
     }
+
     return (
       <HashLink
         smooth
         to={{
           pathname: "/",
-          hash: `#${artist.id}`,
-          state: { activeId: artist.id }
+          hash: `#${id}`,
+          state: { activeId: id }
         }}
       >
-        <strong>{artist.shortName || artist.name}</strong>
+        {artistNameInBold}
       </HashLink>
     );
   };

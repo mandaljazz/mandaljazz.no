@@ -454,6 +454,7 @@
     "hideFromArtistList": true,
     "name": "Jazzmarked",
     "id": "jazzmarked",
+    "link": "jazzmarked",
     "concertStartAt": "2019-06-29T12:00:00",
     "venue": "Kulturfabrikken",
     "paragraphs": [
