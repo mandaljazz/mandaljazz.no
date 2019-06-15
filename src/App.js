@@ -20,7 +20,8 @@ import {
   VolunteerPage,
   TicketsPage,
   JazzlaugsVennerPage,
-  SpecificCityAdLandingPage
+  SpecificCityAdLandingPage,
+  JazzMarketPage
 } from "./pages";
 
 class App extends React.Component {
@@ -49,6 +50,11 @@ class App extends React.Component {
                   exact
                   path="/praktisk"
                   component={withTracker(PracticalInfoPage)}
+                />
+                <Route
+                  exact
+                  path="/jazzmarked"
+                  component={withTracker(JazzMarketPage)}
                 />
                 <Route
                   exact
