@@ -13,6 +13,7 @@
   /* min-width: 300px; */
   flex-basis: 720px;
   transition: filter var(--quick) ease-in-out;
+  border-bottom: 4px solid var(--pink);
 }
 /* :local(.Artist)::after {
   display: block;
@@ -125,6 +126,7 @@
   :local(.Artist) {
     margin: 1rem 2rem;
     flex-basis: 400px;
+    border-bottom: none;
   }
   :local(.Artist).active {
     min-width: 80%;

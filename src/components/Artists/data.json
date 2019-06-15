@@ -451,16 +451,12 @@
     }
   },
   {
-    "hideFromArtistList": true,
     "name": "Jazzmarked",
     "id": "jazzmarked",
     "link": "jazzmarked",
-    "concertStartAt": "2019-06-29T12:00:00",
+    "imageName": "jazzmarked.jpg",
     "venue": "Kulturfabrikken",
-    "paragraphs": [
-      "For første gang arrangerer vi vårt eget lille marked på festivalområdet vårt. Markedet vil være åpent fra 12.00–17.00 lørdag 29. juni på Kulturfabrikken, og det er gratis inngang for alle som vil ta turen for å sjekke ut stemningen på festivalområdet! Markedet arrangeres samtidig som de to barnekonsertene, og derfor er barn også selvfølgelig velkomne på markedet. I den anledning har vi flere fine aktiviteter for barn, som blant annet ballspill, kubb, tegnestasjon og natursti. Det vil bli salg av mat på område som vi håper vil falle i smak hos både store og små.",
-      "I tillegg har vi fått tak i noen lokale aktører som skal stå i salgsboder i bakgården. Støa Leketøyfabrikk kommer med tre-lekene sine til salgs, og tar også med seg en spennende aktivitet for barna der de kan være med å male sitt eget leketøy! Helseboden er klar for Jazzmarked med miljøvennlige og bærekraftige produkter som er aktuelle både for voksne og barn. Det blir selvfølgelig en egen salgsbod der du får kjøpt deg årets hippeste festival-merch. Keramiker Tonje Svenson Paus tar med seg sin kunst til salgs, og kanskje dukker det opp noen flere aktører etter hvert. Hvem vet? Alt kan skje på Jazzmarked!"
-    ]
+    "concertStartAt": "2019-06-29T12:00:00"
   },
   {
     "hideFromArtistList": true,

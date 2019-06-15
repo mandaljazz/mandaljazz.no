@@ -4,6 +4,7 @@ import classNames from "classnames";
 import dayjs from "dayjs";
 import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
@@ -35,7 +36,8 @@ class Artist extends React.Component {
       isPulsArtist,
       concertStartAt,
       vimeoId,
-      venue
+      venue,
+      link
     } = artist;
     const style = isActive
       ? {}
@@ -47,10 +49,20 @@ class Artist extends React.Component {
           inactive: otherIsActive
         })}
         style={style}
-        onClick={() => toggleIsActive(id)}
+        onClick={() => (link ? {} : toggleIsActive(id))}
         {...props}
       >
-        {!isActive && (
+        {!isActive && link && (
+          <Link
+            to={link}
+            style={{
+              position: "absolute",
+              width: "100%",
+              height: "100%"
+            }}
+          />
+        )}
+        {!isActive && !link && (
           <HashLink
             smooth
             to={`#${id}`}

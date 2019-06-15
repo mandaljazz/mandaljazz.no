@@ -5,7 +5,7 @@ import stoaImg from "../../assets/images/stoa.jpg";
 import tonjeImg from "../../assets/images/tonje.jpg";
 import helsebodenImg from "../../assets/images/helseboden.jpg";
 import bodImg from "../../assets/images/bod.jpg";
-import marketImg1 from "../../assets/images/jazzmarked-1.jpg";
+import marketImg1 from "../../assets/images/jazzmarked.jpg";
 import marketImg2 from "../../assets/images/jazzmarked-2.jpg";
 import marketImg3 from "../../assets/images/jazzmarked-3.jpg";
 import { ScrollToTopOnMount, Link } from "../../components";
@@ -24,12 +24,13 @@ const JazzMarketPage = () => (
         paddingTop: "2rem"
       }}
     >
-      <h1 style={{ fontSize: "2rem" }}>Jazzmarked</h1>
+      <h1>Jazzmarked</h1>
+      <p className={classNames(splashPageStyles.SubHeader)}>
+        Lørdag{HTMLEntities.nonBreakingSpace}kl.{HTMLEntities.nonBreakingSpace}
+        12
+        {HTMLEntities.ndash}17
+      </p>
     </header>
-    <p className={classNames(splashPageStyles.SubHeader)}>
-      Lørdag{HTMLEntities.nonBreakingSpace}kl.{HTMLEntities.nonBreakingSpace}12
-      {HTMLEntities.ndash}17
-    </p>
     <p>
       For første gang arrangerer vi vårt eget lille marked på festivalområdet
       vårt. Markedet vil være åpent fra kl. 12.00
@@ -37,7 +38,7 @@ const JazzMarketPage = () => (
       <span className={styles.HighlightedText}>gratis inngang</span> for alle
       som vil ta turen for å sjekke ut stemningen på festivalområdet!
     </p>
-    <img src={marketImg3} alt="Jazzmarked 1" />
+    <img src={marketImg1} alt="Jazzmarked 1" />
     <p>
       Markedet arrangeres samtidig som de to barnekonsertene, og derfor er barn
       også selvfølgelig velkomne på markedet. I den anledning har vi flere{" "}
@@ -46,7 +47,7 @@ const JazzMarketPage = () => (
       <span className={styles.HighlightedText}>salg av mat</span> på området som
       vi håper vil falle i smak hos både store og små.
     </p>
-    <img src={marketImg1} alt="Jazzmarket 2" />
+    <img src={marketImg3} alt="Jazzmarket 2" />
     <div className={styles.Section}>
       <div>
         <img src={stoaImg} alt="Støa" />

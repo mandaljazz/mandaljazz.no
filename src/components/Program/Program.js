@@ -47,10 +47,11 @@ class Program extends React.Component {
     const { hideFromArtistList, link, name, shortName, id } = artist;
     const artistNameInBold = <strong>{shortName || name}</strong>;
 
+    if (link) {
+      return <RouterLink to={link}>{artistNameInBold}</RouterLink>;
+    }
+
     if (hideFromArtistList) {
-      if (link) {
-        return <RouterLink to={link}>{artistNameInBold}</RouterLink>;
-      }
       return artistNameInBold;
     }
 
