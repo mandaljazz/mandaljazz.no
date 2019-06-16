@@ -12,8 +12,6 @@ const TicketsPage = () => (
         title="ticketco-iframe"
         frameBorder={0}
         scrolling="no"
-        width="100%"
-        height="800px"
         src="//ticketco.events/no/nb/widgets/events/66323?sections%5B%5D=tickets&amp;amp;flush=true"
       />
       <div
