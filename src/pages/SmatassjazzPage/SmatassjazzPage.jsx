@@ -2,8 +2,9 @@ import React from "react";
 import classNames from "classnames";
 
 import smatassjazzImg1 from "../../assets/images/smatassjazz.jpg";
+import froyImg from "../../assets/images/froy-aagre-cropped.jpg";
+import geitekillingenImg from "../../assets/images/geitekillingen.jpg";
 import smatassjazzImg2 from "../../assets/images/smatassjazz-2.jpg";
-import smatassjazzImg3 from "../../assets/images/smatassjazz-3.jpg";
 import { ScrollToTopOnMount, RouterLink, HashLink } from "../../components";
 import splashPageStyles from "../SplashPage/SplashPage.css";
 import styles from "./SmatassjazzPage.css";
@@ -53,9 +54,10 @@ const SmatassjazzPage = () => (
       Bli med Frøy Aagre og hennes saksofon på skattejakt etter spennende
       klanger! Frøy tar barna med på en musikalsk oppdagelsesferd og utforsker
       klangen på de ulike instrumentene. Etter forestillingen inviteres barna
-      opp på scenen for å utforske og spille på instrumentene.
+      opp på scenen for å utforske og spille på instrumentene. Foto: Haslien
+      Fotografene.
     </p>
-    <img src={smatassjazzImg3} alt="Jazzmarket 2" />
+    <img src={froyImg} alt="Frøy Aagre" />
     <p>
       <HashLink
         smooth
@@ -75,7 +77,7 @@ const SmatassjazzPage = () => (
       klarinetter, mens Espen forteller historien ved å spille på trommesett og
       andre perkusjonsinstrumenter.
     </p>
-    <img src={smatassjazzImg2} alt="Jazzmarked" />
+    <img src={geitekillingenImg} alt="Geitekillingen" />
     <p>
       I tillegg til disse to barnekonsertene vil det også skje flere aktiviteter
       for barn under festivalens{" "}
@@ -89,6 +91,7 @@ const SmatassjazzPage = () => (
       det settes frem kubb og diverse ballspill på gressplenen foran
       Kulturfabrikken. Vi planlegger en gøyal dag for alle barn fra 0 – 100 år!
     </p>
+    <img src={smatassjazzImg2} alt="Jazzmarked" />
     <h2>Vi sees på småtassjazz!</h2>
   </div>
 );
