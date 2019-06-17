@@ -1,16 +1,16 @@
 import React from "react";
 import classNames from "classnames";
 
-import småtassjazzImg1 from "../../assets/images/småtassjazz.jpg";
-import småtassjazzImg2 from "../../assets/images/småtassjazz-2.jpg";
-import småtassjazzImg3 from "../../assets/images/småtassjazz-3.jpg";
+import smatassjazzImg1 from "../../assets/images/smatassjazz.jpg";
+import smatassjazzImg2 from "../../assets/images/smatassjazz-2.jpg";
+import smatassjazzImg3 from "../../assets/images/smatassjazz-3.jpg";
 import { ScrollToTopOnMount, RouterLink, HashLink } from "../../components";
 import splashPageStyles from "../SplashPage/SplashPage.css";
-import styles from "./SmåtassjazzPage.css";
+import styles from "./SmatassjazzPage.css";
 import { HTMLEntities } from "../../utils/stringUtils.js";
 
-const SmåtassjazzPage = () => (
-  <div className={styles.SmåtassjazzPage}>
+const SmatassjazzPage = () => (
+  <div className={styles.SmatassjazzPage}>
     <ScrollToTopOnMount />
     <header
       className={splashPageStyles.Header}
@@ -37,7 +37,7 @@ const SmåtassjazzPage = () => (
       som vi tror åpner nysgjerrigheten til smårollingene for alt som er litt
       annerledes. Det er helt gratis å komme inn på barnekonsertene.
     </p>
-    <img src={småtassjazzImg1} alt="Småtassjazz" />
+    <img src={smatassjazzImg1} alt="Småtassjazz" />
     <p>
       <HashLink
         smooth
@@ -55,7 +55,7 @@ const SmåtassjazzPage = () => (
       klangen på de ulike instrumentene. Etter forestillingen inviteres barna
       opp på scenen for å utforske og spille på instrumentene.
     </p>
-    <img src={småtassjazzImg3} alt="Jazzmarket 2" />
+    <img src={smatassjazzImg3} alt="Jazzmarket 2" />
     <p>
       <HashLink
         smooth
@@ -75,7 +75,7 @@ const SmåtassjazzPage = () => (
       klarinetter, mens Espen forteller historien ved å spille på trommesett og
       andre perkusjonsinstrumenter.
     </p>
-    <img src={småtassjazzImg2} alt="Jazzmarked" />
+    <img src={smatassjazzImg2} alt="Jazzmarked" />
     <p>
       I tillegg til disse to barnekonsertene vil det også skje flere aktiviteter
       for barn under festivalens{" "}
@@ -93,4 +93,4 @@ const SmåtassjazzPage = () => (
   </div>
 );
 
-export default SmåtassjazzPage;
+export default SmatassjazzPage;

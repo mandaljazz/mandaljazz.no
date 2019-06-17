@@ -46,7 +46,7 @@ const JazzMarketPage = () => (
       som blant annet ballspill, kubb, tegnestasjon og natursti. Det vil bli{" "}
       <span className={styles.HighlightedText}>salg av mat</span> på området som
       vi håper vil falle i smak hos både store og små. Se{" "}
-      <RouterLink to="/småtassjazz">Småtassjazz</RouterLink> for mer info.
+      <RouterLink to="/smatassjazz">Småtassjazz</RouterLink> for mer info.
     </p>
     <img src={marketImg3} alt="Jazzmarket 2" />
     <div className={styles.Section}>

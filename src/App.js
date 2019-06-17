@@ -22,7 +22,7 @@ import {
   JazzlaugsVennerPage,
   SpecificCityAdLandingPage,
   JazzMarketPage,
-  SmåtassjazzPage
+  SmatassjazzPage
 } from "./pages";
 
 class App extends React.Component {
@@ -53,8 +53,8 @@ class App extends React.Component {
                   <Route exact path="/jazzmarked" component={JazzMarketPage} />
                   <Route
                     exact
-                    path="/småtassjazz"
-                    component={SmåtassjazzPage}
+                    path="/smatassjazz"
+                    component={SmatassjazzPage}
                   />
                   <Route exact path="/frivillig" component={VolunteerPage} />
                   <Route

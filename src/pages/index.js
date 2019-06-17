@@ -8,7 +8,7 @@ export { default as VolunteerPage } from "./VolunteerPage";
 export { default as TicketsPage } from "./TicketsPage";
 export { default as JazzlaugsVennerPage } from "./JazzlaugsVennerPage";
 export { default as JazzMarketPage } from "./JazzMarketPage";
-export { default as SmåtassjazzPage } from "./SmåtassjazzPage";
+export { default as SmatassjazzPage } from "./SmatassjazzPage";
 export {
   default as SpecificCityAdLandingPage
 } from "./SpecificCityAdLandingPage";
