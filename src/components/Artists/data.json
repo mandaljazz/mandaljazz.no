@@ -327,11 +327,7 @@
       "Velkommen til en sanselig musikkopplevelse for de minste barna (0-3 år). Bli med Frøy Aagre og hennes saksofon på skattejakt etter spennende klanger! Hun tar barna med på en musikalsk oppdagelsesferd og utforsker klangen på de ulike instrumentene som hun finner, for så å sette det hele sammen til et lite «kling klang»-musikkverk.",
       "Etter forestillingen inviteres barna opp på scenen for å utforske og spille på instrumentene. Dette er den interaktive delen av forestillingen der barna får være aktive skapende deltakere.",
       "Konserten er støttet av Frifond, Sparebankstiftelsen og Mandal kommune.",
-      "Foto: Haslien Fotografene",
-      "Småtassjazz er vår minifestival for de aller minste. Selv om det kan virke litt rart og skummelt og bråkete, er det jo egentlig meninga at jazz skal være gøy. Kanskje skjønner barn det bedre enn mange av oss voksne? Vi tror i hvert fall på at man godt kan tidlig krøkes, den som god krok skal bli.",
-      "Lørdag formiddag presenterer vi dermed to artister som lager jazz for barn, og som vi tror åpner nysgjerrigheten til smårollingene for alt som er litt annerledes. Det er helt gratis å komme inn på barnekonsertene.",
-      "I tillegg til barnekonsertene «Geitekillingen som kunne telle til ti» og «Kling Klang med Frøy Aagre» vil det også skje flere aktiviteter for barn under festivalens Jazzmarked som foregår samme dag som barnekonsertene, i bakgården på Kulturfabrikken. Her blir det salg av mat for sultne festivaldeltakere i alle aldre. Vi får også besøk av flere aktører som står i markedsboder og selger varene sine. Blant annet kommer Støa Leketøysfabrikk med de fine treleketøyene sine, og har med seg utstyr slik at barna kan male og få hjelp til å sette sammen et eget treleketøy. Vi setter opp en tegnestasjon i bakgården, man kan delta på natur-sti og det settes frem kubb og diverse ballspill på gressplenen foran Kulturfabrikken.",
-      "Vi planlegger en gøyal dag for alle barn fra 0 – 100 år!"
+      "Foto: Haslien Fotografene"
     ]
   },
   {
@@ -339,7 +335,7 @@
     "shortName": "Småtassjazz: Geitekillingen",
     "imageName": "geitekillingen.jpg",
     "id": "geitekillingen",
-    "concertStartAt": "2019-06-29T12:00:00",
+    "concertStartAt": "2019-06-29T12:00:01",
     "venue": "Kulturfabrikken",
     "paragraphs": [
       "Jazz for de minste.",
@@ -347,11 +343,7 @@
       "Alf Prøysens historie «Geitekillingen som kunne telle til ti» fortelles gjennom sang og musikk, og ulike dyr kommer til uttrykk gjennom forskjellige lyder og sjangre. Nils Jansen og Espen Rud har i flere år reist mye for Rikskonsertene med denne produksjonen og spilt i minst et par hundre barnehager.",
       "Nils spiller diverse fløyter, saksofoner og klarinetter, mens Espen forteller historien ved å spille på trommesett og andre perkusjonsinstrumenter.",
       "Anbefalt for de som er tre år og oppover.",
-      "Konserten er støttet av Frifond, Sparebankstiftelsen og Mandal kommune.",
-      "Småtassjazz er vår minifestival for de aller minste. Selv om det kan virke litt rart og skummelt og bråkete, er det jo egentlig meninga at jazz skal være gøy. Kanskje skjønner barn det bedre enn mange av oss voksne? Vi tror i hvert fall på at man godt kan tidlig krøkes, den som god krok skal bli.",
-      "Lørdag formiddag presenterer vi dermed to artister som lager jazz for barn, og som vi tror åpner nysgjerrigheten til smårollingene for alt som er litt annerledes. Det er helt gratis å komme inn på barnekonsertene.",
-      "I tillegg til barnekonsertene «Geitekillingen som kunne telle til ti» og «Kling Klang med Frøy Aagre» vil det også skje flere aktiviteter for barn under festivalens Jazzmarked som foregår samme dag som barnekonsertene, i bakgården på Kulturfabrikken. Her blir det salg av mat for sultne festivaldeltakere i alle aldre. Vi får også besøk av flere aktører som står i markedsboder og selger varene sine. Blant annet kommer Støa Leketøysfabrikk med de fine treleketøyene sine, og har med seg utstyr slik at barna kan male og få hjelp til å sette sammen et eget treleketøy. Vi setter opp en tegnestasjon i bakgården, man kan delta på natur-sti og det settes frem kubb og diverse ballspill på gressplenen foran Kulturfabrikken.",
-      "Vi planlegger en gøyal dag for alle barn fra 0 – 100 år!"
+      "Konserten er støttet av Frifond, Sparebankstiftelsen og Mandal kommune."
     ],
     "bands": {
       "Geitekillingen som kunne telle til ti": [
@@ -463,6 +455,14 @@
     "id": "jazzmarked",
     "link": "jazzmarked",
     "imageName": "jazzmarked.jpg",
+    "venue": "Kulturfabrikken",
+    "concertStartAt": "2019-06-29T12:00:00"
+  },
+  {
+    "name": "Småtassjazz",
+    "id": "småtassjazz",
+    "link": "småtassjazz",
+    "imageName": "småtassjazz.jpg",
     "venue": "Kulturfabrikken",
     "concertStartAt": "2019-06-29T12:00:00"
   }

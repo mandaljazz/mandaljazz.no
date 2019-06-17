@@ -8,7 +8,7 @@ import bodImg from "../../assets/images/bod.jpg";
 import marketImg1 from "../../assets/images/jazzmarked.jpg";
 import marketImg2 from "../../assets/images/jazzmarked-2.jpg";
 import marketImg3 from "../../assets/images/jazzmarked-3.jpg";
-import { ScrollToTopOnMount, Link } from "../../components";
+import { ScrollToTopOnMount, Link, RouterLink } from "../../components";
 import splashPageStyles from "../SplashPage/SplashPage.css";
 import styles from "./JazzMarketPage.css";
 import { HTMLEntities } from "../../utils/stringUtils.js";
@@ -45,7 +45,8 @@ const JazzMarketPage = () => (
       <span className={styles.HighlightedText}>fine aktiviteter for barn</span>,
       som blant annet ballspill, kubb, tegnestasjon og natursti. Det vil bli{" "}
       <span className={styles.HighlightedText}>salg av mat</span> på området som
-      vi håper vil falle i smak hos både store og små.
+      vi håper vil falle i smak hos både store og små. Se{" "}
+      <RouterLink to="/småtassjazz">Småtassjazz</RouterLink> for mer info.
     </p>
     <img src={marketImg3} alt="Jazzmarket 2" />
     <div className={styles.Section}>
