@@ -54,8 +54,9 @@ const SmatassjazzPage = () => (
       Bli med Frøy Aagre og hennes saksofon på skattejakt etter spennende
       klanger! Frøy tar barna med på en musikalsk oppdagelsesferd og utforsker
       klangen på de ulike instrumentene. Etter forestillingen inviteres barna
-      opp på scenen for å utforske og spille på instrumentene. Foto: Haslien
-      Fotografene.
+      opp på scenen for å utforske og spille på instrumentene. NB! Det er bare
+      plass til 30 barn på denne konserten, så vær tidlig ute for å sikre deg
+      plass! Foto: Haslien Fotografene.
     </p>
     <img src={froyImg} alt="Frøy Aagre" />
     <p>
