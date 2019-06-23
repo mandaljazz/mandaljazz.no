@@ -35,6 +35,9 @@ import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.p
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import srBankStiftelsenImg from "../../assets/images/sponsors/sr-bank-stiftelsen.jpg";
 import kjellbyFiskImg from "../../assets/images/sponsors/kjellby-fisk.png";
+import hoyeSagImg from "../../assets/images/sponsors/hoye-sag.jpg";
+import marnaImg from "../../assets/images/sponsors/marna.png";
+import brgImg from "../../assets/images/sponsors/brg.jpg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -76,11 +79,17 @@ const Footer = () => {
             style={{ maxWidth: "9rem" }}
           />
         </Link>
+        <Link href="http://brgruppen.no/" title="BRG">
+          <img src={brgImg} alt="BRG" style={{ maxWidth: "6rem" }} />
+        </Link>
+        <Link href="https://marnacafe.no/" title="Marna Cafe">
+          <img src={marnaImg} alt="Marna Cafe" />
+        </Link>
         <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
           <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
         </NavLink>
       </div>
-      <hr />
+      <h2>Støttespillere</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="http://veidekke.no/" title="Veidekke">
           <img src={veidekkeImg} alt="Veidekke" />
@@ -125,6 +134,9 @@ const Footer = () => {
         </Link>
         <Link href="https://srstiftelsen.no/" title="SR Bank Stiftelsen">
           <img src={srBankStiftelsenImg} alt="SR Bank Stiftelsen" />
+        </Link>
+        <Link href="https://hoyesag.no/" title="Høye Sag">
+          <img src={hoyeSagImg} alt="Høye Sag" />
         </Link>
         <img src={kjellbyFiskImg} alt="Kjellby Fisk" />
       </div>

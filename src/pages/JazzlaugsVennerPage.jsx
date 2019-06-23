@@ -31,6 +31,7 @@ const JazzlaugsVennerPage = () => (
       <li>Sørlandets kaffebrenneri</li>
       <li>Tor Fasseland</li>
       <li>Hjorteland Rør</li>
+      <li>Paul J. Loland</li>
     </ul>
   </div>
 );
