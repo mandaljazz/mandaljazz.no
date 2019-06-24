@@ -83,48 +83,45 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {this.artistsGroupedByDay().map(
-            ([day, artists]) =>
-              console.log("day", day) || (
-                <div
-                  key={day}
+          {this.artistsGroupedByDay().map(([day, artists]) => (
+            <div
+              key={day}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between"
+              }}
+            >
+              <div>
+                <h2>{day}</h2>
+                <ul className={styles.ProgramList}>
+                  {sortBy(artists, "concertStartAt").map(artist => (
+                    <li key={artist.id}>
+                      <span className={styles.ConcertInfo}>
+                        {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
+                        {artist.venue}
+                      </span>
+                      {" / "}
+                      <span className={styles.ArtistName}>
+                        {this.renderArtistText(artist)}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              {!isMobile && day === "Torsdag" && (
+                <img
+                  src={saxImg}
+                  alt="Sax"
                   style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between"
+                    width: "200px",
+                    padding: "1rem",
+                    justifySelf: "flex-end"
                   }}
-                >
-                  <div>
-                    <h2>{day}</h2>
-                    <ul className={styles.ProgramList}>
-                      {sortBy(artists, "concertStartAt").map(artist => (
-                        <li key={artist.id}>
-                          <span className={styles.ConcertInfo}>
-                            {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                            {artist.venue}
-                          </span>
-                          {" / "}
-                          <span className={styles.ArtistName}>
-                            {this.renderArtistText(artist)}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  {!isMobile && day === "Torsdag" && (
-                    <img
-                      src={saxImg}
-                      alt="Sax"
-                      style={{
-                        width: "200px",
-                        padding: "1rem",
-                        justifySelf: "flex-end"
-                      }}
-                    />
-                  )}
-                </div>
-              )
-          )}
+                />
+              )}
+            </div>
+          ))}
         </SlideDown>
         {!isAlwaysOpen && this.renderToggleIsOpenButton()}
       </div>
