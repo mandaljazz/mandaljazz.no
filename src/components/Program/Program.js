@@ -10,6 +10,7 @@ import "react-slidedown/lib/slidedown.css";
 import { Button, HashLink, RouterLink } from "../";
 import styles from "./Program.css";
 import artists from "../Artists/data.json";
+import saxImg from "../../assets/images/sax.png";
 
 class Program extends React.Component {
   static defaultProps = {
@@ -82,25 +83,48 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {this.artistsGroupedByDay().map(([day, artists]) => (
-            <div key={day}>
-              <h2>{day}</h2>
-              <ul className={styles.ProgramList}>
-                {sortBy(artists, "concertStartAt").map(artist => (
-                  <li key={artist.id}>
-                    <span className={styles.ConcertInfo}>
-                      {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                      {artist.venue}
-                    </span>
-                    {" / "}
-                    <span className={styles.ArtistName}>
-                      {this.renderArtistText(artist)}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {this.artistsGroupedByDay().map(
+            ([day, artists]) =>
+              console.log("day", day) || (
+                <div
+                  key={day}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between"
+                  }}
+                >
+                  <div>
+                    <h2>{day}</h2>
+                    <ul className={styles.ProgramList}>
+                      {sortBy(artists, "concertStartAt").map(artist => (
+                        <li key={artist.id}>
+                          <span className={styles.ConcertInfo}>
+                            {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
+                            {artist.venue}
+                          </span>
+                          {" / "}
+                          <span className={styles.ArtistName}>
+                            {this.renderArtistText(artist)}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  {!isMobile && day === "Torsdag" && (
+                    <img
+                      src={saxImg}
+                      alt="Sax"
+                      style={{
+                        width: "200px",
+                        padding: "1rem",
+                        justifySelf: "flex-end"
+                      }}
+                    />
+                  )}
+                </div>
+              )
+          )}
         </SlideDown>
         {!isAlwaysOpen && this.renderToggleIsOpenButton()}
       </div>
