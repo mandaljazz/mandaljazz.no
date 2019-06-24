@@ -16,8 +16,15 @@ const TicketsInfo = () => (
       <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2019">
         TicketCo
       </Link>
-      . Festivalpass byttes i festivalbånd ved inngang til konsert eller på
-      standen i gågata.
+      .
+    </p>
+    <p>
+      Festivalpass byttes til festivalbånd i billettbua på Kulturfabrikken eller
+      på standen i Gågata.
+    </p>
+    <p>
+      Hvis du trenger hjelp til å kjøpe billetter er det bare å spørre en av oss
+      på standen i Gågata, så hjelper vi deg.
     </p>
 
     <h3>Festivalpass og dagspass</h3>
