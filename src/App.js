@@ -67,6 +67,15 @@ class App extends React.Component {
                   <Route exact path="/billetter" component={TicketsPage} />
                   <Route
                     exact
+                    path="/utlegg"
+                    component={() =>
+                      window.location.assign(
+                        "https://docs.google.com/forms/d/e/1FAIpQLScYaTGNCdRx34gkvONrjSp3lVY65zk_n9nBdweCD0hOfdnnig/viewform?usp=sf_link"
+                      )
+                    }
+                  />
+                  <Route
+                    exact
                     path="/jazzlaugs-venner"
                     component={JazzlaugsVennerPage}
                   />
