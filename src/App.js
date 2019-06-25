@@ -33,7 +33,7 @@ class App extends React.Component {
           <Route
             render={({ location }) => (
               <>
-                {!["stavanger", "kristiansand"].includes(
+                {!["stavanger", "kristiansand", "gobi"].includes(
                   location.pathname.replace(/\//g, "")
                 ) && (
                   <Headroom
@@ -76,6 +76,17 @@ class App extends React.Component {
                   />
                   <Route
                     exact
+                    path="/gobi"
+                    component={() => (
+                      <iframe
+                        src="https://live.gobiapp.com/story/embed/54a4c2829b695d3db0ae4759c8a3d708f1279f60?hideNameAndTimestamp=true"
+                        style={{ width: "100%", height: "100vh" }}
+                        title="Gobi"
+                      />
+                    )}
+                  />
+                  <Route
+                    exact
                     path="/jazzlaugs-venner"
                     component={JazzlaugsVennerPage}
                   />
@@ -105,12 +116,15 @@ class App extends React.Component {
                   <Route component={NotFoundPage} />
                 </Switch>
                 <PeekingSquirrel />
-                {!["billetter", "stavanger", "kristiansand"].includes(
+                {!["billetter", "stavanger", "kristiansand", "gobi"].includes(
                   location.pathname.replace(/\//g, "")
                 ) && <BuyTicketButton />}
-                {!["jazzlaugs-venner", "stavanger", "kristiansand"].includes(
-                  location.pathname.replace(/\//g, "")
-                ) && <Footer />}
+                {![
+                  "jazzlaugs-venner",
+                  "stavanger",
+                  "kristiansand",
+                  "gobi"
+                ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
               </>
             )}
           />
