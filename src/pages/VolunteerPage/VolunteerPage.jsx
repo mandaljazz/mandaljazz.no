@@ -2,6 +2,7 @@ import React from "react";
 
 import promoVideo from "../../assets/videos/promo.mp4";
 import { Blockquote, Button, ScrollToTopOnMount } from "../../components";
+import volunteers2019Img from "../../assets/images/frivillige-2019.jpg";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
 import volunteers2014Img from "../../assets/images/frivillige-2014.jpg";
@@ -27,7 +28,7 @@ const VolunteerPage = () => (
       }}
       style={{ marginTop: "2rem", border: "none" }}
     >
-      <Button large>Bli frivillig på Mandaljazz 2019!</Button>
+      <Button large>Bli frivillig på Mandaljazz 2020!</Button>
     </div>
     <Blockquote person="Håvard (bar og servering)">
       Hadde det ikke vært for at man måtte okkupere den beste plassen i teltet,
@@ -38,12 +39,12 @@ const VolunteerPage = () => (
       det faktisk vært helt greit å jobbe i baren; det er nemlig ganske chill å
       tappe øl!
     </Blockquote>
-    <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />
+    <img src={volunteers2019Img} alt="Frivilliggjengen 2019" />
     <Blockquote person="Marte (sjau og festivalområde)">
       Sjauen er en blanding av løfting og bæring og svette og snekring og en
       heil haug med dårlige vitser. På en bra måte! Derfor er sjau bare dritgøy.
     </Blockquote>
-    <img src={volunteers2016Img} alt="Frivilliggjengen 2016" />
+    <img src={volunteers2018Img} alt="Frivilliggjengen 2018" />
     <Blockquote person="Helga (billett og merch)">
       Som frivillig i billettcrewet blir du med i en gjeng med mye moro og godt
       samhold. Du blir kjent med masse kjekke folk og du kjenner at du bidrar
@@ -53,14 +54,14 @@ const VolunteerPage = () => (
       Vi har mange forskjellige og gøyale oppgaver og ingen vakt er lik!
     </Blockquote>
     <img
-      src={volunteers2014Img}
-      alt="Frivilliggjengen 2014"
+      src={volunteers2016Img}
+      alt="Frivilliggjengen 2016"
       style={{ marginBottom: "3rem" }}
     />
     <div id="frivilligskjema" />
     <iframe
       title="Frivilligskjema"
-      src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfJFwbFOqVrVF-QNpgPfxFmF-OWyIdtdcigTcw_nJkgJ9Zttw/viewform?embedded=true"
       width="100%"
       height="2792"
       frameBorder="0"
@@ -69,6 +70,7 @@ const VolunteerPage = () => (
     >
       Henter skjema...
     </iframe>
+    <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
     <Blockquote person="Mari Marie (transport)">
       For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
       <br />
@@ -83,17 +85,6 @@ const VolunteerPage = () => (
       bære tungt eller stå lenge.
     </Blockquote>
     <p>Vi gleder oss til å møte deg :)</p>
-    {/* <video
-      autoPlay
-      playsInline
-      muted
-      style={{ width: "100%", height: "50%" }}
-      loop
-    >
-      <source src={promoVideo} type="video/mp4" />
-      Beklager, her skulle det egentlig vært en video, men nettleseren din
-      støtter ikke innebygde videoer :(
-    </video> */}
   </div>
 );
 

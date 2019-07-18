@@ -1,13 +1,10 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Headroom from "react-headroom";
 
 import {
-  BuyTicketButton,
   Footer,
   NavMenu,
   PeekingSquirrel,
-  Program,
   GoogleAnalyticsListener
 } from "./components";
 import {
@@ -35,18 +32,7 @@ class App extends React.Component {
               <>
                 {!["stavanger", "kristiansand", "gobi"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && (
-                  <Headroom
-                    style={{
-                      zIndex: 10,
-                      boxShadow:
-                        "1px 1px 1px 0px var(--black-transparent-light)"
-                    }}
-                  >
-                    <NavMenu />
-                    <Program />
-                  </Headroom>
-                )}
+                ) && <NavMenu />}
                 <Switch location={location}>
                   <Route exact path="/" component={SplashPage} />
                   <Route exact path="/praktisk" component={PracticalInfoPage} />
@@ -116,9 +102,6 @@ class App extends React.Component {
                   <Route component={NotFoundPage} />
                 </Switch>
                 <PeekingSquirrel />
-                {!["billetter", "stavanger", "kristiansand", "gobi"].includes(
-                  location.pathname.replace(/\//g, "")
-                ) && <BuyTicketButton />}
                 {![
                   "jazzlaugs-venner",
                   "stavanger",

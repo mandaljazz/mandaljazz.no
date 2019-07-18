@@ -1,7 +1,7 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 
-// import poster19 from "../../assets/images/poster-2019.png";
+import poster19 from "../../assets/images/poster-2019.png";
 import poster18 from "../../assets/images/poster-2018.png";
 import poster17 from "../../assets/images/poster-2017.jpg";
 import poster16 from "../../assets/images/poster-2016.jpg";
@@ -13,7 +13,7 @@ import { HTMLEntities } from "../../utils/stringUtils";
 const ProgramHistoryTimeline = ({ children }) => (
   <div className={styles.ProgramHistoryTimeline}>
     {children}
-    {/* <div className={styles.Event}>
+    <div className={styles.Event}>
       <img src={poster19} className={styles.Poster} alt="Poster 2019" />
       <div>
         <h1>2019</h1>
@@ -28,15 +28,21 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Majāz</li>
           <li>Kresten Osgood Quintet</li>
           <li>Snöleoparden</li>
+          <li>Erik Kimestad Pedersen</li>
+          <li>Mofjell/Kjær/Flaten/Egetoft</li>
+          <li>Kjær/Narvesen</li>
+          <li>Rasmussen/Rud</li>
           <li>Frøy Aagre</li>
           <li>«Geitekillingen som kunne telle til ti»</li>
+          <li>Bomfunk Mimosa</li>
+          <li>Erlend Wichne</li>
+          <li>Johannes Breidenbach (foredrag)</li>
           <li>Cool Tour</li>
           <li>Sørnorsk Ungdomsstorband</li>
-          <li>Bomfunk Mimosa</li>
         </ul>
         <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
       </div>
-    </div> */}
+    </div>
     <div className={styles.Event}>
       <img src={poster18} className={styles.Poster} alt="Poster 2018" />
       <div>

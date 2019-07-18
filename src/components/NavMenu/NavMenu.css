@@ -5,7 +5,6 @@
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   font-weight: 600;
-  box-shadow: 1px 1px 1px 0px var(--black-transparent-light);
 }
 :local(.NavMenu a) {
   margin: 0.25rem 0.5rem;

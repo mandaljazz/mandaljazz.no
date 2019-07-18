@@ -1,6 +1,6 @@
 :local(.PeekingSquirrelWrapper) {
   position: fixed;
-  top: 3rem;
+  bottom: 3rem;
   left: -5rem;
   z-index: 20;
 

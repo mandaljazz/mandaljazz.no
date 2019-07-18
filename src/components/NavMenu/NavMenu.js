@@ -1,20 +1,18 @@
 import React from "react";
-import { isMobile } from "react-device-detect";
 
 import { RouterLink } from "../../components";
 import styles from "./NavMenu.css";
+import jazzlaugImg from "../../assets/images/jazzlaug.png";
 
 const NavMenu = () => {
   return (
     <>
       <div className={styles.NavMenu}>
-        <RouterLink to="/">Artister</RouterLink>
-        <RouterLink to="/billetter">Billetter</RouterLink>
-        {isMobile && <RouterLink to="/program">Program</RouterLink>}
-        <RouterLink to="/praktisk">Praktisk</RouterLink>
         <RouterLink to="/frivillig">Frivillig</RouterLink>
+        <RouterLink to="/">
+          <img src={jazzlaugImg} alt="Jazzlaug" style={{ height: "1.75rem" }} />
+        </RouterLink>
         <RouterLink to="/historikk">Historikk</RouterLink>
-        {/* <RouterLink to="/om">Om festivalen</RouterLink> */}
       </div>
     </>
   );
