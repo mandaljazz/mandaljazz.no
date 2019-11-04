@@ -51,7 +51,7 @@ const AccomodationInfo = () => (
         <Link href="https://www.airbnb.no/rooms/4373345">Arresten</Link>
       </li>
       <li>
-        <Link href="https://www.airbnb.no/s/Mandal/homes?refinement_paths%5B%5D=%2Fhomes&allow_override%5B%5D=&checkin=2019-06-27&checkout=2019-06-30&s_tag=04tZdMNA">
+        <Link href="https://www.airbnb.no/s/Mandal/homes?refinement_paths%5B%5D=%2Fhomes&allow_override%5B%5D=&checkin=2020-06-25&checkout=2020-06-28&s_tag=04tZdMNA">
           Airbnb
         </Link>
       </li>

@@ -13,7 +13,7 @@ const SplashPage = () => (
         <img src={logo} className={styles.Logo} alt="logo" />
       </h1>
       <p className={styles.SubHeader}>
-        25.{HTMLEntities.ndash}28. juni 2020
+        25.{HTMLEntities.ndash}27. juni 2020
       </p>
     </header>
   </div>
