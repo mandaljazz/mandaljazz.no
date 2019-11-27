@@ -18,9 +18,15 @@ const BuyTicketButton = ({ ...props }) => {
         }
         {...props}
       >
-        Kjøp
-        <br />
-        billetter
+        <div>
+          Kjøp
+          <br />
+          <span className={styles.Blink}>Super</span> Early
+          <br />
+          Bird-
+          <br />
+          billetter
+        </div>
       </NavLink>
     </div>
   );

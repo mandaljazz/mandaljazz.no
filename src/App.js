@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import {
+  BuyTicketButton,
   Footer,
   NavMenu,
   PeekingSquirrel,
@@ -102,6 +103,9 @@ class App extends React.Component {
                   <Route component={NotFoundPage} />
                 </Switch>
                 <PeekingSquirrel />
+                {!["billetter"].includes(
+                  location.pathname.replace(/\//g, "")
+                ) && <BuyTicketButton />}
                 {![
                   "jazzlaugs-venner",
                   "stavanger",

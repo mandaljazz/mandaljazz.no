@@ -13,7 +13,7 @@ const TicketsInfo = () => (
     <h3>Hvordan får jeg tak i billetter?</h3>
     <p>
       Billetter kjøpes på{" "}
-      <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2019">
+      <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020">
         TicketCo
       </Link>
       .
