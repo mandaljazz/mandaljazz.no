@@ -1,5 +1,5 @@
 :local(.NavMenu) {
-  background-color: var(--white);
+  background-color: var(--lightyellow);
   display: grid;
   padding: 0.5rem 0 0.8rem 0;
   grid-template-columns: repeat(3, 1fr);

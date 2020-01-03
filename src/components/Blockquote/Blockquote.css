@@ -8,7 +8,7 @@
   border-left: 8px solid var(--primary);
   line-height: 1.6;
   position: relative;
-  background: var(--lightgray);
+  background: var(--white-transparent-medium);
 }
 
 :local(.Blockquote::before) {

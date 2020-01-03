@@ -48,7 +48,7 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--white);
+  background-color: var(--lightyellow);
   color: var(--brown);
   line-height: 1.5;
 }
