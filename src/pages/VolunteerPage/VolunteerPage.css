@@ -11,3 +11,9 @@
     width: 60%;
   }
 }
+
+@media screen and (max-width: 920px) {
+  #volunteer-form {
+    height: 3000px;
+  }
+}

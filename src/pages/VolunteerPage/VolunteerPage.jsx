@@ -60,6 +60,7 @@ const VolunteerPage = () => (
     />
     <div id="frivilligskjema" />
     <iframe
+      id="volunteer-form"
       title="Frivilligskjema"
       src="https://docs.google.com/forms/d/e/1FAIpQLSfJFwbFOqVrVF-QNpgPfxFmF-OWyIdtdcigTcw_nJkgJ9Zttw/viewform?embedded=true"
       width="100%"
