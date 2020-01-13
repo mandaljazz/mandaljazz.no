@@ -1,5 +1,5 @@
 :local(.Link) {
-  color: var(--brown);
+  color: var(--black);
   display: inline-block;
   border-bottom: 2px solid var(--quadary);
   text-decoration: none;
@@ -8,9 +8,9 @@
   transition: all var(--superquick) ease-in-out;
 }
 :local(.Link):hover {
-  border-bottom: 2px solid var(--brown);
+  border-bottom: 2px solid var(--black);
 }
 :local(.ActiveNavLink),
 :local(.ActiveNavLink):hover {
-  border-bottom: 2px solid var(--brown);
+  border-bottom: 2px solid var(--black);
 }

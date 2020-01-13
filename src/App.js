@@ -4,7 +4,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import {
   Footer,
   NavMenu,
-  PeekingSquirrel,
   GoogleAnalyticsListener
 } from "./components";
 import {
@@ -101,7 +100,6 @@ class App extends React.Component {
                   />
                   <Route component={NotFoundPage} />
                 </Switch>
-                <PeekingSquirrel />
                 {![
                   "jazzlaugs-venner",
                   "stavanger",
