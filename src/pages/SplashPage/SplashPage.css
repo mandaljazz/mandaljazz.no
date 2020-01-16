@@ -29,6 +29,8 @@
 
 :local(.HeaderText) {
   font-weight: normal;
+  font-family: 'Libre Baskerville';
+  text-transform: none;
 }
 
 :local(.SubHeader) {

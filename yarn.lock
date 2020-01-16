@@ -7904,7 +7904,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8110,6 +8110,14 @@ react-app-polyfill@^0.2.0:
     promise "8.0.2"
     raf "3.4.0"
     whatwg-fetch "3.0.0"
+
+react-aria-offcanvas@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/react-aria-offcanvas/-/react-aria-offcanvas-1.4.1.tgz#5c9020fe1ed7a4afd92353014d3a860c4a34d16f"
+  integrity sha512-2gp7lkQKeaWh8vEhHeMiMTEkd8ZpTrBVbtvOh+ZXxC3KGuRqW13n3z4iElaBTKeYWxE+7Zz4bfM6RxRO0bJseg==
+  dependencies:
+    prop-types "^15.7.2"
+    run-event-handler-once "^1.0.2"
 
 react-dev-utils@^7.0.1:
   version "7.0.1"
@@ -8711,6 +8719,11 @@ run-async@^2.2.0:
   integrity sha1-A3GrSuC91yDUFm19/aZP96RFpsA=
   dependencies:
     is-promise "^2.1.0"
+
+run-event-handler-once@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/run-event-handler-once/-/run-event-handler-once-1.0.2.tgz#4d85a9bf78859fdd76eb6796637c64b60067770c"
+  integrity sha512-ZCTACJVYODJ1Ver0WMfoIN8SKmln+TgJ0W17m/Ka7PMhHwVU97XK2GkLeww6azYqlaM9UjnaWqz124F+ZtH5SA==
 
 run-queue@^1.0.0, run-queue@^1.0.3:
   version "1.0.3"

@@ -1,8 +1,7 @@
 :local(.NavMenu) {
-  background-color: var(--lightyellow);
   display: grid;
   padding: 0.5rem 0 0.8rem 0;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   font-weight: 600;
 }
@@ -11,6 +10,32 @@
 }
 :local(.NavMenu img) {
   max-height: 2.2rem;
+}
+:local(.BurgerMenu) {
+  display: grid;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+:local(.BurgerMenuOpenIcon) {
+  position: fixed;
+  background-color: var(--quadary);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+:local(.BurgerMenuCloseIcon) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  display: inline-block;
 }
 @media screen and (min-width: 720px) {
   :local(.NavMenu) {
