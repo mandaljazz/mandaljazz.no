@@ -12,7 +12,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: GitHub Pages
-      uses: crazy-max/ghaction-github-pages@v1.2.5
-      with:
-        build_dir: build
+    - name: Deploy to gh-pages
+      run: |
+        git config user.email "jazzlaug@mandaljazz.no"
+        git config user.name "Sjau Jazzlaug"
+        yarn install
+        yarn deploy
