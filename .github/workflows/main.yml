@@ -12,5 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: yarn deploy
+    - name: Deploy to gh-pages
+      run: |
+        yarn install
+        yarn deploy
