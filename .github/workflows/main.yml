@@ -13,8 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Deploy to gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config user.email "jazzlaug@mandaljazz.no"
-        git config user.name "Sjau Jazzlaug"
+        git config --local user.email "jazzlaug@mandaljazz.no"
+        git config --local user.name "Sjau Jazzlaug"
+        git remote set-url --push origin https://hanshenrik:$GITHUB_TOKEN@github.com/mandaljazz/mandaljazz.no
         yarn install
         yarn deploy
