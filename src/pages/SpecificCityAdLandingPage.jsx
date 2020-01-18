@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 import classNames from "classnames";
 
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/jazzlaug.png";
 import saxImg from "../assets/images/sax.png";
 import pianistImg from "../assets/images/pianist.png";
 import bassImg from "../assets/images/bass.png";
@@ -75,7 +75,7 @@ const SpecificCityAdLandingPage = ({
           <br />
           billetter
         </CircledButton>
-        <CircledButton
+        {/* <CircledButton
           to="/program"
           onClick={() =>
             ReactGA.event({
@@ -87,7 +87,7 @@ const SpecificCityAdLandingPage = ({
           Årets
           <br />
           program
-        </CircledButton>
+        </CircledButton> */}
       </div>
     </div>
     <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>

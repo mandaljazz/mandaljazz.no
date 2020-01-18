@@ -18,7 +18,7 @@
 }
 
 :local(.ColoredBackground) {
-  background-color: var(--lightyellow);
+  background-color: var(--superlightteal);
   padding-bottom: 4rem;
 }
 :local(.Section) {
@@ -35,7 +35,7 @@
 }
 :local(.ButtonGroup) {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   justify-items: center;
   margin: 0 auto;
 
