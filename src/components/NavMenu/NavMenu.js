@@ -6,6 +6,7 @@ import { RouterLink } from "../../components";
 import { HTMLEntities } from "../../utils/stringUtils";
 import styles from "./NavMenu.css";
 import jazzlaugImg from "../../assets/images/jazzlaug.png";
+import hamburgerSvg from "../../assets/images/hamburger.svg";
 
 class NavMenu extends React.Component {
   state = {
@@ -32,7 +33,7 @@ class NavMenu extends React.Component {
             onClick={this.open}
             className={styles.BurgerMenuOpenIcon}
           >
-            {HTMLEntities.trigram}
+            <img src={hamburgerSvg} alt="Menu" width="25px" />
           </span>
           <OffCanvas
             height="100%"
@@ -41,7 +42,6 @@ class NavMenu extends React.Component {
             isOpen={this.state.isOpen}
             onClose={this.close}
             labelledby="menu-button"
-            focusFirstChildAfterOpen
           >
             <div className={styles.BurgerMenu}>
               <span onClick={this.close} className={styles.BurgerMenuCloseIcon}>{HTMLEntities.multiplicationX}</span>

@@ -21,8 +21,8 @@
   position: fixed;
   background-color: var(--quadary);
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  width: 40px;
+  height: 40px;
   display:flex;
   justify-content: center;
   align-items: center;
