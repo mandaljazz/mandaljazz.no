@@ -13,7 +13,7 @@
   /* min-width: 300px; */
   flex-basis: 720px;
   transition: filter var(--quick) ease-in-out;
-  border-bottom: 4px solid var(--pink);
+  border-bottom: 4px solid var(--secondary);
 }
 /* :local(.Artist)::after {
   display: block;

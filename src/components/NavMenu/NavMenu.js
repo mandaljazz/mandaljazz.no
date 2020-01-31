@@ -5,7 +5,6 @@ import OffCanvas from "react-aria-offcanvas";
 import { RouterLink } from "../../components";
 import { HTMLEntities } from "../../utils/stringUtils";
 import styles from "./NavMenu.css";
-import jazzlaugImg from "../../assets/images/jazzlaug.png";
 import hamburgerSvg from "../../assets/images/hamburger.svg";
 
 class NavMenu extends React.Component {
@@ -45,13 +44,7 @@ class NavMenu extends React.Component {
           >
             <div className={styles.BurgerMenu}>
               <span onClick={this.close} className={styles.BurgerMenuCloseIcon}>{HTMLEntities.multiplicationX}</span>
-              <RouterLink to="/">
-                <img
-                  src={jazzlaugImg}
-                  alt="Jazzlaug"
-                  style={{ height: "1.75rem" }}
-                />
-              </RouterLink>
+              <RouterLink to="/">Artister</RouterLink>
               <RouterLink to="/billetter">Billetter</RouterLink>
               <RouterLink to="/praktisk">Praktisk</RouterLink>
               <RouterLink to="/frivillig">Frivillig</RouterLink>
@@ -66,13 +59,7 @@ class NavMenu extends React.Component {
           <div className={styles.NavMenu}>
             <RouterLink to="/billetter">Billetter</RouterLink>
             <RouterLink to="/praktisk">Praktisk</RouterLink>
-            <RouterLink to="/">
-              <img
-                src={jazzlaugImg}
-                alt="Jazzlaug"
-                style={{ height: "1.75rem" }}
-              />
-            </RouterLink>
+            <RouterLink to="/">Artister</RouterLink>
             <RouterLink to="/frivillig">Frivillig</RouterLink>
             <RouterLink to="/historikk">Historikk</RouterLink>
           </div>

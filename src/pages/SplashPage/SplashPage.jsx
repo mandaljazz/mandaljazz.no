@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from "../../assets/images/jazzlaug.png";
-import { ScrollToTopOnMount } from "../../components";
+import { Artists, ScrollToTopOnMount } from "../../components";
 import styles from "./SplashPage.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
@@ -19,6 +19,7 @@ const SplashPage = () => (
         25.{HTMLEntities.ndash}27. juni 2020
       </p>
     </header>
+    <Artists />
   </div>
 );
 

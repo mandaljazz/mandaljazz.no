@@ -89,7 +89,7 @@ class Artist extends React.Component {
             >
               <div>
                 {paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index} dangerouslySetInnerHTML={ { __html: (paragraph) } }></p>
                 ))}
                 {rightAlignedParagraphs &&
                   rightAlignedParagraphs.map((paragraph, index) => (

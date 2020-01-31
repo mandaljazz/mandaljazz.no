@@ -38,6 +38,7 @@
   --superquick: 0.1s;
   --quick: 0.2s;
   --slow: 0.4s;
+  --superslow: 0.6s;
 }
 
 body {
