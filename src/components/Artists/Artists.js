@@ -43,25 +43,28 @@ class Artists extends React.Component {
 
   render() {
     return (
-      <div className={styles.Artists}>
-        {artistData.map(artist => {
-          const { id, hideFromArtistList } = artist;
-          if (hideFromArtistList) {
-            return null;
-          }
-          return (
-            <Artist
-              artist={artist}
-              key={id}
-              isActive={this.state.activeId === id}
-              otherIsActive={
-                this.state.activeId !== null && this.state.activeId !== id
-              }
-              toggleIsActive={this.toggleIsActive}
-              id={id}
-            />
-          );
-        })}
+      <div>
+        <div className={styles.Artists}>
+          {artistData.map(artist => {
+            const { id, hideFromArtistList } = artist;
+            if (hideFromArtistList) {
+              return null;
+            }
+            return (
+              <Artist
+                artist={artist}
+                key={id}
+                isActive={this.state.activeId === id}
+                otherIsActive={
+                  this.state.activeId !== null && this.state.activeId !== id
+                }
+                toggleIsActive={this.toggleIsActive}
+                id={id}
+              />
+            );
+          })}
+        </div>
+        <p style={{ textAlign: 'center'}}>… og mange flere, da.</p>
       </div>
     );
   }
