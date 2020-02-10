@@ -19,5 +19,32 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/zPWluJMNRv4",
     "spotifyUri": "https://open.spotify.com/album/3W2POuku8phuhMOJ3wIbfI?si=UOrBJS30RNuM_2OUxMpd7g"
+  },
+  {
+    "name": "Andreas Røysum Ensemble",
+    "imageName": "andreas-roysum-ensemble.jpg",
+    "id": "andreas-roysum-ensemble",
+    "venue": "TBA",
+    "paragraphs": [
+      "Jo mere vi er sammen! Hippiejazz sendt rett fra himmelen.",
+      "Andreas Røysum er en gammel venn av festivalen. Om du har bitt deg merke i en lang og mager fyr som spiller klarinett, et langt og magert instrument, så er det ham. Røysum står ikke minst bak vår kompisfestival Motvind, som demonstrer at det er fullt mulig å arrangere jazzfestivaler i Norge uten å ta imot spons fra olje- eller våpenindustrien.",
+      "Derfor er vi ekstra stolte over at debutskiva til Andreas Røysum Ensemble har blitt så utrolig fin. «Spirituelt!!!» reagerte et par i programkomiteen da vi først hørte albumet, noe jazzhoder gjerne sier når de hører noe som går enda litt dypere, enda litt tettere på noen kosmiske sannheter. Arven fra lysende sjeler som Pharoah Sanders og Alice Coltrane løper gjennom sangene, som er frie og fantasifulle, melodiøse og hypnotiske, varme og vakre.",
+      "I ånden har Røysum Ensemble mye til felles med psykedelisk rock fra slutten av 60-tallet. Det er en tydelig inspirasjon av indisk folkemusikk her, krydret med litt barnlig bajaseri. Med hele ti medlemmer er Røysum Ensemble et sant kollektivt prosjekt, og musikken de lager høres ut som den reneste kjærlighetssommeren. Hvem skulle trodd, kanskje er motkultur og nestekjærlighet to sider av samme sak?"
+    ],
+    "bands": {
+      "Andreas Røysum Ensemble": [
+        "Andreas Røysum (klarinett)",
+        "Henriette Eilertsen (fløyte)",
+        "Klaus Holm (altsaksofon)",
+        "Marthe Lea (tenorsaksofon)",
+        "Hans P. Kjorstad (fele)",
+        "Joel Ring (cello)",
+        "John Andrew Wilhite (kontrabass)",
+        "Christian Meaas Svendsen (kontrabass)",
+        "Sanskriti Shrestha (tablas)",
+        "Ivar Myrset Asheim (trommer)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/Ck1i3sYYSNU"
   }
 ]
