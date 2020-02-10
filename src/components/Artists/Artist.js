@@ -89,7 +89,7 @@ class Artist extends React.Component {
             >
               <div>
                 {paragraphs.map((paragraph, index) => (
-                  <p key={index} dangerouslySetInnerHTML={ { __html: (paragraph) } }></p>
+                  <p key={index} dangerouslySetInnerHTML={{ __html: (paragraph) }}></p>
                 ))}
                 {rightAlignedParagraphs &&
                   rightAlignedParagraphs.map((paragraph, index) => (
@@ -103,12 +103,8 @@ class Artist extends React.Component {
               </div>
               <div>
                 <div className={styles.ConcertInfo}>
-                  <FontAwesomeIcon icon={faClock} />
-                  {concertStartAt
-                    ? capitalize(dayjs(concertStartAt).format("dddd HH:mm"))
-                    : "TBA"}
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
-                  {venue}
+                  {concertStartAt && <><FontAwesomeIcon icon={faClock} />{capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}</>}
+                  {venue && <><FontAwesomeIcon icon={faMapMarkerAlt} />{venue}</>}
                 </div>
                 {bands && (
                   <div>
