@@ -31,7 +31,7 @@
       ]
     },
     "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
-    "spotifyUri": "spotify:album:0c0PogsjJQ0AMUCtLIpGds"
+    "spotifyUri": "album/0c0PogsjJQ0AMUCtLIpGds"
   },
   {
     "name": "Marilyn Mazur",
@@ -46,6 +46,6 @@
       ]
     },
     "youtubeUrl": "",
-    "spotifyUri": "spotify:album:1ELiQL6lxwtmn7on15TyV9"
+    "spotifyUri": "album/1ELiQL6lxwtmn7on15TyV9"
   }
 ]

@@ -1,5 +1,4 @@
 import React from "react";
-import SpotifyPlayer from "react-spotify-player";
 import classNames from "classnames";
 import dayjs from "dayjs";
 import { capitalize } from "lodash";
@@ -120,7 +119,7 @@ class Artist extends React.Component {
                     ))}
                   </div>
                 )}
-                {spotifyUri && <SpotifyPlayer uri={spotifyUri} />}
+                {spotifyUri && <iframe className="SpotifyPlayer" title="spotify" src={`https://open.spotify.com/embed/${spotifyUri}`} frameborder="0" allowtransparency="true" allow="encrypted-media" /> }
                 {soundcloudUserId && (
                   <iframe
                     title={`${name}-soundcloud-iframe`}
