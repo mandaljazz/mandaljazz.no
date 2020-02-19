@@ -1,0 +1,51 @@
+[
+  {
+    "name": "The Big YES!",
+    "imageName": "the-big-yes.jpg",
+    "id": "the-big-yes",
+    "paragraphs": [
+      ""
+    ],
+    "bands": {
+      "The Big YES!": [
+        "Anna Högberg (saxofon)",
+        "Maria Bertel (trombone)",
+        "Christian Meaas Svendsen (bass)",
+        "Ole Mofjell (trommer)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo"
+  },
+  {
+    "name": "Aila Trio",
+    "imageName": "aila-trio.jpg",
+    "id": "aila-trio",
+    "paragraphs": [
+      ""
+    ],
+    "bands": {
+      "Aila Trio": [
+        "Georgia Wartel Collins (kontrabass, komposisjoner)",
+        "Karl Hjalmar Nyberg (saxofon, klarinett)",
+        "Andreas Winther (trommer)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
+    "spotifyUri": "spotify:album:0c0PogsjJQ0AMUCtLIpGds"
+  },
+  {
+    "name": "Marilyn Mazur",
+    "imageName": "marilyn-mazur.png",
+    "id": "marilyn-mazur",
+    "paragraphs": [
+      "Foto: Hanne Hvattum"
+    ],
+    "bands": {
+      "Marilyn Mazur": [
+        ""
+      ]
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "spotify:album:1ELiQL6lxwtmn7on15TyV9"
+  }
+]
