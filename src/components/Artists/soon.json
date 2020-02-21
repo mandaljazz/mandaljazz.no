@@ -1,22 +1,5 @@
 [
   {
-    "name": "The Big YES!",
-    "imageName": "the-big-yes.jpg",
-    "id": "the-big-yes",
-    "paragraphs": [
-      ""
-    ],
-    "bands": {
-      "The Big YES!": [
-        "Anna Högberg (saxofon)",
-        "Maria Bertel (trombone)",
-        "Christian Meaas Svendsen (bass)",
-        "Ole Mofjell (trommer)"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo"
-  },
-  {
     "name": "Aila Trio",
     "imageName": "aila-trio.jpg",
     "id": "aila-trio",
