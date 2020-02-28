@@ -1,22 +1,5 @@
 [
   {
-    "name": "Aila Trio",
-    "imageName": "aila-trio.jpg",
-    "id": "aila-trio",
-    "paragraphs": [
-      ""
-    ],
-    "bands": {
-      "Aila Trio": [
-        "Georgia Wartel Collins (kontrabass, komposisjoner)",
-        "Karl Hjalmar Nyberg (saxofon, klarinett)",
-        "Andreas Winther (trommer)"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
-    "spotifyUri": "album/0c0PogsjJQ0AMUCtLIpGds"
-  },
-  {
     "name": "Marilyn Mazur",
     "imageName": "marilyn-mazur.png",
     "id": "marilyn-mazur",
