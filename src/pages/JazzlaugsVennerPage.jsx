@@ -10,7 +10,7 @@ const JazzlaugsVennerPage = () => (
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      marginTop: "4rem"
+      marginTop: "4rem",
     }}
   >
     <ScrollToTopOnMount />
@@ -23,15 +23,10 @@ const JazzlaugsVennerPage = () => (
     </div>
     <ul>
       <li>Nødings Delikatesse</li>
-      <li>Amfisenteret</li>
-      <li>Mandals AS</li>
       <li>Gullsmed Danielsen</li>
       <li>Aurebekk Gartneri</li>
-      <li>Fargerike</li>
       <li>Sørlandets kaffebrenneri</li>
       <li>Tor Fasseland</li>
-      <li>Hjorteland Rør</li>
-      <li>Paul J. Loland</li>
     </ul>
   </div>
 );
