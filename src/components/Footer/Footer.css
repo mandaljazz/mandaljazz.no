@@ -29,7 +29,7 @@
 :local(.Footer ul li a),
 :local(.Sponsors a) {
   border-bottom: none;
-  transition: all var(--quick) ease-in-out;
+  transition: all var(--superquick) ease-in-out;
 }
 :local(.Footer ul li a):hover,
 :local(.Sponsors a):hover {
@@ -39,7 +39,7 @@
   transform: scale(1.1);
 }
 :local(.Sponsors a):hover {
-  transform: scale(1.025);
+  transform: scale(1.05);
 }
 :local(.Sponsors) {
   display: flex;
