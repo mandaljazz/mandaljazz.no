@@ -44,46 +44,5 @@
       ]
     },
     "youtubeUrl": "https://www.youtube.com/embed/Ck1i3sYYSNU"
-  },
-  {
-    "name": "The Big YES!",
-    "imageName": "the-big-yes.jpg",
-    "id": "the-big-yes",
-    "paragraphs": [
-      "Frisk frijazz fra hele det vide Skandinavi-ja.",
-      "Har du hørt om svensken, dansken og nordmannen som gikk inn i studio og kom ut med et frekt og freidig frijazz-album? Nei? Vel, sånn går omtrent tilblivelseshistorien til The Big YES!, et band som består fire begava unge råskinn fra hele det vide Skandinavia: Svenske Anna Högberg, danske Maria Bertel, og norske Christian Meaas Svendsen og Ole Mofjell (sistemann er en gammel venn av festivalen).",
-      "The Big YES! har oppkalt albumet sitt etter Kalmarunionen, som holdt i over hundre år og er den eneste ganga Sverige, Danmark og Norge har vært forent under ett flagg, én konge. Ikke bare det! De beskriver musikken sin som «demokratisk som Skandinavia selv, men også farlig som Nord-Korea og kompromissløs som det gamle Sovjet.» Det er en ordentlig politisk undertone i lydbildet til The Big YES!. De røsker deg i fletta og river deg ut av komfortsonen.",
-      "The Big YES! viser hvor viktig det er at kreative sjeler fra Norden samarbeider. Vi har tross alt mye mer til felles med hverandre enn ikke. The Big YES! er den kanskje ultimate representanten for PULS, som er Nordisk Kulturfonds nettverk av festivaler (yess, vi er blant dem!) som forplikter seg til å ha en haug med friske nordiske navn på plakaten. Si ja til jazz!",
-      "PS: Den ganga stepper den danske veteranen/bautaen Lotte Anker inn som vikar for Anna Högberg!"
-    ],
-    "bands": {
-      "The Big YES!": [
-        "Lotte Anker (saxofon)",
-        "Maria Bertel (trombone)",
-        "Christian Meaas Svendsen (bass)",
-        "Ole Mofjell (trommer)"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo"
-  },
-  {
-    "name": "Aila Trio",
-    "imageName": "aila-trio.jpg",
-    "id": "aila-trio",
-    "paragraphs": [
-      "Tjäna! Stemningsfull miks av melodisk og fritt og mystisk.",
-      "Ble Aila Trio snytt for en Spellemann-nominasjon? Vi synes det!! Med en sjeldent stemningsfull miks av melodisk og fritt og mystisk, stod trondheimstrioen bak en av fjorårets beste albumdebuter i jazzsjiktet. Dette er musikk som er stor og beskjeden på samme tid, litt sånn som geniet i klassen som ikke vet det selv.",
-      "Det er særlig to grunner til at Aila Trio er så bra: at de spiller swingende godt sammen, og at bandleder Georgia Wartel Collins (bass) skriver skikkelig fine melodier. Ledsagerne Karl Hjalmar Nyberg (saksofon/klarinett) og Andreas Winther (trommer) følger ikke temaene hennes slavisk, men bruker dem som fundament for en mild fri improvisasjon.",
-      "Aila Trio springer ut av den sagnomsuste jazzlinja på NTNU, men både Georgia og Karl Hjalmar kommer fra Söta Bror. Collins er fra en uvanlig musikalsk slekt, med blant andre en farmor som var russisk konsertpianist. Begrepet ‘skandijazz’ har rukket å bli en klisjé, men det er virkelig noe ved Aila Trio som klinger av nordisk granskog. Svenske tilstander, ja takk!"
-    ],
-    "bands": {
-      "Aila Trio": [
-        "Georgia Wartel Collins (kontrabass, komposisjoner)",
-        "Karl Hjalmar Nyberg (saxofon, klarinett)",
-        "Andreas Winther (trommer)"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
-    "spotifyUri": "album/0c0PogsjJQ0AMUCtLIpGds"
   }
 ]

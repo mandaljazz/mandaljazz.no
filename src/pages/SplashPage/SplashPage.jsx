@@ -12,13 +12,10 @@ const SplashPage = () => (
       <div>
         <img src={logo} className={styles.Logo} alt="logo" />
       </div>
-      <h1 className={styles.HeaderText}>
-        mandaljazz
-      </h1>
-      <p className={styles.SubHeader}>
-        25.{HTMLEntities.ndash}27. juni 2020
-      </p>
+      <h1 className={styles.HeaderText}>mandaljazz</h1>
+      <p className={styles.SubHeader}>25.{HTMLEntities.ndash}27. juni 2020</p>
     </header>
+    <p>Joda – det blir festival i år!</p>
     <Artists />
   </div>
 );

@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Link, ScrollToTopOnMount, TicketsInfo } from "../../components";
+import { ScrollToTopOnMount, TicketsInfo } from "../../components";
 import styles from "./TicketsPage.css";
 
 const TicketsPage = () => (
   <>
     <ScrollToTopOnMount />
     <div className={styles.TicketsPage}>
-      <iframe
+      {/* <iframe
         id="ticketco-iframe"
         title="ticketco-iframe"
         frameBorder={0}
@@ -25,7 +25,7 @@ const TicketsPage = () => (
         <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020">
           Mer info på TicketCo
         </Link>
-      </div>
+      </div> */}
       <TicketsInfo />
     </div>
   </>

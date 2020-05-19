@@ -12,8 +12,8 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 720px) {
   #volunteer-form {
-    height: 3000px;
+    height: 2600px;
   }
 }

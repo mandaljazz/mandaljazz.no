@@ -21,7 +21,7 @@ const VolunteerPage = () => (
 
     {/* HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView() */}
     <div
-      onClick={e => {
+      onClick={(e) => {
         document
           .getElementById("frivilligskjema")
           .scrollIntoView({ behavior: "smooth" });
@@ -62,9 +62,9 @@ const VolunteerPage = () => (
     <iframe
       id="volunteer-form"
       title="Frivilligskjema"
-      src="https://docs.google.com/forms/d/e/1FAIpQLSfJFwbFOqVrVF-QNpgPfxFmF-OWyIdtdcigTcw_nJkgJ9Zttw/viewform?embedded=true"
+      src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
       width="100%"
-      height="2792"
+      height="2200"
       frameBorder="0"
       marginHeight="0"
       marginWidth="0"

@@ -6,13 +6,15 @@ import styles from "./TicketsInfo.css";
 const TicketsInfo = () => (
   <div id="billetter" className={styles.TicketsInfo}>
     <h1>Billetter</h1>
+    <p>Billetter kommer snart for salg.</p>
+
     <p>
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
     <h3>Hvordan får jeg tak i billetter?</h3>
     <p>
-      Billetter kjøpes på{" "}
+      Billetter kan snart kjøpes på{" "}
       <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020">
         TicketCo
       </Link>
