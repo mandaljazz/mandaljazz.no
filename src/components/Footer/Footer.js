@@ -26,7 +26,6 @@ import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import kjellbyFiskImg from "../../assets/images/sponsors/kjellby-fisk.png";
-import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielsen.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
@@ -82,12 +81,6 @@ const Footer = () => {
           />
         </Link>
         <img src={kjellbyFiskImg} alt="Kjellby Fisk" />
-        <Link
-          href="https://www.gullsmeddanielsen.no/"
-          title="Gullsmed Danielsen"
-        >
-          <img src={gullsmedDanielsenImg} alt="Gullsmed Danielsen" />
-        </Link>
       </div>
       <h2>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
