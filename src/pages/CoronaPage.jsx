@@ -67,7 +67,7 @@ const CoronaPage = () => (
         konsert
       </li>
       <li>
-        Vi setter et maksbeløp på 100 publikummere i teltet for å kunne holde
+        Vi setter et maksantall på 100 publikummere i teltet for å kunne holde
         ansvarlig avstand
       </li>
       <li>Vi har nedskalert antall dager og konserter</li>
