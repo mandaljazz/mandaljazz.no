@@ -65,9 +65,9 @@ class NavMenu extends React.Component {
       return (
         <>
           <div className={styles.NavMenu}>
+            <RouterLink to="/">Artister</RouterLink>
             <RouterLink to="/billetter">Billetter</RouterLink>
             <RouterLink to="/praktisk">Praktisk</RouterLink>
-            <RouterLink to="/">Artister</RouterLink>
             <RouterLink to="/frivillig">Frivillig</RouterLink>
             <RouterLink to="/historikk">Historikk</RouterLink>
             <RouterLink to="/koronainfo">Koronainfo</RouterLink>
