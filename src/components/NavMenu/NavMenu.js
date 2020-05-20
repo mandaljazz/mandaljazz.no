@@ -9,7 +9,7 @@ import hamburgerSvg from "../../assets/images/hamburger.svg";
 
 class NavMenu extends React.Component {
   state = {
-    isOpen: false
+    isOpen: false,
   };
 
   open = () => {
@@ -37,18 +37,26 @@ class NavMenu extends React.Component {
           <OffCanvas
             height="100%"
             width="250px"
-            style={{ content: { background: "var(--superlighteal)", boxShadow: "-1px 0 4px 0 var(--gray)" } }}
+            style={{
+              content: {
+                background: "var(--superlighteal)",
+                boxShadow: "-1px 0 4px 0 var(--gray)",
+              },
+            }}
             isOpen={this.state.isOpen}
             onClose={this.close}
             labelledby="menu-button"
           >
             <div className={styles.BurgerMenu}>
-              <span onClick={this.close} className={styles.BurgerMenuCloseIcon}>{HTMLEntities.multiplicationX}</span>
+              <span onClick={this.close} className={styles.BurgerMenuCloseIcon}>
+                {HTMLEntities.multiplicationX}
+              </span>
               <RouterLink to="/">Artister</RouterLink>
               <RouterLink to="/billetter">Billetter</RouterLink>
               <RouterLink to="/praktisk">Praktisk</RouterLink>
               <RouterLink to="/frivillig">Frivillig</RouterLink>
               <RouterLink to="/historikk">Historikk</RouterLink>
+              <RouterLink to="/koronainfo">Koronainfo</RouterLink>
             </div>
           </OffCanvas>
         </>
@@ -62,6 +70,7 @@ class NavMenu extends React.Component {
             <RouterLink to="/">Artister</RouterLink>
             <RouterLink to="/frivillig">Frivillig</RouterLink>
             <RouterLink to="/historikk">Historikk</RouterLink>
+            <RouterLink to="/koronainfo">Koronainfo</RouterLink>
           </div>
         </>
       );

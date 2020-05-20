@@ -1,0 +1,13 @@
+:local(.CoronaPage) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  width: 90%;
+}
+@media screen and (min-width: 1000px) {
+  :local(.CoronaPage) {
+    width: 60%;
+  }
+}

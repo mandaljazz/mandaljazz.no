@@ -1,11 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import {
-  Footer,
-  NavMenu,
-  GoogleAnalyticsListener
-} from "./components";
+import { Footer, NavMenu, GoogleAnalyticsListener } from "./components";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -18,8 +14,9 @@ import {
   JazzlaugsVennerPage,
   SpecificCityAdLandingPage,
   JazzMarketPage,
-  SmatassjazzPage
+  SmatassjazzPage,
 } from "./pages";
+import CoronaPage from "./pages/CoronaPage";
 
 class App extends React.Component {
   render() {
@@ -48,6 +45,7 @@ class App extends React.Component {
                     component={ProgramHistoryPage}
                   />
                   <Route exact path="/om" component={AboutPage} />
+                  <Route exact path="/koronainfo" component={CoronaPage} />
                   <Route exact path="/program" component={ProgramPage} />
                   <Route exact path="/billetter" component={TicketsPage} />
                   <Route
@@ -104,7 +102,7 @@ class App extends React.Component {
                   "jazzlaugs-venner",
                   "stavanger",
                   "kristiansand",
-                  "gobi"
+                  "gobi",
                 ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
               </>
             )}

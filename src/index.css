@@ -51,6 +51,7 @@ body {
   background-color: var(--white);
   color: var(--black);
   line-height: 1.5;
+  hyphens: auto;
 }
 
 h1,
