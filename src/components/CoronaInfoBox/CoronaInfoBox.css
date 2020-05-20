@@ -1,0 +1,19 @@
+:local(.CoronaInfoBox) {
+  background-color: var(--quadary);
+  padding: 1rem;
+  width: 90%;
+}
+@media screen and (min-width: 720px) {
+  :local(.CoronaInfoBox) {
+    padding: 1.5rem 2.5rem;
+  }
+  :local(.CoronaInfoBoxWrapper) {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  :local(.CoronaInfoBoxWrapper) {
+    width: 40%;
+  }
+}

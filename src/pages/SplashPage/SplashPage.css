@@ -29,7 +29,7 @@
 
 :local(.HeaderText) {
   font-weight: normal;
-  font-family: 'Libre Baskerville';
+  font-family: "Libre Baskerville";
   text-transform: none;
 }
 
@@ -42,12 +42,6 @@
   margin-left: 1rem;
 }
 
-:local(.CoronaInfoBox) {
-  background-color: var(--quadary);
-  padding: 1rem 1.5rem;
-  width: 90%;
-}
-
 :local(.Logo) {
   height: 30vmin;
 }
@@ -55,16 +49,6 @@
 @media screen and (min-width: 720px) {
   :local(.Header p) {
     max-width: calc(1rem + 50vmin);
-  }
-  :local(.CoronaInfoBox) {
-    width: 50%;
-    padding: 1.5rem 2.5rem;
-  }
-}
-
-@media screen and (min-width: 920px) {
-  :local(.CoronaInfoBox) {
-    width: 40%;
   }
 }
 
