@@ -20,7 +20,7 @@ const TicketsInfo = () => (
     </p>
 
     <div className="info-box">
-      <h3>Ekstrainformasjon i forbindelse med korona</h3>
+      <h3>Informasjon i forbindelse med korona</h3>
       <ul>
         <li>
           Ved avlysning som følge av opptrappet smitte eller forbud mot
