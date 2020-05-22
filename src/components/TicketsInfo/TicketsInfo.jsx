@@ -24,7 +24,7 @@ const TicketsInfo = () => (
       <ul>
         <li>
           Ved avlysning som følge av opptrappet smitte eller forbud mot
-          arrangementer, vil billetter refunderes.
+          arrangementer, vil billetter refunderes
         </li>
         <li>
           Det er mulig å refundere billetter på grunn av sykdom eller karantene
