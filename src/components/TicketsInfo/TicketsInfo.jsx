@@ -6,11 +6,36 @@ import styles from "./TicketsInfo.css";
 const TicketsInfo = () => (
   <div id="billetter" className={styles.TicketsInfo}>
     <h1>Billetter</h1>
-    <p>Billetter kommer snart for salg.</p>
-
     <p>
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
+
+    <p>Billetter kommer snart for salg.</p>
+
+    <p>
+      I år vil vi legge ut et begrenset antall festivalpass, dagspass og
+      enkeltbilletter. Det vil med våre tiltak være kapasitet til 100 mennesker
+      i festivalteltet, hvorav noen plasser er avholdt til frivillige på
+      festivalen.
+    </p>
+
+    <div className="info-box">
+      <h3>Ekstrainformasjon i forbindelse med korona</h3>
+      <ul>
+        <li>
+          Ved avlysning som følge av opptrappet smitte eller forbud mot
+          arrangementer, vil billetter refunderes.
+        </li>
+        <li>
+          Det er mulig å refundere billetter på grunn av sykdom eller karantene
+        </li>
+        <li>
+          Publikum må registerere kontaktinfo ved billettkjøp og godta lagring
+          av kontaktinfo for å kunne gjøre smittesporing i etterkant av
+          festivalen. Informasjonen slettes 1 måned etter festivalslutt.
+        </li>
+      </ul>
+    </div>
 
     <h3>Hvordan får jeg tak i billetter?</h3>
     <p>
@@ -19,14 +44,6 @@ const TicketsInfo = () => (
         TicketCo
       </Link>
       .
-    </p>
-    <p>
-      Festivalpass byttes til festivalbånd i billettbua på Kulturfabrikken eller
-      på standen i Gågata.
-    </p>
-    <p>
-      Hvis du trenger hjelp til å kjøpe billetter er det bare å spørre en av oss
-      på standen i Gågata, så hjelper vi deg.
     </p>
 
     <h3>Festivalpass og dagspass</h3>

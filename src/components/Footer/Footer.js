@@ -10,13 +10,12 @@ import {
 import classNames from "classnames";
 
 import kulturraadetImg from "../../assets/images/sponsors/kulturraadet.png";
-import mandalKommuneImg from "../../assets/images/sponsors/mandal-kommune.png";
+import lindesnesKommuneImg from "../../assets/images/sponsors/lindesnes-kommune.png";
 import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfond.jpg";
 import sorNorskJazzsenterImg from "../../assets/images/sponsors/sor-norsk-jazzsenter.png";
-import vestAgderFylkeskommuneImg from "../../assets/images/sponsors/vest-agder-fylkeskommune.png";
+import agderFylkeskommuneImg from "../../assets/images/sponsors/agder-fylkeskommune.png";
 import keychangeImg from "../../assets/images/sponsors/keychange.png";
 import sparebankenSorImg from "../../assets/images/sponsors/sparebanken-sor.png";
-import frifondImg from "../../assets/images/sponsors/frifond.png";
 import hrRedaktorImg from "../../assets/images/sponsors/hr-redaktor.jpg";
 import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import sjosandenGrafiskeImg from "../../assets/images/sponsors/sjosanden-grafiske.png";
@@ -84,17 +83,20 @@ const Footer = () => {
       </div>
       <h2>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
-        <Link href="https://www.vaf.no/" title="Vest-Agder Fylkeskommune">
-          <img src={vestAgderFylkeskommuneImg} alt="Vest-Agder Fylkeskommune" />
+        <Link href="https://agderfk.no/" title="Agder Fylkeskommune">
+          <img src={agderFylkeskommuneImg} alt="Agder Fylkeskommune" />
+        </Link>
+        <Link
+          href="https://www.lindesnes.kommune.no/"
+          title="Lindesnes kommune"
+        >
+          <img src={lindesnesKommuneImg} alt="Lindesnes kommune" />
         </Link>
         <Link
           href="https://www.nordiskkulturfond.org/en"
           title="Nordisk kulturfond"
         >
           <img src={nordiskKulturfondImg} alt="Nordisk kulturfond" />
-        </Link>
-        <Link href="https://www.mandal.kommune.no/" title="Mandal kommune">
-          <img src={mandalKommuneImg} alt="Mandal kommune" />
         </Link>
         <Link
           href="https://sornorsk.jazzinorge.no/"
@@ -108,13 +110,9 @@ const Footer = () => {
         <Link href="https://www.kulturradet.no/" title="Kulturrådet">
           <img src={kulturraadetImg} alt="Kulturrådet" />
         </Link>
-        <Link href="https://www.frifond.no/" title="Frifond">
-          <img src={frifondImg} alt="Frifond" />
-        </Link>
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />
         </Link>
-        <span style={{ fontSize: "1.25rem" }}>Ordførerpotten</span>
       </div>
       <ul>
         <li>
