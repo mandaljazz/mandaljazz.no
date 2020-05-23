@@ -10,7 +10,7 @@ import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Artist.css";
 import { PulsInfoBox } from "../";
 
-const getImageUrl = imageName => require(`../../assets/images/${imageName}`);
+const getImageUrl = (imageName) => require(`../../assets/images/${imageName}`);
 
 class Artist extends React.Component {
   render() {
@@ -36,7 +36,7 @@ class Artist extends React.Component {
       concertStartAt,
       vimeoId,
       venue,
-      link
+      link,
     } = artist;
     const style = isActive
       ? {}
@@ -45,7 +45,7 @@ class Artist extends React.Component {
       <div
         className={classNames(styles.Artist, className, {
           active: isActive,
-          inactive: otherIsActive
+          inactive: otherIsActive,
         })}
         style={style}
         onClick={() => (link ? {} : toggleIsActive(id))}
@@ -57,7 +57,7 @@ class Artist extends React.Component {
             style={{
               position: "absolute",
               width: "100%",
-              height: "100%"
+              height: "100%",
             }}
           />
         )}
@@ -68,7 +68,7 @@ class Artist extends React.Component {
             style={{
               position: "absolute",
               width: "100%",
-              height: "100%"
+              height: "100%",
             }}
           />
         )}
@@ -83,12 +83,15 @@ class Artist extends React.Component {
             <h1 className="with-border-left">{name}</h1>
             <div
               className={styles.ArtistInfoGrid}
-              onClick={e => e.stopPropagation()}
+              onClick={(e) => e.stopPropagation()}
               style={{ cursor: "text" }}
             >
               <div>
                 {paragraphs.map((paragraph, index) => (
-                  <p key={index} dangerouslySetInnerHTML={{ __html: (paragraph) }}></p>
+                  <p
+                    key={index}
+                    dangerouslySetInnerHTML={{ __html: paragraph }}
+                  />
                 ))}
                 {rightAlignedParagraphs &&
                   rightAlignedParagraphs.map((paragraph, index) => (
@@ -102,16 +105,26 @@ class Artist extends React.Component {
               </div>
               <div>
                 <div className={styles.ConcertInfo}>
-                  {concertStartAt && <><FontAwesomeIcon icon={faClock} />{capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}</>}
-                  {venue && <><FontAwesomeIcon icon={faMapMarkerAlt} />{venue}</>}
+                  {concertStartAt && (
+                    <>
+                      <FontAwesomeIcon icon={faClock} />
+                      {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
+                    </>
+                  )}
+                  {venue && (
+                    <>
+                      <FontAwesomeIcon icon={faMapMarkerAlt} />
+                      {venue}
+                    </>
+                  )}
                 </div>
                 {bands && (
                   <div>
-                    {Object.keys(bands).map(band => (
+                    {Object.keys(bands).map((band) => (
                       <div key={band}>
                         <h4>{band}</h4>
                         <ul>
-                          {bands[band].map(musician => (
+                          {bands[band].map((musician) => (
                             <li key={musician}>{musician}</li>
                           ))}
                         </ul>
@@ -119,7 +132,17 @@ class Artist extends React.Component {
                     ))}
                   </div>
                 )}
-                {spotifyUri && <iframe className="SpotifyPlayer" title="spotify" src={`https://open.spotify.com/embed/${spotifyUri}`} frameborder="0" allowtransparency="true" allow="encrypted-media" /> }
+
+                {spotifyUri && (
+                  <iframe
+                    className="SpotifyPlayer"
+                    title="spotify"
+                    src={`https://open.spotify.com/embed/${spotifyUri}`}
+                    frameborder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                  />
+                )}
                 {soundcloudUserId && (
                   <iframe
                     title={`${name}-soundcloud-iframe`}
@@ -127,7 +150,7 @@ class Artist extends React.Component {
                       width: "100%",
                       height: "320px",
                       minHeight: "200px",
-                      maxHeight: "60vh"
+                      maxHeight: "60vh",
                     }}
                     frameBorder="0"
                     scrolling="no"
@@ -143,7 +166,7 @@ class Artist extends React.Component {
                   width: "100%",
                   height: "600px",
                   maxHeight: "60vh",
-                  margin: "1rem 0"
+                  margin: "1rem 0",
                 }}
                 src={`https://player.vimeo.com/video/${vimeoId}`}
                 frameborder="0"
@@ -158,7 +181,7 @@ class Artist extends React.Component {
                   width: "100%",
                   height: "600px",
                   maxHeight: "60vh",
-                  margin: "1rem 0"
+                  margin: "1rem 0",
                 }}
                 src={youtubeUrl}
                 frameBorder="0"

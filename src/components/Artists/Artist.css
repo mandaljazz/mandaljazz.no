@@ -55,6 +55,7 @@
 }
 :local(.Artist):not(.active) h1 {
   margin-left: 1rem;
+  hyphens: none;
 }
 :local(.Artist):not(.active):hover h1 {
   margin-left: -1.25rem;

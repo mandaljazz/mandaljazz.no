@@ -13,7 +13,7 @@ const CoronaInfoBox = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          smittevern-veilederen til Norske Konsertarrangører
+          smittevern-veilederen til norske konsertarrangører
         </a>
         . Dette gjelder blandt annet renhold, desinfisering og avstand mellom
         sitteplassene

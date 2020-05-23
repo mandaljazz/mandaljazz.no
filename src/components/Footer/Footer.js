@@ -93,12 +93,6 @@ const Footer = () => {
           <img src={lindesnesKommuneImg} alt="Lindesnes kommune" />
         </Link>
         <Link
-          href="https://www.nordiskkulturfond.org/en"
-          title="Nordisk kulturfond"
-        >
-          <img src={nordiskKulturfondImg} alt="Nordisk kulturfond" />
-        </Link>
-        <Link
           href="https://sornorsk.jazzinorge.no/"
           title="Sør-Norsk Jazzsenter"
         >
@@ -106,6 +100,12 @@ const Footer = () => {
         </Link>
         <Link href="https://jazzforum.jazzinorge.no/" title="Norsk Jazzforum">
           <img src={norskJazzforumImg} alt="Norsk Jazzforum" />
+        </Link>
+        <Link
+          href="https://www.nordiskkulturfond.org/en"
+          title="Nordisk kulturfond"
+        >
+          <img src={nordiskKulturfondImg} alt="Nordisk kulturfond" />
         </Link>
         <Link href="https://www.kulturradet.no/" title="Kulturrådet">
           <img src={kulturraadetImg} alt="Kulturrådet" />

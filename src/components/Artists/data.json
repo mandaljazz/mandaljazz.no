@@ -44,5 +44,50 @@
       ]
     },
     "youtubeUrl": "https://www.youtube.com/embed/Ck1i3sYYSNU"
+  },
+  {
+    "name": "Skarbø Skulekorps",
+    "imageName": "skarbo-skulekorps.jpg",
+    "id": "skarbo-skulekorps",
+    "paragraphs": [
+      "Veldig kult korps.",
+      "Man skulle kanskje tro det, men Skarbø Skulekorps har ingenting med Skarbø Skule på Sunnmøre å gjøre. Framfor en gjeng med klønete femteklassinger, består bandet av noen av landets mest begavede jazzmusikere, inkludert Signe Emmeluth og Anja Lauvdal. Trommeslager Øyvind Skarbø stod også bak 1982, som er og var en av Norges flotteste improtrioer.",
+      "Der 1982 flørtet med en rotnorsk mystikk, er Skarbø Skulekorps et mer feststemt og poporientert prosjekt. Men lekenhet og friheten er i stor grad den samme. Her er det elementer av både rhythm & blues og storbandmusikk. Og noen synger på enkelte spor, tenke seg til! Vi gleder oss til å se Skarbø & co. pynte seg i sine staselige blå korpsuniformer og kanaliserere det barnlige engasjementet til virkelige skolekorps.",
+      "Foto: Helge Skodvin"
+    ],
+    "bands": {
+      "Skarbø Skulekorps": [
+        "Signe Emmeluth (altsax, elektronikk)",
+        "Eirik Hegdal (C-sax, klarinet)",
+        "Stian Omenås (trompet)",
+        "Anja Lauvdal (orgel, synth)",
+        "Johan Lindström (pedal steel, gitar)",
+        "Chris Holm (bass, synth)",
+        "Øyvind Skarbø (trommer, perkusjon, vibrafon, banjo)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/B7WuSMWivWc",
+    "spotifyUri": "album/7LtwZOrec7VN36nkwd5hhS"
+  },
+  {
+    "name": "Maria Kannegaard Trio",
+    "imageName": "maria-kannegaard-trio.jpg",
+    "id": "maria-kannegaard-trio",
+    "paragraphs": [
+      "",
+      "Det hersker en tåpelig kunstnermyte at man må være deppa for å være skapende. Tvert imot er det motsatte oftest tilfellet. Dansk-norske Maria Kannegaard har lenge vært åpen om sin psykiske sykdom, og hvordan det i perioder har hindret henne fra å utøve musikk.",
+      "Derfor er vi veldig glad for at Kannegaard, som en av våre mest følsomme pianister, ser ut til å ha et kreativt overskudd om dagen. I fjor ga hun ut det Spellemann-nominerte soloalbum “Nådeslås”, og visstnok venter et nytt album med hennes fantastiske trio like rundt hjørnet. Det blir i så fall det første studioalbumet til Kannegaard, Ole Morten Vågan og Thomas Strønen siden “Camel Walk” fra 2008.",
+      "På grunn av koronakrisen har flere av trioens planlagte konserter blitt utsatt. Dermed blir konserten på årets Mandaljazz en av få muligheter til å høre henne spille i sommer. Det risikerer å bli skikkelig fint.",
+      "Foto: Bilge Öner"
+    ],
+    "bands": {
+      "Maria Kannegaard Trio": [
+        "Maria Kannegaard (piano)",
+        "Ole Morten Vågan (kontrabass)",
+        "Thomas Strønen (trommer)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/vanVuRm27-Y",
+    "spotifyUri": "artist/6iB1azW4T9fVwPfpTW6Ka2"
   }
 ]
