@@ -1,32 +1,23 @@
 [
   {
-    "name": "Marilyn Mazur",
-    "imageName": "marilyn-mazur.png",
-    "id": "marilyn-mazur",
+    "name": "Mall Girl",
+    "imageName": "mall-girl.png",
+    "id": "mall-girl",
     "paragraphs": [
-      "Marilyn Mazurs Shamania",
-      "Musikk av drømmer og syner: Et moderne kvinnelig stammerituale fra en av Nordens største.",
-      "Marilyn Mazur er en av de virkelig store jazzmusikerne vi har her i Norden. Ikke bare er hun en sann musikalsk visjonær, men hun var der også da det smalt: På 1980-tallet reiste hun rundt land og strand med Miles Davis og satt sitt særpreg på musikken hans, og da Jan Garbarek gav ut sine viktigste skiver på 1990-tallet bidro hun på innspillingene.",
-      "Marilyn kom til Danmark som seksåring, etter å ha blitt født i USA av polske og afroamerikanske foreldre i 1955. Hun kjente en spesiell dragning mot trommer og perkusjon, kanskje fordi det er det eldste instrumentet i menneskets historie. Helt sentralt for Mazurs seneste store prosjekt – Shamania, et ti kvinner sterkt orkester – er nemlig begrepet “urkraft”. Som hun sier handler det “om å finne tilbake til instinktive måter å uttrykke seg på. Jeg så for meg en abstrakt moderne versjon av en kvinnelig stammesamling fra fortiden”.",
-      "I Mazurs øyne er det å lage musikk et rituale. Det er kanskje ikke så rart, da hun har ganske ukonvensjonelle måter å skrive sanger på: ved å ha syner og drømmer, og så gjøre dem om til musikk. Shamania, som ble utgitt i albumformat i fjor, er kanskje hennes høydare av denne metoden. Det er jazz, men med stemninger og harmonier som minner om menneskehetens rike musikalske forhistorie. Kanskje havner også du i en transe, og begynner å se syner.",
-      "Foto: Hanne Hvattum"
+      "Er det pop, er det jazz, eller er det så nøye?",
+      "Mall Girl er et ungt band som på kort tid har blitt kjent for sine energiske liveshow og fengende musikk. Inspirasjonskildene spenner fra 80´s pop til noise og math-rock til indie, og er knyttet sammen av et lekent uttrykk og en frigjørende holdning til det å lage musikk. De spilte sin første konsert i februar 2018, og den slo virkelig an. Bandet ble kåret til Månedens Urørt på P3 og singelen «Slay Queen» ble hyppig spilt på radioen. Veien gikk raskt videre til store scener på Skandinaviske festivaler som Øya, Roskilde, Trondheim Calling, Oslo Jazzfestival og Bylarm. Og i sommer kommer de altså til Mandaljazz!",
+      "Mall Girl ble dannet litt tilfeldig, da bandmedlemmene møttes via en jam-session for to år siden. Ut av flammene som oppstod spaserte Eskild, Bethany, Iver og Veslemøy, et kantete og catchy artpop-band, som det nå er knyttet store forventninger til i hele Skandinavia. Ekstra stas er det at trommisen Veslemøy, fra Kristiansand, har vært hos oss både som publikummer og på scenen flere år på rad, sist i fjor da hun spilte i Fresh Sounds prosjektet sammen med den anerkjente saxofonisten Julie Kjær.",
+      "Men er det egentlig pop? Eller er det jazz? Det er i hvert fall en ting som er helt sikkert; det er dansbart, det er rått og det er catchy. Det er vanskelig å ønske seg noe mer."
     ],
     "bands": {
-      "Marilyn Mazur": [
-        "Lotte Anker – saksofon (DK)",
-        "Josefine Cronholm – vokal og perkusjon (SE/DK)",
-        "Sissel Vera – saksofon og vokal (NO/DK)",
-        "Hildegunn Øiseth – trompet (NO)",
-        "Lis Wessberg – trombone (DK)",
-        "Makiko Hirabayashi – keyboards (DK/JAPAN)",
-        "Ellen Andrea Wang – bass og vokal (NO)",
-        "Anna Lund – trommer (SE)",
-        "Lisbeth Diers – perkusjon (DK)",
-        "Marilyn Mazur – komposisjon/leder, perkusjon (DK)",
-        "Tine Erica Aspaas – (dans/koreografi, NO)"
+      "Mall Girl": [
+        "Bethany Forseth-Reichberg (vokal)",
+        "Iver Armand Tandsether (gitar)",
+        "Eskild Myrvoll (bass)",
+        "Hannah Veslemøy Narvesen (tromme)"
       ]
     },
-    "youtubeUrl": "https://www.youtube.com/embed/UdWkIOVjG28",
-    "spotifyUri": "album/1ELiQL6lxwtmn7on15TyV9"
+    "youtubeUrl": "https://www.youtube.com/embed/64TTN2aLhdc",
+    "spotifyUri": "artist/77W4p4twkLnwNkMp7t3KBf"
   }
 ]
