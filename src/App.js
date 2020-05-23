@@ -6,7 +6,6 @@ import {
   AboutPage,
   PracticalInfoPage,
   ProgramHistoryPage,
-  NotFoundPage,
   SplashPage,
   ProgramPage,
   VolunteerPage,
@@ -96,7 +95,15 @@ class App extends React.Component {
                       />
                     )}
                   />
-                  <Route component={NotFoundPage} />
+                  <Route
+                    component={() =>
+                      window.location.replace(
+                        window.location.origin +
+                          "/#" +
+                          window.location.pathname.replace(/\//g, "")
+                      )
+                    }
+                  />
                 </Switch>
                 {![
                   "jazzlaugs-venner",
