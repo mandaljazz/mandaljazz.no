@@ -30,7 +30,7 @@ class Artist extends React.Component {
       rightAlignedParagraphs,
       spotifyUri,
       youtubeUrl,
-      soundcloudUserId,
+      soundcloudId,
       bands,
       isPulsArtist,
       concertStartAt,
@@ -143,7 +143,7 @@ class Artist extends React.Component {
                     allow="encrypted-media"
                   />
                 )}
-                {soundcloudUserId && (
+                {soundcloudId && (
                   <iframe
                     title={`${name}-soundcloud-iframe`}
                     style={{
@@ -154,7 +154,7 @@ class Artist extends React.Component {
                     }}
                     frameBorder="0"
                     scrolling="no"
-                    src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/users/${soundcloudUserId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=true&amp;show_teaser=false`}
+                    src={`https://w.soundcloud.com/player/?url=https://api.soundcloud.com/${soundcloudId}&amp;color=%233cb371&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=true&amp;show_teaser=false`}
                   />
                 )}
                 {isPulsArtist && <PulsInfoBox artistName={name} />}

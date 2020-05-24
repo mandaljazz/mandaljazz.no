@@ -42,7 +42,8 @@
       ]
     },
     "youtubeUrl": "https://www.youtube.com/embed/GCMxBwPmJeg",
-    "spotifyUri": "artist/33Ynrn4NZsANMBJsFFqB7Y"
+    "spotifyUri": "artist/33Ynrn4NZsANMBJsFFqB7Y",
+    "soundcloudId": "tracks/815615929"
   },
   {
     "name": "Skarbø Skulekorps",
@@ -67,6 +68,28 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/B7WuSMWivWc",
     "spotifyUri": "album/7LtwZOrec7VN36nkwd5hhS"
+  },
+
+  {
+    "name": "Hildegunn Øiseths Panda",
+    "imageName": "hildegunn-oiseths-panda.jpg",
+    "id": "hildegunn-oiseths-panda",
+    "paragraphs": [
+      "Leken jazzimprovisasjon om verdens kanskje søteste dyr.",
+      "Pandaen er et fredelig dyr som holder seg mest for seg selv langt ute i de kinesiske skogene der den knasker i seg bambus dagen lang. Bamsen i sort-hvitt er blitt et viktig symbol på naturvern, for dessverre er det få pandaer igjen i verden.",
+      "Hildegunns Panda er en hyllest til den kinesiske bjørnen. Ved hjelp av trompet, bukkehorn, fløyte, tuba, gitar og historiefortelling spiller Hildegunn og vennene hennes Olav og Elisabeth frem en historie om pandaen, der både voksne og barn kanskje kan lære noe nytt. Musikken er full av kontraster og overraskelser med morsomme strekk og øyeblikk av sårhet.",
+      "Konserten er en bearbeiding av trompetisten Hildegunn Øiseths bestillingsverk Panda, som hadde urpremiere under Trondheim Jazzfest i fjor. Der fikk publikum «overvære en fest av en konsert, lekende, intenst og med sterk identitet» og «et kontrastfullt bestillingsverk som ligger i landskapet mellom verdensmusikk, folkemusikk og jazz», ifølge jazzinorge.no.",
+      "Foto: Juliane Schütz"
+    ],
+    "bands": {
+      "Hildegunn Øiseths Panda": [
+        "Hildegunn Øiseth (trompet, bukkehorn, fløyte, fortelling)",
+        "Olav Torget (gitar)",
+        "Elisabeth Vannebo (tuba)"
+      ]
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "artist/4UQCOsb6CvwVBk1yRUs8Xt"
   },
   {
     "name": "Maria Kannegaard Trio",
