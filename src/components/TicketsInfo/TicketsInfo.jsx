@@ -10,8 +10,6 @@ const TicketsInfo = () => (
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
-    <p>Billetter kommer snart for salg.</p>
-
     <p>
       I år vil vi legge ut et begrenset antall festivalpass, dagspass og
       enkeltbilletter. Det vil med våre tiltak være kapasitet til 100 mennesker
@@ -39,7 +37,7 @@ const TicketsInfo = () => (
 
     <h3>Hvordan får jeg tak i billetter?</h3>
     <p>
-      Billetter kan snart kjøpes på{" "}
+      Billetter kjøpes på{" "}
       <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020">
         TicketCo
       </Link>
