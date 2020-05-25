@@ -2,6 +2,10 @@
   background-color: var(--quadary);
   padding: 1rem;
   width: 90%;
+  margin: auto;
+}
+:local(.CoronaInfoBoxWrapper) {
+  margin: auto;
 }
 @media screen and (min-width: 720px) {
   :local(.CoronaInfoBox) {

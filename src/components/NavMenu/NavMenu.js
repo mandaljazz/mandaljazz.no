@@ -53,6 +53,7 @@ class NavMenu extends React.Component {
               </span>
               <RouterLink to="/">Artister</RouterLink>
               <RouterLink to="/billetter">Billetter</RouterLink>
+              <RouterLink to="/program">Program</RouterLink>
               <RouterLink to="/praktisk">Praktisk</RouterLink>
               <RouterLink to="/frivillig">Frivillig</RouterLink>
               <RouterLink to="/historikk">Historikk</RouterLink>

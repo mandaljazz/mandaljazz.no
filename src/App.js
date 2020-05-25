@@ -1,7 +1,12 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { Footer, NavMenu, GoogleAnalyticsListener } from "./components";
+import {
+  Footer,
+  NavMenu,
+  Program,
+  GoogleAnalyticsListener,
+} from "./components";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -27,7 +32,12 @@ class App extends React.Component {
               <>
                 {!["stavanger", "kristiansand", "gobi"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && <NavMenu />}
+                ) && (
+                  <>
+                    <NavMenu />
+                    <Program />
+                  </>
+                )}
                 <Switch location={location}>
                   <Route exact path="/" component={SplashPage} />
                   <Route exact path="/praktisk" component={PracticalInfoPage} />

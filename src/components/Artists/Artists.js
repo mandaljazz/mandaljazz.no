@@ -64,7 +64,6 @@ class Artists extends React.Component {
             );
           })}
         </div>
-        <p style={{ textAlign: 'center'}}>… og mange flere, da.</p>
       </div>
     );
   }
