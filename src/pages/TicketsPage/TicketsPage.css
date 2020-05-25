@@ -10,19 +10,16 @@
   margin-top: 2rem;
   background-color: var(--black-transparent-superlight);
   width: 100%;
-  height: 1050px;
+  height: 1250px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+@media screen and (min-width: 500px) and (max-width: 1200px) {
   #ticketco-iframe {
     height: 800px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   :local(.TicketsPage) {
     width: 60%;
-  }
-  #ticketco-iframe {
-    height: 700px;
   }
 }
