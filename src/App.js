@@ -62,7 +62,7 @@ class App extends React.Component {
                     path="/utlegg"
                     component={() =>
                       window.location.assign(
-                        "https://docs.google.com/forms/d/e/1FAIpQLScYaTGNCdRx34gkvONrjSp3lVY65zk_n9nBdweCD0hOfdnnig/viewform?usp=sf_link"
+                        "https://docs.google.com/forms/d/e/1FAIpQLSf1b_uhMUhqi-YPxssuW2RdAm0cWsLug2-TVPQ2uA3iu9HLFA/viewform?usp=sf_link"
                       )
                     }
                   />
