@@ -51,13 +51,13 @@ class NavMenu extends React.Component {
               <span onClick={this.close} className={styles.BurgerMenuCloseIcon}>
                 {HTMLEntities.multiplicationX}
               </span>
-              <RouterLink to="/">Artister</RouterLink>
-              <RouterLink to="/billetter">Billetter</RouterLink>
-              <RouterLink to="/program">Program</RouterLink>
-              <RouterLink to="/praktisk">Praktisk</RouterLink>
-              <RouterLink to="/frivillig">Frivillig</RouterLink>
-              <RouterLink to="/historikk">Historikk</RouterLink>
-              <RouterLink to="/koronainfo">Koronainfo</RouterLink>
+              <RouterLink onClick={this.close} to="/">Artister</RouterLink>
+              <RouterLink onClick={this.close} to="/billetter">Billetter</RouterLink>
+              <RouterLink onClick={this.close} to="/program">Program</RouterLink>
+              <RouterLink onClick={this.close} to="/praktisk">Praktisk</RouterLink>
+              <RouterLink onClick={this.close} to="/frivillig">Frivillig</RouterLink>
+              <RouterLink onClick={this.close} to="/historikk">Historikk</RouterLink>
+              <RouterLink onClick={this.close} to="/koronainfo">Koronainfo</RouterLink>
             </div>
           </OffCanvas>
         </>
