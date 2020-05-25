@@ -30,9 +30,9 @@ const TicketsInfo = () => (
           Det er mulig å refundere billetter på grunn av sykdom eller karantene
         </li>
         <li>
-          Publikum må registerere kontaktinfo ved billettkjøp og godta lagring
-          av kontaktinfo for å kunne gjøre smittesporing i etterkant av
-          festivalen. Informasjonen slettes 1 måned etter festivalslutt.
+          Publikum må registrere kontaktinfo ved billettkjøp og godta lagring av
+          kontaktinfo for å kunne gjøre smittesporing i etterkant av festivalen.
+          Informasjonen slettes 1 måned etter festivalslutt.
         </li>
       </ul>
     </div>
@@ -47,9 +47,7 @@ const TicketsInfo = () => (
     </p>
 
     <h3>Festivalpass og dagspass</h3>
-    <p>
-      Gir inngang til alle konserter den aktuelle dagen, forutsett kapasitet.
-    </p>
+    <p>Gir inngang til alle konserter den aktuelle dagen.</p>
 
     <h3>Studenter og ungdom under 26 år</h3>
     <p>

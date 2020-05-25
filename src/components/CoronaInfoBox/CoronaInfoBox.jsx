@@ -38,7 +38,7 @@ const CoronaInfoBox = () => (
         føler seg syke
       </li>
       <li>
-        Publikum må registerere kontaktinfo ved billettkjøp og godta lagring av
+        Publikum må registrere kontaktinfo ved billettkjøp og godta lagring av
         kontaktinfo for å kunne gjøre smittesporing i etterkant av festivalen.
         Informasjonen slettes 1 måned etter festivalslutt.
       </li>
