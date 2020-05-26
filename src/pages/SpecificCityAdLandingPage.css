@@ -18,7 +18,7 @@
 }
 
 :local(.ColoredBackground) {
-  background-color: var(--superlightteal);
+  background-color: var(--superlightpeach);
   padding-bottom: 4rem;
 }
 :local(.Section) {

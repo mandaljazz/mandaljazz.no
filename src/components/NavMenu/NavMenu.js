@@ -39,7 +39,7 @@ class NavMenu extends React.Component {
             width="250px"
             style={{
               content: {
-                background: "var(--superlighteal)",
+                background: "var(--superlightpeach)",
                 boxShadow: "-1px 0 4px 0 var(--gray)",
               },
             }}
