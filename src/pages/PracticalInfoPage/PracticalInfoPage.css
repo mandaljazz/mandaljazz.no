@@ -1,14 +1,14 @@
 :local(.PracticalInfoPage) {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 0 1rem;
-  grid-template-columns: minmax(50%, 600px);
+  margin: auto;
+  margin-top: 2rem;
+  width: 90%;
 }
 
-:local(.NavMenu) {
-  display: flex;
-  padding-top: 2rem;
-}
-:local(.NavMenu) > * {
-  margin-right: 2rem;
+@media screen and (min-width: 1200px) {
+  :local(.PracticalInfoPage) {
+    width: 60%;
+  }
 }
