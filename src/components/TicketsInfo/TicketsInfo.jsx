@@ -83,6 +83,24 @@ const TicketsInfo = () => (
       Alle konserter i <strong>Teltet</strong> har 18 års aldersgrense. Barn
       under 18 år har adgang i følge med voksen.
     </p>
+
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "2rem",
+        fontSize: "1.5rem",
+      }}
+    >
+      <Button
+        asLink
+        linkProps={{
+          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
+        }}
+      >
+        Kjøp billetter på TicketCo
+      </Button>
+    </div>
   </div>
 );
 

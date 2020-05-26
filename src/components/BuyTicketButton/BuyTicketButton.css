@@ -1,7 +1,7 @@
 :local(.BuyTicketButtonWrapper) {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
   z-index: 9;
 
   transform: rotateZ(10deg) scale(0);
@@ -12,9 +12,9 @@
 
 :local(.BuyTicketButton) {
   border-radius: 100%;
-  height: 4rem;
-  width: 4rem;
-  font-size: 0.8rem;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1rem;
 
   display: flex;
   align-items: center;
@@ -35,6 +35,10 @@
   transform: scale(1.05) rotateZ(2deg);
 }
 @media screen and (min-width: 720px) {
+  :local(.BuyTicketButtonWrapper) {
+    bottom: 2rem;
+    right: 2rem;
+  }
   :local(.BuyTicketButton) {
     height: 8rem;
     width: 8rem;
