@@ -23,9 +23,6 @@
   align-items: center;
   justify-content: center;
 }
-:local(.Header .Logo) {
-  animation: pulsating 5s infinite alternate;
-}
 
 :local(.HeaderText) {
   font-weight: normal;
@@ -43,7 +40,7 @@
 }
 
 :local(.Logo) {
-  height: 30vmin;
+  height: 40vmin;
 }
 
 @media screen and (min-width: 720px) {

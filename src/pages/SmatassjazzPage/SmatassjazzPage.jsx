@@ -2,8 +2,8 @@ import React from "react";
 import classNames from "classnames";
 
 import smatassjazzImg1 from "../../assets/images/smatassjazz.jpg";
-import froyImg from "../../assets/images/froy-aagre-cropped.jpg";
-import geitekillingenImg from "../../assets/images/geitekillingen.jpg";
+import froyImg from "../../assets/images/2019/artists/froy-aagre-cropped.jpg";
+import geitekillingenImg from "../../assets/images/2019/artists/geitekillingen.jpg";
 import smatassjazzImg2 from "../../assets/images/smatassjazz-2.jpg";
 import { ScrollToTopOnMount, RouterLink, HashLink } from "../../components";
 import splashPageStyles from "../SplashPage/SplashPage.css";

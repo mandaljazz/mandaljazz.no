@@ -3,9 +3,9 @@ import ReactGA from "react-ga";
 import classNames from "classnames";
 
 import logo from "../assets/images/jazzlaug.png";
-import saxImg from "../assets/images/sax.png";
-import pianistImg from "../assets/images/pianist.png";
-import bassImg from "../assets/images/bass.png";
+import saxImg from "../assets/images/2019/profile/sax.png";
+import pianistImg from "../assets/images/2019/profile/pianist.png";
+import bassImg from "../assets/images/2019/profile/bass.png";
 import promoKidsImg from "../assets/images/promo-kids.jpg";
 import promoBassImg from "../assets/images/promo-bass.jpg";
 import promoArtsyImg from "../assets/images/promo-artsy.jpg";

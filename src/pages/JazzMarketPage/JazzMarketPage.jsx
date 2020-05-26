@@ -1,9 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 
-import stoaImg from "../../assets/images/stoa.jpg";
-import tonjeImg from "../../assets/images/tonje.jpg";
-import helsebodenImg from "../../assets/images/helseboden.jpg";
+import stoaImg from "../../assets/images/2019/stoa.jpg";
+import tonjeImg from "../../assets/images/2019/tonje.jpg";
+import helsebodenImg from "../../assets/images/2019/helseboden.jpg";
 import bodImg from "../../assets/images/bod.jpg";
 import marketImg1 from "../../assets/images/jazzmarked.jpg";
 import marketImg2 from "../../assets/images/jazzmarked-2.jpg";

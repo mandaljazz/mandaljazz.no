@@ -7,35 +7,34 @@ import { SlideDown } from "react-slidedown";
 import { isMobile } from "react-device-detect";
 import "react-slidedown/lib/slidedown.css";
 
-import { Button, HashLink, RouterLink } from "../";
+import { RoundedButton, HashLink, RouterLink } from "../";
 import styles from "./Program.css";
 import artists from "../Artists/data.json";
-import saxImg from "../../assets/images/sax.png";
 
 class Program extends React.Component {
   static defaultProps = {
-    isAlwaysOpen: false
+    isAlwaysOpen: false,
   };
 
-  artistsToBeShown = artists.filter(artist => !artist.hideFromProgram);
+  artistsToBeShown = artists.filter((artist) => !artist.hideFromProgram);
 
   state = {
-    isOpen: false
+    isOpen: false,
   };
 
   toggleIsOpen = () => this.setState({ isOpen: !this.state.isOpen });
 
   artistsGroupedByDay = () =>
     Object.entries(
-      groupBy(sortBy(this.artistsToBeShown, "concertStartAt"), artist =>
+      groupBy(sortBy(this.artistsToBeShown, "concertStartAt"), (artist) =>
         capitalize(dayjs(artist.concertStartAt).format("dddd"))
       )
     );
 
   renderToggleIsOpenButton = () => (
-    <Button onClick={this.toggleIsOpen} small>
+    <RoundedButton onClick={this.toggleIsOpen}>
       {this.state.isOpen ? "Lukk program" : "Program"}
-    </Button>
+    </RoundedButton>
   );
 
   renderLinkToProgramPage = () => (
@@ -44,7 +43,7 @@ class Program extends React.Component {
     </RouterLink>
   );
 
-  renderArtistText = artist => {
+  renderArtistText = (artist) => {
     const { hideFromArtistList, link, name, shortName, id } = artist;
     const artistNameInBold = <strong>{shortName || name}</strong>;
 
@@ -62,7 +61,7 @@ class Program extends React.Component {
         to={{
           pathname: "/",
           hash: `#${id}`,
-          state: { activeId: id }
+          state: { activeId: id },
         }}
       >
         {artistNameInBold}
@@ -89,13 +88,13 @@ class Program extends React.Component {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                justifyContent: "space-between"
+                justifyContent: "space-between",
               }}
             >
               <div>
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
-                  {sortBy(artists, "concertStartAt").map(artist => (
+                  {sortBy(artists, "concertStartAt").map((artist) => (
                     <li key={artist.id}>
                       <span className={styles.ConcertInfo}>
                         {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
@@ -109,17 +108,6 @@ class Program extends React.Component {
                   ))}
                 </ul>
               </div>
-              {!isMobile && day === "Torsdag" && (
-                <img
-                  src={saxImg}
-                  alt="Sax"
-                  style={{
-                    width: "200px",
-                    padding: "1rem",
-                    justifySelf: "flex-end"
-                  }}
-                />
-              )}
             </div>
           ))}
         </SlideDown>

@@ -6,7 +6,9 @@ import styles from "./TravelInfo.css";
 const TravelInfo = () => (
   <div id="reise" className={styles.TravelInfo}>
     <h1>Reise</h1>
-    <p>Finn reisen til Mandaljazz med Entur!</p>
+    <p>
+      Finn reisen til Mandaljazz med <Link href="https://entur.no">Entur</Link>.
+    </p>
     {window.innerWidth > 350 ? (
       <div className={styles.EnturIframeWrapper}>
         <iframe
@@ -16,10 +18,9 @@ const TravelInfo = () => (
             display: "block",
             height: "480px",
             width: "100%",
-            alignSelf: "center"
+            alignSelf: "center",
           }}
-          src="https://widget.en-tur.no/?target=_blank&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
-          // TODO: Add default departure day
+          src="https://widget.en-tur.no?showResult=internal&amp;resultLimit=5&amp;defaultLang=nob&amp;target=_target&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
         />
       </div>
     ) : (
@@ -28,7 +29,7 @@ const TravelInfo = () => (
         frameBorder="0"
         style={{
           height: "45px",
-          width: "100%"
+          width: "100%",
         }}
         src="https://widget.en-tur.no/mini?target=_blank&amp;label=Finn%20reiser%20til%20Mandal&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
       />

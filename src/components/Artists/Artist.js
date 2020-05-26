@@ -10,7 +10,7 @@ import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Artist.css";
 import { PulsInfoBox } from "../";
 
-const getImageUrl = (imageName) => require(`../../assets/images/${imageName}`);
+const getImageUrl = (imageName) => require(`../../assets/images/artists/${imageName}`);
 
 class Artist extends React.Component {
   render() {
@@ -169,7 +169,7 @@ class Artist extends React.Component {
                   margin: "1rem 0",
                 }}
                 src={`https://player.vimeo.com/video/${vimeoId}`}
-                frameborder="0"
+                frameBorder="0"
                 allowfullscreen
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 title={`${name}-vimeo-iframe`}

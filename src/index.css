@@ -8,10 +8,10 @@
   --yellow: #d4ca6f;
   --lightyellow: #fdf9d5;
 
-  --primary: #6adfc7;
-  --secondary: #18e2ba;
-  --tertiary: #34ac94;
-  --quadary: #b0f4e6;
+  --primary: #f89876;
+  --secondary: #f6b499;
+  --tertiary: #f1755b;
+  --quadary: #fedaca;
 
   --white: #fffffe;
   --white-transparent-heavy: rgba(255, 255, 255, 0.9);
@@ -24,7 +24,7 @@
   --black-transparent: rgba(0, 0, 0, 0.9);
   --black-transparent-medium: rgba(0, 0, 0, 0.5);
   --black-transparent-light: rgba(0, 0, 0, 0.2);
-  --black-transparent-superlight: rgba(0, 0, 0, 0.05);
+  --black-transparent-superlight: rgba(0, 0, 0, 0.025);
   --lightgray: #f3f3f3;
   --gray: #505050;
 
@@ -96,7 +96,7 @@ ul {
   list-style-type: square;
 }
 ul.link-list li {
-  line-height: 2;
+  padding: 0.3rem 0;
 }
 
 iframe {

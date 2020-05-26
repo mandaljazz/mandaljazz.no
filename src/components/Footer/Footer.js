@@ -26,12 +26,18 @@ import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.p
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import kjellbyFiskImg from "../../assets/images/sponsors/kjellby-fisk.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
+import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className={styles.Footer}>
+      <img
+        src={seaBedImg}
+        alt="Sea bed"
+        style={{ width: "90%", maxWidth: "800px" }}
+      />
       <h2>Hovedsponsor</h2>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
@@ -120,7 +126,7 @@ const Footer = () => {
             href="https://www.facebook.com/mandaljazz"
             title="Mandaljazz på Facebook"
           >
-            <FontAwesomeIcon icon={faFacebookSquare} color="#6adfc7" />
+            <FontAwesomeIcon icon={faFacebookSquare} color="#ff7a4d" />
           </Link>
         </li>
         <li>
@@ -128,7 +134,7 @@ const Footer = () => {
             href="https://www.instagram.com/mandaljazz/"
             title="Mandaljazz på Instagram"
           >
-            <FontAwesomeIcon icon={faInstagram} color="#18e2ba" />
+            <FontAwesomeIcon icon={faInstagram} color="#f89876" />
           </Link>
         </li>
         <li>
@@ -136,7 +142,7 @@ const Footer = () => {
             href="https://twitter.com/mandaljazz"
             title="Mandaljazz på Twitter"
           >
-            <FontAwesomeIcon icon={faTwitter} color="#34ac94" />
+            <FontAwesomeIcon icon={faTwitter} color="#f7ac92" />
           </Link>
         </li>
         <li>
@@ -144,7 +150,7 @@ const Footer = () => {
             href="https://www.youtube.com/channel/UCk0E0CaIIwc15zF8QypCd4A"
             title="Mandaljazz på Youtube"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#B0F4E6" />
+            <FontAwesomeIcon icon={faYoutube} color="#ffcab8" />
           </Link>
         </li>
       </ul>

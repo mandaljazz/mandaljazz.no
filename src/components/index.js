@@ -1,5 +1,6 @@
 export { default as Artists } from "./Artists";
 export { default as Button } from "./Button";
+export { default as RoundedButton } from "./RoundedButton";
 export { default as CircledButton } from "./CircledButton";
 export { default as BuyTicketButton } from "./BuyTicketButton";
 export { default as Blockquote } from "./Blockquote";
