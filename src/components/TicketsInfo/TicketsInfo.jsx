@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "../../components";
+import { Button } from "../../components";
 import styles from "./TicketsInfo.css";
 
 const TicketsInfo = () => (
@@ -35,17 +35,32 @@ const TicketsInfo = () => (
       </ul>
     </div>
 
-    <h3>Hvordan får jeg tak i billetter?</h3>
-    <p>
-      Billetter kjøpes på{" "}
-      <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020">
-        TicketCo
-      </Link>
-      .
-    </p>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "2rem",
+        fontSize: "1.5rem",
+      }}
+    >
+      <Button
+        asLink
+        linkProps={{
+          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
+        }}
+      >
+        Kjøp billetter på TicketCo
+      </Button>
+    </div>
 
-    <h3>Festivalpass og dagspass</h3>
+    <h3>Festivalpass</h3>
+    <p>Gir inngang til alle konserter på hele festivalen.</p>
+
+    <h3>Dagspass</h3>
     <p>Gir inngang til alle konserter den aktuelle dagen.</p>
+
+    <h3>Enkeltbilletter</h3>
+    <p>Gir inngang til den aktuelle konserten.</p>
 
     <h3>Studenter og ungdom under 26 år</h3>
     <p>

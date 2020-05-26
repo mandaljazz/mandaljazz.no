@@ -13,20 +13,12 @@ const BuyTicketButton = ({ ...props }) => {
         onClick={() =>
           ReactGA.event({
             category: "User",
-            action: "Clicked Buy Ticket button"
+            action: "Clicked Buy Ticket button",
           })
         }
         {...props}
       >
-        <div>
-          Kjøp
-          <br />
-          <span className={styles.Blink}>Super</span> Early
-          <br />
-          Bird-
-          <br />
-          billetter
-        </div>
+        Billetter
       </NavLink>
     </div>
   );
