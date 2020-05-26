@@ -16,11 +16,6 @@ const AccomodationInfo = () => (
 
     <ul className="link-list">
       <li>
-        <Link href="https://www.booking.com/hotel/no/solborg-hotell">
-          Solborg Sommerpensjonat
-        </Link>
-      </li>
-      <li>
         <Link href="https://www.kjobmandsgaarden.no/">
           Kjøbmandsgården Hotell
         </Link>
