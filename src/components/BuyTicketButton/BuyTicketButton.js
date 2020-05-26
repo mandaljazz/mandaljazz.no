@@ -1,6 +1,7 @@
 import React from "react";
 import ReactGA from "react-ga";
 import { NavLink } from "react-router-dom";
+import { isMobile } from "react-device-detect";
 
 import styles from "./BuyTicketButton.css";
 
@@ -18,7 +19,15 @@ const BuyTicketButton = ({ ...props }) => {
         }
         {...props}
       >
-        Billetter
+        {isMobile ? (
+          "Billetter"
+        ) : (
+          <div>
+            Kjøp
+            <br />
+            Billetter
+          </div>
+        )}
       </NavLink>
     </div>
   );
