@@ -12,11 +12,19 @@ const getStyling = ({ large, small }) => {
   return {};
 };
 
-const Button = ({ children, asLink, linkProps, large, small, ...props }) => {
+const Button = ({
+  children,
+  asLink,
+  linkProps,
+  large,
+  small,
+  style,
+  ...props
+}) => {
   const button = (
     <div
       className={styles.Button}
-      style={getStyling({ large, small })}
+      style={{ ...getStyling({ large, small }), ...style }}
       {...props}
     >
       {children}
@@ -27,7 +35,7 @@ const Button = ({ children, asLink, linkProps, large, small, ...props }) => {
       {...linkProps}
       rel="noopener noreferrer"
       target="_blank"
-      style={{ textDecoration: "none" }}
+      style={{ textDecoration: "none", style }}
     >
       {button}
     </a>

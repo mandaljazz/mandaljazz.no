@@ -32,8 +32,11 @@ class Program extends React.Component {
     );
 
   renderToggleIsOpenButton = () => (
-    <RoundedButton onClick={this.toggleIsOpen}>
-      {this.state.isOpen ? "Lukk program" : "Program"}
+    <RoundedButton
+      onClick={this.toggleIsOpen}
+      style={{ marginLeft: "-2.4rem" }}
+    >
+      {this.state.isOpen ? "Lukk program" : "Se program"}
     </RoundedButton>
   );
 
