@@ -25,7 +25,7 @@ const BuyTicketButton = ({ ...props }) => {
           <div>
             Kjøp
             <br />
-            Billetter
+            billetter
           </div>
         )}
       </NavLink>
