@@ -45,6 +45,7 @@ const TicketsInfo = () => (
     >
       <Button
         asLink
+        large
         linkProps={{
           href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
         }}
@@ -94,6 +95,7 @@ const TicketsInfo = () => (
     >
       <Button
         asLink
+        large
         linkProps={{
           href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
         }}
