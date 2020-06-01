@@ -1,7 +1,7 @@
 import React from "react";
 
 import promoVideo from "../../assets/videos/promo.mp4";
-import { Blockquote, Button, ScrollToTopOnMount } from "../../components";
+import { Blockquote, ScrollToTopOnMount } from "../../components";
 import volunteers2019Img from "../../assets/images/frivillige-2019.jpg";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
@@ -20,7 +20,7 @@ const VolunteerPage = () => (
     </video>
 
     {/* HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView() */}
-    <div
+    {/* <div
       onClick={(e) => {
         document
           .getElementById("frivilligskjema")
@@ -29,7 +29,14 @@ const VolunteerPage = () => (
       style={{ marginTop: "2rem", border: "none" }}
     >
       <Button large>Bli frivillig på Mandaljazz 2020!</Button>
-    </div>
+    </div> */}
+    <h2>
+      <del>Bli frivillig på Mandaljazz 2020</del>
+    </h2>
+    <p>
+      Mandaljazz har dessverre ikke mulighet til å ta inn flere frivillige i år.
+    </p>
+    <p>Tusen takk for interessen og velkommen som frivillig neste år!</p>
     <Blockquote person="Håvard (bar og servering)">
       Hadde det ikke vært for at man måtte okkupere den beste plassen i teltet,
       høre på det siste skriket innen jazz, omgås sprudlende fornøyde
@@ -59,7 +66,7 @@ const VolunteerPage = () => (
       style={{ marginBottom: "3rem" }}
     />
     <div id="frivilligskjema" />
-    <iframe
+    {/* <iframe
       id="volunteer-form"
       title="Frivilligskjema"
       src="https://docs.google.com/forms/d/e/1FAIpQLScCyYzI5qiN63YSyjv2OJxi6cAvVxRDXSU6k4oDWd-3x8gNdw/viewform?embedded=true"
@@ -70,7 +77,7 @@ const VolunteerPage = () => (
       marginWidth="0"
     >
       Henter skjema...
-    </iframe>
+    </iframe> */}
     <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
     <Blockquote person="Mari Marie (transport)">
       For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
