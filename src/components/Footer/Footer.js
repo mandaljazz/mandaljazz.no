@@ -17,14 +17,12 @@ import agderFylkeskommuneImg from "../../assets/images/sponsors/agder-fylkeskomm
 import keychangeImg from "../../assets/images/sponsors/keychange.png";
 import sparebankenSorImg from "../../assets/images/sponsors/sparebanken-sor.png";
 import hrRedaktorImg from "../../assets/images/sponsors/hr-redaktor.jpg";
-import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import sjosandenGrafiskeImg from "../../assets/images/sponsors/sjosanden-grafiske.png";
 import jazzlaugsVennerImg from "../../assets/images/sponsors/jazzlaugs-venner.png";
 import hansaBorgImg from "../../assets/images/sponsors/hansa-borg.png";
 import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
-import kjellbyFiskImg from "../../assets/images/sponsors/kjellby-fisk.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
 import { Link } from "../../components";
@@ -48,13 +46,6 @@ const Footer = () => {
       <div className={styles.Sponsors}>
         <Link href="https://red.no/" title="Hr. Redaktør!">
           <img src={hrRedaktorImg} alt="Hr. Redaktør!" />
-        </Link>
-        <Link href="https://www.larsenoptikk.no/" title="Larsen Optikk">
-          <img
-            src={larsenOptikkImg}
-            alt="Larsen Optikk"
-            style={{ maxWidth: "9rem" }}
-          />
         </Link>
         <Link href="https://www.sjograf.no/" title="Sjøsanden Grafiske">
           <img
@@ -85,7 +76,6 @@ const Footer = () => {
             style={{ maxWidth: "8rem" }}
           />
         </Link>
-        <img src={kjellbyFiskImg} alt="Kjellby Fisk" />
       </div>
       <h2>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
