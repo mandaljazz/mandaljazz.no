@@ -25,6 +25,7 @@ import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.p
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
+import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -108,6 +109,9 @@ const Footer = () => {
         </Link>
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />
+        </Link>
+        <Link href="https://puls.nordiskkulturfond.org/en/" title="Puls">
+          <img src={pulsLogoImg} alt="Puls" />
         </Link>
       </div>
       <ul>

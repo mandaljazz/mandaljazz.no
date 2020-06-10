@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "../";
 
 import styles from "./PulsInfoBox.css";
-import pulsLogoImg from "../../assets/images/nordisk-kulturfond-puls-logo-white.png";
+import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-white.png";
 
 const PulsInfoBox = ({ artistName, ...props }) => {
   return (
