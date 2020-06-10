@@ -98,7 +98,7 @@ class Program extends React.Component {
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
                   {sortBy(artists, "concertStartAt").map((artist) => (
-                    <li key={artist.id}>
+                    <li key={artist.id} style={{ textDecoration: artist.cancelled ? 'line-through' : '' }}>
                       <span className={styles.ConcertInfo}>
                         {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
                         {artist.venue}

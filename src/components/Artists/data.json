@@ -1,5 +1,20 @@
 [
   {
+    "name": "Charlotte Dos Santos",
+    "imageName": "charlotte-dos-santos.jpg",
+    "id": "charlotte-dos-santos",
+    "venue": "Teltet",
+    "concertStartAt": "2020-06-26T20:00:01",
+    "paragraphs": ["", "Foto: Eli Salcedo"],
+    "bands": {
+      "Charlotte Dos Santos (solo)": [
+        "Charlotte Dos Santos (vokal og tangenter)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/OriguNtENhQ",
+    "spotifyUri": "artist/0INatsTiEOX0EJimNTQjSM"
+  },
+  {
     "name": "Fredrik Høyer & Bendik Baksaas",
     "imageName": "fredrik-hoyer-bendik-baksaas.jpg",
     "id": "fredrik-hoyer-bendik-baksaas",
@@ -54,7 +69,7 @@
     "imageName": "skarbo-skulekorps.jpg",
     "id": "skarbo-skulekorps",
     "venue": "Teltet",
-    "concertStartAt": "2020-06-26T20:00:00",
+    "concertStartAt": "2020-06-26T18:00:00",
     "paragraphs": [
       "Veldig kult korps.",
       "Man skulle kanskje tro det, men Skarbø Skulekorps har ingenting med Skarbø Skule på Sunnmøre å gjøre. Framfor en gjeng med klønete femteklassinger, består bandet av noen av landets mest begavede jazzmusikere, inkludert Signe Emmeluth og Anja Lauvdal. Trommeslager Øyvind Skarbø stod også bak 1982, som er og var en av Norges flotteste improtrioer.",
@@ -101,10 +116,12 @@
   },
   {
     "name": "Maria Kannegaard Trio",
+    "hideFromArtistList": true,
+    "cancelled": true,
     "imageName": "maria-kannegaard-trio.jpg",
     "id": "maria-kannegaard-trio",
     "venue": "Teltet",
-    "concertStartAt": "2020-06-26T18:00:00",
+    "concertStartAt": "2020-06-26T20:00:00",
     "paragraphs": [
       "",
       "Det hersker en tåpelig kunstnermyte at man må være deppa for å være skapende. Tvert imot er det motsatte oftest tilfellet. Dansk-norske Maria Kannegaard har lenge vært åpen om sin psykiske sykdom, og hvordan det i perioder har hindret henne fra å utøve musikk.",
