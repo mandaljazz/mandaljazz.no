@@ -26,6 +26,8 @@ import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
 import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
+import paulJLolandImg from "../../assets/images/sponsors/paul-j-loland.jpg";
+import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -74,6 +76,20 @@ const Footer = () => {
           <img
             src={mandalHotelImg}
             alt="Mandal Hotel"
+            style={{ maxWidth: "8rem" }}
+          />
+        </Link>
+        <Link href="https://www.norengros.no/" title="NorEngros">
+          <img
+            src={norEngrosImg}
+            alt="NorEngros"
+            style={{ maxWidth: "8rem" }}
+          />
+        </Link>
+        <Link href="http://www.pjl.no/" title="Paul J. Loland">
+          <img
+            src={paulJLolandImg}
+            alt="Paul J. Loland"
             style={{ maxWidth: "8rem" }}
           />
         </Link>

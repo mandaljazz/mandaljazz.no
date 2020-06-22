@@ -22,12 +22,13 @@ const JazzlaugsVennerPage = () => (
       />
     </div>
     <ul>
-      <li>Nødings Delikatesse</li>
-      <li>Gullsmed Danielsen</li>
       <li>Aurebekk Gartneri</li>
+      <li>Edgars</li>
+      <li>Gullsmed Danielsen</li>
+      <li>Neumann Bygg</li>
+      <li>Nødings Delikatesse</li>
       <li>Sørlandets kaffebrenneri</li>
       <li>Tor Fasseland</li>
-      <li>Neumann Bygg</li>
     </ul>
   </div>
 );
