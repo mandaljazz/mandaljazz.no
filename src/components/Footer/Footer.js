@@ -28,6 +28,7 @@ import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
 import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import paulJLolandImg from "../../assets/images/sponsors/paul-j-loland.jpg";
 import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
+import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -39,13 +40,13 @@ const Footer = () => {
         alt="Sea bed"
         style={{ width: "90%", maxWidth: "800px" }}
       />
-      <h2>Hovedsponsor</h2>
+      <h2 style={{ color: "gray" }}>Hovedsponsor</h2>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
         </Link>
       </div>
-      <h2>Sponsorer</h2>
+      <h2 style={{ color: "gray" }}>Sponsorer</h2>
       <div className={styles.Sponsors}>
         <Link href="https://red.no/" title="Hr. Redaktør!">
           <img src={hrRedaktorImg} alt="Hr. Redaktør!" />
@@ -61,7 +62,7 @@ const Footer = () => {
           <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
         </NavLink>
       </div>
-      <h2>Støttespillere</h2>
+      <h2 style={{ color: "gray" }}>Støttespillere</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
@@ -94,7 +95,7 @@ const Footer = () => {
           />
         </Link>
       </div>
-      <h2>Offentlig støtte</h2>
+      <h2 style={{ color: "gray" }}>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://agderfk.no/" title="Agder Fylkeskommune">
           <img src={agderFylkeskommuneImg} alt="Agder Fylkeskommune" />
@@ -128,6 +129,9 @@ const Footer = () => {
         </Link>
         <Link href="https://puls.nordiskkulturfond.org/en/" title="Puls">
           <img src={pulsLogoImg} alt="Puls" />
+        </Link>
+        <Link href="https://www.kulturrom.no/" title="Kulturrom">
+          <img src={kulturromImg} alt="Kulturrom" />
         </Link>
       </div>
       <ul>
