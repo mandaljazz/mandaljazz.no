@@ -40,6 +40,9 @@ const PracticalInfoPage = () => (
         <Feature coordinates={[7.457844, 58.025007]} />
       </Layer>
     </Map>
+    <p>
+      <em>Keiser Nicolaus gate 8–12, 4515 Mandal</em>
+    </p>
     <TravelInfo />
     <AccomodationInfo />
   </div>
