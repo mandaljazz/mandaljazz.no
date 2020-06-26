@@ -10,7 +10,7 @@ const CoronaPage = () => (
     <img
       src={trollImg}
       alt="Troll"
-      style={{ margin: "auto", maxWidth: "400px" }}
+      style={{ margin: "auto", maxWidth: "400px", width: '100%' }}
     />
     <h1>Koronainfo</h1>
     <h3>Det blir Mandaljazz i sommer!</h3>
