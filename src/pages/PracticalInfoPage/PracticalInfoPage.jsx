@@ -7,7 +7,6 @@ import {
   ScrollToTopOnMount,
 } from "../../components";
 import styles from "./PracticalInfoPage.css";
-import mapImg from "../../assets/images/kart.jpg";
 
 const Map = ReactMapboxGl({
   accessToken:
@@ -18,6 +17,7 @@ const PracticalInfoPage = () => (
   <div className={styles.PracticalInfoPage}>
     <ScrollToTopOnMount />
     <Map
+      // eslint-disable-next-line
       style="mapbox://styles/mapbox/light-v9"
       center={[7.457844, 58.025007]}
       zoom={[13]}
