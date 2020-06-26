@@ -7,8 +7,12 @@ import trollImg from "../assets/images/profile/troll-transparent.jpg";
 const CoronaPage = () => (
   <div className={styles.CoronaPage}>
     <ScrollToTopOnMount />
-    <img src={trollImg} alt="Troll" style={{ margin: 'auto', maxWidth: "400px" }} />
-    <h1>Koronainformasjon</h1>
+    <img
+      src={trollImg}
+      alt="Troll"
+      style={{ margin: "auto", maxWidth: "400px" }}
+    />
+    <h1>Koronainfo</h1>
     <h3>Det blir Mandaljazz i sommer!</h3>
     <p>
       Etter mange og nøye vurderinger har de frivillige i Mandaljazz tatt en
