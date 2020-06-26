@@ -10,9 +10,6 @@ const AccomodationInfo = () => (
       Det finnes flere overnattingsmuligheter i Mandal. Sjekk ut disse for mer
       info.
     </p>
-    <p className={"info-box"}>
-      For tiden er det få ledige rom på byens hoteller, men Hald har ledige rom.
-    </p>
 
     <ul className="link-list">
       <li>
