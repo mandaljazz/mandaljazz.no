@@ -10,7 +10,7 @@ const CoronaPage = () => (
     <img
       src={trollImg}
       alt="Troll"
-      style={{ margin: "auto", maxWidth: "400px", width: '100%' }}
+      style={{ margin: "auto", maxWidth: "400px", width: "100%" }}
     />
     <h1>Koronainfo</h1>
     <h3>Det blir Mandaljazz i sommer!</h3>
@@ -24,7 +24,7 @@ const CoronaPage = () => (
       juni, og Mandaljazz tar alle forholdsregler når det kommer til smittevern.
       Det vil derfor bli en nedskalert utgave av festivalen denne
       korona-sommeren. Blant annet reduserer vi fra tre til to dager, det blir
-      maks åpent for 100 publikummere på konsertene på hovedscenen i teltet på
+      åpent for maks 100 publikummere på konsertene på hovedscenen i teltet på
       Kulturfabrikken, og det blir færre konserter enn det ville vært under
       normale omstendigheter. Det vil heller ikke bli noen aktivitet i regi av
       festivalen etter klokken 23.

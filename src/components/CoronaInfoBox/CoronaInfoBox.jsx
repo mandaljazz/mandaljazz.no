@@ -27,11 +27,14 @@ const CoronaInfoBox = () => (
         Maksimalt 100 publikummere per konsert for å kunne holde ansvarlig
         avstand
       </li>
-      <li>Bord og stoler blir satt opp med 1m avstand mellom husstander</li>
+      <li>
+        Bord og stoler blir satt opp med 1 meter avstand mellom husstander
+      </li>
       <li>Vi har nedskalert antall dager og konserter</li>
       <li>Grunnet reiserestriksjoner blir det i år en helnorsk line-up</li>
       <li>
-        Vi ønsker kontaktløs betaling med kort i barene på festivalområdet
+        Vi oppfordrer publikum på det sterkeste til å kun benytte kontaktløse
+        betalingsmåter, enten kontaktløst med kort (tæpping) eller med Vipps
       </li>
       <li>
         Vi ber både frivillige og publikummere om å holde seg hjemme dersom de
