@@ -5,6 +5,7 @@ import {
   TravelInfo,
   AccomodationInfo,
   ScrollToTopOnMount,
+  Link,
 } from "../../components";
 import styles from "./PracticalInfoPage.css";
 
@@ -41,7 +42,9 @@ const PracticalInfoPage = () => (
       </Layer>
     </Map>
     <p>
-      <em>Keiser Nicolaus gate 8–12, 4515 Mandal</em>
+      <Link href="https://goo.gl/maps/TwxanJ21d7Ur5Tqq6">
+        <em>Keiser Nicolaus gate 8–12, 4515 Mandal</em>
+      </Link>
     </p>
     <TravelInfo />
     <AccomodationInfo />
