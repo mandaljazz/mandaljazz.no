@@ -53,7 +53,8 @@ const AccomodationInfo = () => (
     </ul>
 
     <p>
-      Det finnes også muligheter for privat innlosjering.{" "}
+      Det finnes også muligheter for privat innlosjering.
+      <br />
       <Link href="mailto:post@mandaljazz.no" title="post@mandaljazz.no">
         Kontakt oss
       </Link>{" "}
