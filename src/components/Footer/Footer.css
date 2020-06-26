@@ -60,7 +60,7 @@
   max-height: 10rem;
 }
 :local(.Sponsors).small img {
-  max-width: 9rem;
+  max-width: 7.5rem;
   max-height: 4rem;
 }
 @media screen and (min-width: 720px) {
