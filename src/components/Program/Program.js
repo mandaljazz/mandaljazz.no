@@ -32,10 +32,7 @@ class Program extends React.Component {
     );
 
   renderToggleIsOpenButton = () => (
-    <RoundedButton
-      onClick={this.toggleIsOpen}
-      style={{ marginLeft: "-2.4rem" }}
-    >
+    <RoundedButton onClick={this.toggleIsOpen}>
       {this.state.isOpen ? "Lukk program" : "Se program"}
     </RoundedButton>
   );
@@ -98,7 +95,12 @@ class Program extends React.Component {
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
                   {sortBy(artists, "concertStartAt").map((artist) => (
-                    <li key={artist.id} style={{ textDecoration: artist.cancelled ? 'line-through' : '' }}>
+                    <li
+                      key={artist.id}
+                      style={{
+                        textDecoration: artist.cancelled ? "line-through" : "",
+                      }}
+                    >
                       <span className={styles.ConcertInfo}>
                         {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
                         {artist.venue}
