@@ -17,7 +17,7 @@ const SplashPage = () => (
       <h1 className={styles.HeaderText}>mandaljazz</h1>
       <p className={styles.SubHeader}>26.{HTMLEntities.ndash}27. juni 2020</p>
     </header>
-    <p>Joda – det blir festival i år!</p>
+    <p>TAKK FOR I ÅR!</p>
     <Artists />
     <div style={{ width: "640px", maxWidth: "100%", margin: "2rem 0 4rem" }}>
       <SpotifyPlayer uri="spotify:playlist:63sEsYsdJ5iWHAAiEgytS5" />
