@@ -57,12 +57,6 @@ class NavMenu extends React.Component {
               <RouterLink onClick={this.close} to="/program">
                 Program
               </RouterLink>
-              <RouterLink onClick={this.close} to="/koronainfo">
-                Koronainfo
-              </RouterLink>
-              <RouterLink onClick={this.close} to="/billetter">
-                Billetter
-              </RouterLink>
               <RouterLink onClick={this.close} to="/praktisk">
                 Praktisk
               </RouterLink>
@@ -81,8 +75,6 @@ class NavMenu extends React.Component {
         <>
           <div className={styles.NavMenu}>
             <RouterLink to="/">Artister</RouterLink>
-            <RouterLink to="/koronainfo">Koronainfo</RouterLink>
-            <RouterLink to="/billetter">Billetter</RouterLink>
             <RouterLink to="/praktisk">Praktisk</RouterLink>
             <RouterLink to="/historikk">Historikk</RouterLink>
             <RouterLink to="/frivillig">Frivillig</RouterLink>

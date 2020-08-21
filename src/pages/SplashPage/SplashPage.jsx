@@ -1,10 +1,8 @@
 import React from "react";
-import SpotifyPlayer from "react-spotify-player";
 
 import lighthouse from "../../assets/images/profile/lighthouse-transparent.jpg";
-import { Artists, CoronaInfoBox, ScrollToTopOnMount } from "../../components";
+import { Artists, ScrollToTopOnMount } from "../../components";
 import styles from "./SplashPage.css";
-import coronaInfoBoxStyles from "../../components/CoronaInfoBox/CoronaInfoBox.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
 const SplashPage = () => (
@@ -19,12 +17,6 @@ const SplashPage = () => (
     </header>
     <p>TAKK FOR I ÅR!</p>
     <Artists />
-    <div style={{ width: "640px", maxWidth: "100%", margin: "2rem 0 4rem" }}>
-      <SpotifyPlayer uri="spotify:playlist:63sEsYsdJ5iWHAAiEgytS5" />
-    </div>
-    <div className={coronaInfoBoxStyles.CoronaInfoBoxWrapper}>
-      <CoronaInfoBox />
-    </div>
   </div>
 );
 
