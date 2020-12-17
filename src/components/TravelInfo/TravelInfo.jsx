@@ -9,30 +9,27 @@ const TravelInfo = () => (
     <p>
       Finn reisen til Mandaljazz med <Link href="https://entur.no">Entur</Link>.
     </p>
-    {window.innerWidth > 350 ? (
+    {window.innerWidth > 375 ? (
       <div className={styles.EnturIframeWrapper}>
         <iframe
           title="Entur Widget"
           frameBorder="0"
           style={{
             display: "block",
-            height: "480px",
+            height: 480,
             width: "100%",
             alignSelf: "center",
           }}
-          src="https://widget.en-tur.no?showResult=internal&amp;resultLimit=5&amp;defaultLang=nob&amp;target=_target&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
-        />
+          src="https://widget.entur.no?filters=bus%2Crail&amp;showResult=internal&amp;target=_target&amp;defaultLang=nob&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+        ></iframe>
       </div>
     ) : (
       <iframe
         title="Entur-widget mini"
         frameBorder="0"
-        style={{
-          height: "45px",
-          width: "100%",
-        }}
-        src="https://widget.en-tur.no/mini?target=_blank&amp;label=Finn%20reiser%20til%20Mandal&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
-      />
+        style={{ height: 45, width: "100%", maxWidth: 200 }}
+        src="https://widget.en-tur.no/mini?label=Finn%20reiser%20til%20Mandal&amp;target=_target&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+      ></iframe>
     )}
 
     <p>
