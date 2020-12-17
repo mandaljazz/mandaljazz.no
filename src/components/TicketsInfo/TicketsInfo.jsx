@@ -10,31 +10,6 @@ const TicketsInfo = () => (
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
-    <p>
-      I år vil vi legge ut et begrenset antall festivalpass, dagspass og
-      enkeltbilletter. Det vil med våre tiltak være kapasitet til 100 mennesker
-      i festivalteltet, hvorav noen plasser er avholdt til frivillige på
-      festivalen.
-    </p>
-
-    <div className="info-box">
-      <h3>Informasjon i forbindelse med korona</h3>
-      <ul>
-        <li>
-          Ved avlysning som følge av opptrappet smitte eller forbud mot
-          arrangementer, vil billetter refunderes
-        </li>
-        <li>
-          Det er mulig å refundere billetter på grunn av sykdom eller karantene
-        </li>
-        <li>
-          Publikum må registrere kontaktinfo ved billettkjøp og godta lagring av
-          kontaktinfo for å kunne gjøre smittesporing i etterkant av festivalen.
-          Informasjonen slettes 1 måned etter festivalslutt.
-        </li>
-      </ul>
-    </div>
-
     <div
       style={{
         display: "flex",
@@ -47,7 +22,7 @@ const TicketsInfo = () => (
         asLink
         large
         linkProps={{
-          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
+          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
         }}
       >
         Kjøp billetter på TicketCo
@@ -97,7 +72,7 @@ const TicketsInfo = () => (
         asLink
         large
         linkProps={{
-          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2020",
+          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
         }}
       >
         Kjøp billetter på TicketCo
