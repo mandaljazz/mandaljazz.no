@@ -13,9 +13,8 @@ const SplashPage = () => (
         <img src={lighthouse} className={styles.Logo} alt="Lighthouse" />
       </div>
       <h1 className={styles.HeaderText}>mandaljazz</h1>
-      <p className={styles.SubHeader}>26.{HTMLEntities.ndash}27. juni 2020</p>
+      <p className={styles.SubHeader}>1.{HTMLEntities.ndash}3. juli 2021</p>
     </header>
-    <p>TAKK FOR I ÅR!</p>
     <Artists />
   </div>
 );
