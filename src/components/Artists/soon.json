@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "hideFromProgram": true,
+    "name": "Marilyn Mazur – Shamania",
+    "imageName": "marilyn-mazurs-shamania.png",
+    "id": "marilyn-mazurs-shamania",
+    "venue": "TBA",
+    "paragraphs": [
+      "Musikk av drømmer og syner: Et moderne kvinnelig stammerituale fra en av Nordens største.",
+      "Marilyn Mazur er en av de virkelig store jazzmusikerne vi har her i Norden. Ikke bare er hun en sann musikalsk visjonær, men hun var der også da det smalt: På 1980-tallet reiste hun rundt land og strand med Miles Davis og satt sitt særpreg på musikken hans, og da Jan Garbarek gav ut sine viktigste skiver på 1990-tallet bidro hun på innspillingene.",
+      "Marilyn kom til Danmark som seksåring, etter å ha blitt født i USA av polske og afroamerikanske foreldre i 1955. Hun kjente en spesiell dragning mot trommer og perkusjon, kanskje fordi det er det eldste instrumentet i menneskets historie. Helt sentralt for Mazurs seneste store prosjekt – Shamania, et ti kvinner sterkt orkester – er nemlig begrepet “urkraft”. Som hun sier handler det “om å finne tilbake til instinktive måter å uttrykke seg på. Jeg så for meg en abstrakt moderne versjon av en kvinnelig stammesamling fra fortiden”.",
+      "I Mazurs øyne er det å lage musikk et rituale. Det er kanskje ikke så rart, da hun har ganske ukonvensjonelle måter å skrive sanger på: ved å ha syner og drømmer, og så gjøre dem om til musikk. Shamania, som ble utgitt i albumformat i fjor, er kanskje hennes høydare av denne metoden. Det er jazz, men med stemninger og harmonier som minner om menneskehetens rike musikalske forhistorie. Kanskje havner også du i en transe, og begynner å se syner.",
+      "Foto: Hanne Hvattum"
+    ],
+    "bands": {
+      "Marilyn Mazur – Shamania": [
+        "Marilyn Mazur – percussion, composer/leader (DK)",
+        "Josefine Cronholm – vocals, percussion (SE)",
+        "Hildegunn Øiseth – trumpet, goat horn (NO)",
+        "Lotte Anker – saxes (DK)",
+        "Sissel Vera Pettersen – alto sax, vocals (NO)",
+        "Lis Wessberg – trombone (DK)",
+        "Makiko Hirabayashi – piano, keyboards (DK)",
+        "Ellen Andrea Wang – bass (NO)",
+        "Lisbeth Diers – congas, percussion (DK)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/UdWkIOVjG28",
+    "spotifyUri": "album/1ELiQL6lxwtmn7on15TyV9?si=DTba8XWfSiGIrbVXwONsxg",
+    "isPulsArtist": true
+  },
+  {
+    "hideFromProgram": true,
+    "name": "The Big YES!",
+    "imageName": "the-big-yes.jpg",
+    "id": "the-big-yes",
+    "venue": "TBA",
+    "paragraphs": [
+      "Frisk frijazz fra hele det vide Skandinavi-ja.",
+      "Har du hørt om svensken, dansken og nordmannen som gikk inn i studio og kom ut med et frekt og freidig frijazz-album? Nei? Vel, sånn går omtrent tilblivelseshistorien til The Big YES!, et band som består av fire begava unge råskinn fra hele det vide Skandinavia: svenske Anna Högberg, danske Maria Bertel, og norske Christian Meaas Svendsen og Ole Mofjell (sistemann er en gammel venn av festivalen).",
+      "The Big YES! har oppkalt albumet sitt etter Kalmarunionen, som holdt i over hundre år og er den eneste ganga Sverige, Danmark og Norge har vært forent under ett flagg, én konge. Ikke bare det! De beskriver musikken sin som “demokratisk som Skandinavia selv, men også farlig som Nord-Korea og kompromissløs som det gamle Sovjet.” Det er en ordentlig politisk undertone i lydbildet til The Big YES!. De røsker deg i fletta og river deg ut av komfortsonen.",
+      "The Big YES! viser hvor viktig det er at kreative sjeler fra Norden samarbeider. Vi har tross alt mye mer til felles med hverandre enn ikke. The Big YES! er den kanskje ultimate representanten for PULS, som er Nordisk Kulturfonds nettverk av festivaler (yess, vi er blant dem!) som forplikter seg til å ha en haug med friske nordiske navn på plakaten. Si ja til jazz!",
+      "PS: Denne gangen stepper den danske veteranen/bautaen Lotte Anker inn som vikar for Anna Högberg."
+    ],
+    "bands": {
+      "The Big YES!": [
+        "Lotte Anker - saxophone (DK)",
+        "Maria Bertel - trombone and effects (DK)",
+        "Christian Meaas Svendsen - bass (NO)",
+        "Ole Mofjell - drums (NO)"
+      ]
+    },
+    "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
+    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo",
+    "isPulsArtist": true
+  }
+]
