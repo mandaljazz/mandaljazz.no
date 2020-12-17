@@ -1,6 +1,5 @@
 import React from "react";
 import ReactGA from "react-ga";
-import { NavLink } from "react-router-dom";
 import { isMobile } from "react-device-detect";
 
 import styles from "./BuyTicketButton.css";
@@ -8,9 +7,11 @@ import styles from "./BuyTicketButton.css";
 const BuyTicketButton = ({ ...props }) => {
   return (
     <div className={styles.BuyTicketButtonWrapper}>
-      <NavLink
+      <a
         className={styles.BuyTicketButton}
-        to="/billetter"
+        href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021"
+        rel="noopener noreferrer"
+        target="_blank"
         onClick={() =>
           ReactGA.event({
             category: "User",
@@ -44,7 +45,7 @@ const BuyTicketButton = ({ ...props }) => {
             billetter
           </div>
         )}
-      </NavLink>
+      </a>
     </div>
   );
 };
