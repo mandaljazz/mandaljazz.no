@@ -4,7 +4,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import {
   Footer,
   NavMenu,
-  Program,
   GoogleAnalyticsListener,
 } from "./components";
 import {
@@ -35,7 +34,7 @@ class App extends React.Component {
                 ) && (
                   <>
                     <NavMenu />
-                    <Program />
+                    {/* <Program /> */}
                   </>
                 )}
                 <Switch location={location}>
