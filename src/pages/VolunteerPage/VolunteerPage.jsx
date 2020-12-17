@@ -28,17 +28,15 @@ const VolunteerPage = () => (
       }}
       style={{ marginTop: "2rem", border: "none" }}
     >
-      <Button large>Bli frivillig på Mandaljazz 2020!</Button>
+      <Button large>Bli frivillig på Mandaljazz 2021!</Button>
     </div> */}
     <div style={{ padding: "1rem" }}>
-      <h2>
-        <del>Bli frivillig på Mandaljazz 2020</del>
-      </h2>
+      <h2>Bli frivillig på Mandaljazz 2021</h2>
+      <p>Det blir snart mulig å melde seg som frivillig på Mandaljazz.</p>
       <p>
-        Mandaljazz har dessverre ikke mulighet til å ta inn flere frivillige i
-        år.
+        Frem til det skjer kan du lese noen hva noen av de frivillge fra
+        tidligere år har å si.
       </p>
-      <p>Tusen takk for interessen og velkommen som frivillig neste år!</p>
     </div>
     <Blockquote person="Håvard (bar og servering)">
       Hadde det ikke vært for at man måtte okkupere den beste plassen i teltet,
