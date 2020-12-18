@@ -42,7 +42,7 @@ const PracticalInfoPage = () => (
       </Layer>
     </Map>
     <p>
-      <Link href="https://goo.gl/maps/XH4Sg3mPcV9buoXt9">
+      <Link href="https://goo.gl/maps/faFwNkmTR28gCYRA6">
         <em>Keiser Nicolaus gate 8–12, 4515 Mandal</em>
       </Link>
     </p>
