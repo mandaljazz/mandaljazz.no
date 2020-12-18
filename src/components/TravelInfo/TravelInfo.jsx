@@ -20,7 +20,7 @@ const TravelInfo = () => (
             width: "100%",
             alignSelf: "center",
           }}
-          src="https://widget.entur.no?filters=bus%2Crail&amp;showResult=internal&amp;target=_target&amp;defaultLang=nob&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+          src="https://widget.entur.no?filters=bus%2Crail&amp;showResult=internal&amp;target=_target&amp;defaultLang=nob&amp;toName=Mandal,%20Lindesnes&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
         ></iframe>
       </div>
     ) : (
@@ -28,7 +28,7 @@ const TravelInfo = () => (
         title="Entur-widget mini"
         frameBorder="0"
         style={{ height: 45, width: "100%", maxWidth: 200 }}
-        src="https://widget.en-tur.no/mini?label=Finn%20reiser%20til%20Mandal&amp;target=_target&amp;toName=Mandal&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
+        src="https://widget.en-tur.no/mini?label=Finn%20reiser%20til%20Mandal&amp;target=_target&amp;toName=Mandal,%20Lindesnes&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
       ></iframe>
     )}
 
