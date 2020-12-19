@@ -28,7 +28,7 @@ const BuyTicketButton = ({ ...props }) => {
             <br />
             Christmas
             <br />
-            Birds-
+            Bird-
             <br />
             billetter
           </div>
@@ -40,7 +40,7 @@ const BuyTicketButton = ({ ...props }) => {
             <br />
             Christmas
             <br />
-            Birds-
+            Bird-
             <br />
             billetter
           </div>
