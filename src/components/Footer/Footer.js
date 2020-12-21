@@ -46,6 +46,7 @@ const Footer = () => {
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
         </Link>
       </div>
+      <hr style={{ transform: "rotate(1.5deg)" }} />
       <h2 style={{ color: "gray" }}>Sponsorer</h2>
       <div className={styles.Sponsors}>
         <Link href="https://red.no/" title="Hr. Redaktør!">
@@ -62,6 +63,7 @@ const Footer = () => {
           <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
         </NavLink>
       </div>
+      <hr style={{ transform: "rotate(-1.5deg)" }} />
       <h2 style={{ color: "gray" }}>Støttespillere</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
@@ -95,6 +97,7 @@ const Footer = () => {
           />
         </Link>
       </div>
+      <hr style={{ transform: "rotate(1.5deg)" }} />
       <h2 style={{ color: "gray" }}>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://agderfk.no/" title="Agder Fylkeskommune">
