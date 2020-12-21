@@ -10,6 +10,7 @@ import poster15 from "../../assets/images/poster-2015.jpg";
 import poster14 from "../../assets/images/poster-2014.jpg";
 import styles from "./ProgramHistoryTimeline.css";
 import { HTMLEntities } from "../../utils/stringUtils";
+import { Link } from "../../components";
 
 const ProgramHistoryTimeline = ({ children }) => (
   <div className={styles.ProgramHistoryTimeline}>
@@ -161,6 +162,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>SKRAP</li>
           <li>Body Rhythm Factory</li>
         </ul>
+        <Link href="http://jazzesnes.mandaljazz.no/">Les Jazzesnes avis</Link>
       </div>
     </div>
     <div className={styles.Event}>
