@@ -1,12 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import {
-  Footer,
-  NavMenu,
-  GoogleAnalyticsListener,
-  BuyTicketButton,
-} from "./components";
+import { Footer, NavMenu, GoogleAnalyticsListener } from "./components";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -121,9 +116,9 @@ class App extends React.Component {
                   "kristiansand",
                   "gobi",
                 ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
-                {!["billetter"].includes(
+                {/* {!["billetter"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && <BuyTicketButton />}
+                ) && <BuyTicketButton />} */}
               </>
             )}
           />
