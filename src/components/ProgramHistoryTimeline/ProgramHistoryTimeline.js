@@ -120,6 +120,14 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>
             Lekerommet: <em>Kyllingen som ikke kunne synge</em>
           </li>
+          <li>
+            <hr className="full-width" />
+          </li>
+          <li>
+            <Link href="https://mandaljazz.github.io/jazzatlas/">
+              Jazzkartet 2017
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
@@ -161,8 +169,15 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Mandal Storband</li>
           <li>SKRAP</li>
           <li>Body Rhythm Factory</li>
+          <li>
+            <hr className="full-width" />
+          </li>
+          <li>
+            <Link href="http://jazzesnes.mandaljazz.no/">
+              Les Jazzesnes avis
+            </Link>
+          </li>
         </ul>
-        <Link href="http://jazzesnes.mandaljazz.no/">Les Jazzesnes avis</Link>
       </div>
     </div>
     <div className={styles.Event}>

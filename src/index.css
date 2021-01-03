@@ -87,6 +87,9 @@ hr {
   border-bottom: 1px solid var(--black-transparent-light);
   width: 70%;
 }
+hr.full-width {
+  width: 100%;
+}
 
 img {
   max-width: 100%;
