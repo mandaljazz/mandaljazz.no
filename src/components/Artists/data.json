@@ -1,6 +1,22 @@
 [
   {
     "hideFromProgram": true,
+    "name": "Helga Myhr",
+    "imageName": "helga-myhr.jpg",
+    "id": "helga-myhr",
+    "paragraphs": [
+      "Helga Myhr er en prisbelønt hardingfelespiller og sanger utdanna ved Norges Musikkhøgskole i Oslo",
+      "Myhr jobber i landskapet mellom folkemusikk, improvisasjon og samtid. Høsten 2019 kom debutsoloplata «Natten veller seg ut» på Motvind Records som fikk nominasjon til Spellemannsprisen. I tillegg til å medvirke på flere andre sine utgivelser, spiller hun blant annet i prosjektene Kvedarkvintetten, Dei kjenslevare, og det spellemannprisvinnende bandet Morgonrode. For tida er hun aktuell som komponist av bestillingsverket Andsyning som ble skrevet til fjorårets Osafestivalen på Voss.",
+      "Foto: Johannes Selvaag"
+    ],
+    "bands": {
+      "Helga Myhr": ["Helga Myhr – hardingfele og sang"]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
+    "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
+  },
+  {
+    "hideFromProgram": true,
     "name": "Marilyn Mazur – Shamania",
     "imageName": "marilyn-mazurs-shamania.png",
     "id": "marilyn-mazur",
