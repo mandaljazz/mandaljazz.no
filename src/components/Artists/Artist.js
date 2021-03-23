@@ -10,7 +10,8 @@ import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Artist.css";
 import { PulsInfoBox } from "../";
 
-const getImageUrl = (imageName) => require(`../../assets/images/artists/${imageName}`);
+const getImageUrl = (imageName) =>
+  require(`../../assets/images/artists/${imageName}`);
 
 class Artist extends React.Component {
   render() {
@@ -138,7 +139,7 @@ class Artist extends React.Component {
                     className="SpotifyPlayer"
                     title="spotify"
                     src={`https://open.spotify.com/embed/${spotifyUri}`}
-                    frameborder="0"
+                    frameBorder="0"
                     allowtransparency="true"
                     allow="encrypted-media"
                   />
