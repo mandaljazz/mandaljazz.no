@@ -1,6 +1,40 @@
 [
   {
     "hideFromProgram": true,
+    "name": "Trondheim Jazzorkester & GURLS",
+    "imageName": "tjo-gurls.jpg",
+    "id": "tjo-gurls",
+    "paragraphs": [
+      "Trioen GURLS har siden 2013 vært saksofonist Hanna Paulsberg og bassist Ellen Andrea Wangs svært populære musikalske friminutt.",
+      "Fra 2020 har Marianna Sangita overtatt Rohey Taalahs rolle som vokalist. Bassist og vokalist Ellen Andrea Wang er som kjent Artist in Residence på Moldejazz 2021.",
+      "GURLS har utviklet seg til et flaggskip i norsk jazz. Det sprudlende debutalbumet «Run boy, run» vant Spellemannprisen for beste jazzalbum 2018, og trioen har siden toppet norske jazzfestivaler og spilt for utsolgte klubber. Nå er GURLS her igjen, denne gangen i et spesialopplegg med nok en spennende utgave av Trondheim Jazzorkester (TJO), der Hanna Paulsberg skriver og arrangerer for trioen og åtte andre musikere.",
+      "Paulsberg har i en årrekke stått høyt på TJOs ønskeliste når det gjelder norske komponister. Som saksofonist har hun vært sentral i en rekke tidligere TJO-prosjekter, først med Elin Rosseland i 2011, siden med Marius Neset, SKRAP og Espen Berg. Ved denne anledningen presenterer Paulsberg et knippe nye komposisjoner, samtidig som hun kler noen gamle hits i ny drakt, til en forestilling hele musikk-Norge ser fram til."
+    ],
+    "bands": {
+      "GURLS": [
+        "Marianna Sangita - vokal",
+        "Hanna Paulsberg - tenor saksofon, vokal, komponist",
+        "Ellen Andrea Wang - bass, vokal"
+      ],
+      "Trondheim Jazzorkester": [
+        "Eirik Hegdal - saksofoner",
+        "Sissel Vera Pettersen - saksofoner, vokal",
+        "Trine Knutsen – fløyter",
+        "Erik Johannessen - trombone",
+        "Heida Karine Johannesdottir - tuba",
+        "Håvard Aufles - keyboards",
+        "Amund Storløkken Åse - vibrafon",
+        "Håkon Mjåset Johansen – trommer",
+        "Ola Øverby – trommer ",
+        "David Solheim - lyddesign"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/qynGihY5TtE",
+    "spotifyUri": "album/0JAkX6tuABWmZCRLpwTQrw?si=MwG8mveJRdiwj7Qr4YdTZA",
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
     "name": "Helga Myhr",
     "imageName": "helga-myhr.jpg",
     "id": "helga-myhr",
