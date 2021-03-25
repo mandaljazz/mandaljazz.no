@@ -118,6 +118,13 @@ iframe {
   background-color: var(--quadary);
 }
 
+.flippable {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.flippable.flipped {
+  transform: rotate(-180deg);
+}
+
 @media screen and (min-width: 720px) {
   :local(.CoronaInfoBox) {
     padding: 1.5rem 2.5rem;

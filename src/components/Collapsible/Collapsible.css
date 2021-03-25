@@ -1,0 +1,33 @@
+:local(.Toggle) {
+  background: var(--quadary);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-family-sans);
+  font-size: 19px;
+  padding: 1rem;
+  margin: 0.25rem;
+  border-bottom: 1px solid var(--gray-30);
+  transition: border-bottom-color 0.2s ease;
+}
+
+/* Prevent Safari from making color white when clicking (default for buttons) */
+:local(.Toggle):active {
+  color: inherit;
+}
+
+:local(.Toggle):hover,
+:local(.Toggle):focus {
+  border-bottom-color: var(--gray-55);
+}
+
+:local(.Icon) {
+  margin-left: 24px;
+}
+
+:local(.Content) {
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+}

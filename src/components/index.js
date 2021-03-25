@@ -5,6 +5,7 @@ export { default as CircledButton } from "./CircledButton";
 export { default as BuyTicketButton } from "./BuyTicketButton";
 export { default as Blockquote } from "./Blockquote";
 export { default as Footer } from "./Footer";
+export { default as Collapsible } from "./Collapsible";
 export { HashLink, Link, RouterLink } from "./Links";
 export { default as NavMenu } from "./NavMenu";
 export { default as ProgramHistoryTimeline } from "./ProgramHistoryTimeline";
