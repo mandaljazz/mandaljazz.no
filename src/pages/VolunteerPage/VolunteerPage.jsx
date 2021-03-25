@@ -47,6 +47,35 @@ const VolunteerPage = () => (
           mat, drikke og svar på det de lurer på.
         </div>
       </Collapsible>
+      <Collapsible title="Bar og servering">
+        <div>
+          Denne gjengen står i baren i teltet eller serverer mat på
+          festivalområdet.
+        </div>
+      </Collapsible>
+      <Collapsible title="Billett og merch">
+        <div>Denne gjengen selger billetter og merch under festivalen.</div>
+      </Collapsible>
+      <Collapsible title="Foto/film">
+        <div>
+          Både før og under festivalen trenger vi fotografer og filmfotografer.
+          Det er ønskelig med noe erfaring og interesse!
+        </div>
+      </Collapsible>
+      <Collapsible title="Kokk">
+        <div>
+          Liker du å lage mat? Da kan du bli med å lage maten som serveres under
+          festivalen, til både publikum, frivillige og artister.
+        </div>
+      </Collapsible>
+      <Collapsible title="Kos og forpleining">
+        <div>
+          Denne gjengen sørger for at det er hyggelig å være frivillig. Det
+          innebærer å lage mat til de frivillige, særlig i sjaueuka før
+          festivalen, og arrangere hyggelige sosiale aktiviteter for de
+          frivillige!
+        </div>
+      </Collapsible>
       <Collapsible title="Sjauing og område">
         <div>
           Denne gjengen har ansvar for å sette opp og rigge ned festivalteltet,
@@ -56,6 +85,12 @@ const VolunteerPage = () => (
           for folk som har mulighet til å være med i uka før festivalen.
         </div>
       </Collapsible>
+      <Collapsible title="Teknikk">
+        <div>
+          Som teknisk sjauer jobber man på scenen med rigging under lydprøver og
+          konserter. Noe teknisk erfaring er ønskelig.
+        </div>
+      </Collapsible>
       <Collapsible title="Transport">
         <div>
           Bli med som sjåfør hvis du kan tenke deg å kjøre artister til og fra
@@ -63,47 +98,11 @@ const VolunteerPage = () => (
           men trenger ikke nødvendigvis ha egen bil.
         </div>
       </Collapsible>
-
-      <Collapsible title="Bar og servering">
-        <div>
-          Denne gjengen står i baren i teltet eller serverer mat på
-          festivalområdet.
-        </div>
-      </Collapsible>
-      <Collapsible title="Kokk">
-        <div>
-          Liker du å lage mat? Da kan du bli med å lage maten som serveres under
-          festivalen, til både publikum, frivillige og artister.
-        </div>
-      </Collapsible>
-      <Collapsible title="Billett og merch">
-        <div>Denne gjengen selger billetter og merch under festivalen.</div>
-      </Collapsible>
       <Collapsible title="Vakt">
         <div>
           Vaktene passer på at publikum og frivillige har det hyggelig og ikke
           bryter sjenkereglene, og har et ekstra øye for at avstandsregler og
           smittevern blir etterfulgt.
-        </div>
-      </Collapsible>
-      <Collapsible title="Teknikk">
-        <div>
-          Som teknisk sjauer jobber man på scenen med rigging under lydprøver og
-          konserter. Noe teknisk erfaring er ønskelig.
-        </div>
-      </Collapsible>
-      <Collapsible title="Foto/film">
-        <div>
-          Både før og under festivalen trenger vi fotografer og filmfotografer.
-          Det er ønskelig med noe erfaring og interesse!
-        </div>
-      </Collapsible>
-      <Collapsible title="Kos og forpleining">
-        <div>
-          Denne gjengen sørger for at det er hyggelig å være frivillig. Det
-          innebærer å lage mat til de frivillige, særlig i sjaueuka før
-          festivalen, og arrangere hyggelige sosiale aktiviteter for de
-          frivillige!
         </div>
       </Collapsible>
       <Blockquote person="Håvard (bar og servering)">
