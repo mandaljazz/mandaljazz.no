@@ -38,6 +38,17 @@ const VolunteerPage = () => (
       støtter ikke innebygde videoer :(
     </video>
     <div style={{ padding: "1rem", width: "100%", maxWidth: "720px" }}>
+      <p>
+        Så kult at du vurderer å være med som frivillig på Mandaljazz 2021! Vi
+        kan selvfølgelig anbefale å vurdere dette videre, ved å lese litt om de
+        ulike frivilliggjengene nedenfor, og registrere din interesse i skjemaet
+        lengre ned på siden.
+      </p>
+      <p>
+        Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
+        morro sammen med en herlig gjeng sosiale, hyggelige og åpne folk.
+        Kanskje lærer du også noe nytt?
+      </p>
       <p>Hvilken frivilliggruppe vil du være med i?</p>
       <Collapsible title="Artistvertskap">
         <div>
@@ -58,7 +69,7 @@ const VolunteerPage = () => (
       <Collapsible title="Foto/film">
         <div>
           Både før og under festivalen trenger vi fotografer og filmfotografer.
-          Det er ønskelig med noe erfaring og interesse!
+          Det er ønskelig med noe erfaring og interesse.
         </div>
       </Collapsible>
       <Collapsible title="Kokk">
@@ -93,8 +104,9 @@ const VolunteerPage = () => (
       <Collapsible title="Transport">
         <div>
           Bli med som sjåfør hvis du kan tenke deg å kjøre artister til og fra
-          Kjevik, og frakte folk og utstyr rundt omkring. Du må ha førerkort,
-          men trenger ikke nødvendigvis ha egen bil.
+          flyplassen (Kristiansand lufthavn, Kjevik), og frakte folk og utstyr
+          rundt omkring. Du må ha førerkort, men trenger ikke nødvendigvis ha
+          egen bil.
         </div>
       </Collapsible>
       <Collapsible title="Vakt">
@@ -117,7 +129,7 @@ const VolunteerPage = () => (
         chill å tappe øl!
       </Blockquote>
       <figure>
-      <img src={volunteers2019Img} alt="Frivilliggjengen 2019" />
+        <img src={volunteers2019Img} alt="Frivilliggjengen 2019" />
         <figcaption>Frivilliggjengen 2019</figcaption>
       </figure>
       <Blockquote person="Marte (sjau og festivalområde)">
