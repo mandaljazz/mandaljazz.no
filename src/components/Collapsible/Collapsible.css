@@ -1,5 +1,5 @@
 :local(.Toggle) {
-  background: var(--quadary);
+  background-color: var(--quadary);
   border: none;
   cursor: pointer;
   width: 100%;
@@ -11,7 +11,7 @@
   padding: 1rem;
   margin: 0.25rem;
   border-bottom: 1px solid var(--gray-30);
-  transition: border-bottom-color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 /* Prevent Safari from making color white when clicking (default for buttons) */
@@ -21,7 +21,7 @@
 
 :local(.Toggle):hover,
 :local(.Toggle):focus {
-  border-bottom-color: var(--gray-55);
+  background-color: var(--secondary);
 }
 
 :local(.Icon) {
