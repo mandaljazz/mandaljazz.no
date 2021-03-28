@@ -13,6 +13,7 @@ import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
 import volunteers2014Img from "../../assets/images/frivillige-2014.jpg";
 import styles from "./VolunteerPage.css";
+import linkStyles from "../../components/Links/Link.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
 // HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView()
@@ -25,7 +26,7 @@ const ScrollToFormButton = () => (
     }}
     style={{ marginTop: "2rem", border: "none" }}
   >
-    <Button large={!isMobile}>Meld deg som frivillig!</Button>
+    <Button large={!isMobile}>Registrer din interesse!</Button>
   </div>
 );
 
@@ -39,10 +40,20 @@ const VolunteerPage = () => (
     </video>
     <div style={{ padding: "1rem", width: "100%", maxWidth: "720px" }}>
       <p>
-        Så kult at du vurderer å være med som frivillig på Mandaljazz 2021! Vi
-        kan selvfølgelig anbefale å vurdere dette videre, ved å lese litt om de
-        ulike frivilliggjengene nedenfor, og registrere din interesse i skjemaet
-        lengre ned på siden.
+        Så kult at du vurderer å være med som frivillig på Mandaljazz 2021! Du
+        kan lese litt om de ulike frivilliggjengene nedenfor for å finne din
+        gjeng. Interesse kan registreres i{" "}
+        <span
+          onClick={(e) => {
+            document
+              .getElementById("frivilligskjema")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+          className={linkStyles.Link}
+        >
+          skjemaet under
+        </span>
+        .
       </p>
       <p>
         Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
