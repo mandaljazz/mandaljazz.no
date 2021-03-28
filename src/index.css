@@ -125,6 +125,12 @@ iframe {
   transform: rotate(-180deg);
 }
 
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: right;
+}
+
 @media screen and (min-width: 720px) {
   :local(.CoronaInfoBox) {
     padding: 1.5rem 2.5rem;
