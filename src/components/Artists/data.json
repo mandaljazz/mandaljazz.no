@@ -1,6 +1,30 @@
 [
   {
     "hideFromProgram": true,
+    "name": "Maria Kannegaard Trio",
+    "imageName": "maria-kannegaard-trio.jpg",
+    "id": "maria-kannegaard-trio",
+    "paragraphs": [
+      "Nybakt Spellemann-vinner i slaget, ved klaveret!",
+      "Det finnes en ganske farlig myte om at man må ha det kjipt for å lage stor kunst. Tvert imot er det motsatte oftest tilfellet. Dansk-norske Maria Kannegaard har lenge vært åpen om sin psykiske sykdom, og hvordan det i perioder har hindret henne fra å utøve musikk.",
+      "Derfor er vi enormt glad for at Kannegaard, som en av våre mest fintfølende pianister, har et åpenbart kreativt overskudd for tiden. For to år siden ga hun ut det Spellemann-nominerte soloalbumet “Nådeslås”, og i fjor høst kom Spellemann-vinneren “Sand i en vik” – første nye musikk på tolv år fra Kannegaards bejublede trio med bassist Ole Morten Vågan og trommeslager Thomas Strønen. Mange har ventet lenge på gjenkomsten, da trioen har en helt unik kjemi.",
+      "“Å spille med Thomas og Morten er som å komme hjem. Det er som en familie. Jeg klarer ikke å sette ord på hva det er med oss tre, men det er veldig trygt og godt. Samtidig tar vi masse sjanser, men det er den følelsen av at vi er sammen om det”, har Kannegaard sagt. Det er en treffende beskrivelse, da musikken deres kan føles som å komme inn døra til et lunt hus etter å gått tur i den mørke og mystiske høstnatta.",
+      "Årets konsert på Mandaljazz 2021 blir første gang Maria Kannegaard besøker festivalen. Det risikerer å bli skikkelig fint.",
+      "Foto: Bilge Öner / Jazzfest"
+    ],
+    "bands": {
+      "Maria Kannegaard Trio": [
+        "Maria Kannegaard – klaver",
+        "Ole Morten Vågan – kontrabass",
+        "Thomas Strønen – trommer"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/vanVuRm27-Y",
+    "spotifyUri": "artist/6iB1azW4T9fVwPfpTW6Ka2?si=cwQjYFfVQiSDCELdHqxIkg",
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
     "name": "Trondheim Jazzorkester & GURLS",
     "imageName": "tjo-gurls.jpg",
     "id": "tjo-gurls",
