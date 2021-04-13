@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "../../components";
 import styles from "./TicketsInfo.css";
 
+// eslint-disable-next-line
 const BuyTicketsButton = () => (
   <div
     style={{
