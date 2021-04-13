@@ -3,31 +3,38 @@ import React from "react";
 import { Button } from "../../components";
 import styles from "./TicketsInfo.css";
 
+const BuyTicketsButton = () => (
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "center",
+      paddingTop: "2rem",
+      fontSize: "1.5rem",
+    }}
+  >
+    <Button
+      asLink
+      large
+      linkProps={{
+        href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
+      }}
+    >
+      Kjøp billetter på TicketCo
+    </Button>
+  </div>
+);
+
 const TicketsInfo = () => (
   <div id="billetter" className={styles.TicketsInfo}>
     <h1>Billetter</h1>
     <p>
+      <em>Billetter kommer for salg i mai.</em>
+    </p>
+    <p>
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        paddingTop: "2rem",
-        fontSize: "1.5rem",
-      }}
-    >
-      <Button
-        asLink
-        large
-        linkProps={{
-          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
-        }}
-      >
-        Kjøp billetter på TicketCo
-      </Button>
-    </div>
+    {/* <BuyTicketsButton /> */}
 
     <h3>Festivalpass</h3>
     <p>Gir inngang til alle konserter på hele festivalen.</p>
@@ -60,24 +67,7 @@ const TicketsInfo = () => (
       under 18 år har adgang i følge med voksen.
     </p>
 
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        paddingTop: "2rem",
-        fontSize: "1.5rem",
-      }}
-    >
-      <Button
-        asLink
-        large
-        linkProps={{
-          href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
-        }}
-      >
-        Kjøp billetter på TicketCo
-      </Button>
-    </div>
+    {/* <BuyTicketsButton /> */}
   </div>
 );
 

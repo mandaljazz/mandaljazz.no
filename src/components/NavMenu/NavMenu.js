@@ -60,6 +60,9 @@ class NavMenu extends React.Component {
               <RouterLink onClick={this.close} to="/praktisk">
                 Praktisk
               </RouterLink>
+              <RouterLink onClick={this.close} to="/billetter">
+                Billetter
+              </RouterLink>
               <RouterLink onClick={this.close} to="/historikk">
                 Historikk
               </RouterLink>
@@ -76,6 +79,7 @@ class NavMenu extends React.Component {
           <div className={styles.NavMenu}>
             <RouterLink to="/">Artister</RouterLink>
             <RouterLink to="/praktisk">Praktisk</RouterLink>
+            <RouterLink to="/billetter">Billetter</RouterLink>
             <RouterLink to="/historikk">Historikk</RouterLink>
             <RouterLink to="/frivillig">Frivillig</RouterLink>
           </div>
