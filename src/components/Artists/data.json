@@ -1,9 +1,10 @@
 [
   {
-    "hideFromProgram": true,
     "name": "Maria Kannegaard Trio",
     "imageName": "maria-kannegaard-trio.jpg",
     "id": "maria-kannegaard-trio",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-03T18:00:00+0200",
     "paragraphs": [
       "Nybakt Spellemann-vinner i slaget, ved klaveret!",
       "Det finnes en ganske farlig myte om at man må ha det kjipt for å lage stor kunst. Tvert imot er det motsatte oftest tilfellet. Dansk-norske Maria Kannegaard har lenge vært åpen om sin psykiske sykdom, og hvordan det i perioder har hindret henne fra å utøve musikk.",
@@ -24,10 +25,12 @@
     "isPulsArtist": false
   },
   {
-    "hideFromProgram": true,
     "name": "Trondheim Jazzorkester & GURLS",
+    "shortName": "TJO & GURLS",
     "imageName": "tjo-gurls.jpg",
     "id": "tjo-gurls",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T22:00:00+0200",
     "paragraphs": [
       "Trioen GURLS har siden 2013 vært saksofonist Hanna Paulsberg og bassist Ellen Andrea Wangs svært populære musikalske friminutt.",
       "Til dette prosjektet har de fått med seg Marianna Sangita på vokal. Bassist og vokalist Ellen Andrea Wang er som kjent Artist in Residence på Moldejazz 2021.",
@@ -58,10 +61,11 @@
     "isPulsArtist": false
   },
   {
-    "hideFromProgram": true,
     "name": "Helga Myhr",
     "imageName": "helga-myhr.jpg",
     "id": "helga-myhr",
+    "venue": "Buen",
+    "concertStartAt": "2021-07-03T16:00:00+0200",
     "paragraphs": [
       "Helga Myhr er en prisbelønt hardingfelespiller og sanger utdanna ved Norges Musikkhøgskole i Oslo",
       "Myhr jobber i landskapet mellom folkemusikk, improvisasjon og samtid. Høsten 2019 kom debutsoloplata «Natten veller seg ut» på Motvind Records som fikk nominasjon til Spellemannsprisen.",
@@ -76,8 +80,12 @@
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
   },
   {
-    "hideFromProgram": true,
+    "hideFromArtistList": true,
+    "cancelled": true,
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-01T21:00:00+0200",
     "name": "Marilyn Mazur – Shamania",
+    "shortName": "Marilyn Mazur",
     "imageName": "marilyn-mazurs-shamania.png",
     "id": "marilyn-mazur",
     "paragraphs": [
@@ -105,7 +113,10 @@
     "isPulsArtist": true
   },
   {
-    "hideFromProgram": true,
+    "hideFromArtistList": true,
+    "cancelled": true,
+    "concertStartAt": "2021-07-03T15:00:00+0200",
+    "venue": "TBA",
     "name": "The Big YES!",
     "imageName": "the-big-yes.jpg",
     "id": "the-big-yes",

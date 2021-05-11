@@ -1,7 +1,12 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import { Footer, NavMenu, GoogleAnalyticsListener } from "./components";
+import {
+  Footer,
+  NavMenu,
+  GoogleAnalyticsListener,
+  Program,
+} from "./components";
 import {
   AboutPage,
   PracticalInfoPage,
@@ -30,7 +35,7 @@ class App extends React.Component {
                 ) && (
                   <>
                     <NavMenu />
-                    {/* <Program /> */}
+                    <Program />
                   </>
                 )}
                 <Switch location={location}>
