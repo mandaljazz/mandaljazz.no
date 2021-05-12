@@ -18,7 +18,9 @@ const AccomodationInfo = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://sjosanden.no/">Sjøsanden Feriesenter</Link>
+        <Link href="https://topcamp.no/nb/sjosanden">
+          Sjøsanden Feriesenter
+        </Link>
       </li>
       <li>
         <Link href="https://www.ferietun.no/">Sjøsanden Ferietun</Link>
@@ -30,7 +32,7 @@ const AccomodationInfo = () => (
         <Link href="http://haldpensjonat.no/">Hald Pensjonat</Link>
       </li>
       <li>
-        <Link href="https://www.nordsjovegen.no/overnatting">
+        <Link href="https://www.facebook.com/groups/147772328588662">
           Hatholmen Fyr
         </Link>
       </li>
