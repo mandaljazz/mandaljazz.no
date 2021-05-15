@@ -54,9 +54,9 @@ class NavMenu extends React.Component {
               <RouterLink onClick={this.close} to="/">
                 Artister
               </RouterLink>
-              {/* <RouterLink onClick={this.close} to="/program">
+              <RouterLink onClick={this.close} to="/program">
                 Program
-              </RouterLink> */}
+              </RouterLink>
               <RouterLink onClick={this.close} to="/praktisk">
                 Praktisk
               </RouterLink>
