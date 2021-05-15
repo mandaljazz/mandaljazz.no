@@ -1,5 +1,26 @@
 [
   {
+    "name": "Kjetil Jerve",
+    "imageName": "kjetil-jerve.jpg",
+    "id": "kjetil-jerve",
+    "venue": "Buen",
+    "concertStartAt": "2021-07-02T16:00:00+0200",
+    "paragraphs": [
+      "Herr \"God på piano\" – verdenspremiere av lockdown-muzak",
+      "De fleste har opplevd av å se et barn eller en ungdom briljere i noe, og tenkt at \"den personen kommer til å stå på en stor scene en dag!\". Det gjorde grunnleggerne i Mandaljazz, da de så Kjetil Jerve spille på fylkesfinalen til Ungdommens Kulturmønstring i 2005. Vi kalte ham bare \"god på piano\". Nå er han en av norsk jazz' mest streamede artist – til dels på grunn av pandemien.",
+      "Siden samfunnet ble stengt ned i fjor vår har Kjetil Jerve har lagt ut små musikkstykker på instagram under tittelen “Daily Piano”. Musikken er rolig, fredfull, repetitiv og svært behagelig. Dette er ikke kompliserte og hektiske impro-greier. Det er enkle små melodier, fulle av knirking og romklang fra furupanelet, og som i høst ble til det nydelige lille albumet \"The Soundtrack of My Home\".",
+      "Mange jazzmusikere opplever at låtene deres blir streamet kanskje tusen ganger i året – om de er heldige. \"Eivor\", den ene låta på albumet, ble imidlertid plukket opp av flere Spotify-spillelister med bruksmusikk av typen \"Peaceful Piano Music\". Og da begynte ballen å rulle. I skrivende stund har den over 190.000 avspillinger, med Singapore som hotspot. Dette er ikke akkurat Kygo-tall, men det er gedigne tall for hjemmeopptak av en jazzpianist i trippel pappaperm under corona-lockdown.",
+      "\"The Soundtrack of My Home\", altså. Er dette lyden av 2020 – lyden av karantene? Vakkert er det, i hvert fall. Og ikke minst er sirkelen sluttet, for under årets Mandaljazz tar Herr “God på piano” musikken ut av huset sitt og fremfører den live for aller første gang.",
+      "Foto: Jan Tore Eriksen"
+    ],
+    "bands": {
+      "Kjetil Jerve": ["Kjetil Jerve – klaver"]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/mGoCuH8HQXk",
+    "spotifyUri": "artist/1LdI3wdD3YgxQnTTVbqR9A?si=xGDak37TS2CaTzheaKwlAg",
+    "isPulsArtist": false
+  },
+  {
     "name": "Maria Kannegaard Trio",
     "imageName": "maria-kannegaard-trio.jpg",
     "id": "maria-kannegaard-trio",
