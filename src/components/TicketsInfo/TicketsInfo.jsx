@@ -68,6 +68,37 @@ const TicketsInfo = () => (
       under 18 år har adgang i følge med voksen.
     </p>
 
+    <h3>Annen info</h3>
+    <ul>
+      <li>
+        Ved avlysning av konserter refunderes enkeltbilletter, men ikke dagspass
+        og festivalpass
+      </li>
+      <li>
+        Dersom man pga. karantene eller koronarestriksjoner er forhindret fra å
+        komme på festivalen, kan man få refundert sin billett. Men prøv helst å
+        selge den til noen andre{" "}
+        <span role="img" aria-label="smile">
+          🙂
+        </span>
+      </li>
+      <li>
+        Ved konserter i Elvesalen, Mandal Kino og Biblioteket, er det begrenset
+        kapasitet. Innehavere av dags- og festivalpass bes møte tidlig for å
+        sikre seg plass.
+      </li>
+      <li>Det selges ikke billetter i døra</li>
+      <li>
+        Faste, tilviste plasser: Publikum vil få tildelt en fast sitteplass ved
+        ankomst. Man må sitte på plassen under hele konserten, med unntak av
+        dopauser. Man oppfordres til å sitte sammen med noen fra sin egen
+        husstand dersom de også er på konserten. Publikum bes møte opp tidlig
+        for å sikre at det blir tid til kontrollert tilvisning av plasser i god
+        tid før konsertstart.
+      </li>
+      <li>Alle konserter starter presis.</li>
+    </ul>
+
     {/* <BuyTicketsButton /> */}
   </div>
 );
