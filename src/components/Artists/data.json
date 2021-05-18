@@ -1,5 +1,27 @@
 [
   {
+    "name": "Gjøkungen",
+    "imageName": "gjokungen.jpg",
+    "id": "gjokungen",
+    "venue": "Kulturfabrikken",
+    "concertStartAt": "2021-07-03T12:00:00+0200",
+    "paragraphs": [
+      "Ut av et magisk egg klekkes det en annerledes fugleunge. Mamma- og Pappafugl syns hun er altfor stor og altfor bråkete.",
+      "Men hva betyr det egentlig å være bråkete? Hvorfor er hun så annerledes? Gjøkungen forlater redet og legger ut på en spennende og musikalsk oppdagelsesferd. Hun blir venner med den lekne hakkespetten Hakke og den gamle, blinde Blues-Ugla.",
+      "Gjøkungen er en historiefortellende konsert med en dagsaktuell og viktig tematikk knyttet til hvordan det er å ikke passe inn. Musikken er skrevet av sanger og låtskriver Andrea Rydin Berge. Med seg har hun jazzmusiker Sebastian Haugen. Sammen tar de publikum med på en reise av lekenhet, rytmer og magi.",
+      "Konserter en bygget etter idé og manus av Katinka Rydin Berge og Knut Alfsen, og scenografi og dukker er laget av Agnes Schou. Konserten er produsert med hjelp fra Rikskonsertenes Forundringspakken, og Seanse, senter for kunstproduksjon. Andrea Rydin Berge og Sebastian Haugen har spilt Gjøkungen for flere tusen barn rundt om i Norges land. De har spilt for barn i barnehager, i kulturhus og på flere festivaler."
+    ],
+    "bands": {
+      "Gjøkungen": [
+        "Andrea Rydin Berge – sang, hangdrum, melodika, ukulele",
+        "Sebastian Haugen – kontrabass, gitar, sang"
+      ]
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false
+  },
+  {
     "name": "Kjetil Jerve",
     "imageName": "kjetil-jerve.jpg",
     "id": "kjetil-jerve",
