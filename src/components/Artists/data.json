@@ -1,5 +1,29 @@
 [
   {
+    "name": "Valkyrien Allstars",
+    "imageName": "valkyrien-allstars.jpg",
+    "id": "valkyrien-allstars",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-03T20:00:00+0200",
+    "paragraphs": [
+      "Valkyrien Allstars er her til stadighet – Takk og pris!",
+      "Valkyrien Allstars er kjent som et av landets beste liveband, og har siden sin første utgivelse i 2007 gått foran i utviklingen av arrangert folkemusikk. Bandet har dratt i nye retninger for hver utgivelse det har sluppet, og har endt opp med et særegent uttrykk de ikke deler med noen.",
+      "Siste studioalbum i rekken «Slutte og Byne» vant just Spellemannprisen 2020 i kategorien Vise, og ligner mistenkelig på pop-musikk. For den observante lytter vil det likevel være tydelige henvisninger til norsk tradisjonsmusikk. Tittelsporet med samme navn ble raskt nærmest et mantra for folket fra sør til nord, og med strålende kritikker fra landets største medier, hyllet som et av årets beste album på de fleste lister, kan vi endelig få fra høre det fra scenen.",
+      "Bandet Består av Tuva Syvertsen, Magnus Larsen Jr, Erik Sollid og Martin Langlie, som sammen lager og arrangerer låtene som forblir en evig kjærlighet og mysterier som aldri løses. Her vanker energi, inderlighet, overraskende vendinger på en seng av det som vanskelig lar seg simulere: gnistrende samspill."
+    ],
+    "bands": {
+      "Valkyrien Allstars": [
+        "Tuva Livsdatter Syvertsen",
+        "Magnus Larsen Jr",
+        "Erik Sollid",
+        "Martin Langlie"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/5AwzbpElL0E",
+    "spotifyUri": "artist/4E1kp6gNDweuoJ7UIrTbgU?si=5OCqNTMGQwiy_chK0gOAew",
+    "isPulsArtist": false
+  },
+  {
     "name": "Gjøkungen",
     "imageName": "gjokungen.jpg",
     "id": "gjokungen",
