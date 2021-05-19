@@ -13,7 +13,7 @@ const SplashPage = () => (
       <img
         src={logo}
         className={styles.Logo}
-        alt="Logo"
+        alt="Mandaljazz. 1.-3. juli 2021"
         style={{ marginTop: "2rem" }}
       />
     </header>
