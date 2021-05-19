@@ -43,7 +43,7 @@
 :local(.Logo) {
   width: 720px;
   max-width: 100%;
-  animation: 16s ease-in-out 0s infinite alternate pulsating;
+  animation: 15s ease-in-out 0s infinite alternate pulsating;
 }
 
 @media screen and (min-width: 720px) {
@@ -54,9 +54,9 @@
 
 @keyframes pulsating {
   0% {
-    transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg) skew(0deg);
   }
   100% {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.075) rotate(2deg) skew(3deg);
   }
 }
