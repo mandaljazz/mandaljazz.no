@@ -13,7 +13,7 @@
   min-height: 300px;
   /* min-width: 300px; */
   flex-basis: 720px;
-  transition: filter var(--quick) ease-in-out;
+  transition: transform var(--quick) ease-in-out;
   border-bottom: 4px solid var(--secondary);
 }
 /* :local(.Artist)::after {
@@ -51,7 +51,7 @@
   transition: margin-left var(--quick) ease-in-out;
 }
 :local(.Artist):not(.active):hover {
-  filter: contrast(1.25);
+  transform: scale(1.01);
   /* background-color: transparent; */
 }
 :local(.Artist):not(.active) h1 {
