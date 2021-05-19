@@ -2,16 +2,16 @@
 
 :root {
   /* Colors */
-  --superlightpeach: #ffece3;
   --pink: #ffd5d8;
   --brown: #58311f;
   --yellow: #d4ca6f;
   --lightyellow: #fdf9d5;
 
-  --primary: #f89876;
-  --secondary: #f6b499;
-  --tertiary: #f1755b;
-  --quadary: #fedaca;
+  --primary: #318bb4;
+  --secondary: #f98e11;
+  --tertiary: #618c06;
+  --quadary: #fac301;
+  --superlightquadary: #fce180;
 
   --white: #fffffe;
   --white-transparent-heavy: rgba(255, 255, 255, 0.9);

@@ -10,7 +10,12 @@ const SplashPage = () => (
     <ScrollToTopOnMount />
     <header className={styles.Header}>
       <img src={matroser} className={styles.Logo} alt="Matroser" />
-      <img src={logo} className={styles.Logo} alt="Logo" />
+      <img
+        src={logo}
+        className={styles.Logo}
+        alt="Logo"
+        style={{ marginTop: "2rem" }}
+      />
     </header>
     <Artists />
   </div>

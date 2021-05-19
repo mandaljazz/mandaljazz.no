@@ -30,17 +30,17 @@
 :local(.Footer ul li a),
 :local(.Sponsors a) {
   border-bottom: none;
-  transition: all var(--superquick) ease-in-out;
+  transition: all var(--superquick) ease;
 }
 :local(.Footer ul li a):hover,
 :local(.Sponsors a):hover {
   border-bottom: none;
 }
 :local(.Footer ul li a):hover {
-  transform: scale(1.1);
+  transform: rotate(4deg);
 }
 :local(.Sponsors a):hover {
-  transform: scale(1.05);
+  transform: rotate(1.33deg);
 }
 :local(.Sponsors) {
   display: flex;
