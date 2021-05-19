@@ -24,7 +24,7 @@ import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
-import seaBedImg from "../../assets/images/profile/sea-bed-transparent.jpg";
+import altblirjazzImg from "../../assets/images/profile/altblirjazz.png";
 import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import paulJLolandImg from "../../assets/images/sponsors/paul-j-loland.jpg";
 import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <footer className={styles.Footer}>
       <img
-        src={seaBedImg}
+        src={altblirjazzImg}
         alt="Sea bed"
         style={{ width: "90%", maxWidth: "800px" }}
       />

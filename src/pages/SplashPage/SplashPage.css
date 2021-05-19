@@ -17,6 +17,7 @@
 }
 :local(.Header) {
   min-height: 60vh;
+  padding: 0 1rem;
 
   display: flex;
   flex-direction: column;
@@ -40,7 +41,8 @@
 }
 
 :local(.Logo) {
-  height: 40vmin;
+  width: 720px;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 720px) {
