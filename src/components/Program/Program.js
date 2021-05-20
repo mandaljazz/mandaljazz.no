@@ -95,19 +95,25 @@ class Program extends React.Component {
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
                   {sortBy(artists, "concertStartAt").map((artist) => (
-                    <li
-                      key={artist.id}
-                      style={{
-                        textDecoration: artist.cancelled ? "line-through" : "",
-                      }}
-                    >
-                      <span className={styles.ConcertInfo}>
-                        {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                        {artist.venue}
+                    <li key={artist.id}>
+                      <span
+                        style={{
+                          textDecoration: artist.cancelled
+                            ? "line-through"
+                            : "",
+                        }}
+                      >
+                        <span className={styles.ConcertInfo}>
+                          {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
+                          {artist.venue}
+                        </span>
+                        {" / "}
+                        <span className={styles.ArtistName}>
+                          {this.renderArtistText(artist)}
+                        </span>
                       </span>
-                      {" / "}
-                      <span className={styles.ArtistName}>
-                        {this.renderArtistText(artist)}
+                      <span style={{ fontSize: "14px" }}>
+                        {artist.cancelled && " Avlyst"}
                       </span>
                     </li>
                   ))}
