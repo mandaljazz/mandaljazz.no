@@ -29,6 +29,14 @@ import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielse
 import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
 import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
 import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
+import veidekkeImg from "../../assets/images/sponsors/veidekke.jpg";
+import egelandRorImg from "../../assets/images/sponsors/egeland-ror.png";
+
+// import mandalKjoleserviceImg from "../../assets/images/sponsors/mandal-kjoleservice.png";
+// import jobZoneImg from "../../assets/images/sponsors/jobzone.png";
+// import altiImg from "../../assets/images/sponsors/alti.png";
+// import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
+// import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -80,6 +88,12 @@ const Footer = () => {
         </Link>
         <Link href="https://www.nosted.com/" title="Nøsted">
           <img src={nostedImg} alt="Nøsted" />
+        </Link>
+        <Link href="http://www.veidekke.no/" title="Veidekke">
+          <img src={veidekkeImg} alt="Veidekke" />
+        </Link>
+        <Link href="https://www.egeland.no/" title="Egeland Rør">
+          <img src={egelandRorImg} alt="Egeland Rør" />
         </Link>
         <Link href="https://www.kjobmandsgaarden.no/" title="Kjøbmandsgaarden">
           <img src={kjobmandsgaardenImg} alt="Kjøbmandsgaarden" />
