@@ -1,6 +1,5 @@
 :local(.RoundedButton) {
   cursor: pointer;
-  transition: all var(--superquick) ease-in-out;
   font-weight: 600;
   background-color: var(--primary);
   color: var(--white);

@@ -5,7 +5,6 @@
   text-decoration: none;
   cursor: pointer;
   transform-style: preserve-3d;
-  transition: all var(--superquick) ease-in-out;
 }
 :local(.Link):hover {
   border-bottom: 2px solid var(--black);

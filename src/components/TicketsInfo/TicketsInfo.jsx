@@ -8,7 +8,6 @@ const BuyTicketsButton = () => (
   <div
     style={{
       display: "flex",
-      justifyContent: "center",
       paddingTop: "2rem",
       fontSize: "1.5rem",
     }}
@@ -35,7 +34,7 @@ const TicketsInfo = () => (
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
-    {/* <BuyTicketsButton /> */}
+    <BuyTicketsButton />
 
     <h3>Festivalpass</h3>
     <p>Gir inngang til alle konserter på hele festivalen.</p>
@@ -99,7 +98,7 @@ const TicketsInfo = () => (
       <li>Alle konserter starter presis.</li>
     </ul>
 
-    {/* <BuyTicketsButton /> */}
+    <BuyTicketsButton />
   </div>
 );
 
