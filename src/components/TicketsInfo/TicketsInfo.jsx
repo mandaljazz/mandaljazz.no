@@ -28,9 +28,6 @@ const TicketsInfo = () => (
   <div id="billetter" className={styles.TicketsInfo}>
     <h1>Billetter</h1>
     <p>
-      <em>Billetter kommer for salg i mai.</em>
-    </p>
-    <p>
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
