@@ -31,12 +31,12 @@ import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
 import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import veidekkeImg from "../../assets/images/sponsors/veidekke.jpg";
 import egelandRorImg from "../../assets/images/sponsors/egeland-ror.png";
-
-// import mandalKjoleserviceImg from "../../assets/images/sponsors/mandal-kjoleservice.png";
-// import jobZoneImg from "../../assets/images/sponsors/jobzone.png";
-// import altiImg from "../../assets/images/sponsors/alti.png";
-// import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
-// import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
+import mandalKjoleserviceImg from "../../assets/images/sponsors/mandal-kjoleservice.svg";
+import jobZoneImg from "../../assets/images/sponsors/jobzone.gif";
+import mandalsImg from "../../assets/images/sponsors/mandals.jpg";
+import altiImg from "../../assets/images/sponsors/alti.png";
+import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
+import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -94,6 +94,27 @@ const Footer = () => {
         </Link>
         <Link href="https://www.egeland.no/" title="Egeland Rør">
           <img src={egelandRorImg} alt="Egeland Rør" />
+        </Link>
+        <Link href="https://www.mandalks.no/" title="Mandal Kjøleservice">
+          <img src={mandalKjoleserviceImg} alt="Mandal Kjøleservice" />
+        </Link>
+        <Link href="https://jobzone.no/" title="Jobzone">
+          <img src={jobZoneImg} alt="Jobzone" />
+        </Link>
+        <Link href="https://mandals.com/" title="Mandals AS">
+          <img src={mandalsImg} alt="Mandals AS" />
+        </Link>
+        <Link href="https://alti.no/mandal/" title="Alti Mandal">
+          <img src={altiImg} alt="Alti Mandal" />
+        </Link>
+        <Link
+          href="https://brekkestrand.no/"
+          title="Brekke &amp; Strand Akustikk"
+        >
+          <img src={brekkeStrandImg} alt="Brekke &amp; Strand Akustikk" />
+        </Link>
+        <Link href="https://www.tor-fasseland.no/" title="Tor Fasseland">
+          <img src={torFasselandImg} alt="Tor Fasseland" />
         </Link>
         <Link href="https://www.kjobmandsgaarden.no/" title="Kjøbmandsgaarden">
           <img src={kjobmandsgaardenImg} alt="Kjøbmandsgaarden" />
