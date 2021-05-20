@@ -22,13 +22,13 @@ import jazzlaugsVennerImg from "../../assets/images/sponsors/jazzlaugs-venner.pn
 import hansaBorgImg from "../../assets/images/sponsors/hansa-borg.png";
 import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
-import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import altblirjazzImg from "../../assets/images/profile/altblirjazz.png";
 import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
-import paulJLolandImg from "../../assets/images/sponsors/paul-j-loland.jpg";
+import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielsen.png";
 import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
 import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
+import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -49,6 +49,9 @@ const Footer = () => {
       <hr style={{ transform: "rotate(1.5deg)" }} />
       <h2 style={{ color: "gray" }}>Sponsorer</h2>
       <div className={styles.Sponsors}>
+        <Link href="https://larsenoptikk.no/" title="Larsen Optikk">
+          <img src={larsenOptikkImg} alt="Larsen Optikk" />
+        </Link>
         <Link href="https://red.no/" title="Hr. Redaktør!">
           <img src={hrRedaktorImg} alt="Hr. Redaktør!" />
         </Link>
@@ -66,6 +69,12 @@ const Footer = () => {
       <hr style={{ transform: "rotate(-1.5deg)" }} />
       <h2 style={{ color: "gray" }}>Støttespillere</h2>
       <div className={classNames(styles.Sponsors, "small")}>
+        <Link
+          href="https://www.gullsmeddanielsen.no/"
+          title="Gullsmed Danielsen"
+        >
+          <img src={gullsmedDanielsenImg} alt="Gullsmed Danielsen" />
+        </Link>
         <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
         </Link>
@@ -75,24 +84,10 @@ const Footer = () => {
         <Link href="https://www.kjobmandsgaarden.no/" title="Kjøbmandsgaarden">
           <img src={kjobmandsgaardenImg} alt="Kjøbmandsgaarden" />
         </Link>
-        <Link href="https://mandalhotel.no/" title="Mandal Hotel">
-          <img
-            src={mandalHotelImg}
-            alt="Mandal Hotel"
-            style={{ maxWidth: "8rem" }}
-          />
-        </Link>
         <Link href="https://www.norengros.no/" title="NorEngros">
           <img
             src={norEngrosImg}
             alt="NorEngros"
-            style={{ maxWidth: "8rem" }}
-          />
-        </Link>
-        <Link href="http://www.pjl.no/" title="Paul J. Loland">
-          <img
-            src={paulJLolandImg}
-            alt="Paul J. Loland"
             style={{ maxWidth: "8rem" }}
           />
         </Link>

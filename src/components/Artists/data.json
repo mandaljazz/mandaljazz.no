@@ -1,5 +1,125 @@
 [
   {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba1",
+    "venue": "TBA",
+    "concertStartAt": "2021-07-01T18:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba2",
+    "venue": "TBA",
+    "concertStartAt": "2021-07-01T19:30:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba3",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-01T21:30:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba4",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T18:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba5",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T20:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba6",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-03T20:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba7",
+    "venue": "TBA",
+    "concertStartAt": "2021-07-03T14:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
+    "name": "TBA",
+    "imageName": "tba.jpg",
+    "id": "tba8",
+    "venue": "TBA",
+    "concertStartAt": "2021-07-03T15:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "": []
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": true
+  },
+  {
     "name": "Valkyrien Allstars",
     "imageName": "valkyrien-allstars.jpg",
     "id": "valkyrien-allstars",
