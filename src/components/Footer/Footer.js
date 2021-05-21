@@ -48,14 +48,14 @@ const Footer = () => {
         alt="Sea bed"
         style={{ width: "90%", maxWidth: "800px" }}
       />
-      <h2 style={{ color: "gray" }}>Hovedsponsor</h2>
+      <h2 style={{ color: "var(--primary)" }}>Hovedsponsor</h2>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
         </Link>
       </div>
       <hr style={{ transform: "rotate(1.5deg)" }} />
-      <h2 style={{ color: "gray" }}>Sponsorer</h2>
+      <h2 style={{ color: "var(--primary)" }}>Sponsorer</h2>
       <div className={styles.Sponsors}>
         <Link href="https://larsenoptikk.no/" title="Larsen Optikk">
           <img src={larsenOptikkImg} alt="Larsen Optikk" />
@@ -75,7 +75,7 @@ const Footer = () => {
         </NavLink>
       </div>
       <hr style={{ transform: "rotate(-1.5deg)" }} />
-      <h2 style={{ color: "gray" }}>Støttespillere</h2>
+      <h2 style={{ color: "var(--primary)" }}>Støttespillere</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link
           href="https://www.gullsmeddanielsen.no/"
@@ -128,7 +128,7 @@ const Footer = () => {
         </Link>
       </div>
       <hr style={{ transform: "rotate(1.5deg)" }} />
-      <h2 style={{ color: "gray" }}>Offentlig støtte</h2>
+      <h2 style={{ color: "var(--primary)" }}>Offentlig støtte</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://agderfk.no/" title="Agder Fylkeskommune">
           <img src={agderFylkeskommuneImg} alt="Agder Fylkeskommune" />
@@ -157,9 +157,6 @@ const Footer = () => {
         <Link href="https://www.kulturradet.no/" title="Kulturrådet">
           <img src={kulturraadetImg} alt="Kulturrådet" />
         </Link>
-        <Link href="https://keychange.eu/" title="Keychange">
-          <img src={keychangeImg} alt="Keychange" />
-        </Link>
         <Link href="https://puls.nordiskkulturfond.org/en/" title="Puls">
           <img src={pulsLogoImg} alt="Puls" />
         </Link>
@@ -167,6 +164,14 @@ const Footer = () => {
           <img src={kulturromImg} alt="Kulturrom" />
         </Link>
       </div>
+      <hr style={{ transform: "rotate(-1.5deg)" }} />
+      <h2 style={{ color: "var(--primary)" }}>Samarbeidspartnere</h2>
+      <div className={classNames(styles.Sponsors, "small")}>
+        <Link href="https://keychange.eu/" title="Keychange">
+          <img src={keychangeImg} alt="Keychange" />
+        </Link>
+      </div>
+      <hr style={{ transform: "rotate(1.5deg)" }} />
       <ul>
         <li>
           <Link
