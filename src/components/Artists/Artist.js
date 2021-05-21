@@ -38,6 +38,7 @@ class Artist extends React.Component {
       vimeoId,
       venue,
       link,
+      video,
     } = artist;
     const style = isActive
       ? {}
@@ -190,6 +191,25 @@ class Artist extends React.Component {
                 allowFullScreen
                 title={`${name}-youtube-iframe`}
               />
+            )}
+            {video && (
+              <video
+                controls
+                style={{
+                  width: "100%",
+                  height: "600px",
+                  maxHeight: "60vh",
+                  margin: "1rem 0",
+                }}
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                controlsList="nodownload"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <source
+                  src={require(`../../assets/videos/${video}`)}
+                  type="video/mp4"
+                />
+              </video>
             )}
           </div>
         )}

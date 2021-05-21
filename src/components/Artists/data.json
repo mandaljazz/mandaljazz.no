@@ -15,19 +15,27 @@
     "hideFromArtistList": true
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba2",
+    "name": "Nils Bech, Anja Lauvdal & Sara Övinge kvartett",
+    "shortName": "Bech/Lauvdal & Sara Övinge kvartett",
+    "imageName": "bech-lauvdal-ovinge.png",
+    "id": "bech-lauvdal-ovinge",
     "venue": "TBA",
     "concertStartAt": "2021-07-01T19:30:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Eksklusiv intimkonsert",
+      "Det finnes konserter og bandkonstellasjoner som egentlig er ment å finne sted én eneste gang – der og da, og aldri igjen. Oftest er man takknemlig for at man fikk nyte øyeblikket, men lengter ikke etter mer. Da vi i fjor høst så den første utgaven av UpClose, en intim konsertserie der fiolinisten Sara Övinge setter sammen musikere fra ulike sjangre, føltes det annerledes. Vi synes det låt så flott at vi drømte om å gjenskape konserten på Mandaljazz.",
+      "Nils Bech, Anja Lauvdal og Sara Övinge kvartett kommer til å spille helt akustisk, som vil si at det ikke rigges opp høyttaleranlegg. Den lyden man hører er altså den som blir til i rommet, reflektert i vegger og instrumenter og menneskekropper. Det blir nært, og det blir unikt.",
+      "Nils Bech vil mange huske fra en spesielt sterk scene i SKAM, da han sammen med en strykerkvartett fremførte “O Helga Natt” i en kirke. Syv millioner lyttinger på Spotify lyver ei, men det siste tiåret har han også gitt ut fem gode album hvor hans klassisk skolerte tenorstemme spilles opp mot elektronisk musikk.",
+      "Pianist Anja Lauvdal er et kjent fjes på festivalen, og det er ikke så rart. Hun spiller i flere band enn man kan telle på to hender, sånn at om man skal vise fram det nyeste og beste som rører seg i norsk jazz, er hun en skikkelse man ikke kommer utenom. Ikke minst er hun fra Flekkefjord, som skaper litt sørlandsk solidaritet oss imellom.",
+      "Sara Övinge er en person som tilsynelatende kan alt. Hun har jobbet både som danseinstruktør på SATS og konsertmester på Den Norske Opera, underviser i kammermusikk og spiller fiolin i Det Norske Kammerorkester. I tillegg arrangerer hun altså eksklusive intimkonserter og leder sin egen strykerkvartett."
+    ],
     "bands": {
-      "": []
+      "Nils Bech & Anja Lauvdal": ["Nils Bech – vokal", "Anja Lauvdal – piano"],
+      "Sara Övinge kvartett": []
     },
-    "youtubeUrl": "",
-    "spotifyUri": "",
+    "video": "bech-lauvdal-ovinge.mp4",
     "isPulsArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": false
   },
   {
     "name": "TBA",
@@ -75,19 +83,31 @@
     "hideFromArtistList": true
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba6",
+    "name": "JUNO",
+    "imageName": "juno.jpg",
+    "id": "juno",
     "venue": "Teltet",
     "concertStartAt": "2021-07-03T20:00:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Ungt band med utspring fra den velrennomerte jazzlinja i Trondheim.",
+      "JUNO har allerede rukket å etablere seg som et solid liveband innenfor den norske musikkscenen. Dansbare grooves og kompleks rytmikk møter melodiøse refreng og eksperimentelt tonespråk med rap og fengslende improvisasjon. Den uvanlige besetningen med to vokalister, tenorsaksofon, kontrabass og trommer gir musikken et umiskjennelig og karakteristisk preg.",
+      "Lenge før debutalbumet kom i butikkhyllene hadde JUNO allerede rukket å spille på steder som Edinburgh Jazz & Blues Festival, Chris Beetles Gallery i London, Vinterjazz i Århus, samt Bylarm, Trondheim Calling,Kongsberg Jazzfestival og Moldejazz her hjemme i Norge.Høsten 2017 var de også plukket ut til å være med på Oslo Jazzfestivals «Nordic Showcase». I det JUNO debuterte med singelen «Mike» januar 2019, var bandet allerede et av landets mest ettertraktede liveband.",
+      "Det etterlengtede debutalbumet«Young Star» ble sluppet i januar 2020 og enormt gode anmeldelser fra norsk og utenlandsk presse. Albumet er produsert av Kristoffer Lo fra bl.a. Highasakite, PELbO og Sunswitch og ble gitt ut av Jazzland Recordings.",
+      "Foto: Markus Nymo Foss"
+    ],
     "bands": {
-      "": []
+      "JUNO": [
+        "Thea Ellingsen Grant – vokal",
+        "Malin Dahl Ødegård – vokal",
+        "Mona Krogstad – saksofon",
+        "Georgia Wartel Collins – kontrabass",
+        "Ingvald Vassbø – trommer"
+      ]
     },
-    "youtubeUrl": "",
-    "spotifyUri": "",
+    "youtubeUrl": "https://www.youtube.com/embed/h4ztebyk9EI",
+    "spotifyUri": "artist/7uJVIR1cnmatK6hNLwM4dH?si=GBHXp1wqRjissfa2tkekRA",
     "isPulsArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": false
   },
   {
     "name": "TBA",
