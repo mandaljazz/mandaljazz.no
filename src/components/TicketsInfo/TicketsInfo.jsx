@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from "../../components";
+import { Button, Link } from "../../components";
 import styles from "./TicketsInfo.css";
 
 // eslint-disable-next-line
@@ -41,6 +41,15 @@ const TicketsInfo = () => (
 
     <h3>Enkeltbilletter</h3>
     <p>Gir inngang til den aktuelle konserten.</p>
+    <p style={{ marginTop: 0 }}>
+      <em>
+        Enkeltbilletter til konsertene i{" "}
+        <Link href="https://www.buenkulturhus.no/" target="_blank">
+          Buen Kulturhus
+        </Link>{" "}
+        selges via deres nettsider.
+      </em>
+    </p>
 
     <h3>Studenter og ungdom under 26 år</h3>
     <p>
