@@ -1,5 +1,31 @@
 [
   {
+    "name": "Needlepoint",
+    "imageName": "needlepoint.jpg",
+    "id": "needlepoint",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-01T21:30:00+0200",
+    "paragraphs": [
+      "Skogsprogg eller hyttefusion? Samma det – det svinger så fjæra fyker!",
+      "Hørte vi noen si groovy? Det lukter søttitall lang vei av Needlepoint – falma bokrygger, loete ulltrøyer, levende gjærkulturer, jazztobakk. Navnet deres oversettes best til ‘broderi’ eller ‘hekleverk’. Kall det hyttefusion eller skogsprogg, men det er ingen tvil om at firkløveren, ledet av jazzgitarnestor Bjørn Klakegg, vet hvordan man spiller sammen.",
+      "Referanser til både Frank Zappa og Soft Machine sitter løst, og det føles som Needlepoint bare blir bedre og bedre for hvert album. Fullengderen Walking Up That Valley kom i vinter og svinger som bare rakkern – et varmt og vennlig lappeteppe av folkrock, psykedelisk pop og frika jazz. Det er enkelt og greit musikk man drømmer seg bort i. Og om man liker det man hører på skive, er det bare å glede seg: mange mener de er enda bedre live!",
+      "Needlepoint ble til da Bjørn Klakegg prøvde å bygge seg en redningskapsel ut av jazzsjangertrøya. Med Nikolai Hængsle ved sin side fortsatte ferden på stier som ledet inn mot rockens landskap. Bjørn skriver musikken, men Nikolai er alltid reisekamerat og inspirator fra spede låtskisser, videre mot ferdige låter og er også produsent på albumene",
+      "Erlend Slettevold (vikarierer for David Wallumrød) og Olaf Olsen er drømmemusikerne å ha med på laget. Nå har Needlepoint gått fra å være en redningskapsel til et skip, med luft i seilene, stolt fossende fram på store bassbølger, virvelvind-trommer og heftige orgelbrus!"
+    ],
+    "bands": {
+      "Needlepoint": [
+        "Bjørn Klakegg – gitar",
+        "Nikolai Eilertsen – bass",
+        "Olaf Olsen - trommer",
+        "Erlend Slettevold – keyboards"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/2sIopRrpFHs",
+    "spotifyUri": "artist/3GBPzzHwfT7iXD8u7iZvue?si=G7NQBwRQSJiLAmhIcAbthg",
+    "isPulsArtist": false,
+    "hideFromArtistList": false
+  },
+  {
     "name": "TBA",
     "imageName": "tba.jpg",
     "id": "tba1",
@@ -34,32 +60,6 @@
       "Sara Övinge kvartett": []
     },
     "video": "bech-lauvdal-ovinge.mp4",
-    "isPulsArtist": false,
-    "hideFromArtistList": false
-  },
-  {
-    "name": "Needlepoint",
-    "imageName": "needlepoint.jpg",
-    "id": "needlepoint",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-01T21:30:00+0200",
-    "paragraphs": [
-      "Skogsprogg eller hyttefusion? Samma det – det svinger så fjæra fyker!",
-      "Hørte vi noen si groovy? Det lukter søttitall lang vei av Needlepoint – falma bokrygger, loete ulltrøyer, levende gjærkulturer, jazztobakk. Navnet deres oversettes best til ‘broderi’ eller ‘hekleverk’. Kall det hyttefusion eller skogsprogg, men det er ingen tvil om at firkløveren, ledet av jazzgitarnestor Bjørn Klakegg, vet hvordan man spiller sammen.",
-      "Referanser til både Frank Zappa og Soft Machine sitter løst, og det føles som Needlepoint bare blir bedre og bedre for hvert album. Fullengderen Walking Up That Valley kom i vinter og svinger som bare rakkern – et varmt og vennlig lappeteppe av folkrock, psykedelisk pop og frika jazz. Det er enkelt og greit musikk man drømmer seg bort i. Og om man liker det man hører på skive, er det bare å glede seg: mange mener de er enda bedre live!",
-      "Needlepoint ble til da Bjørn Klakegg prøvde å bygge seg en redningskapsel ut av jazzsjangertrøya. Med Nikolai Hængsle ved sin side fortsatte ferden på stier som ledet inn mot rockens landskap. Bjørn skriver musikken, men Nikolai er alltid reisekamerat og inspirator fra spede låtskisser, videre mot ferdige låter og er også produsent på albumene",
-      "Erlend Slettevold (vikarierer for David Wallumrød) og Olaf Olsen er drømmemusikerne å ha med på laget. Nå har Needlepoint gått fra å være en redningskapsel til et skip, med luft i seilene, stolt fossende fram på store bassbølger, virvelvind-trommer og heftige orgelbrus!"
-    ],
-    "bands": {
-      "Needlepoint": [
-        "Bjørn Klakegg – gitar",
-        "Nikolai Eilertsen – bass",
-        "Olaf Olsen - trommer",
-        "Erlend Slettevold – keyboards"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/2sIopRrpFHs",
-    "spotifyUri": "artist/3GBPzzHwfT7iXD8u7iZvue?si=G7NQBwRQSJiLAmhIcAbthg",
     "isPulsArtist": false,
     "hideFromArtistList": false
   },
@@ -121,46 +121,6 @@
     "hideFromArtistList": false
   },
   {
-    "name": "Sørnorsk Ungdomsstorband (SNUS)",
-    "shortName": "SNUS",
-    "imageName": "snus.jpg",
-    "id": "snus",
-    "venue": "Hestetroa",
-    "concertStartAt": "2021-07-03T14:00:00+0200",
-    "paragraphs": [
-      "Mandaljazz + SNUS = Sant!",
-      "Sørnorsk Ungdomsstorband (SNUS) har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
-      "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.  Årets band består av 17 musikere; 13 ungdommer og 4 instruktører.",
-      "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
-      "Én ting er sikkert og visst: Ingenting gjør seg så godt en sommerdag i sola som SNUS."
-    ],
-    "bands": {
-      "Sørnorsk Ungdomsstorband": [
-        "Didrik Hogness – vokal",
-        "Frida Tobiassen Lid – altsax",
-        "Magnus Ripegutu Valle – altsax",
-        "Kardo Kiis – tenorsax",
-        "Andrè Kassen – tenorsax og saxofoninstruktør",
-        "Leon Strand – barytonsax",
-        "Herman Liene – trompet",
-        "Astrid Guldager – trompet",
-        "Victoria Baasland – trompet",
-        "Tore Bråthen – trompet, trompetinstruktør og musikalsk leder",
-        "Eva Klakegg – trombone (ikke med på konserten på Mandaljazz)",
-        "Andreas Vreim – trombone",
-        "Jan Rune Pedersen – trombone og trombonesinstruktør",
-        "Mads Aleksander Olsen – piano ",
-        "Colin Lilius Karlsen – bass",
-        "Ola Marius Undrum Grindbakken – trommer",
-        "Øyvind Nypan – gitar og komp-instruktør"
-      ]
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": false
-  },
-  {
     "name": "TBA",
     "imageName": "tba.jpg",
     "id": "tba8",
@@ -200,25 +160,39 @@
     "isPulsArtist": false
   },
   {
-    "name": "Gjøkungen",
-    "imageName": "gjokungen.jpg",
-    "id": "gjokungen",
-    "venue": "Kulturfabrikken",
-    "concertStartAt": "2021-07-03T12:00:00+0200",
+    "name": "Trondheim Jazzorkester & GURLS",
+    "shortName": "TJO & GURLS",
+    "imageName": "tjo-gurls.jpg",
+    "id": "tjo-gurls",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T22:00:00+0200",
     "paragraphs": [
-      "Ut av et magisk egg klekkes det en annerledes fugleunge. Mamma- og Pappafugl syns hun er altfor stor og altfor bråkete.",
-      "Men hva betyr det egentlig å være bråkete? Hvorfor er hun så annerledes? Gjøkungen forlater redet og legger ut på en spennende og musikalsk oppdagelsesferd. Hun blir venner med den lekne hakkespetten Hakke og den gamle, blinde Blues-Ugla.",
-      "Gjøkungen er en historiefortellende konsert med en dagsaktuell og viktig tematikk knyttet til hvordan det er å ikke passe inn. Musikken er skrevet av sanger og låtskriver Andrea Rydin Berge. Med seg har hun jazzmusiker Sebastian Haugen. Sammen tar de publikum med på en reise av lekenhet, rytmer og magi.",
-      "Konserter en bygget etter idé og manus av Katinka Rydin Berge og Knut Alfsen, og scenografi og dukker er laget av Agnes Schou. Konserten er produsert med hjelp fra Rikskonsertenes Forundringspakken, og Seanse, senter for kunstproduksjon. Andrea Rydin Berge og Sebastian Haugen har spilt Gjøkungen for flere tusen barn rundt om i Norges land. De har spilt for barn i barnehager, i kulturhus og på flere festivaler."
+      "Trioen GURLS har siden 2013 vært saksofonist Hanna Paulsberg og bassist Ellen Andrea Wangs svært populære musikalske friminutt.",
+      "Til dette prosjektet har de fått med seg Marianna Sangita på vokal. Bassist og vokalist Ellen Andrea Wang er som kjent Artist in Residence på Moldejazz 2021.",
+      "GURLS har utviklet seg til et flaggskip i norsk jazz. Det sprudlende debutalbumet «Run boy, run» vant Spellemannprisen for beste jazzalbum 2018, og trioen har siden toppet norske jazzfestivaler og spilt for utsolgte klubber. Nå er GURLS her igjen, denne gangen i et spesialopplegg med nok en spennende utgave av Trondheim Jazzorkester (TJO), der Hanna Paulsberg skriver og arrangerer for trioen og åtte andre musikere.",
+      "Paulsberg har i en årrekke stått høyt på TJOs ønskeliste når det gjelder norske komponister. Som saksofonist har hun vært sentral i en rekke tidligere TJO-prosjekter, først med Elin Rosseland i 2011, siden med Marius Neset, SKRAP og Espen Berg. Ved denne anledningen presenterer Paulsberg et knippe nye komposisjoner, samtidig som hun kler noen gamle hits i ny drakt, til en forestilling hele musikk-Norge ser fram til."
     ],
     "bands": {
-      "Gjøkungen": [
-        "Andrea Rydin Berge – sang, hangdrum, melodika, ukulele",
-        "Sebastian Haugen – kontrabass, gitar, sang"
+      "GURLS": [
+        "Marianna Sangita - vokal",
+        "Hanna Paulsberg - tenor saksofon, vokal, komponist",
+        "Ellen Andrea Wang - bass, vokal"
+      ],
+      "Trondheim Jazzorkester": [
+        "Eirik Hegdal - saksofoner",
+        "Sissel Vera Pettersen - saksofoner, vokal",
+        "Trine Knutsen – fløyter",
+        "Erik Johannessen - trombone",
+        "Heida Karine Johannesdottir - tuba",
+        "Håvard Aufles - keyboards",
+        "Amund Storløkken Åse - vibrafon",
+        "Håkon Mjåset Johansen – trommer",
+        "Ola Øverby – trommer ",
+        "David Solheim - lyddesign"
       ]
     },
-    "youtubeUrl": "",
-    "spotifyUri": "",
+    "youtubeUrl": "https://www.youtube.com/embed/qynGihY5TtE",
+    "spotifyUri": "album/0JAkX6tuABWmZCRLpwTQrw?si=MwG8mveJRdiwj7Qr4YdTZA",
     "isPulsArtist": false
   },
   {
@@ -268,42 +242,6 @@
     "isPulsArtist": false
   },
   {
-    "name": "Trondheim Jazzorkester & GURLS",
-    "shortName": "TJO & GURLS",
-    "imageName": "tjo-gurls.jpg",
-    "id": "tjo-gurls",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T22:00:00+0200",
-    "paragraphs": [
-      "Trioen GURLS har siden 2013 vært saksofonist Hanna Paulsberg og bassist Ellen Andrea Wangs svært populære musikalske friminutt.",
-      "Til dette prosjektet har de fått med seg Marianna Sangita på vokal. Bassist og vokalist Ellen Andrea Wang er som kjent Artist in Residence på Moldejazz 2021.",
-      "GURLS har utviklet seg til et flaggskip i norsk jazz. Det sprudlende debutalbumet «Run boy, run» vant Spellemannprisen for beste jazzalbum 2018, og trioen har siden toppet norske jazzfestivaler og spilt for utsolgte klubber. Nå er GURLS her igjen, denne gangen i et spesialopplegg med nok en spennende utgave av Trondheim Jazzorkester (TJO), der Hanna Paulsberg skriver og arrangerer for trioen og åtte andre musikere.",
-      "Paulsberg har i en årrekke stått høyt på TJOs ønskeliste når det gjelder norske komponister. Som saksofonist har hun vært sentral i en rekke tidligere TJO-prosjekter, først med Elin Rosseland i 2011, siden med Marius Neset, SKRAP og Espen Berg. Ved denne anledningen presenterer Paulsberg et knippe nye komposisjoner, samtidig som hun kler noen gamle hits i ny drakt, til en forestilling hele musikk-Norge ser fram til."
-    ],
-    "bands": {
-      "GURLS": [
-        "Marianna Sangita - vokal",
-        "Hanna Paulsberg - tenor saksofon, vokal, komponist",
-        "Ellen Andrea Wang - bass, vokal"
-      ],
-      "Trondheim Jazzorkester": [
-        "Eirik Hegdal - saksofoner",
-        "Sissel Vera Pettersen - saksofoner, vokal",
-        "Trine Knutsen – fløyter",
-        "Erik Johannessen - trombone",
-        "Heida Karine Johannesdottir - tuba",
-        "Håvard Aufles - keyboards",
-        "Amund Storløkken Åse - vibrafon",
-        "Håkon Mjåset Johansen – trommer",
-        "Ola Øverby – trommer ",
-        "David Solheim - lyddesign"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/qynGihY5TtE",
-    "spotifyUri": "album/0JAkX6tuABWmZCRLpwTQrw?si=MwG8mveJRdiwj7Qr4YdTZA",
-    "isPulsArtist": false
-  },
-  {
     "name": "Helga Myhr",
     "imageName": "helga-myhr.jpg",
     "id": "helga-myhr",
@@ -321,6 +259,68 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
+  },
+  {
+    "name": "Gjøkungen",
+    "imageName": "gjokungen.jpg",
+    "id": "gjokungen",
+    "venue": "Kulturfabrikken",
+    "concertStartAt": "2021-07-03T12:00:00+0200",
+    "paragraphs": [
+      "Ut av et magisk egg klekkes det en annerledes fugleunge. Mamma- og Pappafugl syns hun er altfor stor og altfor bråkete.",
+      "Men hva betyr det egentlig å være bråkete? Hvorfor er hun så annerledes? Gjøkungen forlater redet og legger ut på en spennende og musikalsk oppdagelsesferd. Hun blir venner med den lekne hakkespetten Hakke og den gamle, blinde Blues-Ugla.",
+      "Gjøkungen er en historiefortellende konsert med en dagsaktuell og viktig tematikk knyttet til hvordan det er å ikke passe inn. Musikken er skrevet av sanger og låtskriver Andrea Rydin Berge. Med seg har hun jazzmusiker Sebastian Haugen. Sammen tar de publikum med på en reise av lekenhet, rytmer og magi.",
+      "Konserter en bygget etter idé og manus av Katinka Rydin Berge og Knut Alfsen, og scenografi og dukker er laget av Agnes Schou. Konserten er produsert med hjelp fra Rikskonsertenes Forundringspakken, og Seanse, senter for kunstproduksjon. Andrea Rydin Berge og Sebastian Haugen har spilt Gjøkungen for flere tusen barn rundt om i Norges land. De har spilt for barn i barnehager, i kulturhus og på flere festivaler."
+    ],
+    "bands": {
+      "Gjøkungen": [
+        "Andrea Rydin Berge – sang, hangdrum, melodika, ukulele",
+        "Sebastian Haugen – kontrabass, gitar, sang"
+      ]
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false
+  },
+  {
+    "name": "Sørnorsk Ungdomsstorband (SNUS)",
+    "shortName": "SNUS",
+    "imageName": "snus.jpg",
+    "id": "snus",
+    "venue": "Hestetroa",
+    "concertStartAt": "2021-07-03T14:00:00+0200",
+    "paragraphs": [
+      "Mandaljazz + SNUS = Sant!",
+      "Sørnorsk Ungdomsstorband (SNUS) har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
+      "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.  Årets band består av 17 musikere; 13 ungdommer og 4 instruktører.",
+      "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
+      "Én ting er sikkert og visst: Ingenting gjør seg så godt en sommerdag i sola som SNUS."
+    ],
+    "bands": {
+      "Sørnorsk Ungdomsstorband": [
+        "Didrik Hogness – vokal",
+        "Frida Tobiassen Lid – altsax",
+        "Magnus Ripegutu Valle – altsax",
+        "Kardo Kiis – tenorsax",
+        "Andrè Kassen – tenorsax og saxofoninstruktør",
+        "Leon Strand – barytonsax",
+        "Herman Liene – trompet",
+        "Astrid Guldager – trompet",
+        "Victoria Baasland – trompet",
+        "Tore Bråthen – trompet, trompetinstruktør og musikalsk leder",
+        "Eva Klakegg – trombone (ikke med på konserten på Mandaljazz)",
+        "Andreas Vreim – trombone",
+        "Jan Rune Pedersen – trombone og trombonesinstruktør",
+        "Mads Aleksander Olsen – piano ",
+        "Colin Lilius Karlsen – bass",
+        "Ola Marius Undrum Grindbakken – trommer",
+        "Øyvind Nypan – gitar og komp-instruktør"
+      ]
+    },
+    "youtubeUrl": "",
+    "spotifyUri": "",
+    "isPulsArtist": false,
+    "hideFromArtistList": false
   },
   {
     "hideFromArtistList": true,
