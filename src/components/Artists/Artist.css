@@ -50,16 +50,12 @@
 
   transition: margin-left var(--quick) ease-in-out;
 }
-:local(.Artist):not(.active):hover {
-  transform: scale(1.01);
-  /* background-color: transparent; */
-}
 :local(.Artist):not(.active) h1 {
   margin-left: 1rem;
   hyphens: none;
 }
 :local(.Artist):not(.active):hover h1 {
-  margin-left: -1.25rem;
+  margin-left: -0.5rem;
 }
 :local(.Artist).active h1 {
   font-size: 2.25rem;
@@ -96,7 +92,7 @@
 }
 :local(.ArtistInfo) {
   margin-top: -30%;
-  padding: 2rem;
+  padding: 1rem;
   position: relative;
   height: fit-content;
 }
@@ -122,6 +118,10 @@
   color: var(--quadary);
 }
 @media screen and (min-width: 720px) {
+  :local(.Artist):not(.active):hover {
+    transform: scale(1.01);
+    /* background-color: transparent; */
+  }
   :local(.Artist):not(.active) h1 {
     margin-left: -1rem;
   }
