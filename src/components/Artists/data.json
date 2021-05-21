@@ -38,19 +38,30 @@
     "hideFromArtistList": false
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba3",
+    "name": "Needlepoint",
+    "imageName": "needlepoint.jpg",
+    "id": "needlepoint",
     "venue": "Teltet",
     "concertStartAt": "2021-07-01T21:30:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Skogsprogg eller hyttefusion? Samma det – det svinger så fjæra fyker!",
+      "Hørte vi noen si groovy? Det lukter søttitall lang vei av Needlepoint – falma bokrygger, loete ulltrøyer, levende gjærkulturer, jazztobakk. Navnet deres oversettes best til ‘broderi’ eller ‘hekleverk’. Kall det hyttefusion eller skogsprogg, men det er ingen tvil om at firkløveren, ledet av jazzgitarnestor Bjørn Klakegg, vet hvordan man spiller sammen.",
+      "Referanser til både Frank Zappa og Soft Machine sitter løst, og det føles som Needlepoint bare blir bedre og bedre for hvert album. Fullengderen Walking Up That Valley kom i vinter og svinger som bare rakkern – et varmt og vennlig lappeteppe av folkrock, psykedelisk pop og frika jazz. Det er enkelt og greit musikk man drømmer seg bort i. Og om man liker det man hører på skive, er det bare å glede seg: mange mener de er enda bedre live!",
+      "Needlepoint ble til da Bjørn Klakegg prøvde å bygge seg en redningskapsel ut av jazzsjangertrøya. Med Nikolai Hængsle ved sin side fortsatte ferden på stier som ledet inn mot rockens landskap. Bjørn skriver musikken, men Nikolai er alltid reisekamerat og inspirator fra spede låtskisser, videre mot ferdige låter og er også produsent på albumene",
+      "Erlend Slettevold (vikarierer for David Wallumrød) og Olaf Olsen er drømmemusikerne å ha med på laget. Nå har Needlepoint gått fra å være en redningskapsel til et skip, med luft i seilene, stolt fossende fram på store bassbølger, virvelvind-trommer og heftige orgelbrus!"
+    ],
     "bands": {
-      "": []
+      "Needlepoint": [
+        "Bjørn Klakegg – gitar",
+        "Nikolai Eilertsen – bass",
+        "Olaf Olsen - trommer",
+        "Erlend Slettevold – keyboards"
+      ]
     },
-    "youtubeUrl": "",
-    "spotifyUri": "",
+    "youtubeUrl": "https://www.youtube.com/embed/2sIopRrpFHs",
+    "spotifyUri": "artist/3GBPzzHwfT7iXD8u7iZvue?si=G7NQBwRQSJiLAmhIcAbthg",
     "isPulsArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": false
   },
   {
     "name": "TBA",
@@ -110,19 +121,44 @@
     "hideFromArtistList": false
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba7",
-    "venue": "TBA",
+    "name": "Sørnorsk Ungdomsstorband (SNUS)",
+    "shortName": "SNUS",
+    "imageName": "snus.jpg",
+    "id": "snus",
+    "venue": "Hestetroa",
     "concertStartAt": "2021-07-03T14:00:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Mandaljazz + SNUS = Sant!",
+      "Sørnorsk Ungdomsstorband (SNUS) har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
+      "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.  Årets band består av 17 musikere; 13 ungdommer og 4 instruktører.",
+      "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
+      "Én ting er sikkert og visst: Ingenting gjør seg så godt en sommerdag i sola som SNUS."
+    ],
     "bands": {
-      "": []
+      "Sørnorsk Ungdomsstorband": [
+        "Didrik Hogness – vokal",
+        "Frida Tobiassen Lid – altsax",
+        "Magnus Ripegutu Valle – altsax",
+        "Kardo Kiis – tenorsax",
+        "Andrè Kassen – tenorsax og saxofoninstruktør",
+        "Leon Strand – barytonsax",
+        "Herman Liene – trompet",
+        "Astrid Guldager – trompet",
+        "Victoria Baasland – trompet",
+        "Tore Bråthen – trompet, trompetinstruktør og musikalsk leder",
+        "Eva Klakegg – trombone (ikke med på konserten på Mandaljazz)",
+        "Andreas Vreim – trombone",
+        "Jan Rune Pedersen – trombone og trombonesinstruktør",
+        "Mads Aleksander Olsen – piano ",
+        "Colin Lilius Karlsen – bass",
+        "Ola Marius Undrum Grindbakken – trommer",
+        "Øyvind Nypan – gitar og komp-instruktør"
+      ]
     },
     "youtubeUrl": "",
     "spotifyUri": "",
     "isPulsArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": false
   },
   {
     "name": "TBA",
