@@ -42,7 +42,12 @@ const VolunteerPage = () => (
       <p>
         Så kult at du vurderer å være med som frivillig på Mandaljazz 2021! Du
         kan lese litt om de ulike frivilliggjengene nedenfor for å finne din
-        gjeng. Interesse kan registreres i{" "}
+        gjeng.
+      </p>
+      <p>
+        <strong>Fullt i 2021!</strong> Interessen har vært veldig stor i år, og
+        vi har dessverre ikke plass til flere frivillige, men du kan mer enn
+        gjerne registrere din interesse i{" "}
         <span
           onClick={(e) => {
             document
@@ -51,9 +56,9 @@ const VolunteerPage = () => (
           }}
           className={linkStyles.Link}
         >
-          skjemaet under
+          ventelisteskjemaet
         </span>
-        .
+        , så tar vi kontakt dersom det dukker opp en ledig plass.
       </p>
       <p>
         Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
@@ -170,7 +175,7 @@ const VolunteerPage = () => (
         title="Frivilligskjema"
         src="https://docs.google.com/forms/d/e/1FAIpQLSfckhDBZ8adOzk_XoDSeLtvj37KGexnRMI6lWKJR1xA19HOug/viewform?embedded=true"
         width="100%"
-        height="2200"
+        height="1700"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
