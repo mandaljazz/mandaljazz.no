@@ -33,11 +33,8 @@ const TicketsInfo = () => (
 
     <BuyTicketsButton />
 
-    <h3>Festivalpass</h3>
-    <p>Gir inngang til alle konserter på hele festivalen.</p>
-
-    <h3>Dagspass</h3>
-    <p>Gir inngang til alle konserter den aktuelle dagen.</p>
+    <h3>Festivalpass og dagspass</h3>
+    <p>Gir inngang til alle konserter.</p>
 
     <h3>Enkeltbilletter</h3>
     <p>Gir inngang til den aktuelle konserten.</p>
@@ -58,8 +55,11 @@ const TicketsInfo = () => (
       barneskoler.
     </p>
 
-    <h3>Barn</h3>
-    <p>Alle barn under 12 år går gratis på Mandaljazz.</p>
+    <h3>Barnekonsert</h3>
+    <p>
+      Barn under 1 år går gratis på årets barnekonsert. Andre barn og voksne må
+      kjøpe billett.
+    </p>
 
     <h3>Funksjonshemmede med ledsagerbevis</h3>
     <p>
