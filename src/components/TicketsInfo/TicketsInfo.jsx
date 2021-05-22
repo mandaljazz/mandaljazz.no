@@ -67,12 +67,6 @@ const TicketsInfo = () => (
       sin ledsager.
     </p>
 
-    <h3>Aldersgrenser</h3>
-    <p>
-      Alle konserter i <strong>Teltet</strong> har 18 års aldersgrense. Barn
-      under 18 år har adgang i følge med voksen.
-    </p>
-
     <h3>Annen info</h3>
     <ul>
       <li>
