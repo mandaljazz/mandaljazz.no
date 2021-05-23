@@ -26,19 +26,26 @@
     "hideFromArtistList": false
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba1",
+    "name": "Polyfonatura",
+    "imageName": "polyfonatura.jpg",
+    "id": "polyfonatura",
     "venue": "TBA",
     "concertStartAt": "2021-07-01T18:00:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Filmvisning av Polyfonatura + samtale med lydkunstner Eirik Havnes om musikk og natur",
+      "Leses med rungende filmtrailerstemme: “Lydkunstner Eirik Havnes er i gang med sitt mest ambisiøse prosjekt noensinne: Polyfonatura – et symfonisk verk med den norske naturen som sitt orkester.”",
+      "Polyfonatura er et arbeidsdogme, et musikkstykke, en dokumentarfilm og et prosjekt der lydkunster Eirik Havnes testet sin bredde som musikktekniker. Over et par år reiste han rundt i Norge og gjorde feltopptak av trær, fossefall, innsjøer, is, stråling, blader, mose, skitt, lys, ferger, insekter og alt annet han var i stand til å gjøre opptak av.",
+      "Alle disse lydene ble bearbeidet om til normal, tonal musikk, og gjennom hele prosessen ble han fulgt av regissør Jon Vatne, som også står bak de bejublede kortfilmene Psykonauten og Mågaluf. Dokumentarfilmen, som også heter Polyfonatura, har musikken til Havnes som sitt lydspor og handler om hvordan han lagde stykket. Ganske meta, ganske nerdete, ganske fantastisk utseende og ganske fantastisk lydende.",
+      "Etter filmen (20 min) avholdes en samtale med Eirik Havnes om musikk og natur. Samtalen ledes av musikkjournalist Kim Klev."
+    ],
     "bands": {
-      "": []
+      "Eirik Havnes": []
     },
     "youtubeUrl": "",
-    "spotifyUri": "",
+    "spotifyUri": "artist/0hiYuPkwji98zvMHSASere?si=o_zxcDcdQKKrRcaZuctuow",
+    "vimeoId": "370292416",
     "isPulsArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": false
   },
   {
     "name": "Nils Bech, Anja Lauvdal & Sara Övinge kvartett",
