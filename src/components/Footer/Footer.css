@@ -14,6 +14,11 @@
     max-width: 70%;
   }
 }
+@media screen and (min-width: 1200px) {
+  :local(.Footer) {
+    max-width: 50%;
+  }
+}
 :local(.Footer > *) {
   align-self: stretch;
   justify-self: center;

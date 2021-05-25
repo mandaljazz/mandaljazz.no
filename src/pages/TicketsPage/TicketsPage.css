@@ -19,8 +19,8 @@
     height: 800px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 720px) {
   :local(.TicketsPage) {
-    width: 60%;
+    max-width: 720px;
   }
 }
