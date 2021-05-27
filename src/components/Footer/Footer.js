@@ -37,6 +37,7 @@ import mandalsImg from "../../assets/images/sponsors/mandals.jpg";
 import altiImg from "../../assets/images/sponsors/alti.png";
 import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
 import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
+import sport1Img from "../../assets/images/sponsors/sport1.jpg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -125,6 +126,12 @@ const Footer = () => {
             alt="NorEngros"
             style={{ maxWidth: "8rem" }}
           />
+        </Link>
+        <Link
+          href="https://sport1.no/butikker/sport-1-mandal/"
+          title="Sport1 Mandal"
+        >
+          <img src={sport1Img} alt="Sport1 Mandal" />
         </Link>
       </div>
       <hr style={{ transform: "rotate(1.5deg)" }} />
