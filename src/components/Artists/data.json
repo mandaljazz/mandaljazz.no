@@ -26,14 +26,14 @@
     "hideFromArtistList": false
   },
   {
-    "name": "Polyfonatura (film og samtale)",
+    "name": "Film og samtale: Polyfonatura",
     "imageName": "polyfonatura.jpg",
     "id": "polyfonatura",
     "venue": "TBA",
     "concertStartAt": "2021-07-01T18:00:00+0200",
     "paragraphs": [
       "Filmvisning av Polyfonatura + samtale med lydkunstner Eirik Havnes om musikk og natur",
-      "Vi har lyst til at Mandaljazz skal være mer enn bare en musikkfestival, og også et sted der det er plass til blant annet scenekunst, film og litteratur. Derfor er det veldig stas å kunne ha en visning av Polyfonatura, en av de flotteste norske musikkfilmene fra de siste årene.",
+      "Vi har lyst til at Mandaljazz skal være mer enn bare en musikkfestival, og også et sted der det er plass til blant annet scenekunst, film og litteratur. Derfor er det veldig stas å kunne ha en visning av <em>Polyfonatura</em>, en av de flotteste norske musikkfilmene fra de siste årene.",
       "Vi får også besøk komponist Eirik Havnes, som filmen portretterer. Etter visningen (20 min) blir det en samtale med Havnes (ca. 25 min). Samtalen ledes av musikkjournalist Kim Klev, og vil røre ved litt filosofiske spørsmål om musikk og natur: Lager naturen “musikk”, og er den stygg eller vakker? Hvorfor lage musikk av naturen når man bare kan lage den på dataen? Hva har store musikkopplevelser og store naturopplevelser til felles? Og desidert viktigst: Hva er egentlig greia med svartmetall og norsk natur?",
       "Om filmen:",
       "<em>*Leses med rungende filmtrailerstemme*</em>: “Lydkunstner Eirik Havnes er i gang med sitt mest ambisiøse prosjekt noensinne: Polyfonatura – et symfonisk verk med den norske naturen som sitt orkester.”",
@@ -270,7 +270,7 @@
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
   },
   {
-    "name": "Gjøkungen (barnekonsert)",
+    "name": "Barnekonsert: Gjøkungen",
     "imageName": "gjokungen.jpg",
     "id": "gjokungen",
     "venue": "Kulturfabrikken",
