@@ -26,17 +26,19 @@
     "hideFromArtistList": false
   },
   {
-    "name": "Polyfonatura",
+    "name": "Polyfonatura (film og samtale)",
     "imageName": "polyfonatura.jpg",
     "id": "polyfonatura",
     "venue": "TBA",
     "concertStartAt": "2021-07-01T18:00:00+0200",
     "paragraphs": [
       "Filmvisning av Polyfonatura + samtale med lydkunstner Eirik Havnes om musikk og natur",
-      "Leses med rungende filmtrailerstemme: “Lydkunstner Eirik Havnes er i gang med sitt mest ambisiøse prosjekt noensinne: Polyfonatura – et symfonisk verk med den norske naturen som sitt orkester.”",
+      "Vi har lyst til at Mandaljazz skal være mer enn bare en musikkfestival, og også et sted der det er plass til blant annet scenekunst, film og litteratur. Derfor er det veldig stas å kunne ha en visning av Polyfonatura, en av de flotteste norske musikkfilmene fra de siste årene.",
+      "Vi får også besøk komponist Eirik Havnes, som filmen portretterer. Etter visningen (20 min) blir det en samtale med Havnes (ca. 25 min). Samtalen ledes av musikkjournalist Kim Klev, og vil røre ved litt filosofiske spørsmål om musikk og natur: Lager naturen “musikk”, og er den stygg eller vakker? Hvorfor lage musikk av naturen når man bare kan lage den på dataen? Hva har store musikkopplevelser og store naturopplevelser til felles? Og desidert viktigst: Hva er egentlig greia med svartmetall og norsk natur?",
+      "Om filmen:",
+      "<em>*Leses med rungende filmtrailerstemme*</em>: “Lydkunstner Eirik Havnes er i gang med sitt mest ambisiøse prosjekt noensinne: Polyfonatura – et symfonisk verk med den norske naturen som sitt orkester.”",
       "Polyfonatura er et arbeidsdogme, et musikkstykke, en dokumentarfilm og et prosjekt der lydkunster Eirik Havnes testet sin bredde som musikktekniker. Over et par år reiste han rundt i Norge og gjorde feltopptak av trær, fossefall, innsjøer, is, stråling, blader, mose, skitt, lys, ferger, insekter og alt annet han var i stand til å gjøre opptak av.",
-      "Alle disse lydene ble bearbeidet om til normal, tonal musikk, og gjennom hele prosessen ble han fulgt av regissør Jon Vatne, som også står bak de bejublede kortfilmene Psykonauten og Mågaluf. Dokumentarfilmen, som også heter Polyfonatura, har musikken til Havnes som sitt lydspor og handler om hvordan han lagde stykket. Ganske meta, ganske nerdete, ganske fantastisk utseende og ganske fantastisk lydende.",
-      "Etter filmen (20 min) avholdes en samtale med Eirik Havnes om musikk og natur. Samtalen ledes av musikkjournalist Kim Klev."
+      "Alle disse lydene ble bearbeidet om til normal, tonal musikk, og gjennom hele prosessen ble han fulgt av regissør Jon Vatne, som også står bak de bejublede kortfilmene Psykonauten og Mågaluf. Dokumentarfilmen, som også heter Polyfonatura, har musikken til Havnes som sitt lydspor og handler om hvordan han lagde stykket. Ganske meta, ganske nerdete, ganske fantastisk utseende og ganske fantastisk lydende."
     ],
     "bands": {
       "Eirik Havnes": []
@@ -268,7 +270,7 @@
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
   },
   {
-    "name": "Gjøkungen",
+    "name": "Gjøkungen (barnekonsert)",
     "imageName": "gjokungen.jpg",
     "id": "gjokungen",
     "venue": "Kulturfabrikken",
