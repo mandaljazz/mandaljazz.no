@@ -32,7 +32,7 @@ class Program extends React.Component {
     );
 
   renderToggleIsOpenButton = () => (
-    <RoundedButton onClick={this.toggleIsOpen}>
+    <RoundedButton onClick={this.toggleIsOpen} style={{ marginTop: "1rem" }}>
       {this.state.isOpen ? "Lukk program" : "Se program"}
     </RoundedButton>
   );
@@ -83,14 +83,7 @@ class Program extends React.Component {
           transitionOnAppear={false}
         >
           {this.artistsGroupedByDay().map(([day, artists]) => (
-            <div
-              key={day}
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-              }}
-            >
+            <div key={day} className={styles.ProgramDay}>
               <div>
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>

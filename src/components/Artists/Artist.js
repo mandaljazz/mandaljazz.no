@@ -172,7 +172,7 @@ class Artist extends React.Component {
                 }}
                 src={`https://player.vimeo.com/video/${vimeoId}`}
                 frameBorder="0"
-                allowfullscreen
+                allowFullScreen
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 title={`${name}-vimeo-iframe`}
               />

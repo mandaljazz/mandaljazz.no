@@ -7,10 +7,18 @@
   padding: 1rem 0;
 }
 :local(.Program) {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
+  background-color: var(--black-transparent-superlight);
+  border-radius: 8px;
+}
+:local(.ProgramDay) {
+  display: flex;
+  flexdirection: column;
+  justifycontent: space-between;
+  padding: 0.5rem;
 }
 :local(.Program h2) {
   width: auto;
@@ -19,7 +27,11 @@
 }
 @media screen and (min-width: 720px) {
   :local(.Program) {
+    margin: 0 2rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+  :local(.ProgramDay) {
+    padding: 1rem;
   }
 }
 :local(.ProgramList) {

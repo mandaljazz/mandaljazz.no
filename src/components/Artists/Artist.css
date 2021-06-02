@@ -1,5 +1,6 @@
 :local(.Artist) {
   position: relative;
+  margin: 1rem 0.5rem;
 
   background-size: cover;
   background-position: center;
@@ -13,8 +14,8 @@
   min-height: 300px;
   /* min-width: 300px; */
   flex-basis: 720px;
-  transition: transform var(--quick) ease-in-out;
-  border-bottom: 4px solid var(--secondary);
+  transition: transform var(--quick) ease-in-out, margin var(--quick) ease;
+  border-radius: 8px;
 }
 /* :local(.Artist)::after {
   display: block;
@@ -40,7 +41,7 @@
 :local(.Artist) h1 {
   margin: 0;
   margin-top: 1rem;
-  text-shadow: var(--darkblack) 2px 2px 10px;
+  text-shadow: var(--very-darkblack) 1px 1px 6px;
   word-break: break-word;
   margin-left: -1rem;
   border-top: none;
@@ -52,7 +53,7 @@
 }
 :local(.Artist):not(.active) h1 {
   margin-left: 1rem;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   hyphens: none;
 }
 :local(.Artist):not(.active):hover h1 {
@@ -67,11 +68,14 @@
   /* transform: rotateZ(1deg); */
   z-index: 2;
   min-width: 90%;
+  border-radius: 8px;
+  margin: 1rem 0;
   /* background-color: var(--darkblack); */
 }
 :local(.Artist) img {
   min-width: 100%;
   margin: auto;
+  border-radius: 8px;
 }
 :local(.ImageWrapper)::after {
   display: block;
@@ -125,6 +129,7 @@
   }
   :local(.Artist):not(.active) h1 {
     margin-left: -1rem;
+    font-size: 2.2rem;
   }
   :local(.Artist) {
     margin: 1rem 2rem;
