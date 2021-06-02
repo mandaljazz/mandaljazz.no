@@ -1,5 +1,32 @@
 [
   {
+    "name": "LILJA",
+    "imageName": "lilja.png",
+    "id": "lilja",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T20:00:00+0200",
+    "paragraphs": [
+      "Verdensjazz!",
+      "Oddrun Lilja, kjent som gitarist i Bugge Wesseltofts «New Conception of Jazz», Frode Haltlis «Avant folk» og «Moksha», er kommet med sin debutplate i eget navn: «LILJA: Marble». Albumet fikk terningkast 6 i Dagsavisen, og var listen over årets beste norske album i Klassekampens musikkmagasin i 2020. Plata ble også nominert til årets utgivelse i Subjekt, som hevder at «Marble» er et album som vil bli stående i norsk jazzhistorie.",
+      "Musikken er inspirert av reiser hvor Oddrun Lilja har samarbeidet med lokale tradisjonsmusikere fra hele verden. På reisene har Lilja blant annet spilt med ragamusikere i India, gnawamusikere i Marokko, sirkusartister i Etiopia og palestinere i en flyktningeleir i Libanon. Med inspirasjon fra disse møtene har hun komponert ny musikk, hvor låtene bærer navn etter ti av byene hun har besøkt.",
+      "Med sitt enestående band tar LILJA med publikum hjem til verden.",
+      "Foto: Anne Valeur"
+    ],
+    "bands": {
+      "LILJA": [
+        "Oddrun Lilja (gitar og vokal)",
+        "Beate Lech (hovedvokal)",
+        "Jo Skaansar (bass og vokal)",
+        "Bafana Nhlapo (vokal og perkusjon)",
+        "Jakop Janssønn (slagverk)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/g5_WSpdHZ_k",
+    "spotifyUri": "artist/4HDIwyGQjjREwGwBHSJ8Cn?si=dSTR7DWCT6Wtl5uiLIcHMA",
+    "isPulsArtist": false,
+    "hideFromArtistList": false
+  },
+  {
     "name": "Needlepoint",
     "imageName": "needlepoint.jpg",
     "id": "needlepoint",
@@ -71,21 +98,6 @@
     "video": "bech-lauvdal-ovinge.mp4",
     "isPulsArtist": false,
     "hideFromArtistList": false
-  },
-  {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba4",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T18:00:00+0200",
-    "paragraphs": [],
-    "bands": {
-      "": []
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": true
   },
   {
     "name": "TBA",
