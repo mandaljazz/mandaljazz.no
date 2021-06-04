@@ -43,7 +43,6 @@
   margin-top: 1rem;
   text-shadow: var(--very-darkblack) 1px 1px 6px;
   word-break: break-word;
-  transform: translateX(-1rem);
   border-top: none;
 
   letter-spacing: 0.1rem;
@@ -52,7 +51,7 @@
   transition: transform var(--quick) ease-in-out;
 }
 :local(.Artist):not(.active) h1 {
-  transform: translateX(1rem);
+  transform: translateX(0);
   font-size: 1.8rem;
   hyphens: none;
 }
@@ -124,8 +123,7 @@
 }
 @media screen and (min-width: 720px) {
   :local(.Artist):not(.active):hover {
-    transform: scale(1.01);
-    /* background-color: transparent; */
+    transform: scale(1.025);
   }
   :local(.Artist):not(.active) h1 {
     transform: translateX(-1rem);
