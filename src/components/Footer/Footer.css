@@ -34,12 +34,9 @@
 }
 :local(.Footer ul li a),
 :local(.Sponsors a) {
-  border-bottom: none;
+  background: none;
+  display: inline-block;
   transition: all var(--superquick) ease;
-}
-:local(.Footer ul li a):hover,
-:local(.Sponsors a):hover {
-  border-bottom: none;
 }
 :local(.Footer ul li a):hover {
   transform: rotate(4deg);

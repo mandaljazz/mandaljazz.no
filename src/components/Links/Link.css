@@ -1,15 +1,21 @@
 :local(.Link) {
   color: var(--black);
-  display: inline-block;
-  border-bottom: 2px solid var(--quadary);
+  /* display: inline-block; */
+  background: linear-gradient(to top, var(--quadary) 80%, transparent 80%);
   text-decoration: none;
   cursor: pointer;
   transform-style: preserve-3d;
+  transition: background-position 0.2s ease, color 0.2s ease;
+  background-position: 0% 14%;
+  background-size: 100% 1200%;
 }
 :local(.Link):hover {
-  border-bottom: 2px solid var(--black);
+  background-position: 0 22%;
+  color: var(--black);
 }
-:local(.ActiveNavLink),
-:local(.ActiveNavLink):hover {
-  border-bottom: 2px solid var(--black);
+:local(.NavLink) {
+  padding: 0.5rem;
+}
+:local(.ActiveNavLink) {
+  background-position: 0 22%;
 }

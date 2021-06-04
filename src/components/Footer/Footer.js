@@ -22,12 +22,12 @@ import jazzlaugsVennerImg from "../../assets/images/sponsors/jazzlaugs-venner.pn
 import hansaBorgImg from "../../assets/images/sponsors/hansa-borg.png";
 import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
-import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
+// import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
 import altblirjazzImg from "../../assets/images/profile/altblirjazz.png";
-import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
+// import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielsen.png";
 import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
-import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
+// import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
 import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import veidekkeImg from "../../assets/images/sponsors/veidekke.jpg";
 import egelandRorImg from "../../assets/images/sponsors/egeland-ror.png";
@@ -38,6 +38,7 @@ import altiImg from "../../assets/images/sponsors/alti.png";
 import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
 import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
 import sport1Img from "../../assets/images/sponsors/sport1.jpg";
+import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.svg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -64,6 +65,16 @@ const Footer = () => {
         <Link href="https://red.no/" title="Hr. Redaktør!">
           <img src={hrRedaktorImg} alt="Hr. Redaktør!" />
         </Link>
+        <Link href="https://www.heimtunbygg.no/" title="Heimtun Bygg">
+          <img src={heimtunByggImg} alt="Heimtun Bygg" />
+        </Link>
+      </div>
+      <hr style={{ transform: "rotate(-1.5deg)" }} />
+      <h2 style={{ color: "var(--primary)" }}>Støttespillere</h2>
+      <div className={classNames(styles.Sponsors, "small")}>
+        <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
+          <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
+        </NavLink>
         <Link href="https://www.sjograf.no/" title="Sjøsanden Grafiske">
           <img
             src={sjosandenGrafiskeImg}
@@ -71,13 +82,6 @@ const Footer = () => {
             style={{ maxWidth: "9rem" }}
           />
         </Link>
-        <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
-          <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
-        </NavLink>
-      </div>
-      <hr style={{ transform: "rotate(-1.5deg)" }} />
-      <h2 style={{ color: "var(--primary)" }}>Støttespillere</h2>
-      <div className={classNames(styles.Sponsors, "small")}>
         <Link
           href="https://www.gullsmeddanielsen.no/"
           title="Gullsmed Danielsen"
@@ -155,9 +159,9 @@ const Footer = () => {
         >
           <img src={sorNorskJazzsenterImg} alt="Sør-Norsk Jazzsenter" />
         </Link>
-        <Link href="https://jazzforum.jazzinorge.no/" title="Norsk Jazzforum">
+        {/* <Link href="https://jazzforum.jazzinorge.no/" title="Norsk Jazzforum">
           <img src={norskJazzforumImg} alt="Norsk Jazzforum" />
-        </Link>
+        </Link> */}
         <Link
           href="https://www.nordiskkulturfond.org/en"
           title="Nordisk kulturfond"
@@ -167,12 +171,12 @@ const Footer = () => {
         <Link href="https://www.kulturradet.no/" title="Kulturrådet">
           <img src={kulturraadetImg} alt="Kulturrådet" />
         </Link>
-        <Link href="https://puls.nordiskkulturfond.org/en/" title="Puls">
+        {/* <Link href="https://puls.nordiskkulturfond.org/en/" title="Puls">
           <img src={pulsLogoImg} alt="Puls" />
-        </Link>
-        <Link href="https://www.kulturrom.no/" title="Kulturrom">
+        </Link> */}
+        {/* <Link href="https://www.kulturrom.no/" title="Kulturrom">
           <img src={kulturromImg} alt="Kulturrom" />
-        </Link>
+        </Link> */}
       </div>
       <hr style={{ transform: "rotate(-1.5deg)" }} />
       <h2 style={{ color: "var(--primary)" }}>Samarbeidspartnere</h2>

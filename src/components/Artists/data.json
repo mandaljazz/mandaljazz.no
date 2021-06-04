@@ -27,6 +27,25 @@
     "hideFromArtistList": false
   },
   {
+    "name": "Aila Trio",
+    "imageName": "aila-trio.jpg",
+    "id": "aila-trio",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-02T18:00:00+0200",
+    "paragraphs": [],
+    "bands": {
+      "Aila Trio": [
+        "Georgia Wartel Collins (bass)",
+        "Andreas Winther (trommer)",
+        "Atle Nymo (saksofon)"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
+    "spotifyUri": "artist/7I7NnXRfeYjL7aBlf0Alc6?si=f0VMw4uPTDKoVDFan9Ysug",
+    "isPulsArtist": true,
+    "hideFromArtistList": false
+  },
+  {
     "name": "Needlepoint",
     "imageName": "needlepoint.jpg",
     "id": "needlepoint",
@@ -78,7 +97,7 @@
   },
   {
     "name": "Nils Bech, Anja Lauvdal & Sara Övinge kvartett",
-    "shortName": "Bech/Lauvdal & Sara Övinge kvartett",
+    "shortName": "Bech, Lauvdal + Övinge kvartett",
     "imageName": "bech-lauvdal-ovinge.png",
     "id": "bech-lauvdal-ovinge",
     "venue": "Mandal Kirke",
@@ -96,23 +115,8 @@
       "Sara Övinge kvartett": []
     },
     "video": "bech-lauvdal-ovinge.mp4",
-    "isPulsArtist": false,
+    "isPulsArtist": true,
     "hideFromArtistList": false
-  },
-  {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba5",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T20:00:00+0200",
-    "paragraphs": [],
-    "bands": {
-      "": []
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": true
   },
   {
     "name": "JUNO",
@@ -138,7 +142,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/h4ztebyk9EI",
     "spotifyUri": "artist/7uJVIR1cnmatK6hNLwM4dH?si=GBHXp1wqRjissfa2tkekRA",
-    "isPulsArtist": false,
+    "isPulsArtist": true,
     "hideFromArtistList": false
   },
   {

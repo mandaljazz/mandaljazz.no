@@ -41,7 +41,7 @@
 }
 
 :local(.Logo) {
-  width: 720px;
+  width: 800px;
   max-width: 100%;
   animation: 15s ease-in-out 0s infinite alternate pulsating;
 }
@@ -54,9 +54,9 @@
 
 @keyframes pulsating {
   0% {
-    transform: scale(1) rotate(0deg) skew(0deg);
+    transform: scale(0.9) rotate(0deg) skew(0deg);
   }
   100% {
-    transform: scale(1.075) rotate(2deg) skew(3deg);
+    transform: scale(1) rotate(2deg) skew(3deg);
   }
 }

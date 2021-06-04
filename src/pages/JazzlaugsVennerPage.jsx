@@ -22,10 +22,11 @@ const JazzlaugsVennerPage = () => (
       />
     </div>
     <ul>
-      <li>Neumann Bygg</li>
-      <li>Nødings delikatesse</li>
       <li>Aurebekk Gartneri</li>
       <li>Buen Kulturhus</li>
+      <li>Neumann Bygg</li>
+      <li>Nødings delikatesse</li>
+      <li>Spangereid Bensin og Handel</li>
     </ul>
   </div>
 );

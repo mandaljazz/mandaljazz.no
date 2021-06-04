@@ -27,7 +27,7 @@ const TravelInfo = () => (
       <iframe
         title="Entur-widget mini"
         frameBorder="0"
-        style={{ height: 45, width: "100%", maxWidth: 200 }}
+        style={{ height: 48, width: "100%", maxWidth: 240 }}
         src="https://widget.en-tur.no/mini?label=Finn%20reiser%20til%20Mandal&amp;target=_target&amp;toName=Mandal,%20Lindesnes&amp;toPlace=NSR%3AGroupOfStopPlaces%3A85&amp;toCoords=58.029357%2C7.460864"
       ></iframe>
     )}

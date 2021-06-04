@@ -84,12 +84,13 @@ class Program extends React.Component {
         >
           {this.artistsGroupedByDay().map(([day, artists]) => (
             <div key={day} className={styles.ProgramDay}>
-              <div>
+              <>
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
                   {sortBy(artists, "concertStartAt").map((artist) => (
-                    <li key={artist.id}>
+                    <li key={artist.id} className={styles.ProgramListItem}>
                       <span
+                        className={styles.ProgramEntry}
                         style={{
                           textDecoration: artist.cancelled
                             ? "line-through"
@@ -100,7 +101,6 @@ class Program extends React.Component {
                           {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
                           {artist.venue}
                         </span>
-                        {" / "}
                         <span className={styles.ArtistName}>
                           {this.renderArtistText(artist)}
                         </span>
@@ -111,7 +111,7 @@ class Program extends React.Component {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </>
             </div>
           ))}
         </SlideDown>

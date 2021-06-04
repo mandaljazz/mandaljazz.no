@@ -11,37 +11,54 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
-  background-color: var(--black-transparent-superlight);
   border-radius: 8px;
-}
-:local(.ProgramDay) {
-  display: flex;
-  flexdirection: column;
-  justifycontent: space-between;
-  padding: 0.5rem;
 }
 :local(.Program h2) {
   width: auto;
   margin: 0;
   padding: 0 0.5rem;
 }
-@media screen and (min-width: 720px) {
-  :local(.Program) {
-    margin: 0 2rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  :local(.ProgramDay) {
-    padding: 1rem;
-  }
+:local(.ProgramEntry) {
+  display: flex;
+  flex-direction: column;
+}
+:local(.ProgramEntry) {
+  display: flex;
+  flex-direction: column;
+}
+:local(.ProgramListItem) {
+  padding: 0.5rem;
+}
+:local(.ProgramListItem):nth-child(2n + 1) {
+  background-color: var(--black-transparent-superlight);
 }
 :local(.ProgramList) {
   list-style-type: none;
   padding: 0;
   margin: 0.5rem;
 }
-:local(.ProgramList li) {
-  padding: 0.2rem 0;
-}
 :local(.ConcertInfo) {
   color: var(--gray);
+}
+@media screen and (min-width: 720px) {
+  :local(.Program) {
+    margin: 0 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--black-transparent-superlight);
+  }
+  :local(.ProgramDay) {
+    padding: 1rem;
+  }
+  :local(.ConcertInfo)::after {
+    content: " / ";
+  }
+  :local(.ProgramEntry) {
+    display: block;
+  }
+  :local(.ProgramListItem) {
+    padding: 0.25rem 0;
+  }
+  :local(.ProgramListItem):nth-child(2n + 1) {
+    background-color: transparent;
+  }
 }
