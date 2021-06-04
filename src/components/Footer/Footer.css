@@ -62,12 +62,12 @@
   max-height: 10rem;
 }
 :local(.Sponsors).small img {
-  max-width: 7.5rem;
+  max-width: 7rem;
   max-height: 4rem;
 }
 @media screen and (min-width: 720px) {
   :local(.Sponsors).large img {
-    max-width: 34rem;
-    max-height: 14rem;
+    max-width: 38rem;
+    max-height: 17rem;
   }
 }

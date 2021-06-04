@@ -26,7 +26,7 @@ import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.p
 import altblirjazzImg from "../../assets/images/profile/altblirjazz.png";
 // import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielsen.png";
-import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
+// import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
 // import kulturromImg from "../../assets/images/sponsors/kulturrom.png";
 import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import veidekkeImg from "../../assets/images/sponsors/veidekke.jpg";
@@ -38,7 +38,7 @@ import altiImg from "../../assets/images/sponsors/alti.png";
 import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
 import torFasselandImg from "../../assets/images/sponsors/tor-fasseland.png";
 import sport1Img from "../../assets/images/sponsors/sport1.jpg";
-import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.svg";
+import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.jpg";
 import { Link } from "../../components";
 import styles from "./Footer.css";
 
@@ -50,7 +50,7 @@ const Footer = () => {
         alt="Sea bed"
         style={{ width: "90%", maxWidth: "800px" }}
       />
-      <h2 style={{ color: "var(--primary)" }}>Hovedsponsor</h2>
+      <h1 style={{ color: "var(--primary)" }}>Hovedsponsor</h1>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
@@ -70,7 +70,7 @@ const Footer = () => {
         </Link>
       </div>
       <hr style={{ transform: "rotate(-1.5deg)" }} />
-      <h2 style={{ color: "var(--primary)" }}>Støttespillere</h2>
+      <h3 style={{ color: "var(--primary)" }}>Støttespillere</h3>
       <div className={classNames(styles.Sponsors, "small")}>
         <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
           <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
@@ -127,13 +127,13 @@ const Footer = () => {
         <Link href="https://www.kjobmandsgaarden.no/" title="Kjøbmandsgaarden">
           <img src={kjobmandsgaardenImg} alt="Kjøbmandsgaarden" />
         </Link>
-        <Link href="https://www.norengros.no/" title="NorEngros">
+        {/* <Link href="https://www.norengros.no/" title="NorEngros">
           <img
             src={norEngrosImg}
             alt="NorEngros"
             style={{ maxWidth: "8rem" }}
           />
-        </Link>
+        </Link> */}
         <Link
           href="https://sport1.no/butikker/sport-1-mandal/"
           title="Sport1 Mandal"
