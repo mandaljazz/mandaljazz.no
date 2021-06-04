@@ -43,21 +43,21 @@
   margin-top: 1rem;
   text-shadow: var(--very-darkblack) 1px 1px 6px;
   word-break: break-word;
-  margin-left: -1rem;
+  transform: translateX(-1rem);
   border-top: none;
 
   letter-spacing: 0.1rem;
   text-transform: none;
 
-  transition: margin-left var(--quick) ease-in-out;
+  transition: transform var(--quick) ease-in-out;
 }
 :local(.Artist):not(.active) h1 {
-  margin-left: 1rem;
+  transform: translateX(1rem);
   font-size: 1.8rem;
   hyphens: none;
 }
 :local(.Artist):not(.active):hover h1 {
-  margin-left: -0.5rem;
+  transform: translateX(-0.5rem);
 }
 :local(.Artist).active h1 {
   font-size: 2.25rem;
@@ -128,7 +128,7 @@
     /* background-color: transparent; */
   }
   :local(.Artist):not(.active) h1 {
-    margin-left: -1rem;
+    transform: translateX(-1rem);
     font-size: 2.2rem;
   }
   :local(.Artist) {
