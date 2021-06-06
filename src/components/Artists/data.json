@@ -27,19 +27,23 @@
     "hideFromArtistList": false
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba5",
+    "name": "Aila Trio",
+    "imageName": "aila-trio.jpg",
+    "id": "aila-trio",
     "venue": "Teltet",
     "concertStartAt": "2021-07-02T18:00:00+0200",
     "paragraphs": [],
     "bands": {
-      "": []
+      "Aila Trio": [
+        "Georgia Wartel Collins (bass)",
+        "Andreas Winther (trommer)",
+        "Atle Nymo (saksofon)"
+      ]
     },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": true
+    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
+    "spotifyUri": "artist/7I7NnXRfeYjL7aBlf0Alc6?si=f0VMw4uPTDKoVDFan9Ysug",
+    "isPulsArtist": true,
+    "hideFromArtistList": false
   },
   {
     "name": "Needlepoint",
