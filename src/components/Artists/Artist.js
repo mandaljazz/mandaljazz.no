@@ -3,7 +3,7 @@ import classNames from "classnames";
 import dayjs from "dayjs";
 import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
@@ -122,15 +122,20 @@ class Artist extends React.Component {
                   )}
                 </div>
                 {externalTicketUrl && (
-                  <Button
-                    asLink
-                    style={{ margin: "2rem 1rem" }}
-                    linkProps={{
-                      href: externalTicketUrl,
-                    }}
-                  >
-                    Kjøp billett hos Buen
-                  </Button>
+                  <div style={{ margin: "2rem 1rem" }}>
+                    <Button
+                      asLink
+                      linkProps={{
+                        href: externalTicketUrl,
+                      }}
+                    >
+                      Kjøp billett hos Buen
+                    </Button>
+                    <em style={{ fontSize: "0.9rem" }}>
+                      Festivalpass og dagspass gir også adgang.{" "}
+                      <NavLink to="/billetter">Mer info om billetter</NavLink>.
+                    </em>
+                  </div>
                 )}
                 {bands && (
                   <div>

@@ -41,10 +41,12 @@ const TicketsInfo = () => (
     <p style={{ marginTop: 0 }}>
       <em>
         Enkeltbilletter til konsertene i{" "}
-        <Link href="https://www.buenkulturhus.no/" target="_blank">
-          Buen Kulturhus
-        </Link>{" "}
-        selges via deres nettsider.
+        <Link href="https://www.buenkulturhus.no/">Buen Kulturhus</Link> selges
+        via deres nettsider. Enkeltbilletter til alle andre konserter selges via{" "}
+        <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021">
+          TicketCo
+        </Link>
+        .
       </em>
     </p>
 
