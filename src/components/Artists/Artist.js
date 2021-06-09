@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
-import { PulsInfoBox } from "../";
+import { PulsInfoBox, Button } from "../";
 
 const getImageUrl = (imageName) =>
   require(`../../assets/images/artists/${imageName}`);
@@ -39,6 +39,7 @@ class Artist extends React.Component {
       venue,
       link,
       video,
+      externalTicketUrl,
     } = artist;
     const style = isActive
       ? {}
@@ -120,6 +121,17 @@ class Artist extends React.Component {
                     </>
                   )}
                 </div>
+                {externalTicketUrl && (
+                  <Button
+                    asLink
+                    style={{ margin: "2rem 1rem" }}
+                    linkProps={{
+                      href: externalTicketUrl,
+                    }}
+                  >
+                    Kjøp billett hos Buen
+                  </Button>
+                )}
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (

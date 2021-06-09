@@ -82,7 +82,7 @@
     "name": "Film og samtale: Polyfonatura",
     "imageName": "polyfonatura.jpg",
     "id": "polyfonatura",
-    "venue": "TBA",
+    "venue": "Buen (Kinosalen)",
     "concertStartAt": "2021-07-01T18:00:00+0200",
     "paragraphs": [
       "Filmvisning av Polyfonatura + samtale med lydkunstner Eirik Havnes om musikk og natur",
@@ -100,7 +100,8 @@
     "spotifyUri": "artist/0hiYuPkwji98zvMHSASere?si=o_zxcDcdQKKrRcaZuctuow",
     "vimeoId": "370292416",
     "isPulsArtist": false,
-    "hideFromArtistList": false
+    "hideFromArtistList": false,
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76473/purchase/setup"
   },
   {
     "name": "Nils Bech, Anja Lauvdal & Sara Övinge kvartett",
@@ -246,7 +247,8 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/mGoCuH8HQXk",
     "spotifyUri": "artist/1LdI3wdD3YgxQnTTVbqR9A?si=xGDak37TS2CaTzheaKwlAg",
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75136/purchase/setup"
   },
   {
     "name": "Maria Kannegaard Trio",
@@ -290,7 +292,8 @@
       "Helga Myhr": ["Helga Myhr – hardingfele"]
     },
     "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
-    "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg"
+    "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg",
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75137/purchase/setup"
   },
   {
     "name": "Barnekonsert: Gjøkungen",
