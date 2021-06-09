@@ -121,8 +121,8 @@ class Artist extends React.Component {
                     </>
                   )}
                 </div>
-                {externalTicketUrl && (
-                  <div style={{ margin: "2rem 1rem" }}>
+                <div style={{ margin: "2rem 1rem" }}>
+                  {externalTicketUrl ? (
                     <Button
                       asLink
                       linkProps={{
@@ -131,12 +131,24 @@ class Artist extends React.Component {
                     >
                       Kjøp billett hos Buen
                     </Button>
-                    <em style={{ fontSize: "0.9rem" }}>
-                      Festivalpass og dagspass gir også adgang.{" "}
-                      <NavLink to="/billetter">Mer info om billetter</NavLink>.
-                    </em>
-                  </div>
-                )}
+                  ) : (
+                    <Button
+                      asLink
+                      linkProps={{
+                        href:
+                          "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
+                      }}
+                    >
+                      Kjøp billett
+                    </Button>
+                  )}
+                  <em style={{ fontSize: "0.9rem" }}>
+                    Du trenger ikke kjøpe enkeltbillett dersom du har
+                    festivalpass og dagspass til{" "}
+                    {dayjs(concertStartAt).format("dddd")}.{" "}
+                    <NavLink to="/billetter">Mer info om billetter</NavLink>.
+                  </em>
+                </div>
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (
