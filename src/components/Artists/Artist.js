@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
+import linkStyles from "../Links/Link.css";
 import { PulsInfoBox, Button } from "../";
 
 const getImageUrl = (imageName) =>
@@ -146,7 +147,10 @@ class Artist extends React.Component {
                     Du trenger ikke kjøpe enkeltbillett dersom du har
                     festivalpass og dagspass til{" "}
                     {dayjs(concertStartAt).format("dddd")}.{" "}
-                    <NavLink to="/billetter">Mer info om billetter</NavLink>.
+                    <NavLink className={linkStyles.Link} to="/billetter">
+                      Mer info om billetter
+                    </NavLink>
+                    .
                   </em>
                 </div>
                 {bands && (
