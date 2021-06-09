@@ -145,7 +145,7 @@ class Artist extends React.Component {
                   )}
                   <em style={{ fontSize: "0.9rem" }}>
                     Du trenger ikke kjøpe enkeltbillett dersom du har
-                    festivalpass og dagspass til{" "}
+                    festivalpass eller dagspass til{" "}
                     {dayjs(concertStartAt).format("dddd")}.{" "}
                     <NavLink className={linkStyles.Link} to="/billetter">
                       Mer info om billetter
