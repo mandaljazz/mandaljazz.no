@@ -19,7 +19,7 @@ const PracticalInfoPage = () => (
     <ScrollToTopOnMount />
     <Map
       // eslint-disable-next-line
-      style="mapbox://styles/mapbox/light-v9"
+      style="mapbox://styles/mapbox/streets-v11"
       center={[7.457844, 58.025007]}
       zoom={[13]}
       containerStyle={{
@@ -32,8 +32,8 @@ const PracticalInfoPage = () => (
         id="marker"
         paint={{
           "circle-radius": 13,
-          "circle-color": "#f89876",
-          "circle-stroke-color": "#f1755b",
+          "circle-color": "#ffbd70",
+          "circle-stroke-color": "#f98e11",
           "circle-stroke-width": 2,
           "circle-opacity": 0.9,
         }}
