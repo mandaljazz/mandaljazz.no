@@ -120,7 +120,12 @@
     ],
     "bands": {
       "Nils Bech & Anja Lauvdal": ["Nils Bech – vokal", "Anja Lauvdal – piano"],
-      "Sara Övinge kvartett": []
+      "Sara Övinge kvartett": [
+        "Sara Övinge – fiolin",
+        "Ingvild Habbestad – fiolin og nyckelharpa",
+        "Bendik Foss – bratsj",
+        "Erlend Habbestad – cello"
+      ]
     },
     "video": "bech-lauvdal-ovinge.mp4",
     "isPulsArtist": true,
