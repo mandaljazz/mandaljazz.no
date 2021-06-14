@@ -361,6 +361,7 @@
     "youtubeUrl": "",
     "spotifyUri": "",
     "isPulsArtist": false,
-    "hideFromArtistList": false
+    "hideFromArtistList": false,
+    "isFree": true
   }
 ]
