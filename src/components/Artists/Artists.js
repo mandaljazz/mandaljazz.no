@@ -17,7 +17,7 @@ import artistData from "./data.json";
 
 class Artists extends React.Component {
   state = {
-    activeId: null
+    activeId: null,
   };
 
   componentDidMount() {
@@ -33,7 +33,7 @@ class Artists extends React.Component {
     }
   }
 
-  toggleIsActive = id => {
+  toggleIsActive = (id) => {
     if (id === this.state.activeId) {
       this.props.history.push();
     } else {
@@ -45,7 +45,7 @@ class Artists extends React.Component {
     return (
       <div>
         <div className={styles.Artists}>
-          {artistData.map(artist => {
+          {artistData.map((artist) => {
             const { id, hideFromArtistList } = artist;
             if (hideFromArtistList) {
               return null;
