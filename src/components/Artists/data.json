@@ -207,6 +207,33 @@
     "hideFromArtistList": true
   },
   {
+    "name": "JUNO",
+    "imageName": "juno.jpg",
+    "id": "juno",
+    "venue": "Teltet",
+    "concertStartAt": "2021-07-03T20:00:00+0200",
+    "paragraphs": [
+      "Ungt band med utspring fra den velrennomerte jazzlinja i Trondheim.",
+      "JUNO har allerede rukket å etablere seg som et solid liveband innenfor den norske musikkscenen. Dansbare grooves og kompleks rytmikk møter melodiøse refreng og eksperimentelt tonespråk med rap og fengslende improvisasjon. Den uvanlige besetningen med to vokalister, tenorsaksofon, kontrabass og trommer gir musikken et umiskjennelig og karakteristisk preg.",
+      "Lenge før debutalbumet kom i butikkhyllene hadde JUNO allerede rukket å spille på steder som Edinburgh Jazz & Blues Festival, Chris Beetles Gallery i London, Vinterjazz i Århus, samt Bylarm, Trondheim Calling,Kongsberg Jazzfestival og Moldejazz her hjemme i Norge.Høsten 2017 var de også plukket ut til å være med på Oslo Jazzfestivals «Nordic Showcase». I det JUNO debuterte med singelen «Mike» januar 2019, var bandet allerede et av landets mest ettertraktede liveband.",
+      "Det etterlengtede debutalbumet«Young Star» ble sluppet i januar 2020 og enormt gode anmeldelser fra norsk og utenlandsk presse. Albumet er produsert av Kristoffer Lo fra bl.a. Highasakite, PELbO og Sunswitch og ble gitt ut av Jazzland Recordings.",
+      "Foto: Markus Nymo Foss"
+    ],
+    "bands": {
+      "JUNO": [
+        "Thea Ellingsen Grant – vokal",
+        "Malin Dahl Ødegård – vokal",
+        "Mona Krogstad – saksofon",
+        "Georgia Wartel Collins – kontrabass",
+        "Ingvald Vassbø – trommer"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/h4ztebyk9EI",
+    "spotifyUri": "artist/7uJVIR1cnmatK6hNLwM4dH?si=GBHXp1wqRjissfa2tkekRA",
+    "isPulsArtist": true,
+    "hideFromArtistList": false
+  },
+  {
     "name": "Kjetil Jerve: lesekonsert",
     "imageName": "kjetil-jerve.jpg",
     "id": "kjetil-jerve",
@@ -273,33 +300,6 @@
     "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg",
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/75137/purchase/setup"
-  },
-  {
-    "name": "JUNO",
-    "imageName": "juno.jpg",
-    "id": "juno",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-03T20:00:00+0200",
-    "paragraphs": [
-      "Ungt band med utspring fra den velrennomerte jazzlinja i Trondheim.",
-      "JUNO har allerede rukket å etablere seg som et solid liveband innenfor den norske musikkscenen. Dansbare grooves og kompleks rytmikk møter melodiøse refreng og eksperimentelt tonespråk med rap og fengslende improvisasjon. Den uvanlige besetningen med to vokalister, tenorsaksofon, kontrabass og trommer gir musikken et umiskjennelig og karakteristisk preg.",
-      "Lenge før debutalbumet kom i butikkhyllene hadde JUNO allerede rukket å spille på steder som Edinburgh Jazz & Blues Festival, Chris Beetles Gallery i London, Vinterjazz i Århus, samt Bylarm, Trondheim Calling,Kongsberg Jazzfestival og Moldejazz her hjemme i Norge.Høsten 2017 var de også plukket ut til å være med på Oslo Jazzfestivals «Nordic Showcase». I det JUNO debuterte med singelen «Mike» januar 2019, var bandet allerede et av landets mest ettertraktede liveband.",
-      "Det etterlengtede debutalbumet«Young Star» ble sluppet i januar 2020 og enormt gode anmeldelser fra norsk og utenlandsk presse. Albumet er produsert av Kristoffer Lo fra bl.a. Highasakite, PELbO og Sunswitch og ble gitt ut av Jazzland Recordings.",
-      "Foto: Markus Nymo Foss"
-    ],
-    "bands": {
-      "JUNO": [
-        "Thea Ellingsen Grant – vokal",
-        "Malin Dahl Ødegård – vokal",
-        "Mona Krogstad – saksofon",
-        "Georgia Wartel Collins – kontrabass",
-        "Ingvald Vassbø – trommer"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/h4ztebyk9EI",
-    "spotifyUri": "artist/7uJVIR1cnmatK6hNLwM4dH?si=GBHXp1wqRjissfa2tkekRA",
-    "isPulsArtist": true,
-    "hideFromArtistList": false
   },
   {
     "name": "Barnekonsert: Gjøkungen",
