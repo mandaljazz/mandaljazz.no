@@ -145,7 +145,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Horse Orchestra</li>
           <li>Den Magnetiske Ørn</li>
           <li>Hästi Trio</li>
-          <li>Sørnorsk ungdomsstorband (SNUS)</li>
+          <li>Sørnorsk Ungdomsstorband (SNUS)</li>
           <li>Klangbein</li>
           <li>Benjamin Dybesland Band</li>
         </ul>

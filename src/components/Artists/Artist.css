@@ -131,7 +131,7 @@
   }
   :local(.Artist) {
     margin: 1rem 2rem;
-    flex-basis: 400px;
+    flex-basis: 424px;
     border-bottom: none;
   }
   :local(.Artist).active {
