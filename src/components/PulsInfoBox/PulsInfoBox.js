@@ -14,10 +14,9 @@ const PulsInfoBox = ({ artistName, ...props }) => {
         <Link href="https://www.nordiskkulturfond.org/en">
           Nordisk Kulturfonds
         </Link>{" "}
-        treårige støtteprogram 2017-2019 som gir spillesteder og festivaler en
-        unik mulighet til å arbeide fokuseret med nordisk livemusikk og
-        presentere publikum for nordisk forankrede og lovende artister med
-        internasjonalt potensiale.
+        støtteprogram som gir spillesteder og festivaler en unik mulighet til å
+        arbeide fokusert med nordisk livemusikk og presentere publikum for
+        nordisk forankrede og lovende artister med internasjonalt potensiale.
       </p>
       <div
         style={{
