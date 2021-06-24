@@ -214,7 +214,7 @@
     },
     "youtubeUrl": "",
     "spotifyUri": "",
-    "isPulsArtist": false,
+    "isPulsArtist": true,
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/76650/purchase/corona"
   },
   {
