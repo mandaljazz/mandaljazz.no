@@ -213,7 +213,8 @@
     },
     "youtubeUrl": "",
     "spotifyUri": "",
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "externalTicketUrl": "https://www.buenkulturhus.no/"
   },
   {
     "name": "JUNO",
