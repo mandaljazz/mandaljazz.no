@@ -192,19 +192,28 @@
     "hideFromArtistList": false
   },
   {
-    "name": "TBA",
-    "imageName": "tba.jpg",
-    "id": "tba8",
+    "name": "Jazzimprotimen",
+    "imageName": "jazzimprotimen.jpg",
+    "id": "jazzimprotimen",
     "venue": "TBA",
     "concertStartAt": "2021-07-03T15:00:00+0200",
-    "paragraphs": [],
+    "paragraphs": [
+      "Jazzimprotimen er vår lille heksekjele for improvisert musikk.",
+      "Dette er undergrunnen, bakgata, stengepilsen og backstagen på festivalen. Vi har invitert tre av festivalens deltakere til å sette sammen en trio for anledningen, som får fritt spillerom til å finne på en ny musikksjanger om de vil, eller bare spiller coverlåter av Elton John om de heller vil det. Kanskje de bare begynner å spille og ser hvor det bærer.",
+      "<strong>15.00: Håvard Aufles – Solo synth</strong>",
+      "Veslemøy (medlem av bookingkomiteen og Norges desidert kuleste trommeslager, red. anm.) tipset oss om at han Håvard i Trondheim Jazzorkester har et sykt fett solo synth-sett. Og når Veslemøy sier sånne ting så er det like sant som om det hadde stått på internett! Derfor rigger vi opp den fantastiske akustisk-musikk-orienterte Elvesalen til en dirrende synth-passasje signert Håvard Aufles!",
+      "Håvard Aufles: Omringet av trommemaskiner og elektronikk leter Håvard Aufles etter melodien. Et ukritisk og utforskende lydfokus setter preg når Håvard spiller solo. Hans musikalske utgangspunkt er den frie tolkningen av lyd, melodi og harmoni, inspirert av giganter som John Cage, Lennie Tristano og Beach Boys. Spontant og søkende spiller han et sett som er 110% Håvard.",
+      "<strong>15.30: Sissel Vera Pettersen/Amund Storløkken Åse/Georgia Wartel Collins</strong>",
+      "Sissel Vera Pettersen. Hva skal man si? 25 plateutgivelser, kunstnerisk ansvarlig for Trondheim Voices, og for vår vennefestival Soddjazz på Inderøy. Spilt med Chick Corea og Marilyn Mazur, synger, spiller saxofon, gjør ting med stemmen du ikke visste gikk an. Jobber også med grafikk og maleri.",
+      "Amund Storløkken Åse er en vibrafonist, perkusjonist og komponist, som er oppvokst og basert i Trondheim. Han har i flere år vært aktiv med powerjazz-trioen I Like To Sleep, som vant Norsk Jazzforum sin Jazzintro-pris i 2017. Vår konklusjon: Verden trenger mer vibrafon!",
+      "Georgia Wartel Collins er en svensk kontrabassist med base i Norge. Jazz og improvisasjon har alltid vært det hjertet hennes slår for. Hun vokste opp i et hus fullt av levende musikk og kunst med foreldre aktive i jazz- og performance art-scenen. Georgia og kontrabassen fant snart hverandre og inngikk et lidenskapelig, komplekst og langvarig forhold."
+    ],
     "bands": {
       "": []
     },
     "youtubeUrl": "",
     "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": true
+    "isPulsArtist": false
   },
   {
     "name": "JUNO",
