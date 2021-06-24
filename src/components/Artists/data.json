@@ -214,7 +214,7 @@
     "youtubeUrl": "",
     "spotifyUri": "",
     "isPulsArtist": false,
-    "externalTicketUrl": "https://www.buenkulturhus.no/"
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76650/purchase/corona"
   },
   {
     "name": "JUNO",
@@ -264,7 +264,7 @@
     "youtubeUrl": "https://www.youtube.com/embed/mGoCuH8HQXk",
     "spotifyUri": "album/1VBHoTWea9O1DftbQQZ85U?si=cs9oNYfQRM2-Uawvb6rVTw",
     "isPulsArtist": false,
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75136/purchase/setup"
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75136/purchase/corona"
   },
   {
     "name": "Film og samtale: Polyfonatura",
@@ -289,7 +289,7 @@
     "vimeoId": "370292416",
     "isPulsArtist": false,
     "hideFromArtistList": false,
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76473/purchase/setup"
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76473/purchase/corona"
   },
   {
     "name": "Helga Myhr",
@@ -309,7 +309,7 @@
     },
     "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
     "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg",
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75137/purchase/setup"
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75137/purchase/corona"
   },
   {
     "name": "Barnekonsert: Gjøkungen",
