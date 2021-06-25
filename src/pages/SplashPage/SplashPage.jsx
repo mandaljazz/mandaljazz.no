@@ -18,6 +18,15 @@ const SplashPage = () => (
       />
     </header>
     <Artists />
+    <iframe
+      className="SpotifyPlayer"
+      title="spotify"
+      src="https://open.spotify.com/embed/playlist/3L0O7pHL2uLvlQV4qkiWnY"
+      style={{ width: "380px", maxWidth: "95%" }}
+      frameBorder="0"
+      allowtransparency="true"
+      allow="encrypted-media"
+    />
   </div>
 );
 
