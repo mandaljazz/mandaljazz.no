@@ -28,7 +28,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Aila Trio</li>
           <li>LILJA</li>
           <li>TJO &amp; GURLS</li>
-          <li>SNUS</li>
+          <li>Sørnorsk Ungdomsstorband (SNUS)</li>
           <li>«Gjøkungen»</li>
           <li>Jazzimprotimen</li>
           <li>Kjetil Jerve: lesekonsert</li>
@@ -82,7 +82,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Erlend Wichne</li>
           <li>Johannes Breidenbach (foredrag)</li>
           <li>Cool Tour</li>
-          <li>Sørnorsk Ungdomsstorband</li>
+          <li>Sørnorsk Ungdomsstorband (SNUS)</li>
         </ul>
         <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
       </div>
