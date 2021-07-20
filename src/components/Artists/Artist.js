@@ -3,13 +3,19 @@ import classNames from "classnames";
 import dayjs from "dayjs";
 import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
-import { NavLink, Link } from "react-router-dom";
+import {
+  // NavLink,
+  Link,
+} from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
-import linkStyles from "../Links/Link.css";
-import { PulsInfoBox, Button } from "../";
+// import linkStyles from "../Links/Link.css";
+import {
+  PulsInfoBox,
+  // Button
+} from "../";
 
 const getImageUrl = (imageName) =>
   require(`../../assets/images/artists/${imageName}`);
@@ -40,8 +46,8 @@ class Artist extends React.Component {
       venue,
       link,
       video,
-      externalTicketUrl,
-      isFree,
+      // externalTicketUrl,
+      // isFree,
     } = artist;
     const style = isActive
       ? {}
@@ -123,7 +129,7 @@ class Artist extends React.Component {
                     </>
                   )}
                 </div>
-                <div style={{ margin: "2rem 1rem" }}>
+                {/* <div style={{ margin: "2rem 1rem" }}>
                   {isFree ? (
                     <em style={{ fontSize: "0.9rem" }}>Konserten er gratis!</em>
                   ) : (
@@ -159,7 +165,7 @@ class Artist extends React.Component {
                       </em>
                     </>
                   )}
-                </div>
+                </div> */}
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (

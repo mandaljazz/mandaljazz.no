@@ -40,7 +40,7 @@ const VolunteerPage = () => (
     </video>
     <div style={{ padding: "1rem", maxWidth: "720px" }}>
       <p>
-        Så kult at du vurderer å være med som frivillig på Mandaljazz 2021! Du
+        Så kult at du vurderer å være med som frivillig på Mandaljazz 2022! Du
         kan lese litt om de ulike frivilliggjengene nedenfor for å finne din
         gjeng.
       </p>
