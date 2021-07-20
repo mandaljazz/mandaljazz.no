@@ -1,6 +1,7 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 
+import poster21 from "../../assets/images/poster-2021.png";
 import poster20 from "../../assets/images/poster-2020.jpg";
 import poster19 from "../../assets/images/poster-2019.png";
 import poster18 from "../../assets/images/poster-2018.png";
@@ -15,6 +16,29 @@ import { Link } from "../../components";
 const ProgramHistoryTimeline = ({ children }) => (
   <div className={styles.ProgramHistoryTimeline}>
     {children}
+    <div className={styles.Event}>
+      <img src={poster21} className={styles.Poster} alt="Poster 2021" />
+      <div>
+        <h1>2021</h1>
+        <ul className={styles.EventList}>
+          <li>Film og samtale: Polyfonatura</li>
+          <li>Bech, Lauvdal + Övinge kvartett</li>
+          <li>Needlepoint</li>
+          <li>Helga Myhr</li>
+          <li>Aila Trio</li>
+          <li>LILJA</li>
+          <li>TJO &amp; GURLS</li>
+          <li>SNUS</li>
+          <li>«Gjøkungen»</li>
+          <li>Jazzimprotimen</li>
+          <li>Kjetil Jerve: lesekonsert</li>
+          <li>Maria Kannegaard Trio</li>
+          <li>JUNO</li>
+          <li>Valkyrien Allstars</li>
+        </ul>
+        <SpotifyPlayer uri="spotify:user:shenrik:playlist:3L0O7pHL2uLvlQV4qkiWnY" />
+      </div>
+    </div>
     <div className={styles.Event}>
       <img src={poster20} className={styles.Poster} alt="Poster 2020" />
       <div>
