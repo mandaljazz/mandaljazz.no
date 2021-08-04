@@ -13,10 +13,10 @@ import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
 import volunteers2014Img from "../../assets/images/frivillige-2014.jpg";
 import styles from "./VolunteerPage.css";
-import linkStyles from "../../components/Links/Link.css";
 import { HTMLEntities } from "../../utils/stringUtils";
 
 // HashLink doesn't work well on mobile for this, weird.. Do it manually with .scrollIntoView()
+// eslint-disable-next-line
 const ScrollToFormButton = () => (
   <div
     onClick={(e) => {
@@ -40,25 +40,12 @@ const VolunteerPage = () => (
     </video>
     <div style={{ padding: "1rem", maxWidth: "720px" }}>
       <p>
-        Så kult at du vurderer å være med som frivillig på Mandaljazz 2022! Du
-        kan lese litt om de ulike frivilliggjengene nedenfor for å finne din
+        Så kult at du vurderer å være med som frivillig på Mandaljazz 2022!
+        Nedenfor kan du lese litt om de ulike frivilliggjengene for å finne din
         gjeng.
       </p>
       <p>
-        <strong>Fullt i 2021!</strong> Interessen har vært veldig stor i år, og
-        vi har dessverre ikke plass til flere frivillige, men du kan mer enn
-        gjerne registrere din interesse i{" "}
-        <span
-          onClick={(e) => {
-            document
-              .getElementById("frivilligskjema")
-              .scrollIntoView({ behavior: "smooth" });
-          }}
-          className={linkStyles.Link}
-        >
-          ventelisteskjemaet
-        </span>
-        , så tar vi kontakt dersom det dukker opp en ledig plass.
+        <em>Registreringsskjema dukker opp litt nærmere festivalstart.</em>
       </p>
       <p>
         Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
@@ -133,7 +120,7 @@ const VolunteerPage = () => (
         </div>
       </Collapsible>
     </div>
-    <ScrollToFormButton />
+    {/* <ScrollToFormButton /> */}
     <div style={{ maxWidth: "720px" }}>
       <Blockquote person="Håvard (bar og servering)">
         Hadde det ikke vært for at man måtte okkupere den beste plassen i
@@ -169,7 +156,7 @@ const VolunteerPage = () => (
         <img src={volunteers2016Img} alt="Frivilliggjengen 2016" />
         <figcaption>Frivilliggjengen 2016</figcaption>
       </figure>
-      <div id="frivilligskjema" />
+      {/* <div id="frivilligskjema" />
       <iframe
         id="volunteer-form"
         title="Frivilligskjema"
@@ -181,7 +168,7 @@ const VolunteerPage = () => (
         marginWidth="0"
       >
         Henter skjema…
-      </iframe>
+      </iframe> */}
       <figure>
         <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
         <figcaption>Frivilliggjengen 2014</figcaption>
