@@ -91,6 +91,10 @@ hr.full-width {
   width: 100%;
 }
 
+button {
+  color: var(--black);
+}
+
 img {
   max-width: 100%;
 }
