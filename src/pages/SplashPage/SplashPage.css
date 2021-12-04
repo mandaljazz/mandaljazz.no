@@ -46,6 +46,12 @@
   animation: 15s ease-in-out 0s infinite alternate pulsating;
 }
 
+:local(.ChristmasLogo) {
+  width: 260px;
+  max-width: 100%;
+  animation: 15s ease-in-out 0s infinite alternate pulsating;
+}
+
 @media screen and (min-width: 720px) {
   :local(.Header p) {
     max-width: calc(1rem + 50vmin);

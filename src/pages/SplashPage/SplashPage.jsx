@@ -1,7 +1,8 @@
 import React from "react";
 import SpotifyPlayer from "react-spotify-player";
 
-import matroser from "../../assets/images/profile/matroser.png";
+// import matroser from "../../assets/images/profile/matroser.png";
+import christmasJazzlaug from "../../assets/images/jazzlaug-julehatt.png";
 import { Artists, ScrollToTopOnMount } from "../../components";
 import styles from "./SplashPage.css";
 
@@ -9,7 +10,7 @@ const SplashPage = () => (
   <div className={styles.SplashPage}>
     <ScrollToTopOnMount />
     <header className={styles.Header}>
-      <img src={matroser} className={styles.Logo} alt="Matroser" />
+      <img src={christmasJazzlaug} className={styles.ChristmasLogo} alt="Jazzlaug" />
       <h1 className={styles.HeaderText}>mandaljazz</h1>
       <p>
         Takk for i år! Vi sees neste år{" "}

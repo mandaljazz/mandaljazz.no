@@ -11,11 +11,12 @@
   padding: 1rem;
   margin: 0.25rem;
   border-bottom: 1px solid var(--gray-30);
+  color: var(--white);
 }
 
-/* Prevent Safari from making color white when clicking (default for buttons) */
+/* Prevent Safari from making color change when clicking (default for buttons) */
 :local(.Toggle):active {
-  color: inherit;
+  color: var(--white);
 }
 
 :local(.Toggle):hover,
