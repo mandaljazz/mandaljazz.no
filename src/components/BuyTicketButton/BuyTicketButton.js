@@ -9,7 +9,7 @@ const BuyTicketButton = ({ ...props }) => {
     <div className={styles.BuyTicketButtonWrapper}>
       <a
         className={styles.BuyTicketButton}
-        href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021"
+        href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022"
         rel="noopener noreferrer"
         target="_blank"
         onClick={() =>

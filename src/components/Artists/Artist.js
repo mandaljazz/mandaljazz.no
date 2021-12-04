@@ -148,7 +148,7 @@ class Artist extends React.Component {
                           asLink
                           linkProps={{
                             href:
-                              "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
+                              "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
                           }}
                         >
                           Kjøp billett

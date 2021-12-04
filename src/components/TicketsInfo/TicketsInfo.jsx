@@ -16,7 +16,7 @@ const BuyTicketsButton = () => (
       asLink
       large
       linkProps={{
-        href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021",
+        href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
       }}
     >
       Kjøp billetter på TicketCo
@@ -43,7 +43,7 @@ const TicketsInfo = () => (
         Enkeltbilletter til konsertene i{" "}
         <Link href="https://www.buenkulturhus.no/">Buen Kulturhus</Link> selges
         via deres nettsider. Enkeltbilletter til alle andre konserter selges via{" "}
-        <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2021">
+        <Link href="https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022">
           TicketCo
         </Link>
         .
