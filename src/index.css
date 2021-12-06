@@ -52,6 +52,7 @@ body {
   color: var(--black);
   line-height: 1.5;
   hyphens: auto;
+  -webkit-hyphenate-character: "-";
 }
 
 h1,
@@ -71,6 +72,9 @@ h1,
 h2 {
   letter-spacing: 0.4rem;
   text-transform: uppercase;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 @media screen and (max-width: 720px) {
   h1 {

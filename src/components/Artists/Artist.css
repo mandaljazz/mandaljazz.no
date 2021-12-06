@@ -59,7 +59,7 @@
   transform: translateX(-0.5rem);
 }
 :local(.Artist).active h1 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   border-left: none;
   overflow-wrap: break-word;
 }

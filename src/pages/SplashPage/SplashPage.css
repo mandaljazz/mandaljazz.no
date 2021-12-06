@@ -32,11 +32,10 @@
 }
 
 :local(.SubHeader) {
-  font-size: calc(1rem + 2vmin);
+  font-size: calc(1rem + 1vmin);
   font-weight: 400;
   letter-spacing: 0.4rem;
   margin-top: 1.5rem;
-  text-transform: uppercase;
   margin-left: 1rem;
 }
 

@@ -44,7 +44,6 @@ class Artists extends React.Component {
   render() {
     return (
       <div>
-        <h3 style={{ textAlign: "center" }}>Artister 2021</h3>
         <div className={styles.Artists}>
           {artistData.map((artist) => {
             const { id, hideFromArtistList } = artist;

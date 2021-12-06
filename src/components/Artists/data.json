@@ -1,379 +1,83 @@
 [
   {
-    "name": "Nils Bech, Anja Lauvdal & Sara Övinge kvartett",
-    "shortName": "Bech, Lauvdal + Övinge kvartett",
-    "imageName": "bech-lauvdal-ovinge.png",
-    "id": "bech-lauvdal-ovinge",
-    "venue": "Mandal Kirke",
-    "concertStartAt": "2021-07-01T19:30:00+0200",
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "Marilyn Mazur – Shamania",
+    "shortName": "Marilyn Mazur",
+    "imageName": "marilyn-mazurs-shamania.png",
+    "id": "marilyn-mazur",
     "paragraphs": [
-      "Eksklusiv intimkonsert",
-      "Det finnes konserter og bandkonstellasjoner som egentlig er ment å finne sted én eneste gang – <em>der</em> og <em>da</em>, og aldri igjen. Oftest er man takknemlig for at man fikk nyte øyeblikket, men lengter ikke etter mer. Da vi i fjor høst så den første utgaven av UpClose, en intim konsertserie der fiolinisten Sara Övinge setter sammen musikere fra ulike sjangre, føltes det annerledes. Vi synes det låt så flott at vi drømte om å gjenskape konserten på Mandaljazz.",
-      "Nils Bech, Anja Lauvdal og Sara Övinge kvartett kommer til å spille helt akustisk, som vil si at det ikke rigges opp høyttaleranlegg. Den lyden man hører er altså den som blir til i rommet, reflektert i vegger og instrumenter og menneskekropper. Det blir nært, og det blir unikt.",
-      "Nils Bech vil mange huske fra en spesielt sterk scene i SKAM, da han sammen med en strykerkvartett fremførte \"O Helga Natt\" i en kirke. Syv millioner lyttinger på Spotify lyver ei, men det siste tiåret har han også gitt ut fem gode album hvor hans klassisk skolerte tenorstemme spilles opp mot elektronisk musikk.",
-      "Pianist Anja Lauvdal er et kjent fjes på festivalen, og det er ikke så rart. Hun spiller i flere band enn man kan telle på to hender, sånn at om man skal vise fram det nyeste og beste som rører seg i norsk jazz, er hun en skikkelse man ikke kommer utenom. Ikke minst er hun fra Flekkefjord, som skaper litt sørlandsk solidaritet oss imellom.",
-      "Sara Övinge er en person som tilsynelatende <em>kan alt</em>. Hun har jobbet både som danseinstruktør på SATS og konsertmester på Den Norske Opera, underviser i kammermusikk <em>og</em> spiller fiolin i Det Norske Kammerorkester. I tillegg arrangerer hun altså eksklusive intimkonserter og leder sin egen strykerkvartett."
+      "Musikk av drømmer og syner: Et moderne kvinnelig stammerituale fra en av Nordens største.",
+      "Marilyn Mazur er en av de virkelig store jazzmusikerne vi har her i Norden. Ikke bare er hun en sann musikalsk visjonær, men hun var der også da det smalt: På 1980-tallet reiste hun rundt land og strand med Miles Davis og satt sitt særpreg på musikken hans, og da Jan Garbarek gav ut sine viktigste skiver på 1990-tallet bidro hun på innspillingene.",
+      "Marilyn kom til Danmark som seksåring, etter å ha blitt født i USA av polske og afroamerikanske foreldre i 1955. Hun kjente en spesiell dragning mot trommer og perkusjon, kanskje fordi det er det eldste instrumentet i menneskets historie. Helt sentralt for Mazurs seneste store prosjekt -- Shamania, et ti kvinner sterkt orkester -- er nemlig begrepet “urkraft”. Som hun sier handler det “om å finne tilbake til instinktive måter å uttrykke seg på. Jeg så for meg en abstrakt moderne versjon av en kvinnelig stammesamling fra fortiden”.",
+      "I Mazurs øyne er det å lage musikk et rituale. Det er kanskje ikke så rart, da hun har ganske ukonvensjonelle måter å skrive sanger på: ved å ha syner og drømmer, og så gjøre dem om til musikk. Shamania, som ble utgitt i albumformat i 2019, er kanskje hennes høydare av denne metoden. Det er jazz, men med stemninger og harmonier som minner om menneskehetens rike musikalske forhistorie. Kanskje havner også du i en transe, og begynner å se syner.",
+      "Foto: Hanne Hvattum"
     ],
     "bands": {
-      "Nils Bech & Anja Lauvdal": ["Nils Bech – vokal", "Anja Lauvdal – piano"],
-      "Sara Övinge kvartett": [
-        "Sara Övinge – fiolin",
-        "Ingvild Habbestad – fiolin og nyckelharpa",
-        "Bendik Foss – bratsj",
-        "Erlend Habbestad – cello"
+      "Marilyn Mazur – Shamania": [
+        "Marilyn Mazur – percussion, composer/leader (DK)",
+        "Josefine Cronholm – vocals, percussion (SE)",
+        "Hildegunn Øiseth – trumpet, goat horn (NO)",
+        "Lotte Anker – saxes (DK)",
+        "Sissel Vera Pettersen – alto sax, vocals (NO)",
+        "Lis Wessberg – trombone (DK)",
+        "Makiko Hirabayashi – piano, keyboards (DK)",
+        "Ellen Andrea Wang – bass (NO)",
+        "Lisbeth Diers – congas, percussion (DK)"
       ]
     },
-    "video": "bech-lauvdal-ovinge.mp4",
-    "isPulsArtist": true,
-    "hideFromArtistList": false
-  },
-  {
-    "name": "Trondheim Jazzorkester & GURLS",
-    "shortName": "TJO & GURLS",
-    "imageName": "tjo-gurls.jpg",
-    "id": "tjo-gurls",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T22:00:00+0200",
-    "paragraphs": [
-      "Trioen GURLS har siden 2013 vært saksofonist Hanna Paulsberg og bassist Ellen Andrea Wangs svært populære musikalske friminutt.",
-      "Til dette prosjektet har de fått med seg Marianna Sangita på vokal. Bassist og vokalist Ellen Andrea Wang er som kjent Artist in Residence på Moldejazz 2021.",
-      "GURLS har utviklet seg til et flaggskip i norsk jazz. Det sprudlende debutalbumet «Run boy, run» vant Spellemannprisen for beste jazzalbum 2018, og trioen har siden toppet norske jazzfestivaler og spilt for utsolgte klubber. Nå er GURLS her igjen, denne gangen i et spesialopplegg med nok en spennende utgave av Trondheim Jazzorkester (TJO), der Hanna Paulsberg skriver og arrangerer for trioen og åtte andre musikere.",
-      "Paulsberg har i en årrekke stått høyt på TJOs ønskeliste når det gjelder norske komponister. Som saksofonist har hun vært sentral i en rekke tidligere TJO-prosjekter, først med Elin Rosseland i 2011, siden med Marius Neset, SKRAP og Espen Berg. Ved denne anledningen presenterer Paulsberg et knippe nye komposisjoner, samtidig som hun kler noen gamle hits i ny drakt, til en forestilling hele musikk-Norge ser fram til."
-    ],
-    "bands": {
-      "GURLS": [
-        "Marianna Sangita – vokal",
-        "Hanna Paulsberg – tenor saksofon, vokal, komponist",
-        "Ellen Andrea Wang – bass, vokal"
-      ],
-      "Trondheim Jazzorkester": [
-        "Eirik Hegdal – saksofoner",
-        "Sissel Vera Pettersen – saksofoner, vokal",
-        "Trine Knutsen – fløyter",
-        "Erik Johannessen – trombone",
-        "Heida Karine Johannesdottir – tuba",
-        "Håvard Aufles – keyboards",
-        "Amund Storløkken Åse – vibrafon",
-        "Håkon Mjåset Johansen – trommer",
-        "Ola Øverby – trommer ",
-        "David Solheim – lyddesign"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/qynGihY5TtE",
-    "spotifyUri": "album/0JAkX6tuABWmZCRLpwTQrw?si=MwG8mveJRdiwj7Qr4YdTZA",
-    "isPulsArtist": false
-  },
-  {
-    "name": "Needlepoint",
-    "imageName": "needlepoint.jpg",
-    "id": "needlepoint",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-01T21:30:00+0200",
-    "paragraphs": [
-      "Skogsprogg eller hyttefusion? Samma det – det svinger så fjæra fyker!",
-      "Hørte vi noen si <em>groovy</em>? Det lukter <em>søttitall</em> lang vei av Needlepoint – falma bokrygger, loete ulltrøyer, levende gjærkulturer, jazztobakk. Navnet deres oversettes best til ‘broderi’ eller ‘hekleverk’. Kall det hyttefusion eller skogsprogg, men det er ingen tvil om at firkløveren, ledet av jazzgitarnestor Bjørn Klakegg, vet hvordan man spiller sammen.",
-      "Referanser til både Frank Zappa og Soft Machine sitter løst, og det føles som Needlepoint bare blir bedre og bedre for hvert album. Fullengderen <em>Walking Up That Valley</em> kom i vinter og svinger som bare rakkern – et varmt og vennlig lappeteppe av folkrock, psykedelisk pop og frika jazz. Det er enkelt og greit musikk man drømmer seg bort i. Og om man liker det man hører på skive, er det bare å glede seg: mange mener de er <em>enda bedre</em> live!",
-      "Needlepoint ble til da Bjørn Klakegg prøvde å bygge seg en redningskapsel ut av jazzsjangertrøya. Med Nikolai Hængsle ved sin side fortsatte ferden på stier som ledet inn mot rockens landskap. Bjørn skriver musikken, men Nikolai er alltid reisekamerat og inspirator fra spede låtskisser, videre mot ferdige låter og er også produsent på albumene",
-      "Erlend Slettevold (vikarierer for David Wallumrød) og Olaf Olsen er drømmemusikerne å ha med på laget. Nå har Needlepoint gått fra å være en redningskapsel til et skip, med luft i seilene, stolt fossende fram på store bassbølger, virvelvind-trommer og heftige orgelbrus!"
-    ],
-    "bands": {
-      "Needlepoint": [
-        "Bjørn Klakegg – gitar",
-        "Nikolai Hængsle – bass",
-        "Olaf Olsen – trommer",
-        "Erlend Slettevold – keyboards"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/2sIopRrpFHs",
-    "spotifyUri": "artist/3GBPzzHwfT7iXD8u7iZvue?si=G7NQBwRQSJiLAmhIcAbthg",
-    "isPulsArtist": false,
-    "hideFromArtistList": false
-  },
-  {
-    "name": "Valkyrien Allstars",
-    "imageName": "valkyrien-allstars.jpg",
-    "id": "valkyrien-allstars",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-03T22:00:00+0200",
-    "paragraphs": [
-      "Valkyrien Allstars er her til stadighet – Takk og pris!",
-      "Valkyrien Allstars er kjent som et av landets beste liveband, og har siden sin første utgivelse i 2007 gått foran i utviklingen av arrangert folkemusikk. Bandet har dratt i nye retninger for hver utgivelse det har sluppet, og har endt opp med et særegent uttrykk de ikke deler med noen.",
-      "Siste studioalbum i rekken «Slutte og Byne» vant just Spellemannprisen 2020 i kategorien Vise, og ligner mistenkelig på pop-musikk. For den observante lytter vil det likevel være tydelige henvisninger til norsk tradisjonsmusikk. Tittelsporet med samme navn ble raskt nærmest et mantra for folket fra sør til nord, og med strålende kritikker fra landets største medier, hyllet som et av årets beste album på de fleste lister, kan vi endelig få fra høre det fra scenen.",
-      "Bandet Består av Tuva Syvertsen, Magnus Larsen Jr, Erik Sollid og Martin Langlie, som sammen lager og arrangerer låtene som forblir en evig kjærlighet og mysterier som aldri løses. Her vanker energi, inderlighet, overraskende vendinger på en seng av det som vanskelig lar seg simulere: gnistrende samspill."
-    ],
-    "bands": {
-      "Valkyrien Allstars": [
-        "Tuva Livsdatter Syvertsen",
-        "Magnus Larsen Jr",
-        "Erik Sollid",
-        "Martin Langlie"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/5AwzbpElL0E",
-    "spotifyUri": "artist/4E1kp6gNDweuoJ7UIrTbgU?si=5OCqNTMGQwiy_chK0gOAew",
-    "isPulsArtist": false
-  },
-  {
-    "name": "Maria Kannegaard Trio",
-    "imageName": "maria-kannegaard-trio.jpg",
-    "id": "maria-kannegaard-trio",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-03T18:00:00+0200",
-    "paragraphs": [
-      "Nybakt Spellemann-vinner i slaget, ved klaveret!",
-      "Det finnes en ganske farlig myte om at man må ha det kjipt for å lage stor kunst. Tvert imot er det motsatte oftest tilfellet. Dansk-norske Maria Kannegaard har lenge vært åpen om sin psykiske sykdom, og hvordan det i perioder har hindret henne fra å utøve musikk.",
-      "Derfor er vi enormt glad for at Kannegaard, som en av våre mest fintfølende pianister, har et åpenbart kreativt overskudd for tiden. For to år siden ga hun ut det Spellemann-nominerte soloalbumet \"Nådeslås\", og i fjor høst kom Spellemann-<em>vinneren</em> \"Sand i en vik\" – første nye musikk på tolv år fra Kannegaards bejublede trio med bassist Ole Morten Vågan og trommeslager Thomas Strønen. Mange har ventet lenge på gjenkomsten, da trioen har en helt unik kjemi.",
-      "\"Å spille med Thomas og Morten er som å komme hjem. Det er som en familie. Jeg klarer ikke å sette ord på hva det er med oss tre, men det er veldig trygt og godt. Samtidig tar vi masse sjanser, men det er den følelsen av at vi er sammen om det\", har Kannegaard sagt. Det er en treffende beskrivelse, da musikken deres kan føles som å komme inn døra til et lunt hus etter å gått tur i den mørke og mystiske høstnatta.",
-      "Årets konsert på Mandaljazz 2021 blir første gang Maria Kannegaard besøker festivalen. Det risikerer å bli skikkelig fint.",
-      "Foto: Bilge Öner / Jazzfest"
-    ],
-    "bands": {
-      "Maria Kannegaard Trio": [
-        "Maria Kannegaard – klaver",
-        "Ole Morten Vågan – kontrabass",
-        "Thomas Strønen – trommer"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/vanVuRm27-Y",
-    "spotifyUri": "artist/6iB1azW4T9fVwPfpTW6Ka2?si=cwQjYFfVQiSDCELdHqxIkg",
+    "youtubeUrl": "https://www.youtube.com/embed/UdWkIOVjG28",
+    "spotifyUri": "album/1ELiQL6lxwtmn7on15TyV9?si=DTba8XWfSiGIrbVXwONsxg",
     "isPulsArtist": true
   },
   {
-    "name": "LILJA",
-    "imageName": "lilja.png",
-    "id": "lilja",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T20:00:00+0200",
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "The Big YES!",
+    "imageName": "the-big-yes.jpg",
+    "id": "the-big-yes",
     "paragraphs": [
-      "Verdensjazz!",
-      "Oddrun Lilja, kjent som gitarist i Bugge Wesseltofts «New Conception of Jazz», Frode Haltlis «Avant folk» og «Moksha», er kommet med sin debutplate i eget navn: «LILJA: Marble». Albumet fikk terningkast 6 i Dagsavisen, og var listen over årets beste norske album i Klassekampens musikkmagasin i 2020. Plata ble også nominert til årets utgivelse i Subjekt, som hevder at «Marble» er et album som vil bli stående i norsk jazzhistorie.",
-      "Musikken er inspirert av reiser hvor Oddrun Lilja har samarbeidet med lokale tradisjonsmusikere fra hele verden. På reisene har Lilja blant annet spilt med ragamusikere i India, gnawamusikere i Marokko, sirkusartister i Etiopia og palestinere i en flyktningeleir i Libanon. Med inspirasjon fra disse møtene har hun komponert ny musikk, hvor låtene bærer navn etter ti av byene hun har besøkt.",
-      "Med sitt enestående band tar LILJA med publikum hjem til verden.",
-      "Foto: Anne Valeur"
+      "Frisk frijazz fra hele det vide Skandinavi-ja.",
+      "Har du hørt om svensken, dansken og nordmannen som gikk inn i studio og kom ut med et frekt og freidig frijazz-album? Nei? Vel, sånn går omtrent tilblivelseshistorien til The Big YES!, et band som består av fire begava unge råskinn fra hele det vide Skandinavia: svenske Anna Högberg, danske Maria Bertel, og norske Christian Meaas Svendsen og Ole Mofjell (sistemann er en gammel venn av festivalen).",
+      "The Big YES! har oppkalt albumet sitt etter Kalmarunionen, som holdt i over hundre år og er den eneste ganga Sverige, Danmark og Norge har vært forent under ett flagg, én konge. Ikke bare det! De beskriver musikken sin som “demokratisk som Skandinavia selv, men også farlig som Nord-Korea og kompromissløs som det gamle Sovjet.” Det er en ordentlig politisk undertone i lydbildet til The Big YES!. De røsker deg i fletta og river deg ut av komfortsonen.",
+      "The Big YES! viser hvor viktig det er at kreative sjeler fra Norden samarbeider. Vi har tross alt mye mer til felles med hverandre enn ikke. The Big YES! er den kanskje ultimate representanten for PULS, som er Nordisk Kulturfonds nettverk av festivaler (yess, vi er blant dem!) som forplikter seg til å ha en haug med friske nordiske navn på plakaten. Si ja til jazz!"
     ],
     "bands": {
-      "LILJA": [
-        "Oddrun Lilja (gitar og vokal)",
-        "Beate Lech (hovedvokal)",
-        "Jo Skaansar (bass og vokal)",
-        "Bafana Nhlapo (vokal og perkusjon)",
-        "Jakop Janssønn (slagverk)"
+      "The Big YES!": [
+        "Anna Högberg - saxophone (SE)",
+        "Maria Bertel - trombone and effects (DK)",
+        "Christian Meaas Svendsen - bass (NO)",
+        "Ole Mofjell - drums (NO)"
       ]
     },
-    "youtubeUrl": "https://www.youtube.com/embed/g5_WSpdHZ_k",
-    "spotifyUri": "artist/4HDIwyGQjjREwGwBHSJ8Cn?si=dSTR7DWCT6Wtl5uiLIcHMA",
-    "isPulsArtist": false,
-    "hideFromArtistList": false
+    "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
+    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo",
+    "isPulsArtist": true
   },
   {
-    "name": "Aila Trio",
-    "imageName": "aila-trio.jpg",
-    "id": "aila-trio",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-02T18:00:00+0200",
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "The KutiMangoes",
+    "imageName": "the-kutimangoes.png",
+    "id": "the-kutimangoes",
     "paragraphs": [
-      "Tjäna! Stemningsfull miks av melodisk og fritt og mystisk.",
-      "Ble Aila Trio snytt for en Spellemann-nominasjon? Vi synes det! Med en sjeldent stemningsfull miks av melodisk og fritt og mystisk, stod trondheimstrioen bak en av 2019s beste albumdebuter i jazzsjiktet. Dette er musikk som er stor og beskjeden på samme tid, litt sånn som geniet i klassen som ikke vet selv at hun er det.",
-      "Det er særlig to grunner til at Aila Trio er så bra: at de spiller swingende godt sammen, og at bandleder Georgia Wartel Collins (bass) skriver skikkelig fine melodier. Ledsagerne Karl Hjalmar Nyberg (saksofon/klarinett) og Andreas Winther (trommer) følger ikke temaene hennes slavisk, men bruker dem som fundament for en mild fri improvisasjon.",
-      "Aila Trio springer ut av den sagnomsuste jazzlinja på NTNU, men både Georgia og Karl Hjalmar kommer fra Söta Bror. Collins er fra en uvanlig musikalsk slekt, med blant andre en farmor som var russisk konsertpianist. Begrepet ‘skandijazz’ har rukket å bli en klisjé, men det er virkelig noe ved Aila Trio som klinger av nordisk granskog. Svenske tilstander, ja takk!",
-      "NB: På grunn av innreiseforbud i forbindelse med Covid-19 stiller fenomenale Atle Nymo opp som vikar for Karl Hjalmar Nyberg.",
-      "Foto: Jenny Berger Myhre"
+      "Afrobeat i widescreen",
+      "Det internasjonalt anerkjente Københavnske ensemble tar Afrojazz til et nytt nivå. Deres 3. album “Afrotropism” (2019) forener afrikanske tradisjoner med europeisk modernitet. Man skal lete lenge for å finne et annet europeisk band som har bidratt mer til afrobeatens fornyede populæritet de siste årene enn dette københavnske seks-manns bandet ledet av Michael Blicher (sax) og Gustav Rasmussen (trombone, gitar).",
+      "The KutiMangoes har mottatt fantastiske anmeldelser internasjonalt og er kjent for sine livlige live-konserter. Uansett hvor de spiller, etterlater de et smilende publikum som roper etter mer! Etter bare et par takter med deres varme, blåser-bårne lyd er det umulig for publikum å sitte stille i stolene sine - så vi håper vi endelig får lov til å åpne dansegulvet inne i festivalteltet, for her kommer det til å rykke i dansefoten!",
+      "Foto: Manuel Weber"
     ],
     "bands": {
-      "Aila Trio": [
-        "Georgia Wartel Collins (bass)",
-        "Andreas Winther (trommer)",
-        "Atle Nymo (saksofon)"
+      "The KutiMangoes": [
+        "Michael Blicher – sax, fløyte",
+        "Gustav Rasmussen – trombone, gitar",
+        "Aske Drasbæk – sax",
+        "Johannes Buhl Andresen – Fender Rhodes, Moog bass",
+        "Casper Mikkelsen/Eddi Jarl – trommer",
+        "Magnus Jochumsen – perkusjon"
       ]
     },
-    "youtubeUrl": "https://www.youtube.com/embed/EwrckeepJrk",
-    "spotifyUri": "artist/7I7NnXRfeYjL7aBlf0Alc6?si=f0VMw4uPTDKoVDFan9Ysug",
-    "isPulsArtist": true,
-    "hideFromArtistList": false
-  },
-  {
-    "name": "Jazzimprotimen",
-    "imageName": "jazzimprotimen.png",
-    "id": "jazzimprotimen",
-    "venue": "Buen (Elvesalen)",
-    "concertStartAt": "2021-07-03T15:00:00+0200",
-    "paragraphs": [
-      "Jazzimprotimen er vår lille heksekjele for improvisert musikk.",
-      "Dette er undergrunnen, bakgata, stengepilsen og backstagen på festivalen. Vi har invitert tre av festivalens deltakere til å sette sammen en trio for anledningen, som får fritt spillerom til å finne på en ny musikksjanger om de vil, eller bare spiller coverlåter av Elton John om de heller vil det. Kanskje de bare begynner å spille og ser hvor det bærer.",
-      "<strong>15.00: Håvard Aufles – Solo synth</strong>",
-      "Veslemøy (medlem av bookingkomiteen og Norges desidert kuleste trommeslager, red. anm.) tipset oss om at han Håvard i Trondheim Jazzorkester har et sykt fett solo synth-sett. Og når Veslemøy sier sånne ting så er det like sant som om det hadde stått på internett! Derfor rigger vi opp den fantastiske akustisk-musikk-orienterte Elvesalen til en dirrende synth-passasje signert Håvard Aufles!",
-      "Håvard Aufles: Omringet av trommemaskiner og elektronikk leter Håvard Aufles etter melodien. Et ukritisk og utforskende lydfokus setter preg når Håvard spiller solo. Hans musikalske utgangspunkt er den frie tolkningen av lyd, melodi og harmoni, inspirert av giganter som John Cage, Lennie Tristano og Beach Boys. Spontant og søkende spiller han et sett som er 110% Håvard.",
-      "<strong>15.30: Sissel Vera Pettersen/Amund Storløkken Åse/Georgia Wartel Collins</strong>",
-      "Sissel Vera Pettersen. Hva skal man si? 25 plateutgivelser, kunstnerisk ansvarlig for Trondheim Voices, og for vår vennefestival Soddjazz på Inderøy. Spilt med Chick Corea og Marilyn Mazur, synger, spiller saxofon, gjør ting med stemmen du ikke visste gikk an. Jobber også med grafikk og maleri.",
-      "Amund Storløkken Åse er en vibrafonist, perkusjonist og komponist, som er oppvokst og basert i Trondheim. Han har i flere år vært aktiv med powerjazz-trioen I Like To Sleep, som vant Norsk Jazzforum sin Jazzintro-pris i 2017. Vår konklusjon: Verden trenger mer vibrafon!",
-      "Georgia Wartel Collins er en svensk kontrabassist med base i Norge. Jazz og improvisasjon har alltid vært det hjertet hennes slår for. Hun vokste opp i et hus fullt av levende musikk og kunst med foreldre aktive i jazz- og performance art-scenen. Georgia og kontrabassen fant snart hverandre og inngikk et lidenskapelig, komplekst og langvarig forhold.",
-      "Foto: Juliane Schütz (Sissel Vera Pettersen – øverst til venstre), Ole Grundt Hvoslef (Amund Storløkken Åse – øverst til høyre), Thor Egil Leirtrø (Georgia Wartel Collins – nederst til venstre)"
-    ],
-    "bands": {
-      "": []
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": true,
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76650/purchase/corona"
-  },
-  {
-    "name": "JUNO",
-    "imageName": "juno.jpg",
-    "id": "juno",
-    "venue": "Teltet",
-    "concertStartAt": "2021-07-03T20:00:00+0200",
-    "paragraphs": [
-      "Ungt band med utspring fra den velrennomerte jazzlinja i Trondheim.",
-      "JUNO har allerede rukket å etablere seg som et solid liveband innenfor den norske musikkscenen. Dansbare grooves og kompleks rytmikk møter melodiøse refreng og eksperimentelt tonespråk med rap og fengslende improvisasjon. Den uvanlige besetningen med to vokalister, tenorsaksofon, kontrabass og trommer gir musikken et umiskjennelig og karakteristisk preg.",
-      "Lenge før debutalbumet kom i butikkhyllene hadde JUNO allerede rukket å spille på steder som Edinburgh Jazz & Blues Festival, Chris Beetles Gallery i London, Vinterjazz i Århus, samt Bylarm, Trondheim Calling,Kongsberg Jazzfestival og Moldejazz her hjemme i Norge.Høsten 2017 var de også plukket ut til å være med på Oslo Jazzfestivals «Nordic Showcase». I det JUNO debuterte med singelen «Mike» januar 2019, var bandet allerede et av landets mest ettertraktede liveband.",
-      "Det etterlengtede debutalbumet«Young Star» ble sluppet i januar 2020 og enormt gode anmeldelser fra norsk og utenlandsk presse. Albumet er produsert av Kristoffer Lo fra bl.a. Highasakite, PELbO og Sunswitch og ble gitt ut av Jazzland Recordings.",
-      "Foto: Markus Nymo Foss"
-    ],
-    "bands": {
-      "JUNO": [
-        "Thea Ellingsen Grant – vokal",
-        "Malin Dahl Ødegård – vokal",
-        "Mona Krogstad – saksofon",
-        "Georgia Wartel Collins – kontrabass",
-        "Ingvald Vassbø – trommer"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/h4ztebyk9EI",
-    "spotifyUri": "artist/7uJVIR1cnmatK6hNLwM4dH?si=GBHXp1wqRjissfa2tkekRA",
-    "isPulsArtist": true,
-    "hideFromArtistList": false
-  },
-  {
-    "name": "Kjetil Jerve: lesekonsert",
-    "imageName": "kjetil-jerve.jpg",
-    "id": "kjetil-jerve",
-    "venue": "Buen (Biblioteket)",
-    "concertStartAt": "2021-07-03T16:00:00+0200",
-    "paragraphs": [
-      "Lesekonsert –  verdenspremiere på lockdown-muzak",
-      "De fleste har opplevd av å se et barn eller en ungdom briljere i noe, og tenkt at \"den personen kommer til å stå på en stor scene en dag!\". Det gjorde grunnleggerne i Mandaljazz, da de så Kjetil Jerve spille på fylkesfinalen til UKM i 2005. Vi kalte ham bare \"God på piano\". Nå er han en av norsk jazz' mest streamede artist – til dels på grunn av pandemien.",
-      "Siden samfunnet ble stengt ned i fjor vår har Kjetil Jerve lagt ut små musikkstykker på instagram under tittelen \"Daily Piano\". Musikken er rolig, fredfull, repetitiv og svært behagelig. Det er enkle små melodier, fulle av knirking og romklang fra furupanelet, og som i høst ble til det nydelige lille albumet <em>The Soundtrack of My Home</em>.",
-      "Mange jazzmusikere opplever at låtene deres blir streamet kanskje tusen ganger i året – om de er heldige. \"Eivor\", den ene låta på albumet, ble imidlertid plukket opp av flere Spotify-spillelister med bruksmusikk av typen \"Peaceful Piano Music\". I skrivende stund har den over 190.000 avspillinger. Dette er ikke akkurat Kygo-tall, men det er gedigne tall for hjemmeopptak av en jazzpianist i trippel pappaperm under corona-lockdown.",
-      "<em>The Soundtrack of My Home</em>, altså. Er dette lyden av 2020 – lyden av karantene? Vakkert er det, i hvert fall. Ikke minst er sirkelen sluttet, for under årets Mandaljazz tar \"God på piano\" musikken ut av huset og fremfører den live <em>for aller første gang</em>.",
-      "Med den poetiske musikken sin ønsker han \"å gi plass til tanker\" og \"stimulere lytterens egne indre prosess\". Musikken til Kjetil kan akkopagnere lytterens tanker, eller i dette tilfelle – også akkopagnere lytterens lesing. Derfor arrangerer vi en lese-konsert som finner sted i biblioteket. Publikum vil få utdelt et lite lesehefte vi har laget i samarbeid med flere lokale forfattere. Her er det rom for å la tankene vandre.",
-      "Foto: Jan Tore Eriksen"
-    ],
-    "bands": {
-      "Kjetil Jerve": ["Kjetil Jerve – klaver"]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/mGoCuH8HQXk",
-    "spotifyUri": "album/1VBHoTWea9O1DftbQQZ85U?si=cs9oNYfQRM2-Uawvb6rVTw",
-    "isPulsArtist": false,
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75136/purchase/corona"
-  },
-  {
-    "name": "Film og samtale: Polyfonatura",
-    "imageName": "polyfonatura.jpg",
-    "id": "polyfonatura",
-    "venue": "Buen (Kinosalen)",
-    "concertStartAt": "2021-07-01T18:00:00+0200",
-    "paragraphs": [
-      "Filmvisning av Polyfonatura + samtale med lydkunstner Eirik Havnes om musikk og natur",
-      "Vi har lyst til at Mandaljazz skal være mer enn bare en musikkfestival, og også et sted der det er plass til blant annet scenekunst, film og litteratur. Derfor er det veldig stas å kunne ha en visning av <em>Polyfonatura</em>, en av de flotteste norske musikkfilmene fra de siste årene.",
-      "Vi får også besøk komponist Eirik Havnes, som filmen portretterer. Etter visningen (20 min) blir det en samtale med Havnes (ca. 25 min). Samtalen ledes av musikkjournalist Kim Klev, og vil røre ved litt filosofiske spørsmål om musikk og natur: Lager naturen \"musikk\", og er den stygg eller vakker? Hvorfor lage musikk av naturen når man bare kan lage den på dataen? Hva har store musikkopplevelser og store naturopplevelser til felles? Og desidert viktigst: Hva er egentlig greia med svartmetall og norsk natur?",
-      "Om filmen:",
-      "<em>*Leses med rungende filmtrailerstemme*</em>: \"Lydkunstner Eirik Havnes er i gang med sitt mest ambisiøse prosjekt noensinne: Polyfonatura – et symfonisk verk med den norske naturen som sitt orkester.\"",
-      "Polyfonatura er et arbeidsdogme, et musikkstykke, en dokumentarfilm og et prosjekt der lydkunster Eirik Havnes testet sin bredde som musikktekniker. Over et par år reiste han rundt i Norge og gjorde feltopptak av trær, fossefall, innsjøer, is, stråling, blader, mose, skitt, lys, ferger, insekter og alt annet han var i stand til å gjøre opptak av.",
-      "Alle disse lydene ble bearbeidet om til normal, tonal musikk, og gjennom hele prosessen ble han fulgt av regissør Jon Vatne, som også står bak de bejublede kortfilmene <em>Psykonauten</em> og <em>Mågaluf</em>. Dokumentarfilmen, som også heter Polyfonatura, har musikken til Havnes som sitt lydspor og handler om hvordan han lagde stykket. Ganske meta, ganske nerdete, ganske fantastisk utseende og ganske fantastisk lydende."
-    ],
-    "bands": {
-      "Eirik Havnes": []
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "artist/0hiYuPkwji98zvMHSASere?si=o_zxcDcdQKKrRcaZuctuow",
-    "vimeoId": "370292416",
-    "isPulsArtist": false,
-    "hideFromArtistList": false,
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/76473/purchase/corona"
-  },
-  {
-    "name": "Helga Myhr",
-    "imageName": "helga-myhr.jpg",
-    "id": "helga-myhr",
-    "venue": "Buen (Elvesalen)",
-    "concertStartAt": "2021-07-02T16:00:00+0200",
-    "paragraphs": [
-      "Tradisjoner er til for å utfordres, skal man tro Helga Myhrs abstrakte hardingfelespill.",
-      "Hardingfelespiller og sanger Helga Myhr har én fot plantet i fortiden, og en annen letende i fremtiden. Soloalbumet <em>Natten veller seg ut</em> (2019), utgitt på det opprørske Motvind Records og nominert til Spellemann i kategorien tradisjonsmusikk, er like mye samtidsmusikk som det er folkemusikk.",
-      "Sånn får hun hardingfelas opptråkkede kulturlandskap til å låte ukjent og mystisk. Det kjennes fremmed og gjenkjennelig på samme tid – litt som å besøke hjemstedet sitt i en drøm. Mange av stykkene på albumet bygger videre på tradisjonelle sanger fra Hallingdal, hvor hun vokste opp, og inneholder mange religiøse motiver. Gjennom sitt semi-abstrakte og ekspresjonistiske <em>felespel</em> får hun slike kristne tekster til å låte desto mer overjordiske.",
-      "Helga Myhr medvirker også på mange andres utgivelser – senest på Frode Haltlis \"avant folk\", en annen musikere som forsøker å sprenge rammene for norsk folkemusikk. I tillegg er hun fast medlem i prosjektene Kvedarkvintetten, Dei kjenslevare og Morgonrode. Sistnevnte ga i fjor ut det strålende albumet <em>Du milde verden</em>, som skinner mye takket være Myhrs egenartede uttrykk. For tida er hun aktuell som komponist av bestillingsverket <em>Andsyning</em>, skrevet til Osafestivalen på Voss.",
-      "Foto: Johannes Selvaag"
-    ],
-    "bands": {
-      "Helga Myhr": ["Helga Myhr – hardingfele"]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/157KAO6-h9Y",
-    "spotifyUri": "artist/3gzd3GTBCMLNTiIXG3scZ5?si=0RSZH6QFSeOOLHcz4qU0Tg",
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/75137/purchase/corona"
-  },
-  {
-    "name": "Barnekonsert: Gjøkungen",
-    "imageName": "gjokungen.jpg",
-    "id": "gjokungen",
-    "venue": "Kulturfabrikken",
-    "concertStartAt": "2021-07-03T14:00:00+0200",
-    "paragraphs": [
-      "Ut av et magisk egg klekkes det en annerledes fugleunge. Mamma- og Pappafugl syns hun er altfor stor og altfor bråkete.",
-      "Men hva betyr det egentlig å være bråkete? Hvorfor er hun så annerledes? Gjøkungen forlater redet og legger ut på en spennende og musikalsk oppdagelsesferd. Hun blir venner med den lekne hakkespetten Hakke og den gamle, blinde Blues-Ugla.",
-      "Gjøkungen er en historiefortellende konsert med en dagsaktuell og viktig tematikk knyttet til hvordan det er å ikke passe inn. Musikken er skrevet av sanger og låtskriver Andrea Rydin Berge. Med seg har hun jazzmusiker Sebastian Haugen. Sammen tar de publikum med på en reise av lekenhet, rytmer og magi.",
-      "Konserter en bygget etter idé og manus av Katinka Rydin Berge og Knut Alfsen, og scenografi og dukker er laget av Agnes Schou. Konserten er produsert med hjelp fra Rikskonsertenes Forundringspakken, og Seanse, senter for kunstproduksjon. Andrea Rydin Berge og Sebastian Haugen har spilt Gjøkungen for flere tusen barn rundt om i Norges land. De har spilt for barn i barnehager, i kulturhus og på flere festivaler.",
-      "<em>Barn under 1 år går gratis på årets barnekonsert. Andre barn og voksne må kjøpe billett.</em>"
-    ],
-    "bands": {
-      "Gjøkungen": [
-        "Andrea Rydin Berge – sang, hangdrum, melodika, ukulele",
-        "Sebastian Haugen – kontrabass, gitar, sang"
-      ]
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false
-  },
-  {
-    "name": "Sørnorsk Ungdoms-storband (SNUS)",
-    "shortName": "SNUS",
-    "imageName": "snus.jpg",
-    "id": "snus",
-    "venue": "Hestetroa",
-    "concertStartAt": "2021-07-03T13:00:00+0200",
-    "paragraphs": [
-      "Mandaljazz + SNUS = Sant!",
-      "Sørnorsk Ungdomsstorband (SNUS) har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
-      "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.  Årets band består av 17 musikere; 13 ungdommer og 4 instruktører.",
-      "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
-      "Én ting er sikkert og visst: Ingenting gjør seg så godt en sommerdag i sola som SNUS."
-    ],
-    "bands": {
-      "Sørnorsk Ungdomsstorband": [
-        "Didrik Hogness – vokal",
-        "Frida Tobiassen Lid – altsax",
-        "Magnus Ripegutu Valle – altsax",
-        "Kardo Kiis – tenorsax",
-        "Andrè Kassen – tenorsax og saxofoninstruktør",
-        "Leon Strand – barytonsax",
-        "Herman Liene – trompet",
-        "Astrid Guldager – trompet",
-        "Victoria Baasland – trompet",
-        "Tore Bråthen – trompet, trompetinstruktør og musikalsk leder",
-        "Eva Klakegg – trombone (ikke med på konserten på Mandaljazz)",
-        "Andreas Vreim – trombone",
-        "Jan Rune Pedersen – trombone og trombonesinstruktør",
-        "Mads Aleksander Olsen – piano ",
-        "Colin Lilius Karlsen – bass",
-        "Ola Marius Undrum Grindbakken – trommer",
-        "Øyvind Nypan – gitar og komp-instruktør"
-      ]
-    },
-    "youtubeUrl": "",
-    "spotifyUri": "",
-    "isPulsArtist": false,
-    "hideFromArtistList": false,
-    "isFree": true
+    "spotifyUri": "artist/3Q5iBVx1lEGSrVPbJt0mBp?si=kN00K9R8SMel1Zn1Q1oB_g",
+    "youtubeUrl": "https://www.youtube.com/embed/oYRBOgOyV2E",
+    "isPulsArtist": true
   }
 ]
