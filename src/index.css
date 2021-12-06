@@ -70,8 +70,7 @@ h6 {
 }
 h1,
 h2 {
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
+  letter-spacing: 0.2rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
