@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 :local(.Header h1) {
@@ -40,15 +40,15 @@
 }
 
 :local(.Logo) {
-  width: 800px;
+  width: 550px;
   max-width: 100%;
-  animation: 15s ease-in-out 0s infinite alternate pulsating;
+  animation: 13s ease-in-out 0s infinite alternate pulsating;
 }
 
 :local(.ChristmasLogo) {
   width: 260px;
   max-width: 100%;
-  animation: 15s ease-in-out 0s infinite alternate pulsating;
+  animation: 13s ease-in-out 0s infinite alternate pulsating;
 }
 
 @media screen and (min-width: 720px) {
@@ -59,9 +59,9 @@
 
 @keyframes pulsating {
   0% {
-    transform: scale(0.9) rotate(0deg) skew(0deg);
+    transform: scale(0.85) rotate(0deg) skew(0deg);
   }
   100% {
-    transform: scale(1) rotate(2deg) skew(3deg);
+    transform: scale(1) rotate(3deg) skew(4deg);
   }
 }
