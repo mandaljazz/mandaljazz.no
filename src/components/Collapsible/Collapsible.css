@@ -11,12 +11,12 @@
   padding: 1rem;
   margin: 0.25rem;
   border-bottom: 1px solid var(--gray-30);
-  color: var(--white);
+  color: var(--black);
 }
 
 /* Prevent Safari from making color change when clicking (default for buttons) */
 :local(.Toggle):active {
-  color: var(--white);
+  color: var(--black);
 }
 
 :local(.Toggle):hover,

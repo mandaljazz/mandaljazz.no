@@ -11,12 +11,12 @@
 }
 :local(.Link):hover {
   background-position: 0 22%;
-  color: var(--white);
+  color: var(--black);
 }
 :local(.NavLink) {
   padding: 0.5rem;
 }
 :local(.ActiveNavLink) {
   background-position: 0 22%;
-  color: var(--white);
+  color: var(--black);
 }
