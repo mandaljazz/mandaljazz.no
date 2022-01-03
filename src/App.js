@@ -6,7 +6,7 @@ import {
   NavMenu,
   GoogleAnalyticsListener,
   // Program,
-  BuyTicketButton,
+  // BuyTicketButton,
 } from "./components";
 import {
   AboutPage,
@@ -122,9 +122,9 @@ class App extends React.Component {
                   "kristiansand",
                   "gobi",
                 ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
-                {!["billetter"].includes(
+                {/* {!["billetter"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && <BuyTicketButton />}
+                ) && <BuyTicketButton />} */}
               </>
             )}
           />
