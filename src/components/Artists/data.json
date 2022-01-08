@@ -44,10 +44,10 @@
     ],
     "bands": {
       "The Big YES!": [
-        "Anna Högberg - saxophone (SE)",
-        "Maria Bertel - trombone and effects (DK)",
-        "Christian Meaas Svendsen - bass (NO)",
-        "Ole Mofjell - drums (NO)"
+        "Anna Högberg – saxophone (SE)",
+        "Maria Bertel – trombone and effects (DK)",
+        "Christian Meaas Svendsen – bass (NO)",
+        "Ole Mofjell – drums (NO)"
       ]
     },
     "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
@@ -79,5 +79,33 @@
     "spotifyUri": "artist/3Q5iBVx1lEGSrVPbJt0mBp?si=kN00K9R8SMel1Zn1Q1oB_g",
     "youtubeUrl": "https://www.youtube.com/embed/oYRBOgOyV2E",
     "isPulsArtist": true
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "Marthe Lea Band",
+    "imageName": "marthe-lea-band.jpg",
+    "id": "marthe-lea-band",
+    "paragraphs": [
+      "La det som skjer, skje!",
+      "Marthe Lea manøvrerer seg gjennom musikkens mysterium på en finurlig måte. Det har hun vist de siste årene i mange ulike sammenhenger med flere anerkjente musikere. Lea balanserer sitt inderlige og kraftfulle uttrykk, med både folketoner og hyling, på en befriende måte. I sommer tar hun med seg bandet sitt og kommer til mandaljazz 2022!",
+      "Asura, debutalbumet som kom ut i juni 2021, er Marthe Lea Band sin kjærlighetserklæring til livet. Tydelig inspirert av folkemusikk fra fjern og nær kan man gjennom syv høyst ulike låter høre musikernes bakgrunner og interesser forplante seg i sjelfulle vibrasjoner. Dette er musikk for feiring!",
+      "Marthe Lea opptrer med en rekke instrumenter på dette albumet. Piano-, gitar- og fløyte-spillet hennes faller seg like naturlig som når hun spiller på hovedinstrumentet sitt; tenorsaksofon. Leser man gjennom bestillingslisten finner man at samtlige musikere er multiinstrumentalister, så publikum får vitne flere instrumentbytter live på scenen.",
+      "Bandet har siden 2018 spilt en rekke fritt improviserte konserter som gjerne har vart i både en og to timer. Filosofien har vært å la det som skjer, skje. De har faktisk bare hatt en låt på repertoaret, titulert «Sneaky Sneaky». Overraskelsen var derfor stor da Lea dukket opp dagen før innspillingen med seks helt nye låter, alle med finurlige vendinger - akkurat som Marthe Lea selv. Innspillingen ble så et forsøk på å spille disse låtene slik Lea hadde tenkt dem ut, og samtidig beholde den lekne og frie tilnærminga.",
+      "Musikken på Asura kan vel best karakteriseres som en organisk mikstur av nynnbare melodier, gyngende groover og spontane utbrudd. Plata starter med «Kedi», som med sin eiendommelige tonalitet fører oss rett inn i dette Leanske universet. Men tro ikke at vi her har med et noe ensformig folkemusikk-uttrykk å gjøre. For «Jysla Jysla» kunne kanskje vært skrevet av Elton John? Tittelsporet «Asura» beveger seg fra det føydale Japan til en midtsommerdans i skogen. Gjennom plata forflytter musikken seg fra stemning til stemning i takt med hjertet selv, altså noe ujevnt men stadig skiftende. «Sakina» er tydelig Gnawa-inspirert mens «Elgens hverdag» nærmer seg vuggesangens urgamle kraft. Innimellom dem er låta «Bølgebryter» som nok vil få den jazzinteresserte lytteren til å nikke med. Plata avsluttes med før nevnte «Sneaky Sneaky» som har vært et repeterende tema for dette bandet i flere år. Felles for spora er at man kan høre dem som ulike festlige ritual for hylling av musikkens uendelige muligheter.",
+      "Foto: Sunniva Ihlhaug"
+    ],
+    "bands": {
+      "Marthe Lea Band": [
+        "Marthe Lea – tenorsaksofon, fløyte, piano, gitar, stemme, udungu, perkusjon",
+        "Andreas Hoem Røysum – klarinett, bassklarinett, stemme, perkusjon",
+        "Hans P. Kjorstad – fele, fløyte, stemme, perkusjon",
+        "Egil Kalman – kontrabass, modulær synthesizer, stemme",
+        "Hans Hulbækmo – trommer, perkusjon, stemme"
+      ]
+    },
+    "spotifyUri": "artist/1Xz9eflMsRN7FeoN7rMQKJ?si=IkmB39piS1qla_ouzMENCA",
+    "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y",
+    "isPulsArtist": false
   }
 ]
