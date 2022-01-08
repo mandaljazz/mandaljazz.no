@@ -99,6 +99,8 @@
   padding: 1rem;
   position: relative;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 :local(.ArtistInfoGrid) {
   display: grid;
@@ -120,6 +122,15 @@
   justify-self: center;
   font-size: 3rem;
   color: var(--quadary);
+}
+:local(.ImageAttribution) {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  text-shadow: var(--very-darkblack) 1px 1px 6px;
+}
+:local(.ImageAttribution svg) {
+  margin-right: 0.5rem;
 }
 @media screen and (min-width: 720px) {
   :local(.Artist):not(.active):hover {

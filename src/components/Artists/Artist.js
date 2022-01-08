@@ -8,7 +8,11 @@ import {
   Link,
 } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClock,
+  faCameraRetro,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
 // import linkStyles from "../Links/Link.css";
@@ -34,6 +38,7 @@ class Artist extends React.Component {
     const {
       name,
       imageName,
+      imageAttribution,
       paragraphs,
       rightAlignedParagraphs,
       spotifyUri,
@@ -86,6 +91,11 @@ class Artist extends React.Component {
         {!isActive && <h1 className="with-border-left">{name}</h1>}
         {isActive && (
           <div className={styles.ImageWrapper}>
+            {imageAttribution && (
+              <div className={styles.ImageAttribution}>
+                <FontAwesomeIcon icon={faCameraRetro} /> {imageAttribution}
+              </div>
+            )}
             <img src={getImageUrl(imageName)} alt={name} id={id} />
           </div>
         )}
