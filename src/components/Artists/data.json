@@ -1,6 +1,35 @@
 [
   {
     "hideFromProgram": true,
+    "venue": "Buehallen",
+    "name": "Stein Austrud",
+    "imageName": "stein-austrud.png",
+    "id": "stein-austrud",
+    "paragraphs": [
+      "I fjor fylte Mandal 100 år som by, og i år feires det med en stor jubileumsfest samme helg som Mandaljazz avholdes. Denne konserten – som er gratis for alle – er vårt hovedbidrag til jubileet.",
+      "Mandal, som påberoper seg å være «den lille byen med di store kunstneran», har fostret mange begavede musikere. En av de mest markante er pianist, keyboardist, synthmann og multimusiker Stein Austrud. Stein har lenge vært en slags «bakmann», som komponist, produsent og studiomusiker for utallige artister og prosjekter. Viktigst har han kanskje vært som del av det fløyelsmyke lydbildet til landets største acid jazz-ambassadører, D'Sound. De siste årene har han vært en essensiell del av livebandet til Mari Boine.",
+      "Først i høst debuterte Stein som solomusiker, 52 år gammel, med albumet We Meet, We Touch, I Am. Dette er første del av prosjektet The Singing People of the North, hvor han improviserer med sitt enorme arsenal av synthesizere over mystiske landskaper av menneskestemmer. Stein er fascinert av stemmen som instrument, og albumet er resultat av hans møte – personlig og kreativt – med hundrevis av syngende mennesker. Stein synger også selv, forkledd bak en vocoder, som får musikken til å minne om Bon Ivers elektroniske, men naturnære og følelesladde folk.",
+      "Det kritikerroste albumet har i stor grad blitt til i Steins hjem på Skjernøy, som ligger i havgapet utenfor Mandal og er Norges sørligste fast bebodde plass. «Det å bo og jobbe på denne øya med dens nærhet til havet – lyset, lydene og til og med dens unike lukter – har en betydelig innvirkning på meg og musikken min,» forteller han.",
+      "Konserten i Buehallen vil basere seg på Steins album. Han har invitert med seg en hel haug med musikere og sangere fra Mandal og omegn, og flere vil bli offentliggjort etterhvert. Enn så lenge kan vi røpe at Mandal Kammerkor vil bli med. Det blir også lokale teknikere som står for at lyd og lys sveises inn som en del av helheten. Publikum kommer til å sitte i ring rundt Stein og hans følgesvenner, og musikere og lyder kan dukke opp fra alle kanter rundt publikummet.",
+      "<em>Konserten er støttet av Lindesnes kommune.</em>",
+      "Presseutklipp:<br /><strong>Vårt Land:</strong> «Et storslått verk som minner oss om vår egen eksistens.» (Anmeldelse av We Meet, We Touch, I Am)",
+      "<strong>Nettavisen:</strong> «Et sterkt og høyst personlig møte.» (Anmeldelse av We Meet, We Touch, I Am)",
+      "<strong>Harstad Tidende:</strong> «Trollmannen Stein Austrud: Jeg vet ingen som kan male vakrere lydflater enn nettopp han.» (Anmeldelse av konsert med Mari Boine Band)"
+    ],
+    "bands": {
+      "Medvirkende": [
+        "Stein Austrud",
+        "Mandal Kammerkor",
+        "++ flere annonseres etter hvert…"
+      ]
+    },
+    "spotifyUri": "artist/17N4KypjcU7AjNE5aSRaKp?si=5BjSlGlNTlGz_9kujSPB4w",
+    "facebookVideoUrl": "https://www.facebook.com/watch/?v=1977640115731127",
+    "isFree": true,
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
     "venue": "TBA",
     "name": "Marilyn Mazur – Shamania",
     "shortName": "Marilyn Mazur",
@@ -9,7 +38,7 @@
     "paragraphs": [
       "Musikk av drømmer og syner: Et moderne kvinnelig stammerituale fra en av Nordens største.",
       "Marilyn Mazur er en av de virkelig store jazzmusikerne vi har her i Norden. Ikke bare er hun en sann musikalsk visjonær, men hun var der også da det smalt: På 1980-tallet reiste hun rundt land og strand med Miles Davis og satt sitt særpreg på musikken hans, og da Jan Garbarek gav ut sine viktigste skiver på 1990-tallet bidro hun på innspillingene.",
-      "Marilyn kom til Danmark som seksåring, etter å ha blitt født i USA av polske og afroamerikanske foreldre i 1955. Hun kjente en spesiell dragning mot trommer og perkusjon, kanskje fordi det er det eldste instrumentet i menneskets historie. Helt sentralt for Mazurs seneste store prosjekt -- Shamania, et ti kvinner sterkt orkester -- er nemlig begrepet “urkraft”. Som hun sier handler det “om å finne tilbake til instinktive måter å uttrykke seg på. Jeg så for meg en abstrakt moderne versjon av en kvinnelig stammesamling fra fortiden”.",
+      "Marilyn kom til Danmark som seksåring, etter å ha blitt født i USA av polske og afroamerikanske foreldre i 1955. Hun kjente en spesiell dragning mot trommer og perkusjon, kanskje fordi det er det eldste instrumentet i menneskets historie. Helt sentralt for Mazurs seneste store prosjekt – Shamania, et ti kvinner sterkt orkester – er nemlig begrepet «urkraft». Som hun sier handler det «om å finne tilbake til instinktive måter å uttrykke seg på. Jeg så for meg en abstrakt moderne versjon av en kvinnelig stammesamling fra fortiden».",
       "I Mazurs øyne er det å lage musikk et rituale. Det er kanskje ikke så rart, da hun har ganske ukonvensjonelle måter å skrive sanger på: ved å ha syner og drømmer, og så gjøre dem om til musikk. Shamania, som ble utgitt i albumformat i 2019, er kanskje hennes høydare av denne metoden. Det er jazz, men med stemninger og harmonier som minner om menneskehetens rike musikalske forhistorie. Kanskje havner også du i en transe, og begynner å se syner."
     ],
     "imageAttribution": "Foto: Hanne Hvattum",
@@ -33,36 +62,12 @@
   {
     "hideFromProgram": true,
     "venue": "TBA",
-    "name": "The Big YES!",
-    "imageName": "the-big-yes.jpg",
-    "id": "the-big-yes",
-    "paragraphs": [
-      "Frisk frijazz fra hele det vide Skandinavi-ja.",
-      "Har du hørt om svensken, dansken og nordmannen som gikk inn i studio og kom ut med et frekt og freidig frijazz-album? Nei? Vel, sånn går omtrent tilblivelseshistorien til The Big YES!, et band som består av fire begava unge råskinn fra hele det vide Skandinavia: svenske Anna Högberg, danske Maria Bertel, og norske Christian Meaas Svendsen og Ole Mofjell (sistemann er en gammel venn av festivalen).",
-      "The Big YES! har oppkalt albumet sitt etter Kalmarunionen, som holdt i over hundre år og er den eneste ganga Sverige, Danmark og Norge har vært forent under ett flagg, én konge. Ikke bare det! De beskriver musikken sin som “demokratisk som Skandinavia selv, men også farlig som Nord-Korea og kompromissløs som det gamle Sovjet.” Det er en ordentlig politisk undertone i lydbildet til The Big YES!. De røsker deg i fletta og river deg ut av komfortsonen.",
-      "The Big YES! viser hvor viktig det er at kreative sjeler fra Norden samarbeider. Vi har tross alt mye mer til felles med hverandre enn ikke. The Big YES! er den kanskje ultimate representanten for PULS, som er Nordisk Kulturfonds nettverk av festivaler (yess, vi er blant dem!) som forplikter seg til å ha en haug med friske nordiske navn på plakaten. Si ja til jazz!"
-    ],
-    "bands": {
-      "The Big YES!": [
-        "Anna Högberg – saxophone (SE)",
-        "Maria Bertel – trombone and effects (DK)",
-        "Christian Meaas Svendsen – bass (NO)",
-        "Ole Mofjell – drums (NO)"
-      ]
-    },
-    "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
-    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo",
-    "isPulsArtist": true
-  },
-  {
-    "hideFromProgram": true,
-    "venue": "TBA",
     "name": "The KutiMangoes",
     "imageName": "the-kutimangoes.png",
     "id": "the-kutimangoes",
     "paragraphs": [
       "Afrobeat i widescreen",
-      "Det internasjonalt anerkjente Københavnske ensemble tar Afrojazz til et nytt nivå. Deres 3. album “Afrotropism” (2019) forener afrikanske tradisjoner med europeisk modernitet. Man skal lete lenge for å finne et annet europeisk band som har bidratt mer til afrobeatens fornyede populæritet de siste årene enn dette københavnske seks-manns bandet ledet av Michael Blicher (sax) og Gustav Rasmussen (trombone, gitar).",
+      "Det internasjonalt anerkjente Københavnske ensemble tar Afrojazz til et nytt nivå. Deres 3. album «Afrotropism» (2019) forener afrikanske tradisjoner med europeisk modernitet. Man skal lete lenge for å finne et annet europeisk band som har bidratt mer til afrobeatens fornyede populæritet de siste årene enn dette københavnske seks-manns bandet ledet av Michael Blicher (sax) og Gustav Rasmussen (trombone, gitar).",
       "The KutiMangoes har mottatt fantastiske anmeldelser internasjonalt og er kjent for sine livlige live-konserter. Uansett hvor de spiller, etterlater de et smilende publikum som roper etter mer! Etter bare et par takter med deres varme, blåser-bårne lyd er det umulig for publikum å sitte stille i stolene sine - så vi håper vi endelig får lov til å åpne dansegulvet inne i festivalteltet, for her kommer det til å rykke i dansefoten!"
     ],
     "imageAttribution": "Foto: Manuel Weber",
@@ -78,6 +83,53 @@
     },
     "spotifyUri": "artist/3Q5iBVx1lEGSrVPbJt0mBp?si=kN00K9R8SMel1Zn1Q1oB_g",
     "youtubeUrl": "https://www.youtube.com/embed/oYRBOgOyV2E",
+    "isPulsArtist": true
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "Akmee",
+    "imageName": "akmee.jpg",
+    "id": "akmee",
+    "paragraphs": [
+      "To historiske begivenheter, som hadde en stor innvirkning på våre liv, fant sted i år 2021; kommunesammenslåingen og Gurine Brunvatnes 100års-jubileum. Hennes hengivne væren i verden samt den kulturhistoriske arven som videreføres gjennom hennes musikk, har inspirert trompetisten Erik Kimestad Pedersen til å komponere musikk til en jubileumskonsert.",
+      "Med utgangspunkt i Øyslebø Sangsøstres fortolkninger av salmer søker Erik å skape en dynamisk musikkform som henter inspirasjon fra pan-afrikanske kunstnergrupperinger i 60-tallets USA, sørlandets menigheter og jazzens diasporiske karakter.",
+      "Salmene er omarrangert til bandet AKMEE."
+    ],
+    "bands": {
+      "Akmee": [
+        "Kjetil Jerve – piano",
+        "Erik Kimestad Pedersen – trompet",
+        "Andreas Wildhagen – trommer",
+        "Erlend Olderskog Albertsen – bass"
+      ]
+    },
+    "spotifyUri": "artist/3NTQ9NsR5pl0dHiEuJk1NH?si=QD8e4sHCT8iOma1veSumtQ",
+    "youtubeUrl": "https://www.youtube.com/embed/wgeW6sOrJ8k",
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "The Big YES!",
+    "imageName": "the-big-yes.jpg",
+    "id": "the-big-yes",
+    "paragraphs": [
+      "Frisk frijazz fra hele det vide Skandinavi-ja.",
+      "Har du hørt om svensken, dansken og nordmannen som gikk inn i studio og kom ut med et frekt og freidig frijazz-album? Nei? Vel, sånn går omtrent tilblivelseshistorien til The Big YES!, et band som består av fire begava unge råskinn fra hele det vide Skandinavia: svenske Anna Högberg, danske Maria Bertel, og norske Christian Meaas Svendsen og Ole Mofjell (sistemann er en gammel venn av festivalen).",
+      "The Big YES! har oppkalt albumet sitt etter Kalmarunionen, som holdt i over hundre år og er den eneste ganga Sverige, Danmark og Norge har vært forent under ett flagg, én konge. Ikke bare det! De beskriver musikken sin som «demokratisk som Skandinavia selv, men også farlig som Nord-Korea og kompromissløs som det gamle Sovjet.» Det er en ordentlig politisk undertone i lydbildet til The Big YES!. De røsker deg i fletta og river deg ut av komfortsonen.",
+      "The Big YES! viser hvor viktig det er at kreative sjeler fra Norden samarbeider. Vi har tross alt mye mer til felles med hverandre enn ikke. The Big YES! er den kanskje ultimate representanten for PULS, som er Nordisk Kulturfonds nettverk av festivaler (yess, vi er blant dem!) som forplikter seg til å ha en haug med friske nordiske navn på plakaten. Si ja til jazz!"
+    ],
+    "bands": {
+      "The Big YES!": [
+        "Anna Högberg – saxophone (SE)",
+        "Maria Bertel – trombone and effects (DK)",
+        "Christian Meaas Svendsen – bass (NO)",
+        "Ole Mofjell – drums (NO)"
+      ]
+    },
+    "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
+    "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo",
     "isPulsArtist": true
   },
   {
@@ -106,6 +158,50 @@
     },
     "spotifyUri": "artist/1Xz9eflMsRN7FeoN7rMQKJ?si=IkmB39piS1qla_ouzMENCA",
     "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y",
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "365 dager i et år",
+    "imageName": "365-dager-i-et-ar.jpg",
+    "id": "365-dager-i-et-ar",
+    "paragraphs": [
+      "Bli med Mari og Nicolai på en magisk tur gjennom naturens fire årstider!",
+      "«365 dager i et år» er en barneforestilling og et kunstnermøte mellom steppdans og elgitar. I forestillingen vil vi spille og danse oss gjennom et helt år med årstider. Det blir steppdans, musikk, fortellerteater, rytmer og interaktive deler der publikum inviteres til å synge og lage rytmer sammen med utøverne.",
+      "Temaet i forestillingen er natur - og mennesket i forhold til naturen. Forhåpentligvis blir barna nysgjerrige på naturen, på endringene som skjer, på lydene naturen lager og på hvordan man kan lage kunst inspirert av naturen.",
+      "Vi skal også lære litt sammen, som for eksempel når man kan høre gjøken si «ko-ko» som i sangen «Jeg gikk en tur på stien», eller når snøen pleier å komme, hva det betyr at fugler «trekker» sørover og mye mer.",
+      "«365 dager i et år» er laget og produsert av mandalitten Mari Marie Ø. Nyvoll. Før forestillingen spilles hos oss på mandaljazz, skal den ut på turné i Den Kulturelle Skolesekken i Kristiansand.",
+      "Forestillingen er anbefalt for barn i alderen 4 til 8 år, men kan også fint sees av barn fra 1 til 100. Vi håper flest mulig har lyst til å komme på en gøyal forestilling for å utforske og leke med årstidene!"
+    ],
+    "bands": {
+      "365 dager i et år": [
+        "Nicolai Gill Johannessen – gitar",
+        "Mari Marie Øinæs Nyvoll – steppdans"
+      ]
+    },
+    "isFree": true,
+    "isPulsArtist": false
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
+    "name": "Sørnorsk Ungdomsstorband",
+    "shortName": "SNUS",
+    "imageName": "snus.jpg",
+    "id": "snus",
+    "paragraphs": [
+      "Mandaljazz + SNUS = Sant!",
+      "Sørnorsk Ungdomsstorband har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
+      "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.",
+      "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
+      "Én ting er sikkert og visst: Ingenting gjør seg så godt en sommerdag i sola som SNUS."
+    ],
+    "imageAttribution": "Foto: Birigit Fostervold",
+    "bands": {
+      "SNUS": ["kommer…"]
+    },
+    "isFree": true,
     "isPulsArtist": false
   }
 ]

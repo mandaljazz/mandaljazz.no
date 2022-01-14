@@ -5,7 +5,7 @@ import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
 import {
   // NavLink,
-  Link,
+  Link as ReactRouterLink,
 } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -18,6 +18,7 @@ import styles from "./Artist.css";
 // import linkStyles from "../Links/Link.css";
 import {
   PulsInfoBox,
+  Link,
   // Button
 } from "../";
 
@@ -52,7 +53,8 @@ class Artist extends React.Component {
       link,
       video,
       // externalTicketUrl,
-      // isFree,
+      isFree,
+      facebookVideoUrl,
     } = artist;
     const style = isActive
       ? {}
@@ -68,7 +70,7 @@ class Artist extends React.Component {
         {...props}
       >
         {!isActive && link && (
-          <Link
+          <ReactRouterLink
             to={link}
             style={{
               position: "absolute",
@@ -139,11 +141,15 @@ class Artist extends React.Component {
                     </>
                   )}
                 </div>
-                {/* <div style={{ margin: "2rem 1rem" }}>
-                  {isFree ? (
-                    <em style={{ fontSize: "0.9rem" }}>Konserten er gratis!</em>
-                  ) : (
-                    <>
+                {
+                  <div style={{ margin: "2rem 1rem" }}>
+                    {isFree ? (
+                      <em style={{ fontSize: "0.9rem" }}>
+                        Konserten er gratis!
+                      </em>
+                    ) : (
+                      <>
+                        {/*
                       {externalTicketUrl ? (
                         <Button
                           asLink
@@ -173,9 +179,11 @@ class Artist extends React.Component {
                         </NavLink>
                         .
                       </em>
-                    </>
-                  )}
-                </div> */}
+                      */}
+                      </>
+                    )}
+                  </div>
+                }
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (
@@ -190,7 +198,9 @@ class Artist extends React.Component {
                     ))}
                   </div>
                 )}
-
+                {facebookVideoUrl && (
+                  <Link href={facebookVideoUrl}>Se video på Facebook</Link>
+                )}
                 {spotifyUri && (
                   <iframe
                     className="SpotifyPlayer"
