@@ -89,7 +89,8 @@
   {
     "hideFromProgram": true,
     "venue": "TBA",
-    "name": "Akmee",
+    "shortName": "Akmee",
+    "name": "Akmee – 100-årsjubileum",
     "imageName": "akmee.jpg",
     "id": "akmee",
     "paragraphs": [
