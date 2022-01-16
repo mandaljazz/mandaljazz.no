@@ -76,6 +76,13 @@
   margin: auto;
   border-radius: 8px;
 }
+:local(.Artist img.ByjubileumImg) {
+  min-width: auto;
+  width: 200px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+}
 :local(.ImageWrapper)::after {
   display: block;
   position: relative;

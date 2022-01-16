@@ -26,7 +26,8 @@
     "spotifyUri": "artist/17N4KypjcU7AjNE5aSRaKp?si=5BjSlGlNTlGz_9kujSPB4w",
     "facebookVideoUrl": "https://www.facebook.com/watch/?v=1977640115731127",
     "isFree": true,
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "isByjubileumArtist": true
   },
   {
     "hideFromProgram": true,
@@ -106,7 +107,8 @@
     },
     "spotifyUri": "artist/3NTQ9NsR5pl0dHiEuJk1NH?si=QD8e4sHCT8iOma1veSumtQ",
     "youtubeUrl": "https://www.youtube.com/embed/wgeW6sOrJ8k",
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "isByjubileumArtist": true
   },
   {
     "hideFromProgram": true,
@@ -181,7 +183,8 @@
       ]
     },
     "isFree": true,
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "isByjubileumArtist": true
   },
   {
     "hideFromProgram": true,
@@ -202,6 +205,7 @@
       "SNUS": ["kommer…"]
     },
     "isFree": true,
-    "isPulsArtist": false
+    "isPulsArtist": false,
+    "isByjubileumArtist": true
   }
 ]

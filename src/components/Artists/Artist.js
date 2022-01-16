@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Artist.css";
+import byjubileumImg from "../../assets/images/byjubileum.png";
 // import linkStyles from "../Links/Link.css";
 import {
   PulsInfoBox,
@@ -55,6 +56,7 @@ class Artist extends React.Component {
       // externalTicketUrl,
       isFree,
       facebookVideoUrl,
+      isByjubileumArtist,
     } = artist;
     const style = isActive
       ? {}
@@ -226,6 +228,13 @@ class Artist extends React.Component {
                   />
                 )}
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
+                {isByjubileumArtist && (
+                  <img
+                    src={byjubileumImg}
+                    alt="Mandal by 100 år"
+                    className={styles.ByjubileumImg}
+                  />
+                )}
               </div>
             </div>
             {vimeoId && (
