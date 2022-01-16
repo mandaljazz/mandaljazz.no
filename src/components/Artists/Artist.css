@@ -78,7 +78,7 @@
 }
 :local(.Artist img.ByjubileumImg) {
   min-width: auto;
-  width: 200px;
+  width: 150px;
   padding: 1rem;
   background-color: white;
   border-radius: 8px;
