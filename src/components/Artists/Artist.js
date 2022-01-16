@@ -92,7 +92,33 @@ class Artist extends React.Component {
             }}
           />
         )}
-        {!isActive && <h1 className="with-border-left">{name}</h1>}
+        {!isActive && (
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              height: "100%",
+            }}
+          >
+            <h1 className="with-border-left">{name}</h1>
+            {isByjubileumArtist && (
+              <img
+                src={byjubileumImg}
+                alt="Mandal by 100 år"
+                style={{
+                  alignSelf: "flex-end",
+                  margin: "1rem",
+                  marginTop: "auto",
+                  minWidth: "auto",
+                  width: "64px",
+                  padding: "0.6rem",
+                  backgroundColor: "white",
+                  borderRadius: "50%",
+                }}
+              />
+            )}
+          </div>
+        )}
         {isActive && (
           <div className={styles.ImageWrapper}>
             {imageAttribution && (
