@@ -9,6 +9,5 @@ export { default as TicketsPage } from "./TicketsPage";
 export { default as JazzlaugsVennerPage } from "./JazzlaugsVennerPage";
 export { default as JazzMarketPage } from "./JazzMarketPage";
 export { default as SmatassjazzPage } from "./SmatassjazzPage";
-export {
-  default as SpecificCityAdLandingPage
-} from "./SpecificCityAdLandingPage";
+export { default as ByjubileumPage } from "./ByjubileumPage";
+export { default as SpecificCityAdLandingPage } from "./SpecificCityAdLandingPage";

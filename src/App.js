@@ -20,6 +20,7 @@ import {
   SpecificCityAdLandingPage,
   JazzMarketPage,
   SmatassjazzPage,
+  ByjubileumPage,
 } from "./pages";
 import CoronaPage from "./pages/CoronaPage";
 
@@ -57,6 +58,7 @@ class App extends React.Component {
                   <Route exact path="/om" component={AboutPage} />
                   <Route exact path="/koronainfo" component={CoronaPage} />
                   <Route exact path="/program" component={ProgramPage} />
+                  <Route exact path="/byjubileum" component={ByjubileumPage} />
                   {/* <Route exact path="/billetter" component={TicketsPage} /> */}
                   <Route
                     exact
