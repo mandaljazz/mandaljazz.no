@@ -48,7 +48,7 @@ const ByjubileumPage = () => (
       år på rad vil åpne mandalssommeren med musikkfestival i byen.
     </p>
 
-    <h2>Stein Austrud – gratis åpningskonsert i Buehallen</h2>
+    <h2>Stein Austrud – gratis åpningskonsert</h2>
     <img
       src={steinAustrudImg}
       alt="Stein Austrud"
@@ -57,12 +57,11 @@ const ByjubileumPage = () => (
     <p>
       Mangeårig musiker, komponist og produsent Stein Austrud har nylig sluppet
       en ny plate som har høstet strålende kritikk. Dette er et helt unikt
-      prosjekt, og konserten, som markerer åpningen av mandaljazz 2022, skal gå
-      av stabelen i Buehallen på Malmø - en unik konsertarena. Mandalitten
-      Austrud har sitt studio på Skjernøy og bruker nærheten til havet som en
-      viktig inspirasjon. Steins musikalske hjerte er der det organiske møter
-      det elektroniske, der improvisasjonen møter klassisk, der du ikke
-      definerer en sjanger, hvor du ikke teller men elsker puls.
+      prosjekt som markerer åpningen av mandaljazz 2022. Mandalitten Austrud har
+      sitt studio på Skjernøy og bruker nærheten til havet som en viktig
+      inspirasjon. Steins musikalske hjerte er der det organiske møter det
+      elektroniske, der improvisasjonen møter klassisk, der du ikke definerer en
+      sjanger, hvor du ikke teller men elsker puls.
     </p>
     <p>
       Mandal kammerkor, lokale musikere og flere andre bidragsytere fra Mandal
