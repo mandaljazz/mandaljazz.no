@@ -6,7 +6,7 @@ import {
   NavMenu,
   GoogleAnalyticsListener,
   // Program,
-  // BuyTicketButton,
+  BuyTicketButton,
 } from "./components";
 import {
   AboutPage,
@@ -15,7 +15,7 @@ import {
   SplashPage,
   ProgramPage,
   VolunteerPage,
-  // TicketsPage,
+  TicketsPage,
   JazzlaugsVennerPage,
   SpecificCityAdLandingPage,
   JazzMarketPage,
@@ -59,7 +59,7 @@ class App extends React.Component {
                   <Route exact path="/koronainfo" component={CoronaPage} />
                   <Route exact path="/program" component={ProgramPage} />
                   <Route exact path="/byjubileum" component={ByjubileumPage} />
-                  {/* <Route exact path="/billetter" component={TicketsPage} /> */}
+                  <Route exact path="/billetter" component={TicketsPage} />
                   <Route
                     exact
                     path="/utlegg"
@@ -124,9 +124,9 @@ class App extends React.Component {
                   "kristiansand",
                   "gobi",
                 ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
-                {/* {!["billetter"].includes(
+                {!["billetter"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && <BuyTicketButton />} */}
+                ) && <BuyTicketButton />}
               </>
             )}
           />
