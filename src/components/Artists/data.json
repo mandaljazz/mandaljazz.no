@@ -3,14 +3,14 @@
     "hideFromProgram": true,
     "venue": "Teltet",
     "name": "Steamdome",
-    "imageName": "steamdome.png",
+    "imageName": "steamdome.jpg",
     "id": "steamdome",
     "paragraphs": [
-      "Ola Kvernbergs Steamdome er tilbake med nytt album og kommer tilbake til mandaljazz sommeren 2022. Vi gleder oss!",
-      "Det Spellemannsnominerte første albumet ble sluppet på Grappa Musikkforlag 1.desember 2017, og sjeldent har et instrumentalt album som dette fått like bred anerkjennelse fra musikkpresse og publikum. Støttet opp av et hav av toppkarakterer i Norske aviser, og konserter som gjorde publikum målløse, nådde «Steamdome» opp til topp 10 over mestselgende vinylplater i Norge i 2018. Med fulle hus på alt fra klubb-Oslos storstue Rockefeller til utekonsert for 4000 mennesker på Øyafestivalen under beltet, har Ola Kvernbergs Steamdome etablert seg som et av Norges store live-attraksjoner.",
+      "Ola Kvernbergs Steamdome er tilbake med nytt spellemannsnominert album og kommer tilbake til Mandaljazz sommeren 2022. Vi gleder oss!",
+      "Det Spellemannsnominerte førstealbumet ble sluppet på Grappa Musikkforlag 1. desember 2017, og sjeldent har et instrumentalt album som dette fått like bred anerkjennelse fra musikkpresse og publikum. Støttet opp av et hav av toppkarakterer i Norske aviser, og konserter som gjorde publikum målløse, nådde «Steamdome» opp til topp 10 over mestselgende vinylplater i Norge i 2018. Med fulle hus på alt fra klubb-Oslos storstue Rockefeller til utekonsert for 4000 mennesker på Øyafestivalen under beltet, har Ola Kvernbergs Steamdome etablert seg som et av Norges store live-attraksjoner.",
       "Steamdome er rendyrket perkussiv musikk. Progressiv og brutalt fremadstormende som et løpsk tog. Livsbejaende, surrealistisk og svulmende som Sergio Leones spagetti-westerns. Steamdome damper av visuell energi. Musikken snor seg mellom steile klipper, enorme panorama, krappe svinger, stup og nattlandskap hvor det eneste holdepunktet du har, er den suggerende rytmen fra et tog som aldri stanser.",
       "Ola Kvernberg har håndplukket et hardtslående maskineri av musikere til Steamdome. Lokomotivet drives framover av trommisene Erik Nylander (Mechanical Fair, Liarbird), Olaf Olsen (BigBang, Todd Terje & The Olsens) og Martin Windstad (Odd Nordstoga, Jarle Bernhoft, m.m.) sammen med bassist Nikolai Hængsle (BigBang, Elephant9, Band of Gold). Foruten Ola Kvernberg selv på fele, bratsj m.m. sørger gitaristen og altmuligmannen Øyvind Blomstrøm (Orions Belte, Odd Nordstoga, Stein Torleif Bjella), den nytenkende organisten Daniel Buner Formo (Trondheim Jazzorkester, Kobert, Formo Tre & Metall) for at alt går på skinner.",
-      "I 2021 slapp Steamdome sitt andre album, som hadde sin urpremiere i Olavshallen i Trondheim. Den nye utgaven av Steamdome graver seg lengre ned i klubb-beaten, og paletten er utvidet både i akustisk og elektronisk retning. Med både pumpeorgel og preparert piano, så vel som trommemaskin og synther, vil det andre albumet fortsette der det første slapp – på dansegulvet."
+      "I 2021 slapp Steamdome sitt andre album \"The Hypogean\", som hadde sin urpremiere i Olavshallen i Trondheim. Den nye utgaven av Steamdome, nominert til Spellemann i kategoriene \"årets utgivelse\" og \"alternativ pop/rock\", graver seg lengre ned i klubb-beaten, og paletten er utvidet både i akustisk og elektronisk retning. Med både pumpeorgel og preparert piano, så vel som trommemaskin og synther, vil det andre albumet fortsette der det første slapp – på dansegulvet."
     ],
     "bands": {
       "Steamdome": [
@@ -23,6 +23,7 @@
         "Daniel Buner Formo – keys"
       ]
     },
+    "imageAttribution": "Foto: Marte Amanda Vannebo",
     "spotifyUri": "album/7mRD6WVJDW44tFTLzMZpV9?si=3CHLf5ChSCqiH5LS_pU2mA",
     "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA",
     "isFree": false,
