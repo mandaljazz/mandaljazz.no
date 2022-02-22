@@ -1,7 +1,7 @@
 :local(.NavMenu) {
   display: grid;
   padding: 0.5rem 0 0.8rem 0;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   font-weight: 600;
 }
