@@ -58,10 +58,7 @@ const TicketsInfo = () => (
     </p>
 
     <h3>Barnekonsert</h3>
-    <p>
-      Barn under 1 år går gratis på årets barnekonsert. Andre barn og voksne må
-      kjøpe billett.
-    </p>
+    <p>Barnekonserten er gratis for alle, både barn og voksne, i år!</p>
 
     <h3>Funksjonshemmede med ledsagerbevis</h3>
     <p>
@@ -72,9 +69,8 @@ const TicketsInfo = () => (
     <h3>Annen info</h3>
     <ul>
       <li>
-        Ved konserter i Elvesalen, Mandal Kino og Biblioteket, er det begrenset
-        kapasitet. Innehavere av dags- og festivalpass bes møte tidlig for å
-        sikre seg plass.
+        Ved konserter i Buen er det begrenset kapasitet. Innehavere av dags- og
+        festivalpass bes møte tidlig for å sikre seg plass.
       </li>
       <li>Alle konserter starter presis.</li>
     </ul>
