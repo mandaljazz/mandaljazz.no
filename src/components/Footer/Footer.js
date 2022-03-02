@@ -50,14 +50,14 @@ const Footer = () => {
         alt="Sea bed"
         style={{ width: "90%", maxWidth: "800px" }}
       />
-      <h1 style={{ color: "var(--primary)" }}>Hovedsponsor</h1>
+      <h1 style={{ color: "var(--primary)" }}>Hovedsponsor 2021</h1>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
           <img src={sparebankenSorImg} alt="Sparebanken Sør" />
         </Link>
       </div>
       <hr style={{ transform: "rotate(1.5deg)" }} />
-      <h2 style={{ color: "var(--primary)" }}>Sponsorer</h2>
+      <h2 style={{ color: "var(--primary)" }}>Sponsorer 2021</h2>
       <div className={styles.Sponsors}>
         <Link href="https://larsenoptikk.no/" title="Larsen Optikk">
           <img src={larsenOptikkImg} alt="Larsen Optikk" />
@@ -70,7 +70,7 @@ const Footer = () => {
         </Link>
       </div>
       <hr style={{ transform: "rotate(-1.5deg)" }} />
-      <h3 style={{ color: "var(--primary)" }}>Støttespillere</h3>
+      <h3 style={{ color: "var(--primary)" }}>Støttespillere 2021</h3>
       <div className={classNames(styles.Sponsors, "small")}>
         <NavLink to="/jazzlaugs-venner" title="Jazzlaugs venner">
           <img src={jazzlaugsVennerImg} alt="Jazzlaugs venner" />
@@ -142,7 +142,7 @@ const Footer = () => {
         </Link>
       </div>
       <hr style={{ transform: "rotate(1.5deg)" }} />
-      <h2 style={{ color: "var(--primary)" }}>Offentlig støtte</h2>
+      <h2 style={{ color: "var(--primary)" }}>Offentlig støtte 2021</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://agderfk.no/" title="Agder Fylkeskommune">
           <img src={agderFylkeskommuneImg} alt="Agder Fylkeskommune" />
@@ -179,7 +179,7 @@ const Footer = () => {
         </Link> */}
       </div>
       <hr style={{ transform: "rotate(-1.5deg)" }} />
-      <h2 style={{ color: "var(--primary)" }}>Samarbeidspartnere</h2>
+      <h2 style={{ color: "var(--primary)" }}>Samarbeidspartnere 2021</h2>
       <div className={classNames(styles.Sponsors, "small")}>
         <Link href="https://keychange.eu/" title="Keychange">
           <img src={keychangeImg} alt="Keychange" />
