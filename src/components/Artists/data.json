@@ -197,6 +197,36 @@
   {
     "hideFromProgram": true,
     "venue": "TBA",
+    "name": "¡BangBang! Watergun",
+    "imageName": "bangbang-watergun.jpg",
+    "id": "bangbang-watergun",
+    "paragraphs": [
+      "¡BangBang Watergun! er et nyskapende indieband bestående av 5 unge musikere. Med sitt lekne uttrykk og referanser hentet fra hip-hop, jazz og rock, har bandet skapt et helt unikt sound.",
+      "Musikken er eksplosiv og beat-orientert - og med bandets glimrende tilstedeværelse på scenen er det som publikummer umulig å ikke bli engasjert. I den siste tiden har bandet sluppet flere singler som har høstet flere listinger og god kritikk.",
+      "Mer musikk er rett rundt hjørnet og i august slippes debutalbumet på det prestisjetunge plateselskapet Jazzland Recordings.",
+      "Musikken strekker seg til alle kanter og har klart å samle et vanvittig bredt spekter av sjangere og stiler i en original låtrekke. ¡BangBang Watergun! sikter og treffer midt i hjertet.<br /><em>– Universitas</em>",
+      "¡BangBang Watergun! leverte kanskje eit av festivalens mest dansbare sett, ikledd blå 80-tals joggedressar – Fretex-disco.<br /><em>– Jazzinorge</em>",
+      "\"white gold\" is everything modern music should be. To say I love this would be an understatement!<br /><em>– Scandinaviansoul</em>"
+    ],
+    "bands": {
+      "¡BangBang! Watergun": [
+        "Ragnhild Moan – Vocals",
+        "Ask Vatn Strøm – Guitar",
+        "David Andreas Emhjellen Paulsen – Keys",
+        "Erlend Tredal – Bass",
+        "Sigmund Vestrheim – Drums"
+      ]
+    },
+    "isFree": false,
+    "isPulsArtist": false,
+    "isByjubileumArtist": false,
+    "youtubeUrl": "https://www.youtube.com/embed/9e8QXLMvm8w",
+    "spotifyUri": "artist/2grhe2zaWXIncv3px0CwrJ?si=_ZjoEdShQ6uqvHYMKMc_Vw",
+    "imageAttribution": "Foto: Martin Bremnes"
+  },
+  {
+    "hideFromProgram": true,
+    "venue": "TBA",
     "name": "365 dager i et år",
     "imageName": "365-dager-i-et-ar.jpg",
     "id": "365-dager-i-et-ar",
